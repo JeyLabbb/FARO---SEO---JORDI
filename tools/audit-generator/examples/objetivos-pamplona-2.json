@@ -1,0 +1,17 @@
+[
+  { "name": "Centro DUO Fisioterapia y Osteopatía", "city": "Pamplona", "searches": ["fisioterapia Pamplona", "osteopatía Pamplona"] },
+  { "name": "Podólogo Álvaro R. Gallo", "city": "Pamplona", "searches": ["podólogo Pamplona", "podología Pamplona"] },
+  { "name": "Peluquería Leo Irujo", "city": "Pamplona", "searches": ["peluquería Pamplona", "peluquería cerca de mí"] },
+  { "name": "Clínica Podológica Arantxa Martínez", "city": "Pamplona", "searches": ["podólogo Pamplona", "podología Pamplona"] },
+  { "name": "Peluquería y Belleza Mariela", "city": "Pamplona", "searches": ["peluquería Pamplona", "peluquería cerca de mí"] },
+  { "name": "NALANDA osteopatía Pamplona", "city": "Pamplona", "searches": ["osteopatía Pamplona", "fisioterapia Pamplona"] },
+  { "name": "TACTO Depilación Láser Pamplona", "city": "Pamplona", "searches": ["depilación láser Pamplona", "depilación láser cerca de mí"] },
+  { "name": "COAN Navarra Clínica Dental Pamplona", "city": "Pamplona", "searches": ["dentista Pamplona", "clínica dental Pamplona"] },
+  { "name": "Clínica dental IMQ Pamplona Baja Navarra", "city": "Pamplona", "searches": ["dentista Pamplona", "clínica dental Pamplona"] },
+  { "name": "Grupostop Pamplona Depilación Láser", "city": "Pamplona", "searches": ["depilación láser Pamplona", "depilación láser cerca de mí"] },
+  { "name": "Pilates Pamplona Studio o2 Pilates", "city": "Pamplona", "searches": ["pilates Pamplona", "pilates cerca de mí"] },
+  { "name": "Fisioterapia Elena Echarte", "city": "Pamplona", "searches": ["fisioterapia Pamplona", "fisio cerca de mí"] },
+  { "name": "Por Tí Centro Estética Pamplona", "city": "Pamplona", "searches": ["centro de estética Pamplona", "estética Pamplona"] },
+  { "name": "Clínica Dental Francisco Sada", "city": "Pamplona", "searches": ["dentista Pamplona", "clínica dental Pamplona"] },
+  { "name": "Beauty Day Pamplona", "city": "Pamplona", "searches": ["centro de estética Pamplona", "estética Pamplona"] }
+]

@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Informe de visibilidad — Clínica Dental García Galán · Faro</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  :root{ --red:#DC2330; --red-d:#A4121E; --red-bg:#FCEBED; --ink:#16151A; --soft:#6A6770; --faint:#9A97A1; --line:#E9E7EC; --good:#1C8A5B; }
+  *{ box-sizing:border-box; }
+  html{ -webkit-print-color-adjust:exact; print-color-adjust:exact; }
+  body{ margin:0; background:#EDECEF; color:var(--ink); font-family:"Hanken Grotesk",system-ui,sans-serif; font-size:14px; line-height:1.55; }
+  .sheet{ max-width:860px; margin:26px auto; background:#fff; border-radius:6px; box-shadow:0 22px 55px -28px rgba(0,0,0,.35); padding:42px 48px 30px; }
+
+  .topbar{ display:flex; justify-content:space-between; align-items:center; font-size:12px; }
+  .brand{ display:flex; align-items:center; gap:8px; font-weight:500; color:var(--soft); }
+  .dot{ width:11px; height:11px; border-radius:3px; background:var(--ink); }
+  .brand b{ color:var(--ink); font-weight:800; letter-spacing:.01em; }
+  .conf{ color:var(--faint); }
+
+  .eyebrow{ margin:32px 0 0; font-size:11px; letter-spacing:.2em; text-transform:uppercase; color:var(--faint); font-weight:700; }
+  h1{ margin:7px 0 9px; font-size:45px; line-height:1.0; font-weight:800; letter-spacing:-.02em; color:var(--ink); }
+  .sub{ margin:0; font-size:15.5px; color:var(--soft); max-width:88%; }
+
+  .hero{ display:flex; gap:32px; align-items:center; margin:32px 0 28px; }
+  .donut{ position:relative; flex:0 0 auto; width:122px; height:122px; }
+  .donut .n{ position:absolute; inset:0; display:flex; flex-direction:column; align-items:center; justify-content:center; }
+  .donut .nv{ font-size:39px; font-weight:800; line-height:1; color:var(--red); }
+  .donut .nl{ font-size:11px; color:var(--faint); margin-top:3px; letter-spacing:.05em; }
+  .hero-h{ font-size:19.5px; font-weight:700; line-height:1.28; margin:0 0 9px; letter-spacing:-.01em; }
+  .hero-p{ font-size:13.5px; color:var(--soft); margin:0; line-height:1.6; }
+  .hero-p b{ color:var(--ink); font-weight:700; }
+
+  .cards{ display:grid; grid-template-columns:repeat(3,1fr); gap:14px; }
+  .card{ border:1px solid var(--line); border-radius:14px; padding:17px 19px; }
+  .card-n{ font-size:34px; font-weight:800; line-height:1; letter-spacing:-.02em; }
+  .card-n.bad,.card-n.warn{ color:var(--red); } .card-n.good{ color:var(--good); } .card-n.na{ color:var(--faint); }
+  .card-l{ font-size:12px; color:var(--soft); margin-top:10px; line-height:1.45; }
+
+  .sec{ margin-top:32px; }
+  .sec-eye{ font-size:10.5px; letter-spacing:.18em; text-transform:uppercase; color:var(--faint); font-weight:700; margin:0; }
+  .sec-h{ font-size:21px; font-weight:700; margin:4px 0 4px; letter-spacing:-.01em; }
+  .sec-d{ font-size:13px; color:var(--soft); margin:0 0 15px; }
+
+  table.t{ width:100%; border-collapse:collapse; font-size:13.5px; }
+  table.t th{ font-size:10.5px; letter-spacing:.05em; text-transform:uppercase; color:var(--faint); font-weight:700; text-align:center; padding:0 8px 10px; }
+  table.t th:first-child{ text-align:left; }
+  table.t td{ padding:11px 8px; text-align:center; border-top:1px solid var(--line); color:var(--soft); font-weight:500; }
+  table.t td.q{ text-align:left; color:var(--ink); font-weight:600; }
+  table.t td.you{ color:var(--good); font-weight:800; }
+  table.t td.you.bad{ color:var(--red); }
+  .leg{ font-size:11.5px; color:var(--faint); margin-top:11px; }
+
+  .checks{ display:grid; grid-template-columns:1fr 1fr; gap:0 32px; }
+  .chk{ display:flex; align-items:center; gap:11px; padding:10px 0; border-top:1px solid var(--line); font-size:13.5px; }
+  .chk-l{ flex:1; } .chk-v{ color:var(--soft); font-size:12.5px; } .chk-v.is-bad{ color:var(--red); font-weight:700; }
+  .mk{ flex:0 0 auto; width:21px; height:21px; border-radius:50%; display:flex; align-items:center; justify-content:center; font-size:11px; font-weight:800; color:#fff; }
+  .mk-good{ background:var(--good); } .mk-bad{ background:var(--red); }
+  .mk-manual{ background:#fff; color:var(--faint); border:1.5px solid var(--line); font-size:9px; }
+
+  .wins{ list-style:none; margin:0; padding:0; }
+  .win{ display:flex; gap:14px; padding:13px 0; border-top:1px solid var(--line); }
+  .win:first-child{ border-top:none; }
+  .win-n{ flex:0 0 auto; width:27px; height:27px; border-radius:8px; background:#F2F1F4; color:var(--soft); font-weight:800; display:flex; align-items:center; justify-content:center; font-size:14px; }
+  .win-t{ font-weight:700; margin:0 0 2px; font-size:14.5px; } .win-d{ margin:0; color:var(--soft); font-size:13px; line-height:1.5; }
+
+  .cta{ margin-top:30px; border:1px solid var(--line); border-left:4px solid var(--ink); border-radius:12px; padding:18px 22px; background:#F7F6F8; }
+  .cta p{ margin:0; font-size:15px; font-weight:700; color:var(--ink); }
+  .cta .s{ font-size:12.5px; color:var(--soft); margin-top:6px; font-weight:600; }
+
+  .foot{ display:flex; justify-content:space-between; gap:16px; margin-top:26px; padding-top:14px; border-top:1px solid var(--line); font-size:11px; color:var(--faint); }
+
+  @page{ size:A4; margin:0; }
+  @media print{
+    body{ background:#fff; }
+    .sheet{ box-shadow:none; margin:0; max-width:none; border-radius:0; padding:30px 36px; }
+    .sec,.win,.card,.chk,.hero,.cta,tr{ break-inside:avoid; }
+  }
+</style>
+</head>
+<body>
+<div class="sheet">
+  <div class="topbar">
+    <span class="brand"><span class="dot"></span><b>Faro</b> · SEO local</span>
+    <span class="conf">Informe gratuito · junio 2026</span>
+  </div>
+
+  <p class="eyebrow">Informe de visibilidad en Google</p>
+  <h1>Clínica Dental García Galán</h1>
+  <p class="sub">Cómo apareces en Google cuando alguien busca «dentista Zaragoza» en Zaragoza.</p>
+
+  <div class="hero">
+    <div class="donut">
+      <svg viewBox="0 0 132 132" width="122" height="122">
+        <circle cx="66" cy="66" r="56" fill="none" stroke="var(--line)" stroke-width="13"></circle>
+        <circle cx="66" cy="66" r="56" fill="none" stroke="var(--good)" stroke-width="13" stroke-linecap="round" stroke-dasharray="351.9" stroke-dashoffset="0.0" transform="rotate(-90 66 66)"></circle>
+      </svg>
+      <div class="n"><div class="nv" style="color:var(--good)">100</div><div class="nl">/ 100</div></div>
+    </div>
+    <div>
+      <p class="hero-h">Apareces bien en Google, pero el mapa se mueve y conviene asegurar el puesto.</p>
+      <p class="hero-p">Tu visibilidad en el mapa está en ~<b>100%</b>. Hay un par de cosas de la ficha de Google y del SEO local que afinaríamos para no perder posiciones frente a la competencia de Zaragoza.</p>
+    </div>
+  </div>
+
+  <div class="cards">
+    <div class="card"><div class="card-n good">100%</div><div class="card-l">de visibilidad en el mapa · los de arriba ~62%</div></div>
+    <div class="card"><div class="card-n good">≈1</div><div class="card-l">posición media en tus búsquedas clave</div></div>
+    <div class="card"><div class="card-n bad">38</div><div class="card-l">velocidad de tu web en móvil (sobre 100)</div></div>
+  </div>
+
+  <div class="sec">
+    <p class="sec-eye">Lo que la gente busca</p>
+    <h2 class="sec-h">Dónde sales tú y dónde salen ellos</h2>
+    <p class="sec-d">Búsquedas reales de tu zona en el mapa de Google. Posiciones reales del Map Pack. Verde = sales arriba · rojo = hay que bajar a buscarte.</p>
+    <table class="t">
+      <thead><tr><th>Búsqueda</th><th>Tú</th><th title="Clinica Dental AG">Clinica Dental…</th><th title="Dr Asprea Dental AG">Dr Asprea Dent…</th><th title="Clinica Dental Dr. Catalán De Val - Dentistas en Zaragoza">Clinica Dental…</th></tr></thead>
+      <tbody><tr><td class="q">dentista Zaragoza</td><td class="you ">≈1</td><td>≈2</td><td>≈3</td><td>≈4</td></tr><tr><td class="q">dentista cerca de mí</td><td class="you ">≈1</td><td>≈4</td><td>≈2</td><td>≈5</td></tr></tbody>
+    </table>
+    <p class="leg">«≈N» = posición en Google · «—» = fuera del top 20.</p>
+  </div>
+
+  <div class="sec">
+    <p class="sec-eye">Tu ficha de Google</p>
+    <h2 class="sec-h">Cómo está montada tu ficha</h2>
+    <div class="checks"><div class="chk">
+        <span class="mk mk-good">✓</span>
+        <span class="chk-l">Categoría principal de la ficha</span>
+        <span class="chk-v ">Dentist</span>
+      </div><div class="chk">
+        <span class="mk mk-bad">✕</span>
+        <span class="chk-l">Ficha optimizada para esas búsquedas</span>
+        <span class="chk-v is-bad">a revisar</span>
+      </div><div class="chk">
+        <span class="mk mk-good">✓</span>
+        <span class="chk-l">Fotos en la ficha</span>
+        <span class="chk-v ">10</span>
+      </div><div class="chk">
+        <span class="mk mk-good">✓</span>
+        <span class="chk-l">Horario configurado</span>
+        <span class="chk-v ">Sí</span>
+      </div><div class="chk">
+        <span class="mk mk-bad">✕</span>
+        <span class="chk-l">Reseñas vs el referente</span>
+        <span class="chk-v is-bad">31 / 804</span>
+      </div><div class="chk">
+        <span class="mk mk-manual">○</span>
+        <span class="chk-l">Responden a reseñas / Posts</span>
+        <span class="chk-v ">a mano</span>
+      </div></div>
+  </div>
+
+  <div class="sec">
+    <p class="sec-eye">Tu web</p>
+    <h2 class="sec-h">SEO local de la web</h2>
+    <div class="checks"><div class="chk">
+        <span class="mk mk-bad">✕</span>
+        <span class="chk-l">Schema LocalBusiness</span>
+        <span class="chk-v is-bad">No</span>
+      </div><div class="chk">
+        <span class="mk mk-good">✓</span>
+        <span class="chk-l">Keyword local en título/H1</span>
+        <span class="chk-v ">Sí</span>
+      </div><div class="chk">
+        <span class="mk mk-good">✓</span>
+        <span class="chk-l">Teléfono / NAP visible</span>
+        <span class="chk-v ">Sí</span>
+      </div><div class="chk">
+        <span class="mk mk-bad">✕</span>
+        <span class="chk-l">Velocidad en móvil</span>
+        <span class="chk-v is-bad">38/100</span>
+      </div></div>
+    <p class="leg">Título actual: "Clinica dental Garcia Galan - dentista arrabal picarral"</p>
+  </div>
+
+  <div class="sec">
+    <p class="sec-eye">Por dónde empezar</p>
+    <h2 class="sec-h">Lo que arreglaríamos primero</h2>
+    <ul class="wins"><li class="win"><span class="win-n">1</span><div><p class="win-t">Arrancar una campaña de reseñas</p><p class="win-d">Tienes 31 reseñas vs 804 del mejor competidor (Clinica Dental AG). Pedir a todos los clientes con link/QR.</p></div></li><li class="win"><span class="win-n">2</span><div><p class="win-t">Añadir schema LocalBusiness (JSON-LD) a la web</p><p class="win-d">No se detecta marcado de negocio local; ayuda a Google a entender la ficha.</p></div></li><li class="win"><span class="win-n">3</span><div><p class="win-t">Mejorar la velocidad en móvil</p><p class="win-d">PageSpeed móvil 38/100. Imágenes pesadas y scripts suelen ser la causa.</p></div></li></ul>
+  </div>
+
+  <div class="cta">
+    <p>Esto es solo la foto. Lo montamos y lo gestionamos cada mes — y lo ves crecer en tu propio panel.</p>
+    <div class="s">Faro · posicionamiento local en Google para clínicas y estudios</div>
+  </div>
+
+  <div class="foot">
+    <span>Preparado para Clínica Dental García Galán · clinicagarciagalan.es/</span>
+    <span>Faro · SEO local · 2026-06-20</span>
+  </div>
+</div>
+</body>
+</html>

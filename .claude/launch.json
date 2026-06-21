@@ -1,0 +1,11 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "audit-preview",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["C:/Users/jordi/OneDrive/servicio-seo-local/tools/audit-generator/preview-server.mjs"],
+      "port": 4599
+    }
+  ]
+}

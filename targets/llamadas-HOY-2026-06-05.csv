@@ -1,0 +1,401 @@
+#,vertical,negocio,ciudad,telefono,reseñas,nota,web,gancho_para_la_llamada
+1,dental,Clínica Odontológica Dr. Fernando Rey,Majadahonda,+34916381245,10,4.5,http://www.clinicadoctoresrey.es/,Solo 10 reseñas para «dentista Majadahonda» — fácil de subir y salir más arriba en el mapa
+2,dental,CLINICA PRIEDENT,Leganés,+34916800140,10,4.5,https://www.clinicaspriedent.es/,Solo 10 reseñas para «dentista Leganés» — fácil de subir y salir más arriba en el mapa
+3,dental,Odontología BORDEL NIETO,Madrid,+34913784348,10,4.3,http://www.odontologiabordelnieto.es/?page_id=61,Solo 10 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+4,dental,Clínica Dental y Maxilofacial en Pozuelo y Aravaca - Dr. Riba,Madrid,+34913573699,10,4.2,http://iomm.es/,Solo 10 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+5,dental,Clinica Dental Milena,Móstoles,+34912620460,10,4.2,https://clinicadentalmilena.com/,Solo 10 reseñas para «dentista Móstoles» — fácil de subir y salir más arriba en el mapa
+6,dental,Clínica Dental,Madrid,+34695825036,10,3.8,http://www.centrodentalprevent.com/,Solo 10 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+7,dental,CIDESID - Centro Internacional de Formación Dental,Barcelona,+34722595731,10,4.2,https://cidesid.es/,Solo 10 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+8,dental,Clínica Dental Pasalodos,Barcelona,+34934174721,10,4.2,http://www.clinicapasalodos.com/,Solo 10 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+9,dental,Clinica +Dental Manises (Dra. Marco),Manises,+34961092377,10,3.5,http://www.clinicasmasdental.com/,Solo 10 reseñas para «dentista Manises» — fácil de subir y salir más arriba en el mapa
+10,dental,Dentista Infantil Sevilla S L,Seville,+34954077737,10,3.4,https://www.instagram.com/dentistainfantilsevilla/?hl=es,Solo 10 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+11,dental,Colegio Oficial de Dentistas de Sevilla,Seville,+34954988010,10,3.5,http://dentistassevilla.com/,Solo 10 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+12,dental,Campus Dental,Seville,+34902122903,10,3.4,http://www.campusdental.es/,Solo 10 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+13,dental,GUZMAN DENTAL,Castilleja de Guzmán,+34610786486,10,4.4,https://guzmandental.es/,Solo 10 reseñas para «dentista Castilleja de Guzmán» — fácil de subir y salir más arriba en el mapa
+14,dental,Centro Bucodental Palomares del Río,Palomares del Río,+34955763234,10,4.4,http://www.centrobucodental.es/,Solo 10 reseñas para «dentista Palomares del Río» — fácil de subir y salir más arriba en el mapa
+15,dental,Clínica Dental Ángel Vallés,Zaragoza,+34976236010,10,3.8,https://clinicadentalavalles.es/,Solo 10 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+16,dental,Estudio dental Cortés,Málaga,+34952625913,10,4.5,http://www.clinicadentalcortes.com/,Solo 10 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+17,dental,Colegio de Dentistas de Málaga,Málaga,+34952060024,10,4.1,http://www.coema.org/,Solo 10 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+18,dental,Etica Dental,Málaga,+34952328123,10,3,https://www.eticadentalmalaga.es/,Solo 10 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+19,dental,Centro Dental Nuestra Señora De Los Ángeles,Sangonera la Verde,+34968866533,10,4.5,http://www.xn--centrodentalnuestraseoradelosangeles-cpd.com/,Solo 10 reseñas para «dentista Sangonera la Verde» — fácil de subir y salir más arriba en el mapa
+20,dental,Clínica Dental Fisiodent,Santomera,+34968861899,10,3.3,https://www.fisiodentazarbe.es/,Solo 10 reseñas para «dentista Santomera» — fácil de subir y salir más arriba en el mapa
+21,dental,ortodental,Murcia,+34653975984,10,4.1,http://www.clinicaortodental.es/,Solo 10 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+22,dental,Clínica Dental San Leandro,Murcia,+34968268128,10,4.2,http://clinicadentalsanleandro.com/,Solo 10 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+23,dental,Dental Quetglas SLP,Palma,+34971751754,10,4.5,https://dentalquetglas.es/,Solo 10 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+24,dental,CLINICA DENTAL NURIA SAN EMETERIO,Sestao,+34944957081,10,3.6,https://www.dentistasestao.es/,Solo 10 reseñas para «dentista Sestao» — fácil de subir y salir más arriba en el mapa
+25,dental,Clínica Dental Rondoko,Bilbao,+34944755932,10,2.3,http://www.clinicadentalrondoko.com/,Solo 10 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+26,dental,Clínicas Reydental,Córdoba,+34957471411,10,4.3,http://www.clinicasreydental.es/,Solo 10 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+27,dental,Clínica dental Ruiz Tarjuelo,Madrid,+34914630741,11,4.3,http://www.cuidamostusdientes.com/,Solo 11 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+28,dental,Clínica Dental Maragall 171,Barcelona,+34933402006,11,4.5,http://www.artidentegara.com/,Solo 11 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+29,dental,Clínica Dental Sendra - Centre dental Francesc Macià,Pallejà,+34936634166,11,4.3,http://www.clinicadentalsendra.cat/,Solo 11 reseñas para «dentista Pallejà» — fácil de subir y salir más arriba en el mapa
+30,dental,"Dra. Elena Tortosa Carrasco, Dentista",València,+34653979988,11,4.5,https://www.doctoralia.es/elena-tortosa-carrasco/dentista/valencia?utm_source=google&utm_medium=gmb&utm_campaign=47593&utm_content=website,Solo 11 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+31,dental,Clínica Dental Paiporta Eulalia Gregori,Paiporta,+34963970660,11,3.9,https://www.instagram.com/ajunt_paiporta/p/DCzAKcONSAO/,Solo 11 reseñas para «dentista Paiporta» — fácil de subir y salir más arriba en el mapa
+32,dental,Centro de Implantologia Oral de Sevilla,Seville,+34954222260,11,3.5,http://www.ciossevilla.es/,Solo 11 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+33,dental,Clínica Dental Dra. Mené - Sobrarbe,Zaragoza,+34976506511,11,3.2,http://www.clinicadentalmene.com/,Solo 11 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+34,dental,Clínica Dental Sanitas Milenium Murcia,Murcia,+34968172146,11,2.8,https://www.sanitas.es/dental/clinicas-dentales-milenium/murcia/murcia/murcia-avenida-juan-carlos?gmb=gmb%3Af-google%3Am-link%3Anc-clinica%3Ap-dental,Solo 11 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+35,dental,Odontológika Centros Dentales,Murcia,+34968879228,11,2.5,http://www.odontologika.es/centros.html,Solo 11 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+36,dental,Clinica Dental Txurdinaga,Bilbao,+34944732929,11,4.5,http://www.clinicadentaltxurdinaga.com/,Solo 11 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+37,dental,Carmen Eguidazu Morosova,Bilbao,+34944118412,11,4.2,https://clinicadentaleguidazu.es/,Solo 11 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+38,dental,Clínica Dental Irala,Bilbao,+34944100530,11,3.9,http://www.laboratoriodentalirala.es/,Solo 11 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+39,dental,Clínica Dental Portugalete Smile,Portugalete,+34946562455,11,4.3,https://www.facebook.com/Clinicadentalportugalete/,Solo 11 reseñas para «dentista Portugalete» — fácil de subir y salir más arriba en el mapa
+40,dental,Clínica Dental Visión Dental Bilbao S.L,Bilbao,+34603847778,11,3.5,https://www.facebook.com/visiondental03,Solo 11 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+41,dental,Clínica Dental Móstoles Dra. Bueno - Peritaje dental,Móstoles,+34608352690,12,4.5,https://www.clinicadentalmostoles.es/,Solo 12 reseñas para «dentista Móstoles» — fácil de subir y salir más arriba en el mapa
+42,dental,Clinica Dental Godoy,Madrid,+34914660623,12,4,https://www.clinicadentalgodoy.com/quienes-somos/,Solo 12 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+43,dental,Clínica Dental Dr.Hugo Fernández González,Madrid,+34914163110,12,4.5,http://cirujanodental.es/,Solo 12 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+44,dental,Clínica Dental Las Lomas,Móstoles,+34916462755,12,3.8,https://www.laslomasclinicadental.com/,Solo 12 reseñas para «dentista Móstoles» — fácil de subir y salir más arriba en el mapa
+45,dental,Eix Clínica Dental,Sabadell,+34937231273,12,2.7,https://altersalus.es/dental-sabadell-2/,Solo 12 reseñas para «dentista Sabadell» — fácil de subir y salir más arriba en el mapa
+46,dental,Clínica Dental Nova Paiporta,Paiporta,+34963979717,12,3.3,https://www.clinicasdentalesdrballester.com/nova-paiporta,Solo 12 reseñas para «dentista Paiporta» — fácil de subir y salir más arriba en el mapa
+47,dental,Clínica Dental Llorens y Montero (antiguamente Dr. Vicente Palomares),València,+34963334884,12,4.3,https://www.instagram.com/clinicadental_llorensymontero/,Solo 12 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+48,dental,Biocentro Salud Sevilla,Seville,+34652942504,12,4.3,https://www.biocentrosevilla.com/,Solo 12 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+49,dental,Clínica Dental Martín,Seville,+34954123832,12,4,http://clinicamartin.es/,Solo 12 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+50,dental,"Alba, Clínica dental",El Palmar,+34968966004,12,3.7,http://www.albadental.es/,Solo 12 reseñas para «dentista El Palmar» — fácil de subir y salir más arriba en el mapa
+51,dental,Clínica Dental Sangonera,Sangonera la Verde,+34968869752,12,4.3,https://clinicadentalsangonera.es/,Solo 12 reseñas para «dentista Sangonera la Verde» — fácil de subir y salir más arriba en el mapa
+52,dental,Clínica Dental Doctores Rodríguez,Molina de Segura,+34968615256,12,4.3,http://www.clinicadentaldoctoresrodriguez.com/,Solo 12 reseñas para «dentista Molina de Segura» — fácil de subir y salir más arriba en el mapa
+53,dental,Clinica Dental Dr Garcias,Palma,+34971723972,12,4.3,http://www.dentalgarcias.com/,Solo 12 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+54,dental,Clínica Dental y Podologia Etxegorri,Astrabudua,+34944676366,12,4.3,http://dentaletxegorri.com/,Solo 12 reseñas para «dentista Astrabudua» — fácil de subir y salir más arriba en el mapa
+55,dental,Clínica Dental Boca Sana,Sestao,+34636631184,12,3.3,https://www.facebook.com/profile.php?id=100012548927106,Solo 12 reseñas para «dentista Sestao» — fácil de subir y salir más arriba en el mapa
+56,dental,Dental Arcos,Sestao,+34944955893,12,4.2,http://www.dentalarcos.com/,Solo 12 reseñas para «dentista Sestao» — fácil de subir y salir más arriba en el mapa
+57,dental,Clínica Dental Balaciart,Alicante,+34658579010,12,4.4,http://clinicabalaciart.es/,Solo 12 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+58,dental,Clinica Dental Deltell,Sant Vicent del Raspeig,+34965672331,12,4.3,http://www.clinicadentaldeltell.es/,Solo 12 reseñas para «dentista Sant Vicent del Raspeig» — fácil de subir y salir más arriba en el mapa
+59,dental,Clínica Dental Alonso-Martin,Córdoba,+34957479290,12,4.4,http://clinicaalonsomartin.es/,Solo 12 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+60,dental,Clínica Alegro,Córdoba,+34957467749,12,4.1,https://clinicadentalemilialuque.com/,Solo 12 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+61,dental,RP M,Madrid,+34914573358,13,4.2,http://www.institutorpm.com/,Solo 13 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+62,dental,Clinica Dental Implants i Dents,L'Hospitalet de Llobregat,+34934382252,13,4.5,http://www.implantsidents.com/,Solo 13 reseñas para «dentista L'Hospitalet de Llobregat» — fácil de subir y salir más arriba en el mapa
+63,dental,Centre Odontològic Prodents,Barcelona,+34933306050,13,4.4,http://www.prodentsbcn.com/,Solo 13 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+64,dental,Clínica Dental Dr. Manuel Sancho,València,+34963331094,13,3.9,http://www.doctoralia.es/medico/sancho+lluesa+manuel-10372033,Solo 13 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+65,dental,Clínica dental Miñana-Peris,Meliana,+34961491224,13,4.4,https://dentalminanaperis.webnode.es/,Solo 13 reseñas para «dentista Meliana» — fácil de subir y salir más arriba en el mapa
+66,dental,Clínica Dental | Dres. Martínez Palasí,Torrent,+34961570869,13,4.5,https://www.instagram.com/clinicadentalmartinez_palasi/,Solo 13 reseñas para «dentista Torrent» — fácil de subir y salir más arriba en el mapa
+67,dental,"Buba, clínicas dentales (Pedro de Valencia, 26)",València,+34630680767,13,3.8,http://www.clinicasbuba.com/,Solo 13 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+68,dental,Clínica Dental Santiponce,Santiponce,+34955997736,13,4.1,https://www.clinicadentalsantiponce.com.es/,Solo 13 reseñas para «dentista Santiponce» — fácil de subir y salir más arriba en el mapa
+69,dental,Clínica Dental Margarita González,Montequinto,+34955386191,13,3.2,http://clinicadentalfamiliar.com/,Solo 13 reseñas para «dentista Montequinto» — fácil de subir y salir más arriba en el mapa
+70,dental,Clínica Dental Rosario Asensio Loren,Zaragoza,+34976564573,13,4,http://odontopediatriaasensio.com/,Solo 13 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+71,dental,Clínica Dental Marian Riquelme Sánchez,Sangonera la Seca,+34657109294,13,4.5,https://clinicadentalmarianriquelme.com/,Solo 13 reseñas para «dentista Sangonera la Seca» — fácil de subir y salir más arriba en el mapa
+72,dental,Corporación Dental San José de la Vega,Murcia,+34968934481,13,4.1,http://www.corporaciondental.es/,Solo 13 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+73,dental,Dr. Pablo Casanova Soto,Palma,+34971735282,13,4.1,https://www.casanovadental.com/,Solo 13 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+74,dental,VIGO dental Las Palmas,Las Palmas de Gran Canaria,+34672513753,13,4.1,http://vigodental.es/,Solo 13 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+75,dental,Clinica dental Sokadent,Bilbao,+34946426168,13,3.8,http://www.sokadent.es/,Solo 13 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+76,dental,Clínica Dental Dr. Yandiola,Laudio / Llodio,+34946723100,13,4.2,http://www.yandioladental.com/,Solo 13 reseñas para «dentista Laudio / Llodio» — fácil de subir y salir más arriba en el mapa
+77,dental,Clínica Dental Sopelana,Moreaga,+34946765085,13,3.4,http://www.dentalsopelana.es/,Solo 13 reseñas para «dentista Moreaga» — fácil de subir y salir más arriba en el mapa
+78,dental,clinica dental julen idirin,Arrigorriaga,+34944716810,13,4.1,http://www.dentaljulenidirin.com/,Solo 13 reseñas para «dentista Arrigorriaga» — fácil de subir y salir más arriba en el mapa
+79,dental,Clinica Dental Bidezabal,Andra Mari,+34944910879,13,4,https://www.bidezabalclinicadental.es/,Solo 13 reseñas para «dentista Andra Mari» — fácil de subir y salir más arriba en el mapa
+80,dental,Félix Solana Goitia,Santurtzi,+34944836845,13,3.7,https://solanadental.es/,Solo 13 reseñas para «dentista Santurtzi» — fácil de subir y salir más arriba en el mapa
+81,dental,Clinica Dental KS,Madrid,+34915286013,14,4.5,http://www.clinicadentalks.com/,Solo 14 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+82,dental,Clinica Dental Dr. Jimenez,Madrid,+34915701770,14,4.5,http://dentaldrjimenez.es/,Solo 14 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+83,dental,Clínica Dental Dr. Machuca,Mollet del Vallès,+34935707089,14,4.1,https://clinicadentalmachuca.com/,Solo 14 reseñas para «dentista Mollet del Vallès» — fácil de subir y salir más arriba en el mapa
+84,dental,Fundacion Sanitaria Pere Claver,Barcelona,+34934431200,14,4.4,http://www.institutdentalpereclaver.org/,Solo 14 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+85,dental,Elena Puigdemasa,Viladecans,+34633516776,14,4.3,http://www.clinicapuigdemasa.com/,Solo 14 reseñas para «dentista Viladecans» — fácil de subir y salir más arriba en el mapa
+86,dental,Diseño de Sonrisas,Barcelona,+34932263571,14,4.4,https://disenodesonrisas.com/,Solo 14 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+87,dental,Clínica Dental Marina Dent,Barcelona,+34932968385,14,3.3,http://www.clinicaortizpuigpelat.com/,Solo 14 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+88,dental,Clínica Dental Bejar,Barcelona,+34933255543,14,4.4,http://dentalbejar.com/,Solo 14 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+89,dental,Clínica Aliaga,València,+34963513193,14,4.1,http://www.clinicaaliaga.com/,Solo 14 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+90,dental,"Buba, clínicas dentales (Garza Imperial, 49)",València,+34630680767,14,4.2,http://www.clinicasbuba.com/,Solo 14 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+91,dental,Clínica Guerrero Hernández,Picassent,+34961231961,14,4.1,https://clinicadentalguerrerohernandez.com/,Solo 14 reseñas para «dentista Picassent» — fácil de subir y salir más arriba en el mapa
+92,dental,Clinica Bonidental,Seville,+34954361677,14,4.4,https://www.clinicabonidental.com/,Solo 14 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+93,dental,Manuel González-Moya Rodríguez de Mondelo,Alcalá de Guadaíra,+34955686080,14,4.4,http://www.dentistaalcaladeguadaira.com/,Solo 14 reseñas para «dentista Alcalá de Guadaíra» — fácil de subir y salir más arriba en el mapa
+94,dental,Arident Cliníca Dental,Alcalá del Río,+34649908078,14,4.1,http://www.arident.es/,Solo 14 reseñas para «dentista Alcalá del Río» — fácil de subir y salir más arriba en el mapa
+95,dental,Clínica Dental Milenio,Zaragoza,+34646786123,14,4.1,https://www.clinicadentalmilenio.com/,Solo 14 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+96,dental,Scandinavian Dental Clinic,Torremolinos,+34653245452,14,4.5,http://www.scandinaviandental.net/,Solo 14 reseñas para «dentista Torremolinos» — fácil de subir y salir más arriba en el mapa
+97,dental,Centro Odontológico Murciano,Murcia,+34968900215,14,4.2,https://www.centroodontologicomurciano.com/,Solo 14 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+98,dental,Clínica Dental Iñaki Iglesias,Kurtzea,+34944560439,14,4.4,http://www.xn--clinicadentaliakiiglesias-moc.es/,Solo 14 reseñas para «dentista Kurtzea» — fácil de subir y salir más arriba en el mapa
+99,dental,Clínica Dental Iturriza,Bilbao,+34944702121,14,4.4,https://clinicadentaliturriza.es/,Solo 14 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+100,dental,Clínica Dental Delobel,Bilbao,+34944240412,14,4.1,https://www.cliniques-dentaires-delobel.fr/es,Solo 14 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+101,dental,Dental Clinic Dr. I. Godoy,El Campello,+34965630619,14,4,http://dentaldrgodoy.es/,Solo 14 reseñas para «dentista El Campello» — fácil de subir y salir más arriba en el mapa
+102,dental,Clínica Dental Tauro Carabanchel,Madrid,+34915250256,15,4.1,https://www.clinicadentaltauro.com/,Solo 15 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+103,dental,Centro Dental Milenium Sanitas,Madrid,+34915687982,15,2.9,https://www.sanitas.es/dental/clinicas-dentales-milenium,Solo 15 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+104,dental,Clínica Dental Dr. Serra,Mollet del Vallès,+34935930913,15,4.5,https://drvictorserra.com/,Solo 15 reseñas para «dentista Mollet del Vallès» — fácil de subir y salir más arriba en el mapa
+105,dental,Dra. Verónica Galcera - Dra. Violeta Tatay Clínica Dental,València,+34963688444,15,4.5,http://www.veronicagalceradentista.es/,Solo 15 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+106,dental,Clínica Dental Carlos Cervera,València,+34963836024,15,3.9,http://www.clinicadentalcarloscervera.com/,Solo 15 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+107,dental,Clínica Dental Dra. Chandler,Seville,+34605846785,15,4.2,https://doctorachandler.com/,Solo 15 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+108,dental,"Instituto de Especialidades Odontológicas de Sevilla, S.L.",Seville,+34954658279,15,4.3,http://www.ieodental.es/,Solo 15 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+109,dental,"Clínica Dental Manso (Cirugía Maxilofacial Dr. manso, Odontología, Medicina Estética)",Seville,+34954241111,15,3.8,https://www.dentalymaxilofacialmanso.com/,Solo 15 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+110,dental,Clínica dental OIA (Odontología Integral Aragonesa),Zaragoza,+34976222518,15,3.7,http://clinicadentaloia.es/,Solo 15 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+111,dental,Clínica Dental Otal,Zaragoza,+34976201662,15,4.3,https://clinicadentalotal.es/,Solo 15 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+112,dental,Clínica Dental Irudent,Zaragoza,+34976097350,15,3.9,http://www.clinicadentalirudent.es/,Solo 15 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+113,dental,Clínica Cristina Citoler,Torremolinos,+34952383775,15,4.2,http://cristinacitoler.com/,Solo 15 reseñas para «dentista Torremolinos» — fácil de subir y salir más arriba en el mapa
+114,dental,Centro Bucodental Calero y Peral,Estacion de Cartama,+34952421480,15,4.5,http://www.clinicadentalcaleroyperal.com/,Solo 15 reseñas para «dentista Estacion de Cartama» — fácil de subir y salir más arriba en el mapa
+115,dental,Clinica Dental Astrid Alarcon,San Benito - Patiño,+34654950259,15,4.2,http://www.clinicadentalastridalarcontalaga.com/,Solo 15 reseñas para «dentista San Benito - Patiño» — fácil de subir y salir más arriba en el mapa
+116,dental,Corporación Dental Murcia - Infante,Murcia,+34968345132,15,4.5,http://www.corporaciondental.es/,Solo 15 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+117,dental,Clínica Odonteka Dental | Dra. Rasa Hernández,Telde,+34928692990,15,4.3,http://www.odontekadental.es/,Solo 15 reseñas para «dentista Telde» — fácil de subir y salir más arriba en el mapa
+118,dental,CLÍNICA DENTAL Dr. MELWANI,Las Palmas de Gran Canaria,+34928413033,15,3.5,http://www.drmelwani.com/,Solo 15 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+119,dental,Clínica Dental IMQ Algorta,Algorta,+34944000700,15,3.3,https://clinicadentalalgorta.imq.es/?utm_medium=organic&utm_source=Gmb,Solo 15 reseñas para «dentista Algorta» — fácil de subir y salir más arriba en el mapa
+120,dental,Clínica Dental Fernandez Pita,Bilbao,+34944168025,15,4.5,https://www.clinicafernandezpita.com/,Solo 15 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+121,dental,Clínica Dental El Kalero,Bizkaia,+34688732337,15,3.9,http://www.clinicadentalelkalero.com/,Solo 15 reseñas para «dentista Bizkaia» — fácil de subir y salir más arriba en el mapa
+122,dental,Clínica Dental Zornotza,Amorebieta,+34946061183,15,4.5,https://clinicadentalzornotza.com/,Solo 15 reseñas para «dentista Amorebieta» — fácil de subir y salir más arriba en el mapa
+123,dental,Clinica Dental Blanca Luxen,Bilbao,+34944448697,15,4.5,http://clinicadentalblancaluxen.com/,Solo 15 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+124,dental,Moldental,Mutxamel,+34965955379,15,3.9,http://www.moldental.es/,Solo 15 reseñas para «dentista Mutxamel» — fácil de subir y salir más arriba en el mapa
+125,dental,Clínica Dental Roberto Checa Fuensanta,Córdoba,+34957106094,15,3.7,http://clinicadentalrobertocheca.com/,Solo 15 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+126,dental,Clínica Dental Quezada,Madrid,+34915339925,16,4.5,https://www.facebook.com/clinicadentalquezada/?fref=ts,Solo 16 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+127,dental,Arano Clínica Dental y Medicina Estética,Barcelona,+34935950445,16,4.5,http://www.clinica-arano.com/,Solo 16 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+128,dental,Clínica Dental Ortonova - Centro de Ortodoncia y Radiografías,Xirivella,+34963500949,16,4.3,http://ortonova.com/,Solo 16 reseñas para «dentista Xirivella» — fácil de subir y salir más arriba en el mapa
+129,dental,Clinica Dental Pere Alcantara,Massamagrell,+34961450852,16,4,http://www.dentalalcantara.com/,Solo 16 reseñas para «dentista Massamagrell» — fácil de subir y salir más arriba en el mapa
+130,dental,Clinica Dental Burdeos,Seville,+34954240188,16,4.2,http://www.cdburdeos.es/,Solo 16 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+131,dental,Clinica Dental Amelar Bellavista,Seville,+34645583423,16,4.5,http://www.clinicaamelar.com/,Solo 16 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+132,dental,CEOP - Centro de Especialidades Odontológicas Premium.IMPLANTES DENTALES BARATOS,Seville,+34854888788,16,2.9,http://www.clinicadentalceop.com/,Solo 16 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+133,dental,Clinica Dental Puerta Jerez,Seville,+34955133295,16,4.4,http://www.clinicadentalpuertajerez.com/,Solo 16 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+134,dental,Clínica Dental Algarra,Málaga,+34952353353,16,4,http://www.clinicadentalalgarra.com/,Solo 16 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+135,dental,CLINICA DENTAL CALERO Y PERAL,Málaga,+34952324295,16,4.5,http://clinicadentalcaleroyperal.com/,Solo 16 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+136,dental,Clinica Dental,Murcia,+34968223323,16,4.2,https://sonrisalista.com/cinica-dental-lda-m-d-olivares-olivares-murcia/,Solo 16 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+137,dental,Clínica Dental Urreta,Kurtzea,+34946018800,16,3.5,http://www.urretadental.com/,Solo 16 reseñas para «dentista Kurtzea» — fácil de subir y salir más arriba en el mapa
+138,dental,Clínica Dental Lasagabaster,Bilbao,+34944424617,16,3.7,https://www.clinicadentalbilbao.com/,Solo 16 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+139,dental,Clínica Dental García Villagrá,Bilbao,+34944414301,16,4.2,http://www.clinicadentalgarciavillagra.com/,Solo 16 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+140,dental,Clínica Dental Deusto - Susana Martín,Bilbao,+34688864264,16,4.1,https://www.clinicadentaldeusto.es/,Solo 16 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+141,dental,Clínica Dental Dr Marcos Rocamora,Alicante,+34965112225,16,4,http://cdmarcosrocamora.com/,Solo 16 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+142,dental,Centro Odontológico Mutxamel,Mutxamel,+34965953034,16,4.3,https://alicantedentista.com/,Solo 16 reseñas para «dentista Mutxamel» — fácil de subir y salir más arriba en el mapa
+143,dental,Straumann Spain,Madrid,+34916308214,17,3.6,http://www.straumann.es/,Solo 17 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+144,dental,Clínica Dental R&M,Madrid,+34627299485,17,4.5,https://clinica-dental-rm.ueniweb.com/?utm_campaign=gmb,Solo 17 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+145,dental,Clínica Nudental Dr. Pedro Nuñez,Rivas-Vaciamadrid,+34640676420,17,4.3,http://www.clinicanudental.com/,Solo 17 reseñas para «dentista Rivas-Vaciamadrid» — fácil de subir y salir más arriba en el mapa
+146,dental,Shine Dental Clinic Barcelona,Barcelona,+34934356562,17,4.5,https://shinedentalbarcelona.com/,Solo 17 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+147,dental,DENTES. Clínica Dental,Barcelona,+34934154832,17,4.1,http://www.dentes.es/,Solo 17 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+148,dental,Dr Luis Senís Segarra,València,+34962622000,17,3.5,https://www.nonium.es/,Solo 17 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+149,dental,Clínica Eurodental Sevilla,Dos Hermanas,+34955332828,17,4.2,https://www.clinicaeurodentalsevilla.com/,Solo 17 reseñas para «dentista Dos Hermanas» — fácil de subir y salir más arriba en el mapa
+150,dental,Odondent,Benacazón,+34955705818,17,4.3,http://www.odondent.com/,Solo 17 reseñas para «dentista Benacazón» — fácil de subir y salir más arriba en el mapa
+151,dental,Clínica Dental San Juan De La Salle,Seville,+34954434400,17,4.5,https://www.dentallasalle.es/,Solo 17 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+152,dental,Dental Clinic Alhaurin de la Torre Fernández & Corado,Alhaurín de la Torre,+34665957568,17,3.7,http://www.clinicadentalalhaurindelatorre.com/,Solo 17 reseñas para «dentista Alhaurín de la Torre» — fácil de subir y salir más arriba en el mapa
+153,dental,Clínica Dental Gloria Castillo,San Benito - Patiño,+34968904121,17,4.2,http://www.clinicagloriacastillo.com/,Solo 17 reseñas para «dentista San Benito - Patiño» — fácil de subir y salir más arriba en el mapa
+154,dental,CLÍNICA DENTAL S´INDIOTERIA. POLÍGON SON CASTELLÓ,Palma,+34971434694,17,4.5,https://clinicadentalindioteria.com/,Solo 17 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+155,dental,Clínica Dental 7 Palmas,Las Palmas de Gran Canaria,+34928417106,17,4.5,http://www.clinicadental7palmas.webnode.es/,Solo 17 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+156,dental,Clínica Dental IMQ Santutxu | Bilbao,Bilbao,+34946000300,17,3.9,https://clinicadentalsantutxu.imq.es/?utm_medium=organic&utm_source=Gmb,Solo 17 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+157,dental,Clínica Dental Iratxe Rueda y Estíbaliz García,Elexalde,+34944802940,17,4.4,http://clinicadentaliratxerueda.com/,Solo 17 reseñas para «dentista Elexalde» — fácil de subir y salir más arriba en el mapa
+158,dental,DR SMILE® Delicias,,+34910782123,18,3,https://drsmile.es/?utm_source=google&utm_medium=cpc&utm_campaign=es-es_gmb_google-mybusiness_low-funnel_madrid-delicias_websitelink,Solo 18 reseñas para «dentista » — fácil de subir y salir más arriba en el mapa
+159,dental,Clínica Dental Dr Sala,Barcelona,+34932113190,18,4.1,https://clinicadentaldrpedrosalamilla.es/,Solo 18 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+160,dental,Clínica DefinitiveDental,Seville,+34601000000,18,2.6,https://www.definitivedental.es/,Solo 18 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+161,dental,Clinica Dental Ramon Y Cajal,Alcalá de Guadaíra,+34955680070,18,4.4,http://www.clinicaalcaladental.com/,Solo 18 reseñas para «dentista Alcalá de Guadaíra» — fácil de subir y salir más arriba en el mapa
+162,dental,Clínica Dental Asprodent,Zaragoza,+34976134839,18,4.1,http://www.dentista-zaragoza.net/,Solo 18 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+163,dental,Clinica Dental Dr. Catalán De Val - Dentistas en Zaragoza,Zaragoza,+34976080861,18,4.3,http://www.clinicacatalan.com/,Solo 18 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+164,dental,Clinica Dental Puerto de la Torre,Málaga,+34643671115,18,4.3,https://mobile.facebook.com/clinicadentalpuertodelatorre/?_rdc=1&_rdr&refsrc=https://m.facebook.com/clinicadentalpuertodelatorre/,Solo 18 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+165,dental,Clínica Córcoles,Málaga,+34952369305,18,3.9,http://www.clinicacorcoles.com/,Solo 18 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+166,dental,Clinica Dental Estrella,Benalmadena (Arroyo de la Miel),+34952575173,18,4.3,http://www.clinica-dental-estrella.info/,Solo 18 reseñas para «dentista Benalmadena (Arroyo de la Miel)» — fácil de subir y salir más arriba en el mapa
+167,dental,Clínica Fernandez Carrion & Tur,Málaga,+34952360628,18,3.9,http://www.clinicafernandezcarrion.com/,Solo 18 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+168,dental,Clínica Dental Dr. Eladio Betancor González,Telde,+34928695750,18,4.1,http://www.clinicatelde.com/,Solo 18 reseñas para «dentista Telde» — fácil de subir y salir más arriba en el mapa
+169,dental,Clínica Dental Txorierri,Basozabal,+34944711639,18,4,http://www.cdtxorierri.es/,Solo 18 reseñas para «dentista Basozabal» — fácil de subir y salir más arriba en el mapa
+170,dental,Clínica Dental MUNDISALUD,Laudio / Llodio,+34946721927,18,4.5,http://www.clinicamundisalud.com/,Solo 18 reseñas para «dentista Laudio / Llodio» — fácil de subir y salir más arriba en el mapa
+171,dental,Dental Company Erandio,Altzaga,+34946414712,18,4.1,https://dentalcompany.es/clinica-dental-erandio/,Solo 18 reseñas para «dentista Altzaga» — fácil de subir y salir más arriba en el mapa
+172,dental,Clinica Dental Drs Bascones / Basilun,Madrid,+34915334212,19,4.5,http://www.doctoresbascones.com/,Solo 19 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+173,dental,Clínica dental Sant Isidre,València,+34963578194,19,4.1,http://clinicasantisidre.es/,Solo 19 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+174,dental,Clínica Dental CEMA,Seville,+34954981087,19,4.5,https://www.instagram.com/cema_sanpablo?igsh=eDE4NG02ZTB6ajdt,Solo 19 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+175,dental,Alcalá Erickson Díaz,Alcalá de Guadaíra,+34954101161,19,3.3,http://www.facebook.com/alcalaericksondiaz/,Solo 19 reseñas para «dentista Alcalá de Guadaíra» — fácil de subir y salir más arriba en el mapa
+176,dental,Juan Antonio Vázquez Correa,Seville,+34954924918,19,4.4,http://dentaljardin.com/,Solo 19 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+177,dental,Clinica Dental Sinai,Seville,+34954582123,19,4.4,https://dentalsinai.com/,Solo 19 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+178,dental,Clinica Dental Clident María Salas,Seville,+34954286006,19,4.4,http://www.clident.es/,Solo 19 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+179,dental,Clínica Dental Beca,Alcalá de Guadaíra,+34955614883,19,4.2,https://clinicabeca.es/,Solo 19 reseñas para «dentista Alcalá de Guadaíra» — fácil de subir y salir más arriba en el mapa
+180,dental,ECODENT - CLÍNICA DENTAL,San José de la Rinconada,+34955792212,19,4.4,https://m.facebook.com/ClinicaDentalEcodent,Solo 19 reseñas para «dentista San José de la Rinconada» — fácil de subir y salir más arriba en el mapa
+181,dental,Clínica dental Dr Abraham,Arroyo de la Miel,+34697890921,19,4.4,https://clinicadentaldrabraham.com/,Solo 19 reseñas para «dentista Arroyo de la Miel» — fácil de subir y salir más arriba en el mapa
+182,dental,Dr. Walter Hércules Marchese Vozza,Málaga,+34952363162,19,4.4,https://clinicadrwalter.es/odontologia.php,Solo 19 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+183,dental,Clínica Dental Corbalán - Pagán,Ceutí,+34968694764,19,4.4,http://www.clinicacorbalan.es/,Solo 19 reseñas para «dentista Ceutí» — fácil de subir y salir más arriba en el mapa
+184,dental,Orthodents,Palma,+34971910888,19,4.3,http://orthodents.com/,Solo 19 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+185,dental,Clínica Gómez Bosch,Las Palmas de Gran Canaria,+34928275708,19,4.2,http://www.clinicadentallaspalmas.es/,Solo 19 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+186,dental,Francisco Javier Sánchez Palacios CLÌNICA DENTAL,Telde,+34928697062,19,4.4,http://www.dentistafranciscojaviersanchezpalacios.com/,Solo 19 reseñas para «dentista Telde» — fácil de subir y salir más arriba en el mapa
+187,dental,Clínica NG Basterra,Leioa,+34944646414,19,4.5,https://clinicadentalngbasterra.com/,Solo 19 reseñas para «dentista Leioa» — fácil de subir y salir más arriba en el mapa
+188,dental,Clínica Dental Sestao,Sestao,+34944955540,19,4.4,http://dentalsestao.com/,Solo 19 reseñas para «dentista Sestao» — fácil de subir y salir más arriba en el mapa
+189,dental,Clínica Dental Areatza,Plentzia,+34946775038,19,4.3,http://www.dentalareatza.com/,Solo 19 reseñas para «dentista Plentzia» — fácil de subir y salir más arriba en el mapa
+190,dental,Clínica Dental Carmen Iturbe Zabala,Bilbao,+34944456105,19,4.4,http://www.clinicaiturbezabala.com/,Solo 19 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+191,dental,Clínica Dental Betania,Alicante,+34966270505,19,4.4,http://clinicadentalbetania.com/,Solo 19 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+192,dental,Zenith Periodontal Institute S L,Madrid,+34917186215,20,4.4,https://drjortegadental.es/,Solo 20 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+193,dental,Clínica Dental Clarós,Viladecans,+34936378883,20,4.2,http://www.dentalclaros.com/,Solo 20 reseñas para «dentista Viladecans» — fácil de subir y salir más arriba en el mapa
+194,dental,Clínica Dental Mónica Llàcer Soria,Catarroja,+34963111649,20,4.4,https://clinicadentaldramonica.es/,Solo 20 reseñas para «dentista Catarroja» — fácil de subir y salir más arriba en el mapa
+195,dental,Clínica Dental Constitución 5,Seville,+34955450474,20,4.4,http://constitucion5.com/,Solo 20 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+196,dental,Clínica Dental Bilbo Latina,Bilbao,+34946755326,20,4.4,http://www.clinicadentalbilbolatina.com/,Solo 20 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+197,dental,Clínica Dental Pilar García Macías,Bilbao,+34944211298,20,3.7,http://www.clinicadentalpilargarciamacias.es/,Solo 20 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+198,dental,CENTRO DENTAL SANTURTZI,Santurtzi,+34944831236,20,4.2,https://centrodentalsanturtzi.es/,Solo 20 reseñas para «dentista Santurtzi» — fácil de subir y salir más arriba en el mapa
+199,dental,Clínica Dental Virgen del Val,Madrid,+34914052568,21,3.4,http://dentalvirgendelval.com/,Solo 21 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+200,dental,DRES. MALMIERCA DENTAL CARPETANA,Madrid,+34914623201,21,4.3,http://www.dentalcarpetana.com/,Solo 21 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+201,dental,"Dr. Pau Rodriguez Berart, Cirujano oral y maxilofacial",Barcelona,+34622347468,21,4.4,https://dr-berart.com/,Solo 21 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+202,dental,Clínica Dental Vera,Alella,+34935554971,21,4.5,http://www.clinicadentalvera.com/,Solo 21 reseñas para «dentista Alella» — fácil de subir y salir más arriba en el mapa
+203,dental,Clínica Dental Dr. Iván de Peña,Castelldefels,+34936651858,21,3.8,https://clinicadentalidp.com/?utm_source=google&utm_medium=local&utm_campaign=mybusiness,Solo 21 reseñas para «dentista Castelldefels» — fácil de subir y salir más arriba en el mapa
+204,dental,Vicente Gabriel Faus Badía,València,+34610898503,21,4.4,https://vicentefaus.es/,Solo 21 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+205,dental,Andreu Dental,Paterna,+34961384415,21,3.9,https://andreudental.com/,Solo 21 reseñas para «dentista Paterna» — fácil de subir y salir más arriba en el mapa
+206,dental,Odontologia Caura,Coria del Río,+34954770977,21,4.4,http://www.odontologiacaura.es/,Solo 21 reseñas para «dentista Coria del Río» — fácil de subir y salir más arriba en el mapa
+207,dental,Clínica Dental Jardin,Seville,+34954924918,21,4,https://dentaljardin.com/?page_id=53,Solo 21 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+208,dental,Clínica Dental Aida Pellejero en la Bombarda,Zaragoza,+34976329875,21,4.2,https://clinicadentalaidapellejero.com/,Solo 21 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+209,dental,Clínica Dental Nordent,Zaragoza,+34976798133,21,4.1,https://clinicanordent.com/,Solo 21 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+210,dental,Clínica Suma+ Dental | Dentista en Santa Isabel · Zaragoza,Zaragoza,+34976574438,21,4.2,https://sumadental.es/,Solo 21 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+211,dental,ZIMA DENTAL Y MAXILOFACIAL,Zaragoza,+34976755678,21,4.1,https://clinicazimadental.com/,Solo 21 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+212,dental,Miraglia Endodoncia,Torremolinos,+34952376121,21,4.3,http://miragliaendodoncia.es/,Solo 21 reseñas para «dentista Torremolinos» — fácil de subir y salir más arriba en el mapa
+213,dental,Clínica Payá Podología y Odontología,Málaga,+34663390313,21,4.5,http://www.clinicapaya.com/,Solo 21 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+214,dental,Clínica Dental Iguazu,Las Palmas de Gran Canaria,+34928415263,21,4,http://www.menadental.es/,Solo 21 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+215,dental,Clínica Dental San Gregorio,Telde,+34928692966,21,4,http://www.clinicadentalsangregorio.com/,Solo 21 reseñas para «dentista Telde» — fácil de subir y salir más arriba en el mapa
+216,dental,Clínica Dental Amador Matía,Santurtzi,+34944836714,21,2.5,http://www.clinicadentalamadormatia.es/,Solo 21 reseñas para «dentista Santurtzi» — fácil de subir y salir más arriba en el mapa
+217,dental,a&s Odontología Integral,Bilbao,+34946856244,21,4.2,http://www.aysodontologiaintegral.com/,Solo 21 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+218,dental,Dentalist,Alicante,+34966281983,21,4.4,https://dentalistalicante.com/,Solo 21 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+219,dental,Caster Dental,Torrellano,+34965680436,21,4.4,http://www.casterdental.com/,Solo 21 reseñas para «dentista Torrellano» — fácil de subir y salir más arriba en el mapa
+220,dental,Maxilodental Córdoba,Córdoba,+34957455454,21,4.1,https://maxilodentalcordoba.com/,Solo 21 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+221,dental,Odontomax,Madrid,+34910146262,22,4.5,https://www.odontomax.es/,Solo 22 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+222,dental,Clinicas Dentales Noemident,Madrid,+34917979000,22,3.7,http://noemident.com/,Solo 22 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+223,dental,Odontología barnaclínic+,Barcelona,+34932279851,22,3.9,https://www.odontologiabarnaclinic.es/,Solo 22 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+224,dental,Clínica Dental Medina - Molins de Rei,Molins de Rei,+34936682249,22,3.9,http://clinicamedina.com/,Solo 22 reseñas para «dentista Molins de Rei» — fácil de subir y salir más arriba en el mapa
+225,dental,SANT VICENÇ DENTAL,Barcelona,+34936561458,22,4,http://santvicencsdental.com/,Solo 22 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+226,dental,MDental,Sant Cugat del Vallès,+34682500165,22,4.5,https://www.instagram.com/santcugat_mdental/,Solo 22 reseñas para «dentista Sant Cugat del Vallès» — fácil de subir y salir más arriba en el mapa
+227,dental,Odóntica - Cuidado y Estética Dental,Riba-roja de Túria,+34961653462,22,3.4,http://odontica.es/,Solo 22 reseñas para «dentista Riba-roja de Túria» — fácil de subir y salir más arriba en el mapa
+228,dental,Clínica Dental Gran Vía,Valencia,+34963821111,22,4.5,http://www.estefaniaguisasola.com/,Solo 22 reseñas para «dentista Valencia» — fácil de subir y salir más arriba en el mapa
+229,dental,Clínica Beltrán Tarazona,València,+34686663486,22,3.5,https://clinicaciutatvella.com/,Solo 22 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+230,dental,Odontofamilia,València,+34601142546,22,4.5,https://odontofamilia.es/,Solo 22 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+231,dental,Arte Dental,Mislata,+34675911595,22,3.9,https://sites.google.com/view/arte-dental-clinica/inicio,Solo 22 reseñas para «dentista Mislata» — fácil de subir y salir más arriba en el mapa
+232,dental,Bucaldent Málaga,Málaga,+34952261630,22,4.3,https://www.clinicasbucaldent.com/,Solo 22 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+233,dental,Clinica Andratx Dental,Andratx,+34971137878,22,4.3,https://andratxdental.com/,Solo 22 reseñas para «dentista Andratx» — fácil de subir y salir más arriba en el mapa
+234,dental,Clínica dental Kyra,Las Palmas de Gran Canaria,+34656568191,22,3,http://www.clinicaskyra.com/,Solo 22 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+235,dental,Clínica Dental Berriotxoa,Basauri,+34944407901,22,4.1,https://clinicaberriotxoa.com/,Solo 22 reseñas para «dentista Basauri» — fácil de subir y salir más arriba en el mapa
+236,dental,Clínica Dental IMQ Henao | Bilbao,Bilbao,+34946673332,22,4.2,https://clinicadentalhenao.imq.es/?utm_medium=organic&utm_source=Gmb,Solo 22 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+237,dental,Juriondo,San Vicente de Barakaldo,+34944660540,22,4.1,http://www.clinicadentaljuriondo.com/,Solo 22 reseñas para «dentista San Vicente de Barakaldo» — fácil de subir y salir más arriba en el mapa
+238,dental,Clínica Dental Loroño,Kurtzea,+34944570890,22,4.5,http://www.clinicadentallorono.com/,Solo 22 reseñas para «dentista Kurtzea» — fácil de subir y salir más arriba en el mapa
+239,dental,DR SMILE ® Alicante Gran Vía,Alicante,+34910782123,22,4,https://drsmile.es/?utm_source=google&utm_medium=cpc&utm_campaign=es-es_gmb_google-mybusiness_low-funnel_alicante-gran-via_websitelink,Solo 22 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+240,dental,Clinica Dental Marta De la Peña,Córdoba,+34957434370,22,4.5,http://martadentalcordoba.es/,Solo 22 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+241,dental,Centro Dental y Estética Jesús María - Doctor Tomás Páez,Córdoba,+34957481231,22,4.4,https://www.centrodentaljesusmaria.es/,Solo 22 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+242,dental,Clínica Dental Natalia Martinez,Córdoba,+34957250678,22,4.2,https://nataliamartinez.es/,Solo 22 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+243,dental,Clínica Colbrand dental,Madrid,+34913446641,23,4.4,https://colbrandental.es/,Solo 23 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+244,dental,Clínica Dental Naturdent,Madrid,+34917736655,23,4.3,https://www.clinicanaturdent.es/es/,Solo 23 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+245,dental,Dental La Pobla,La Pobla de Farnals,+34961442484,23,4.5,http://www.dentallapobla.es/,Solo 23 reseñas para «dentista La Pobla de Farnals» — fácil de subir y salir más arriba en el mapa
+246,dental,Clínica Dental Virgen del Rocío,Sanlúcar la Mayor,+34955701626,23,2.6,http://www.clinicadentalvirgendelrocio.com/,Solo 23 reseñas para «dentista Sanlúcar la Mayor» — fácil de subir y salir más arriba en el mapa
+247,dental,clinica dental Valderrama,Tomares,+34954155283,23,4.4,http://www.clinicadentalvalderrama.com/,Solo 23 reseñas para «dentista Tomares» — fácil de subir y salir más arriba en el mapa
+248,dental,Centro Odontologico Canfranc,Zaragoza,+34976211188,23,4,https://cocanfranc.com/,Solo 23 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+249,dental,Sanadental Zaragoza,Zaragoza,+34976740111,23,4.5,https://sanadental.es/,Solo 23 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+250,dental,POLICLÍNICA DENTAL ACTUR,Zaragoza,+34976592893,23,4.1,http://www.policlinicaactur.com/,Solo 23 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+251,dental,CLINICAS DENTALES PRODENTIS Dr Jose Ignacio Pérez,Málaga,+34951137270,23,3.6,https://www.prodentis.es/,Solo 23 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+252,dental,Clinica dental Dra.Tarraga SL.,Orihuela,+34865525893,23,4.4,https://dratarraga.es/,Solo 23 reseñas para «dentista Orihuela» — fácil de subir y salir más arriba en el mapa
+253,dental,Clínica Dental UNIDENTS,Palma,+34971731520,23,3.3,https://unidents.net/,Solo 23 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+254,dental,Clínica Dental Gordoniz,Bilbao,+34944101913,23,4.5,http://www.clinicadentalgordoniz.com/,Solo 23 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+255,dental,Clínica Dental Universitaria MiD,Madrid,+34915156811,24,4.5,https://mid.es/clinica-dental-universitaria-madrid/,Solo 24 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+256,dental,Iclinic,Barcelona,+34934518325,24,4.5,http://www.clinicadentalpifarre.com/,Solo 24 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+257,dental,CABO MUÑOZ ODONTÓLOGOS,Puçol,+34961420213,24,4.4,https://xn--cabomuozodontologos-03b.com/,Solo 24 reseñas para «dentista Puçol» — fácil de subir y salir más arriba en el mapa
+258,dental,Clínica Dental Selva,València,+34963497884,24,4.3,http://www.clinicadentalselva.es/,Solo 24 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+259,dental,Clinica Dental Bulevard Serreria,València,+34692499181,24,3.8,https://clinicadentalserreria.webnode.es/?_gl=1*1rsk5ws*_gcl_aw*R0NMLjE2NjM0MTYxNDguQ2p3S0NBanc0SldaQmhBcEVpd0F0SlVOMEMwWjJ4dUlYOTZreENHdnl4dkRZby1TVFVfODFMRGRrclZNRG5mSGZVSndHLUxEMU41UUhob0NEMDRRQXZEX0J3RQ..&_ga=2.133787913.647482324.1663415591-71426835.1663415587&_gac=1.61415774.1663416241.CjwKCAjw4JWZBhApEiwAtJUN0C0Z2xuIX96kxCGvyxvDYo-STU_81LDdkrVMDnfHfUJwG-LD1N5QHhoCD04QAvD_BwE,Solo 24 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+260,dental,Clínica Nieves,Málaga,+34952298647,24,4.5,https://clinicanieves.es/,Solo 24 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+261,dental,Rodríguez & Bandera Clínica Dental,Estacion de Cartama,+34649916744,24,4.3,http://www.rodriguezybandera.com/,Solo 24 reseñas para «dentista Estacion de Cartama» — fácil de subir y salir más arriba en el mapa
+262,dental,Clínica Dental El Perchel - Málaga Centro,Málaga,+34637677184,24,3.8,http://clinicaperchel.es/,Solo 24 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+263,dental,Clínica Dental Teatinos,Málaga,+34952616686,24,4.5,http://www.clinicadentalteatinos.com/,Solo 24 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+264,dental,Clínica Dental Dr. Eduardo López García,Las Torres de Cotillas,+34968624646,24,4.1,https://www.clinicadentaleduardolopez.com/,Solo 24 reseñas para «dentista Las Torres de Cotillas» — fácil de subir y salir más arriba en el mapa
+265,dental,Dental Design Clínica Dental,Elx,+34965452296,24,4.3,http://www.dental-design.es/,Solo 24 reseñas para «dentista Elx» — fácil de subir y salir más arriba en el mapa
+266,dental,OdontoAlicante Clínica Dental,Alicante,+34965910888,24,4.3,http://www.odontoalicante.com/,Solo 24 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+267,dental,Clínica Dental Alcorcón - Gold Care Dental,Alcorcón,+34673863414,25,4.5,https://goldcaredentalalcorcon.es/,Solo 25 reseñas para «dentista Alcorcón» — fácil de subir y salir más arriba en el mapa
+268,dental,Dentisan Clinica Dental,València,+34963835376,25,4.5,http://dentisanclinicadental.es/,Solo 25 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+269,dental,"Clínica Dental Dr. Ballester Estética, cirugía maxilofacial e implantología",Valencia,+34963803245,25,2.4,https://www.clinicasdentalesdrballester.com/,Solo 25 reseñas para «dentista Valencia» — fácil de subir y salir más arriba en el mapa
+270,dental,Clinica Dental Concha Martínez,València,+34960016747,25,4.5,http://clinicadentalconchamartinez.com/,Solo 25 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+271,dental,Clínica Pereira - Odontología y medicina estética en Sevilla,Seville,+34954920302,25,4.1,https://www.clinicapereira-sevilla.com/,Solo 25 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+272,dental,OralStudio Clinica Dental - Zaragoza,Zaragoza,+34662406086,25,2.5,http://www.oralstudio.es/,Solo 25 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+273,dental,Hémera Centro de Odontología Integrativa,Málaga,+34686615101,25,4.4,http://www.centrohemera.es/,Solo 25 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+274,dental,De la Torre Clínica Dental | Dentista en Beniel,Beniel,+34968600403,25,4.5,https://www.clinicadentalbeniel.es/,Solo 25 reseñas para «dentista Beniel» — fácil de subir y salir más arriba en el mapa
+275,dental,Institut Odontòlogic Balear,Palma,+34971201960,25,4,http://www.institutodontologicbalear.com/,Solo 25 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+276,dental,a+b clinica dental,Coll den Rabassa,+34971264870,25,4.3,http://www.abclinicadental.es/,Solo 25 reseñas para «dentista Coll den Rabassa» — fácil de subir y salir más arriba en el mapa
+277,dental,Clínica Dental Dr. de Céspedes,Palma,+34871712489,25,4.2,http://dcdentalpalma.com/,Solo 25 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+278,dental,Quirónsalud Dental Kids,Palma,+34971280028,25,2.4,https://www.quironsalud.es/dental,Solo 25 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+279,dental,Clinica Dental Internacional,Alicante,+34647838526,25,4.5,https://internacionaldental.com/,Solo 25 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+280,dental,Innovación Dental Retiro,Madrid,+34919601819,26,4.5,https://innovaciondentalretiro.com/,Solo 26 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+281,dental,CLÍNICA DENTAL LOS PINOS,Madrid,+34620957633,26,4.5,https://clinica-dental-los-pinos.negocio.site/?utm_source=gmb&utm_medium=referral,Solo 26 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+282,dental,Clínica dental Dra. H. Gutiérrez,Barcelona,+34933515213,26,4.3,https://www.clinicadentalhgutierrez.com/,Solo 26 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+283,dental,Institut Odontològic Serra,Barcelona,+34931060954,26,4.3,https://institutserra.com/,Solo 26 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+284,dental,Clínica Dental Campanar,València,+34963497089,26,4.5,http://www.clinicadentalcampanar.com/,Solo 26 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+285,dental,Dental León XIII,Seville,+34625409827,26,4.2,http://dentalleonxiii.es/,Solo 26 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+286,dental,CENTRO DENTAL Gª DE DIEGO,Seville,+34624122228,26,3.9,https://centrodentalgarciadediego.com/,Solo 26 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+287,dental,Clinica Dental Dr. Larrosa,Zaragoza,+34976458395,26,4.5,http://www.larrosadental.es/,Solo 26 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+288,dental,Centro Dental Funcional,Zaragoza,+34976345645,26,4.4,https://www.doctoralia.es/maximo-roman-tiburcio-peguero/dentista/carinena,Solo 26 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+289,dental,CLINICA DENTAL. Dr. JORGE ALOT MONTES,Málaga,+34952323951,26,4.4,https://www.alotmontesdrjorge.es/,Solo 26 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+290,dental,Dentaldietetic - Odontologia y Nutrición en Málaga,Málaga,+34952220840,26,4.5,http://clinicadentalmartin.es/,Solo 26 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+291,dental,Clínica Dental Muñoz & Muñoz,Cabezo de Torres,+34968308559,26,4.4,https://www.cdentalmym.com/,Solo 26 reseñas para «dentista Cabezo de Torres» — fácil de subir y salir más arriba en el mapa
+292,dental,Almoyna Dental - Dr Pedro M-Almoyna,Palma,+34971458418,26,4.5,http://www.almoynadental.com/,Solo 26 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+293,dental,Dental Daida,Tamaraceite,+34928438127,26,3.7,http://dentaldaida.com/tratamientos,Solo 26 reseñas para «dentista Tamaraceite» — fácil de subir y salir más arriba en el mapa
+294,dental,Clínica Dental Marrero,Telde,+34928692406,26,4.2,http://www.clinicadentalmarrero.es/,Solo 26 reseñas para «dentista Telde» — fácil de subir y salir más arriba en el mapa
+295,dental,Clínica Ramos,Las Palmas de Gran Canaria,+34928431082,26,4.5,https://clinica-ramos.com/,Solo 26 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+296,dental,Ana Vargas Toscano,Córdoba,+34957767194,26,4.4,http://www.anavargastoscano.com/,Solo 26 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+297,dental,Institut Dra. Iriarte,Sant Cugat del Vallès,+34935830047,27,4.3,https://www.institutdrairiarte.com/,Solo 27 reseñas para «dentista Sant Cugat del Vallès» — fácil de subir y salir más arriba en el mapa
+298,dental,Clinica Dental Sabadell,Sabadell,+34937279279,27,4.2,http://www.clinicadentalsbd.com/,Solo 27 reseñas para «dentista Sabadell» — fácil de subir y salir más arriba en el mapa
+299,dental,SOS Odontologia Social Clinica Dental,València,+34960445102,27,3.4,https://sos-odontologiasocial.com/,Solo 27 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+300,dental,"Clínica Sevilla Dental - CLISEDENT, S.L.P.",Montequinto,+34955021300,27,4.3,http://www.clinicasevilladental.com/,Solo 27 reseñas para «dentista Montequinto» — fácil de subir y salir más arriba en el mapa
+301,dental,Dental Clinic Sonridental,Dos Hermanas,+34955677746,27,4.5,http://clinicasonridental.com/,Solo 27 reseñas para «dentista Dos Hermanas» — fácil de subir y salir más arriba en el mapa
+302,dental,Clínica Dental García Galán,Zaragoza,+34976731274,27,4.2,https://clinicagarciagalan.es/,Solo 27 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+303,dental,Clinica Dental La Paz,Zaragoza,+34876244706,27,4.4,http://www.lapazclinicadental.com/,Solo 27 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+304,dental,Drs. Acosta y Bejarano,Málaga,+34952223669,27,4,http://www.acostaybejarano.com/,Solo 27 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+305,dental,Dr. Fernando Funes González,Málaga,+34952393505,27,4.4,http://www.funesdental.es/,Solo 27 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+306,dental,Dental Clinic San Andres,Murcia,+34968284068,27,4.3,https://www.clinicadentalsanandres.com/,Solo 27 reseñas para «dentista Murcia» — fácil de subir y salir más arriba en el mapa
+307,dental,Blanca Ranz Clínica Dental,Molina de Segura,+34968710711,27,4.5,https://clinicablancaranz.com/,Solo 27 reseñas para «dentista Molina de Segura» — fácil de subir y salir más arriba en el mapa
+308,dental,Dental Santa Maria - Clínica dental Santa Maria del Camí,Santa Maria del Camí,+34971621699,27,4.2,http://www.dentalsantamaria.es/,Solo 27 reseñas para «dentista Santa Maria del Camí» — fácil de subir y salir más arriba en el mapa
+309,dental,Clínica Hermosilla 57,Madrid,+34913105152,28,4.5,http://www.clinicahermosilla57.com/,Solo 28 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+310,dental,Adatt Dental S.L.P.,Barcelona,+34933405400,28,4.5,http://www.adattdental.com/,Solo 28 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+311,dental,Clínica Dental Esther Roger,Almàssera,+34961861797,28,4.4,http://www.clinicaroger.com/,Solo 28 reseñas para «dentista Almàssera» — fácil de subir y salir más arriba en el mapa
+312,dental,CLINICA DENTAL DENTASUR (Barriada La Oliva),Seville,+34954235670,28,4.1,https://negociosdesevilla.es/dentistas/clinica-dental-dentasur-barriada-la-oliva/,Solo 28 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+313,dental,Clínica Dental Dres. Galán & Peláez,Seville,+34954941117,28,4.3,https://galanypelaez.es/,Solo 28 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+314,dental,Clínica Dental Yñiguez,Seville,+34954273528,28,4.4,http://www.artedentalsevilla.es/,Solo 28 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+315,dental,Dentalhouse,Seville,+34954252679,28,3.7,http://www.clinicadentalhouse.com/,Solo 28 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+316,dental,Clínica Rivas Galindo,Málaga,+34952609551,28,4.4,http://clinicarg.es/,Solo 28 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+317,dental,Clinica Dr. Eki Dental,Málaga,+34952224690,28,4,http://ekidental.com/,Solo 28 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+318,dental,Clinica Dental Vallejo Y Daniele,Areeta / Las Arenas,+34944647085,28,4.5,https://vallejodanieledental.com/,Solo 28 reseñas para «dentista Areeta / Las Arenas» — fácil de subir y salir más arriba en el mapa
+319,dental,Centro Dental Barakaldo,San Vicente de Barakaldo,+34944038997,28,4.4,http://www.centrodentalbarakaldo.com/,Solo 28 reseñas para «dentista San Vicente de Barakaldo» — fácil de subir y salir más arriba en el mapa
+320,dental,clinica de ortodoncia Doctores Díaz de Villafranca,Areeta / Las Arenas,+34944637211,28,4.4,http://www.ortodonciagetxo.com/,Solo 28 reseñas para «dentista Areeta / Las Arenas» — fácil de subir y salir más arriba en el mapa
+321,dental,Clínica Dental Anfruns,Barcelona,+34934070165,29,4.1,https://www.clinicadentalanfruns.com/,Solo 29 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+322,dental,Clínica Dental De María Jesús Crespo,Alfafar,+34963753800,29,4.4,http://clinicadentalmjcrespo.es/,Solo 29 reseñas para «dentista Alfafar» — fácil de subir y salir más arriba en el mapa
+323,dental,Diental,València,+34963386422,29,4.1,http://www.diental.com/,Solo 29 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+324,dental,Clinica Dental Dr. Baroni,Zaragoza,+34976302020,29,4.3,http://odontobaroni.es/,Solo 29 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+325,dental,Dr. Jaime Bonnin y Dra. Dolores Liñares Leoane,Palma,+34871187086,29,4.1,https://www.clinicadentalbonninlinares.com/,Solo 29 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+326,dental,Clínica Dental Arosa,San Vicente de Barakaldo,+34944373132,29,4.4,http://www.clinicadentalarosa.com/,Solo 29 reseñas para «dentista San Vicente de Barakaldo» — fácil de subir y salir más arriba en el mapa
+327,dental,Clinica Medentia,Alicante,+34965165419,29,4.2,http://www.clinicamedentia.es/,Solo 29 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+328,dental,Dentalpro Fuensanta,Córdoba,+34957436856,29,3.3,http://www.dentalpro.es/,Solo 29 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+329,dental,Aluche Dental,Madrid,+34915187598,30,4.3,http://www.aluchedental.com/,Solo 30 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+330,dental,Clínica Dental Taub Glasberg Hortaleza,Madrid,+34913816275,30,4.4,http://clinicadentaltaubglasberg.es/,Solo 30 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+331,dental,MIT Dental Barcelona,Barcelona,+34936243629,30,3.4,http://www.mitdental.com/,Solo 30 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+332,dental,Clínica Dental Mármol,Rubí,+34935887559,30,4.5,https://www.clinicadentalmarmol.com/,Solo 30 reseñas para «dentista Rubí» — fácil de subir y salir más arriba en el mapa
+333,dental,Clínica Dental Llambés,València,+34963518437,30,4.4,http://www.clinicallambes.es/,Solo 30 reseñas para «dentista València» — fácil de subir y salir más arriba en el mapa
+334,dental,"BAPIDENT Clínica dental en Palmete, Padre Pío y Amate.",Seville,+34955152545,30,4.2,http://www.bapident.com/,Solo 30 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+335,dental,Clinica Dental Tres Jiménez,Zaragoza,+34976752945,30,4.3,https://www.clinicadentaltresjimenez.com/,Solo 30 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+336,dental,"Dra Sampedro Canals, María de Lluch",Palma,+34971728674,30,4.1,http://www.ortodonciasampedro.com/,Solo 30 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+337,dental,Clínica dental ARANA18,Bilbao,+34688653471,30,4.4,http://doctoralia.es/maria-astigarraga-ruiz-de-velasco/dentista/bilbao,Solo 30 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+338,dental,Odontologia holistica en Bilbao - Clínica Dental Abando,Bilbao,+34944238486,30,4.5,http://www.clinicadentalabando.com/,Solo 30 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+339,dental,Dental Parc.,Elx,+34965451476,30,4,https://www.dentalparc.es/,Solo 30 reseñas para «dentista Elx» — fácil de subir y salir más arriba en el mapa
+340,dental,Centro de Especialidades Odontologicas Dr. Orts,Santa Pola,+34965415010,30,4.3,https://www.clinicadentaldrorts.com/,Solo 30 reseñas para «dentista Santa Pola» — fácil de subir y salir más arriba en el mapa
+341,dental,Clínica Dental Roldán,Córdoba,+34957251879,30,4.5,https://www.dentalroldan.com/,Solo 30 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+342,dental,Clínica Dental Beltrami,Córdoba,+34957470438,30,3.9,https://www.clinicadentalbeltrami.com/,Solo 30 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+343,dental,Clínica Dental Dentibell,Córdoba,+34957850002,30,4.3,https://www.dentibell.es/,Solo 30 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+344,dental,Clínica Del Doctor Alfaro,Madrid,+34915410067,31,4.2,http://www.clinicadentalalfaro.com/,Solo 31 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+345,dental,Clínica dental evident,Alfafar,+34963764666,31,4.2,http://www.clinicadentalevident.es/,Solo 31 reseñas para «dentista Alfafar» — fácil de subir y salir más arriba en el mapa
+346,dental,"DENTAL MAYORGA, SLP",Seville,+34692138485,31,3.6,http://www.dentalmayorga.es/,Solo 31 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+347,dental,Centro clínico Dental Clinilab Pastor,San José de la Rinconada,+34954795809,31,4.2,http://www.clinilabpastor.es/,Solo 31 reseñas para «dentista San José de la Rinconada» — fácil de subir y salir más arriba en el mapa
+348,dental,Clínica dental García De Diego Salmerón Vicente,Seville,+34624122228,31,4.2,http://centrodentalgarciadediego.com/,Solo 31 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+349,dental,Clínica Dental Tarrio,Zaragoza,+34976335783,31,4.5,http://www.clinicadentaltarrio.com/,Solo 31 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+350,dental,Multidental,Málaga,+34951441339,31,4.3,http://www.multidental.es/,Solo 31 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+351,dental,Quirónsalud Dental Palma Centro,Palma,+34971227777,31,2.2,https://www.quironsalud.es/,Solo 31 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+352,dental,Zahnarztpraxis Veri Smile,Son Verí Nou,+34971443085,31,4.5,https://www.facebook.com/ZahnarztVeriSmile,Solo 31 reseñas para «dentista Son Verí Nou» — fácil de subir y salir más arriba en el mapa
+353,dental,ENPARANTZA CENTRO MEDICO Y DENTAL,Mungia,+34946627777,31,4.3,http://www.enpararantza.eus/,Solo 31 reseñas para «dentista Mungia» — fácil de subir y salir más arriba en el mapa
+354,dental,NAVAS DENTAL,Alicante,+34965212221,31,4,http://navasdental.com/,Solo 31 reseñas para «dentista Alicante» — fácil de subir y salir más arriba en el mapa
+355,dental,Trafalgar Clínica Dental,Badalona,+34933887040,32,4.5,http://www.implantdentalbadalona.com/,Solo 32 reseñas para «dentista Badalona» — fácil de subir y salir más arriba en el mapa
+356,dental,Clínica Maxilodental Acero,Seville,+34954530111,32,3.6,http://www.clinicamaxilodentalacero.com/,Solo 32 reseñas para «dentista Seville» — fácil de subir y salir más arriba en el mapa
+357,dental,Dental Clinic Dr. Toledo,Zaragoza,+34976487584,32,4.4,https://doctortoledo.es/clinica-dental-las-fuentes-zaragoza/?utm_source=Google&utm_medium=maps&utm_campaign=Ficha+del+negocio+en+Google+-+Las+Fuentes&utm_id=GMB&utm_term=GMB&utm_content=GMB,Solo 32 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+358,dental,Clínica Dental Serdent,Zaragoza,+34976418107,32,3.3,http://clinicaserdent.es/,Solo 32 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+359,dental,Dr. Francisco Moreno Clavero,Málaga,+34952295649,32,4.3,http://clinicadentalelpalo.com/,Solo 32 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+360,dental,Santa Ponsa Dental Practice SL,Santa Ponça,+34971694071,32,4.4,http://www.santaponsadental.com/,Solo 32 reseñas para «dentista Santa Ponça» — fácil de subir y salir más arriba en el mapa
+361,dental,Clínica Dental Dr. Juan Camacho,Las Palmas de Gran Canaria,+34928227647,32,3.9,http://escanerdental3dlaspalmas.com/,Solo 32 reseñas para «dentista Las Palmas de Gran Canaria» — fácil de subir y salir más arriba en el mapa
+362,dental,Clinica Dental Serantes,Santurtzi,+34944937825,32,4.2,https://www.facebook.com/Cl%C3%ADnica-Dental-Serantes-211846226077435/,Solo 32 reseñas para «dentista Santurtzi» — fácil de subir y salir más arriba en el mapa
+363,dental,Clínica Dental Abanto,Gallarta,+34946360158,32,4.3,https://clinicadentalabanto.com/,Solo 32 reseñas para «dentista Gallarta» — fácil de subir y salir más arriba en el mapa
+364,dental,Nuevo Centro Odontológico,Madrid,+34915517878,33,4,https://www.instagram.com/nuevocentrodontologico/,Solo 33 reseñas para «dentista Madrid» — fácil de subir y salir más arriba en el mapa
+365,dental,Dental Clinic San Jose,Getafe,+34916835328,33,4.5,http://www.clinicadentalsanjose.net/,Solo 33 reseñas para «dentista Getafe» — fácil de subir y salir más arriba en el mapa
+366,dental,Clínica Mos,Castelldefels,+34626057847,33,4.4,http://www.mosclinica.com/,Solo 33 reseñas para «dentista Castelldefels» — fácil de subir y salir más arriba en el mapa
+367,dental,Clínica Dental Jordà & LLinàs,Alaró,+34610473928,33,4.5,https://clinicadentaljordallinas.es/,Solo 33 reseñas para «dentista Alaró» — fácil de subir y salir más arriba en el mapa
+368,dental,Clínica Dental Soma,Palma,+34971752962,33,4.5,http://www.clinicasoma.es/,Solo 33 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+369,dental,ABC Dental by Dra. Ana Belén Coronado,Palma,+34971771247,33,4.5,https://abcdental.es/,Solo 33 reseñas para «dentista Palma» — fácil de subir y salir más arriba en el mapa
+370,dental,Clinica Dental Kabiezes,Santurtzi,+34944838871,33,4.5,https://clinicadentalkabiezes.com/,Solo 33 reseñas para «dentista Santurtzi» — fácil de subir y salir más arriba en el mapa
+371,dental,Clínica Pereda Dental-Zalla,Mimetiz,+34946390505,33,4.2,https://clinicadentalpereda.com/,Solo 33 reseñas para «dentista Mimetiz» — fácil de subir y salir más arriba en el mapa
+372,dental,Clínica Dental San Vicente - Clínica dental Barakaldo,San Vicente de Barakaldo,+34944383573,33,4.4,http://www.clinicadentalsanvicente.net/,Solo 33 reseñas para «dentista San Vicente de Barakaldo» — fácil de subir y salir más arriba en el mapa
+373,dental,Dent i Dent Barcelona,Barcelona,+34933111161,34,4,https://dentident.cat/contact/,Solo 34 reseñas para «dentista Barcelona» — fácil de subir y salir más arriba en el mapa
+374,dental,"CLINICA DENTAL BENETÚSSER, DR. FRUTOS",Benetússer,+34963755795,34,4.5,https://clinicadentalbenetusser.com/,Solo 34 reseñas para «dentista Benetússer» — fácil de subir y salir más arriba en el mapa
+375,dental,Clínica Dental Dr. Pérez Jiménez Castilleja de la Cuesta,Castilleja de la Cuesta,+34954163654,34,3.8,https://doctorperezjimenez.com/,Solo 34 reseñas para «dentista Castilleja de la Cuesta» — fácil de subir y salir más arriba en el mapa
+376,dental,Dentistas en Zaragoza Doctores Navarro,Zaragoza,+34976394629,34,4.5,http://www.doctoresnavarro.es/,Solo 34 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+377,dental,Clínica Dental Servet Delicias | Dentistas Zaragoza,Zaragoza,+34976330175,34,3.9,https://clinicadentalservet.com/sector-delicias/,Solo 34 reseñas para «dentista Zaragoza» — fácil de subir y salir más arriba en el mapa
+378,dental,Clínica Dental Sanitas Milenium Teatinos,Málaga,+34951922378,34,4.1,https://www.sanitas.es/dental/clinicas-dentales-milenium/malaga/malaga/teatinos?gmb=gmb%3Af-google%3Am-link%3Anc-clinica%3Ap-dental,Solo 34 reseñas para «dentista Málaga» — fácil de subir y salir más arriba en el mapa
+379,dental,OriolDent,Orihuela,+34966739316,34,4.5,http://orioldent.com/,Solo 34 reseñas para «dentista Orihuela» — fácil de subir y salir más arriba en el mapa
+380,dental,Clínica Dental Arucas - Dr. Manuel Medina,Arucas,+34928605295,34,4.1,https://www.arucascentroclinicodental.com/contacto,Solo 34 reseñas para «dentista Arucas» — fácil de subir y salir más arriba en el mapa
+381,dental,Clínica Dental y Rehabilitación IMQ Deusto | Bilbao,Bilbao,+34944001992,34,3.6,https://clinicadentaldeusto.imq.es/?utm_medium=organic&utm_source=Gmb,Solo 34 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+382,dental,Clínica Dental Milenium Gran Via Bilbao - Sanitas,Bilbao,+34944595941,34,3.8,https://www.sanitas.es/dental/clinicas-dentales-milenium/vizcaya/bilbao/bilbao-gran-via?gmb=gmb%3Af-google%3Am-link%3Anc-clinica%3Ap-dental,Solo 34 reseñas para «dentista Bilbao» — fácil de subir y salir más arriba en el mapa
+383,dental,Clínica Bucodental Rodrigo,Córdoba,+34957481247,34,4.3,https://clinicabucodentalrodrigo.es/,Solo 34 reseñas para «dentista Córdoba» — fácil de subir y salir más arriba en el mapa
+384,dental,Clínica Dental Anfer,Barberà del Vallès,+34937292100,35,4.5,https://anferclinicadental.com/,Tiene margen para salir más arriba cuando buscan «dentista Barberà del Vallès»; le preparamos análisis gratis
+385,dental,Sevilla Dental. Bermejales,Seville,+34954234841,35,4.4,https://sevilladental.net/,Nota 4.4: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+386,dental,José Manuel Moreno Serna,Seville,+34954572819,35,4.5,http://www.dentalmorenomalpartida.es/,Tiene margen para salir más arriba cuando buscan «dentista Seville»; le preparamos análisis gratis
+387,dental,Clínica Dental Dra. Leticia Capote,Telde,+34928684812,35,4.5,http://www.clinicaleticiacapote.com/,Tiene margen para salir más arriba cuando buscan «dentista Telde»; le preparamos análisis gratis
+388,dental,Tac Dental Alicante,Alicante,+34965929477,35,4.3,http://tacdentalalicante.es/,Nota 4.3: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+389,dental,Clínica Dental Sanchinarro,Madrid,+34917502018,36,4.3,http://www.clinicadentalsanchinarro.com/,Nota 4.3: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+390,dental,Sáenz Clínica Dental,Castelldefels,+34936365696,36,4.5,http://saenzclinicadental.com/,Tiene margen para salir más arriba cuando buscan «dentista Castelldefels»; le preparamos análisis gratis
+391,dental,Clínica Dental Salteras,Salteras,+34955707596,36,4.5,http://www.clinicadentalsalteras.com/,Tiene margen para salir más arriba cuando buscan «dentista Salteras»; le preparamos análisis gratis
+392,dental,Clínica Dental Dr. Toledo. Actur,Zaragoza,+34976521010,36,4.5,https://doctortoledo.es/clinica-dental-actur-zaragoza/?utm_source=Google&utm_medium=maps&utm_campaign=Ficha+del+negocio+en+Google+-+Actur&utm_id=GMB&utm_term=GMB&utm_content=GMB,Tiene margen para salir más arriba cuando buscan «dentista Zaragoza»; le preparamos análisis gratis
+393,dental,Clínica Dental Dra.Carolina Mora,Zaragoza,+34976117118,36,4.5,https://clinicadentaldramora.com/,Tiene margen para salir más arriba cuando buscan «dentista Zaragoza»; le preparamos análisis gratis
+394,dental,Oscar Humberto Nieto,Málaga,+34952439966,36,4.5,https://oscarnietoclinicadental.youcanbook.me/,Tiene margen para salir más arriba cuando buscan «dentista Málaga»; le preparamos análisis gratis
+395,dental,Clínica Dental Montemar,Torremolinos,+34952381428,36,4.1,http://www.clinicadentalmontemar.com/,Nota 4.1: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+396,dental,Clínica Dental Justo Balaguer - Palma de Mallorca,Palma,+34971290773,36,4.3,http://clinicajustobalaguer.com/,Nota 4.3: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+397,dental,Servicios Dentales Centro Médico MAPFRE Salud,Palma,+34971145167,36,3,https://www.centromedicomapfre.es/centros/25/palma,Nota 3: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+398,dental,Clínica dental Dr. Juan Camacho López,Tamaraceite,+34928677922,36,4.2,http://escanerdental3dlaspalmas.com/,Nota 4.2: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+399,dental,Dental Clinic Dr. Charo Cuesta,Bilbao,+34944219977,36,4.1,http://www.clinicacharocuesta.es/,Nota 4.1: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición
+400,dental,"Consulta Privada de García Bernal, Francisco Javier",Bilbao,+34944393153,36,3.4,http://www.regaladoybernal.com/,Nota 3.4: se sube respondiendo reseñas y pidiéndolas bien; y subimos su posición

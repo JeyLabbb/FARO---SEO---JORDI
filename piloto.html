@@ -1,0 +1,441 @@
+<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Faro · Piloto de auditorías</title>
+<link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+:root{--ink:#16151A;--mut:#6A6770;--faint:#9A97A1;--line:#E9E7EC;--red:#DC2330;--green:#1C8A5B;--amber:#C9780A;--bg:#F4F3F6;}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",system-ui,sans-serif;font-size:15px;line-height:1.55}
+.wrap{max-width:1040px;margin:0 auto;padding:32px 24px 80px}
+h1{font-size:28px;font-weight:800;margin:0}
+.top{border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:24px}
+.top .d{color:var(--faint);font-size:13px;margin-top:6px}
+.biz{background:#fff;border:1px solid var(--line);border-radius:16px;padding:22px 24px;margin-bottom:20px}
+.biz.blocked{opacity:.62;border-color:var(--red)}
+.bh{display:flex;justify-content:space-between;align-items:flex-start;gap:16px}
+.biz h2{font-size:19px;margin:0;font-weight:800}
+.meta{color:var(--mut);font-size:13px;margin-top:3px}
+.qa{font-size:12px;font-weight:800;padding:4px 10px;border-radius:20px;white-space:nowrap}
+.qa.ok{background:#E6F4EC;color:var(--green)}.qa.no{background:#FBE6E8;color:var(--red)}
+.hook{margin:14px 0 6px;font-size:16px;font-weight:600}
+.hook .basis{color:var(--faint);font-weight:400;font-size:12.5px}
+.flags{margin:4px 0 8px}.flag{font-size:11.5px;padding:2px 8px;border-radius:6px;margin-right:6px}
+.flag.soft{background:#FBF1E0;color:var(--amber)}.flag.hard{background:#FBE6E8;color:var(--red)}
+.nums{display:flex;flex-wrap:wrap;gap:18px;font-size:13.5px;background:#FAFAFB;border:1px solid var(--line);border-radius:10px;padding:10px 14px;margin:8px 0 16px}
+.nums .vs{color:var(--faint)}
+.variants{display:grid;grid-template-columns:1fr 1fr 1fr;gap:12px}
+@media(max-width:820px){.variants{grid-template-columns:1fr}}
+.variant{border:1px solid var(--line);border-radius:12px;padding:12px 14px;background:#fff}
+.vh{font-size:11px;text-transform:uppercase;letter-spacing:.06em;color:var(--faint);font-weight:700}
+.subj{font-weight:700;margin:6px 0 8px;font-size:13.5px}
+.variant pre{white-space:pre-wrap;font-family:inherit;font-size:13px;color:var(--mut);margin:0;line-height:1.5}
+.links{margin-top:14px;font-size:13px}.links a{color:var(--ink);font-weight:600}
+.note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--ink);border-radius:10px;padding:14px 16px;color:var(--mut);font-size:13px;margin-top:8px}
+</style></head><body><div class="wrap">
+<div class="top"><h1>Faro · Piloto de auditorías (modo cold)</h1>
+<div class="d">12 negocios · 11 pasan QA · 1 bloqueados · generado 2026-06-21 · datos: Google Places + PageSpeed + web propia (sin DataForSEO)</div></div>
+<section class="biz ">
+    <div class="bh">
+      <div><h2>Gymdance</h2><div class="meta">Getafe · pilates · Sports School · info@gymdance.es</div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“Vi que ofreces clases de danza y artes marciales.” <span class="basis">(clases de danza y artes marciales)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 136 · Cuida-T Getafe</span></span>
+      <span><b>Velocidad:</b> 62/100</span>
+      <span><b>Posición media:</b> fuera <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Gymdance</div><pre>Hola,
+
+Vi que ofreces clases de danza y artes marciales.
+
+Busqué «pilates Getafe» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Cuida-T Getafe y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Cuida-T Getafe sale antes que tú en Google?</div><pre>Hola,
+
+Vi que ofreces clases de danza y artes marciales.
+
+Una pregunta rápida: ¿sabías que cuando buscan «pilates Getafe» en Google, Gymdance sale bastante abajo y Cuida-T Getafe y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Gymdance en Google</div><pre>Hola, Vi que ofreces clases de danza y artes marciales. vi cómo sales en Google cuando buscan «pilates Getafe» y hay margen claro para subir (ahora apareces por debajo de Cuida-T Getafe). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/gymdance-getafe.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/gymdance-getafe.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Clinica Dental Milena</h2><div class="meta">Móstoles · dental · Dental Clinic · clinicadentalmilena@gmail.com</div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“Vi que te centras en tratamientos de ortodoncia.” <span class="basis">(te centras en tratamientos de ortodoncia)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 147 · Atención Dentista 24H urgencias SKD Previa cita</span></span>
+      <span><b>Velocidad:</b> 100/100</span>
+      <span><b>Posición media:</b> fuera <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Clinica Dental Milena</div><pre>Hola,
+
+Vi que te centras en tratamientos de ortodoncia.
+
+Busqué «dentista Móstoles» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Atención Dentista 24H urgencias y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Atención Dentista 24H urgencias sale antes que tú en Google?</div><pre>Hola,
+
+Vi que te centras en tratamientos de ortodoncia.
+
+Una pregunta rápida: ¿sabías que cuando buscan «dentista Móstoles» en Google, Clinica Dental Milena sale bastante abajo y Atención Dentista 24H urgencias y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Clinica Dental Milena en Google</div><pre>Hola, Vi que te centras en tratamientos de ortodoncia. vi cómo sales en Google cuando buscan «dentista Móstoles» y hay margen claro para subir (ahora apareces por debajo de Atención Dentista 24H urgencias). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/clinica-dental-milena-mostoles.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/clinica-dental-milena-mostoles.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Centro de estetica Estar Bell@ Velilla</h2><div class="meta">Velilla de San Antonio · estetica · Beauty Salon · <i>sin email</i></div></div>
+      <div class="qa ok">QA ✓ 85</div>
+    </div>
+    <div class="hook">“Vi que ofreces un servicio altamente personalizado.” <span class="basis">(servicio altamente personalizado)</span></div>
+    <div class="flags"><span class="flag soft">la web no responde</span></div>
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 88 · Sin pelos y a lo loco</span></span>
+      <span><b>Velocidad:</b> —</span>
+      <span><b>Posición media:</b> ≈5 <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Centro de estetica Estar Bell@</div><pre>Hola,
+
+Vi que ofreces un servicio altamente personalizado.
+
+Busqué «centro de estética Velilla de San Antonio» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Sin pelos y a lo loco y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Sin pelos y a lo loco sale antes que tú en Google?</div><pre>Hola,
+
+Vi que ofreces un servicio altamente personalizado.
+
+Una pregunta rápida: ¿sabías que cuando buscan «centro de estética Velilla de San Antonio» en Google, Centro de estetica Estar Bell@ Velilla sale bastante abajo y Sin pelos y a lo loco y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Centro de estetica Estar Bell@ en Google</div><pre>Hola, Vi que ofreces un servicio altamente personalizado. vi cómo sales en Google cuando buscan «centro de estética Velilla de San Antonio» y hay margen claro para subir (ahora apareces por debajo de Sin pelos y a lo loco). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/centro-de-estetica-estar-bell-velilla-velilla-de-san-antonio.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/centro-de-estetica-estar-bell-velilla-velilla-de-san-antonio.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Francisco Javier Cerrato Gómez</h2><div class="meta">Barcelona · fisioterapia · Physical Therapist · <i>sin email</i></div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“Vi que te centras en ayudar a deportistas.” <span class="basis">(Saca tu mejor versión como deportista)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 1033 · MyFisio Barcelona</span></span>
+      <span><b>Velocidad:</b> 63/100</span>
+      <span><b>Posición media:</b> ≈6 <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Francisco Javier Cerrato Gómez</div><pre>Hola,
+
+Vi que te centras en ayudar a deportistas.
+
+Busqué «fisioterapia Barcelona» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son MyFisio Barcelona y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que MyFisio Barcelona sale antes que tú en Google?</div><pre>Hola,
+
+Vi que te centras en ayudar a deportistas.
+
+Una pregunta rápida: ¿sabías que cuando buscan «fisioterapia Barcelona» en Google, Francisco Javier Cerrato Gómez sale bastante abajo y MyFisio Barcelona y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Francisco Javier Cerrato Gómez en Google</div><pre>Hola, Vi que te centras en ayudar a deportistas. vi cómo sales en Google cuando buscan «fisioterapia Barcelona» y hay margen claro para subir (ahora apareces por debajo de MyFisio Barcelona). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/francisco-javier-cerrato-gomez-barcelona.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/francisco-javier-cerrato-gomez-barcelona.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Clínica Dental Pasalodos</h2><div class="meta">Barcelona · dental · Dental Clinic · clinicapasalodos@gmail.com</div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“He visto que llevas más de 30 años atendiendo a familias.” <span class="basis">(más de 30 años atendiendo familias)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 573 · Clínica Dental Barcelona</span></span>
+      <span><b>Velocidad:</b> 49/100</span>
+      <span><b>Posición media:</b> fuera <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Clínica Dental Pasalodos</div><pre>Hola,
+
+He visto que llevas más de 30 años atendiendo a familias.
+
+Busqué «dentista Barcelona» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Clínica Dental Barcelona y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Clínica Dental Barcelona sale antes que tú en Google?</div><pre>Hola,
+
+He visto que llevas más de 30 años atendiendo a familias.
+
+Una pregunta rápida: ¿sabías que cuando buscan «dentista Barcelona» en Google, Clínica Dental Pasalodos sale bastante abajo y Clínica Dental Barcelona y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Clínica Dental Pasalodos en Google</div><pre>Hola, He visto que llevas más de 30 años atendiendo a familias. vi cómo sales en Google cuando buscan «dentista Barcelona» y hay margen claro para subir (ahora apareces por debajo de Clínica Dental Barcelona). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/clinica-dental-pasalodos-barcelona.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/clinica-dental-pasalodos-barcelona.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Estudio dental Cortés</h2><div class="meta">Málaga · dental · Dental Clinic · <i>sin email</i></div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“Vi que Dr. Cortés ofrece una atención personalizada a los más pequeños.” <span class="basis">(atención personalizada a los pequeños)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 1374 · Clinica Dental Gross. Implantes y Dentistas en Málaga</span></span>
+      <span><b>Velocidad:</b> 92/100</span>
+      <span><b>Posición media:</b> ≈3 <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Estudio dental Cortés</div><pre>Hola,
+
+Vi que Dr. Cortés ofrece una atención personalizada a los más pequeños.
+
+Busqué «dentista Málaga» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Clinica Dental Gross. Implantes y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Clinica Dental Gross. Implantes sale antes que tú en Google?</div><pre>Hola,
+
+Vi que Dr. Cortés ofrece una atención personalizada a los más pequeños.
+
+Una pregunta rápida: ¿sabías que cuando buscan «dentista Málaga» en Google, Estudio dental Cortés sale bastante abajo y Clinica Dental Gross. Implantes y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Estudio dental Cortés en Google</div><pre>Hola, Vi que Dr. Cortés ofrece una atención personalizada a los más pequeños. vi cómo sales en Google cuando buscan «dentista Málaga» y hay margen claro para subir (ahora apareces por debajo de Clinica Dental Gross. Implantes). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/estudio-dental-cortes-malaga.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/estudio-dental-cortes-malaga.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Raquel Rodríguez Pilates Studio</h2><div class="meta">Las Palmas de Gran Canaria · pilates · Gym · <i>sin email</i></div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“Vi que ofreces clases personalizadas de Pilates.” <span class="basis">(clases personalizadas de Pilates)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 27 · Vita Pilates Studio Yaqueline Valido</span></span>
+      <span><b>Velocidad:</b> 47/100</span>
+      <span><b>Posición media:</b> ≈11 <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Raquel Rodríguez Pilates Studio</div><pre>Hola,
+
+Vi que ofreces clases personalizadas de Pilates.
+
+Busqué «pilates Las Palmas de Gran Canaria» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Vita Pilates Studio Yaqueline y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Vita Pilates Studio Yaqueline sale antes que tú en Google?</div><pre>Hola,
+
+Vi que ofreces clases personalizadas de Pilates.
+
+Una pregunta rápida: ¿sabías que cuando buscan «pilates Las Palmas de Gran Canaria» en Google, Raquel Rodríguez Pilates Studio sale bastante abajo y Vita Pilates Studio Yaqueline y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Raquel Rodríguez Pilates en Google</div><pre>Hola, Vi que ofreces clases personalizadas de Pilates. vi cómo sales en Google cuando buscan «pilates Las Palmas de Gran Canaria» y hay margen claro para subir (ahora apareces por debajo de Vita Pilates Studio Yaqueline). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/raquel-rodriguez-pilates-studio-las-palmas-de-gran-canaria.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/raquel-rodriguez-pilates-studio-las-palmas-de-gran-canaria.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>centro de estetica el&amp;ella</h2><div class="meta">Landabarri · estetica · Beauty Salon · <i>sin email</i></div></div>
+      <div class="qa ok">QA ✓ 70</div>
+    </div>
+    <div class="hook">“Vi que ofreces una amplia gama de servicios de belleza.” <span class="basis">(amplia gama de servicios de belleza)</span></div>
+    <div class="flags"><span class="flag soft">la web no responde</span> <span class="flag soft">sin competidor de referencia</span></div>
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder —</span></span>
+      <span><b>Velocidad:</b> 81/100</span>
+      <span><b>Posición media:</b> ≈1 <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, centro de estetica el&amp;ella</div><pre>Hola,
+
+Vi que ofreces una amplia gama de servicios de belleza.
+
+Busqué «centro de estética Landabarri» en Google para ver cómo sales y la verdad es que sales bastante bien. Aun así vi un par de cosas de la ficha que afinaría para que no te adelanten. El mapa de Google se mueve y conviene no dormirse.
+
+Te paso un informe de una página con lo que vi. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">una cosa de cómo sale centro de estetica el&amp;ella en Google</div><pre>Hola,
+
+Vi que ofreces una amplia gama de servicios de belleza.
+
+Una pregunta rápida sobre centro de estetica el&amp;ella: en Google sales bastante bien, pero hay un par de detalles de la ficha que aseguran el puesto antes de que aprieten los de al lado.
+
+Te paso un informe de una página con lo que vi. ¿Lo vemos en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir centro de estetica el&amp;ella en Google</div><pre>Hola, Vi que ofreces una amplia gama de servicios de belleza. vi cómo sales en Google y estás bien, pero con un par de ajustes aseguras el puesto. Te paso un informe de una página; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/centro-de-estetica-el-ella-landabarri.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/centro-de-estetica-el-ella-landabarri.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Ukiyo Room Pilates</h2><div class="meta">Madrid · pilates · Gym · <i>sin email</i></div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“Vi que las clases son pequeñas y personalizadas.” <span class="basis">(clases pequeñas y atención personalizada)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 11 <span class="vs">vs líder 38 · Greenhouse Studio de Pilates</span></span>
+      <span><b>Velocidad:</b> 60/100</span>
+      <span><b>Posición media:</b> ≈7 <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Ukiyo Room Pilates</div><pre>Hola,
+
+Vi que las clases son pequeñas y personalizadas.
+
+Busqué «pilates Madrid» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Greenhouse Studio de Pilates y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Greenhouse Studio de Pilates sale antes que tú en Google?</div><pre>Hola,
+
+Vi que las clases son pequeñas y personalizadas.
+
+Una pregunta rápida: ¿sabías que cuando buscan «pilates Madrid» en Google, Ukiyo Room Pilates sale bastante abajo y Greenhouse Studio de Pilates y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Ukiyo Room Pilates en Google</div><pre>Hola, Vi que las clases son pequeñas y personalizadas. vi cómo sales en Google cuando buscan «pilates Madrid» y hay margen claro para subir (ahora apareces por debajo de Greenhouse Studio de Pilates). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/ukiyo-room-pilates-madrid.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/ukiyo-room-pilates-madrid.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Clínicas Reydental</h2><div class="meta">Córdoba · dental · Dentist · contacto@clinicasreydental.es</div></div>
+      <div class="qa ok">QA ✓ 100</div>
+    </div>
+    <div class="hook">“Vi que te centras en odontología para adultos y niños.” <span class="basis">(odontología para adultos y niños)</span></div>
+    
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 580 · Clínica Eduardo López</span></span>
+      <span><b>Velocidad:</b> 61/100</span>
+      <span><b>Posición media:</b> fuera <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Clínicas Reydental</div><pre>Hola,
+
+Vi que te centras en odontología para adultos y niños.
+
+Busqué «dentista Córdoba» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son Clínica Eduardo López y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que Clínica Eduardo López sale antes que tú en Google?</div><pre>Hola,
+
+Vi que te centras en odontología para adultos y niños.
+
+Una pregunta rápida: ¿sabías que cuando buscan «dentista Córdoba» en Google, Clínicas Reydental sale bastante abajo y Clínica Eduardo López y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Clínicas Reydental en Google</div><pre>Hola, Vi que te centras en odontología para adultos y niños. vi cómo sales en Google cuando buscan «dentista Córdoba» y hay margen claro para subir (ahora apareces por debajo de Clínica Eduardo López). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/clinicas-reydental-cordoba.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/clinicas-reydental-cordoba.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz ">
+    <div class="bh">
+      <div><h2>Ópalo Nails</h2><div class="meta">Alicante · estetica · Beauty Salon · <i>sin email</i></div></div>
+      <div class="qa ok">QA ✓ 85</div>
+    </div>
+    <div class="hook">“He visto que Margie tiene una gran habilidad artística en las uñas.” <span class="basis">(Margie es muy profesional en su trabajo.)</span></div>
+    <div class="flags"><span class="flag soft">la web no responde</span></div>
+    <div class="nums">
+      <span><b>Reseñas:</b> 10 <span class="vs">vs líder 102 · SAULE BEAUTY</span></span>
+      <span><b>Velocidad:</b> —</span>
+      <span><b>Posición media:</b> fuera <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Ópalo Nails</div><pre>Hola,
+
+He visto que Margie tiene una gran habilidad artística en las uñas.
+
+Busqué «centro de estética Alicante» en Google para ver cómo sales y apareces bastante abajo. Los primeros del mapa son SAULE BEAUTY y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que SAULE BEAUTY sale antes que tú en Google?</div><pre>Hola,
+
+He visto que Margie tiene una gran habilidad artística en las uñas.
+
+Una pregunta rápida: ¿sabías que cuando buscan «centro de estética Alicante» en Google, Ópalo Nails sale bastante abajo y SAULE BEAUTY y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Ópalo Nails en Google</div><pre>Hola, He visto que Margie tiene una gran habilidad artística en las uñas. vi cómo sales en Google cuando buscan «centro de estética Alicante» y hay margen claro para subir (ahora apareces por debajo de SAULE BEAUTY). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/opalo-nails-alicante.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/opalo-nails-alicante.pdf" target="_blank">PDF ↗</a></div>
+  </section><section class="biz blocked">
+    <div class="bh">
+      <div><h2>Colegio Oficial de Dentistas de Sevilla</h2><div class="meta">Seville · dental · Non-Profit Organization · <i>sin email</i></div></div>
+      <div class="qa no">BLOQUEADO</div>
+    </div>
+    <div class="hook"><i>Sin gancho propio → el email arranca con el opener normal (limpio, nunca falso).</i></div>
+    <div class="flags"><span class="flag hard">categoría vetada (colegio oficial)</span> <span class="flag soft">personalización genérica (sin gancho propio)</span></div>
+    <div class="nums">
+      <span><b>Reseñas:</b> 11 <span class="vs">vs líder 284 · SevillaDental.Net Clínica Dental</span></span>
+      <span><b>Velocidad:</b> 25/100</span>
+      <span><b>Posición media:</b> fuera <span class="vs">(estimada)</span></span>
+    </div>
+    <div class="variants"><div class="variant"><div class="vh">humano corto</div><div class="subj">te busqué en Google, Colegio Oficial de Dentistas</div><pre>Hola,
+
+Busqué «dentista Seville» en Google para ver cómo sale Colegio Oficial de Dentistas de Sevilla y apareces bastante abajo. Los primeros del mapa son SevillaDental.Net Clínica Dental y un par más. No es nada raro: Google todavía no te tiene la ficha del todo afinada, y casi todo el mundo llama a los tres primeros que ve.
+
+Te paso un informe de una página con cómo estás. ¿Te lo enseño en 10 minutos y vemos cómo subir?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">pregunta/curiosidad</div><div class="subj">¿sabías que SevillaDental.Net Clínica Dental sale antes que tú en Google?</div><pre>Hola,
+
+Una pregunta rápida: ¿sabías que cuando buscan «dentista Seville» en Google, Colegio Oficial de Dentistas de Sevilla sale bastante abajo y SevillaDental.Net Clínica Dental y otros se llevan las llamadas?
+
+Te he preparado un informe de una página con cómo estás y qué cambiaría. ¿Te lo enseño en 10 minutos?
+
+Un saludo,
+Jordi · Faro</pre></div><div class="variant"><div class="vh">ultra breve</div><div class="subj">10 minutos para subir Colegio Oficial de Dentistas en Google</div><pre>Hola, vi cómo sale Colegio Oficial de Dentistas de Sevilla en Google cuando buscan «dentista Seville» y hay margen claro para subir (ahora apareces por debajo de SevillaDental.Net Clínica Dental). Te paso un informe de una página con cómo estás; ¿lo vemos en 10 min?
+
+Jordi · Faro</pre></div></div>
+    <div class="links"><a href="apps/web/audits/colegio-oficial-de-dentistas-de-sevilla-seville.html" target="_blank">Ver informe (4 páginas) ↗</a> · <a href="apps/web/audits/colegio-oficial-de-dentistas-de-sevilla-seville.pdf" target="_blank">PDF ↗</a></div>
+  </section>
+<div class="note"><b>Modo cold:</b> reseñas, ficha y velocidad son datos reales y verificables. La <b>posición es estimada</b> (orden de Places, no el Map Pack exacto) — por eso el email lidera con la brecha de reseñas, que el dueño comprueba al instante en su Google. Cuando contesten, hacemos la auditoría fina con DataForSEO.</div>
+</div></body></html>

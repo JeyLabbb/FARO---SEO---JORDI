@@ -1,0 +1,25 @@
+# ── Secretos (los reales viven en ~/.faro/.env, FUERA del repo) ──
+.env
+**/.env
+*.pem
+*.key
+
+# ── Dependencias ──
+node_modules/
+
+# ── PDFs de audits: se regeneran y pesan mucho (el HTML sí se versiona) ──
+apps/web/audits/*.pdf
+
+# ── Artefactos / transitorios (se regeneran en cada ejecución) ──
+panel-interno.html
+targets/envios-HOY-*.json
+targets/envios-HOY-*.csv
+targets/inbox-state-*.json
+targets/lote-*.csv
+
+# ── Capturas, logs, basura del SO ──
+*.png
+*.log
+desktop.ini
+Thumbs.db
+.DS_Store

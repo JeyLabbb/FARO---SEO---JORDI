@@ -1,0 +1,298 @@
+<!doctype html><html lang="es" data-theme="light"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Pagadi Studio de pilates · Panel</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/apexcharts@3.49.1/dist/apexcharts.min.js"></script>
+<script src="https://unpkg.com/lucide@latest/dist/umd/lucide.min.js"></script>
+<style>
+:root{--bg:#F5F4EF;--surface:#FFFFFF;--surface2:#FBFAF6;--ink:#15171C;--soft:#585C63;--faint:#9AA0A6;--line:#EAE7DF;
+  --brand:#0E9D77;--brand2:#DE9326;--up:#0E9D77;--down:#D9534F;--shadow:0 10px 30px -16px rgba(20,30,25,.28);}
+[data-theme="dark"]{--bg:#0C1210;--surface:#121A16;--surface2:#0F1713;--ink:#ECEAE0;--soft:#9DA79F;--faint:#6C7670;--line:rgba(255,255,255,.08);
+  --brand:#41D49C;--brand2:#E9B65C;--up:#41D49C;--down:#E0795B;--shadow:0 14px 40px -18px rgba(0,0,0,.6);}
+*{box-sizing:border-box}html,body{margin:0}
+body{background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",system-ui,sans-serif;font-size:14px;line-height:1.5;transition:background .4s,color .4s}
+[data-theme="dark"] body{background-image:radial-gradient(900px 480px at 10% -8%,rgba(65,212,156,.10),transparent 60%),radial-gradient(800px 500px at 100% 0,rgba(233,182,92,.08),transparent 55%);background-attachment:fixed}
+.display{font-family:"Fraunces",Georgia,serif}
+.wrap{max-width:1200px;margin:0 auto;padding:20px 24px 70px}
+/* top */
+.top{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap}
+.brand{display:flex;align-items:center;gap:11px}
+.mark{font-family:"Fraunces",serif;font-weight:600;font-size:22px}.mark i{color:var(--brand);font-style:normal}
+.brand .sub{font-size:11px;color:var(--faint);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--line);padding-left:11px}
+.top-r{display:flex;align-items:center;gap:10px}
+.live{display:flex;align-items:center;gap:7px;font-size:12px;color:var(--brand);background:color-mix(in srgb,var(--brand) 12%,transparent);border:1px solid color-mix(in srgb,var(--brand) 30%,transparent);padding:5px 11px;border-radius:30px}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--brand);animation:pulse 2s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 color-mix(in srgb,var(--brand) 50%,transparent)}70%{box-shadow:0 0 0 7px transparent}100%{box-shadow:0 0 0 0 transparent}}
+.iconbtn{width:36px;height:36px;border-radius:10px;border:1px solid var(--line);background:var(--surface);display:flex;align-items:center;justify-content:center;cursor:pointer;color:var(--soft)}
+.iconbtn:hover{color:var(--ink)}
+.acct{width:36px;height:36px;border-radius:50%;background:linear-gradient(135deg,var(--brand),var(--brand2));display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;font-size:14px}
+/* header */
+.hd{margin:22px 0 6px;display:flex;align-items:flex-end;justify-content:space-between;gap:16px;flex-wrap:wrap}
+h1{font-size:30px;font-weight:600;margin:0}.hd .meta{color:var(--soft);font-size:13px;margin-top:4px}
+.periods{display:flex;gap:4px;background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:4px}
+.periods button{border:none;background:none;color:var(--soft);font:inherit;font-size:12.5px;font-weight:600;padding:6px 12px;border-radius:8px;cursor:pointer}
+.periods button.on{background:var(--brand);color:#fff}
+/* tabs */
+.tabs{display:flex;gap:4px;margin:18px 0 4px;border-bottom:1px solid var(--line);overflow-x:auto}
+.tabs button{border:none;background:none;color:var(--soft);font:inherit;font-size:14px;font-weight:600;padding:10px 14px;cursor:pointer;border-bottom:2px solid transparent;white-space:nowrap;display:flex;gap:7px;align-items:center}
+.tabs button.on{color:var(--ink);border-bottom-color:var(--brand)}
+.tabs svg{width:16px;height:16px}
+section.tab{display:none;animation:fade .45s ease}section.tab.on{display:block}
+@keyframes fade{from{opacity:0;transform:translateY(8px)}to{opacity:1;transform:none}}
+/* grid + cards */
+.grid{display:grid;grid-template-columns:repeat(12,1fr);gap:16px;margin-top:16px}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:18px;box-shadow:var(--shadow)}
+.lbl{font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:var(--faint);font-weight:700}
+.span3{grid-column:span 3}.span4{grid-column:span 4}.span5{grid-column:span 5}.span6{grid-column:span 6}.span7{grid-column:span 7}.span8{grid-column:span 8}.span12{grid-column:span 12}
+@media(max-width:880px){[class*="span"]{grid-column:span 12 !important}}
+.kpi .v{font-family:"Fraunces",serif;font-size:30px;font-weight:600;line-height:1;margin-top:8px}
+.kpi .d{font-size:12px;font-weight:600;margin-top:5px}.up{color:var(--up)}.muted{color:var(--faint);font-weight:500}
+.kpi .ic{float:right;color:var(--brand);opacity:.85}.kpi .ic svg{width:20px;height:20px}
+/* radial */
+.hero{display:flex;gap:22px;align-items:center}
+.radial{position:relative;width:150px;height:150px;flex:0 0 auto}
+.radial .num{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.radial .num b{font-family:"Fraunces",serif;font-size:40px;font-weight:600;line-height:1}.radial .num span{font-size:10px;color:var(--soft)}
+.hero h2{font-family:"Fraunces",serif;font-weight:600;font-size:21px;margin:0 0 4px}.hero p{margin:0;color:var(--soft);font-size:13px}
+.chip{display:inline-block;background:color-mix(in srgb,var(--up) 14%,transparent);color:var(--up);font-weight:700;font-size:13px;padding:3px 10px;border-radius:20px;margin-bottom:8px}
+/* table */
+table{width:100%;border-collapse:collapse;font-size:13.5px}th,td{padding:10px 8px;text-align:left;border-bottom:1px solid var(--line)}
+th{font-size:11px;letter-spacing:.04em;text-transform:uppercase;color:var(--soft);font-weight:700;cursor:pointer}
+td.n{font-family:"Fraunces",serif;font-size:17px}.pos-up{color:var(--up);font-weight:600;font-size:12px}.pos-dn{color:var(--down);font-weight:600;font-size:12px}
+/* reviews */
+.stars{color:var(--brand2);letter-spacing:1px}
+.rev{border:1px solid var(--line);border-radius:12px;padding:13px;margin-bottom:10px;background:var(--surface2)}
+.rev .h{display:flex;justify-content:space-between;font-size:13px}.rev .t{color:var(--soft);font-size:12.5px;margin-top:5px}
+.kwsel{font:inherit;font-size:13px;background:var(--surface2);color:var(--ink);border:1px solid var(--line);border-radius:9px;padding:6px 10px}
+/* feed */
+.feed{list-style:none;margin:8px 0 0;padding:0}
+.fi{display:flex;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}.fi:last-child{border:none}
+.fi .fic{width:30px;height:30px;border-radius:9px;background:color-mix(in srgb,var(--brand) 12%,transparent);color:var(--brand);display:flex;align-items:center;justify-content:center;flex:0 0 auto}.fi .fic svg{width:15px;height:15px}
+.fi .ft{font-size:13.5px}.fi .fd{font-size:11px;color:var(--faint);margin-top:1px}
+.filterbar{display:flex;gap:6px;flex-wrap:wrap;margin-top:6px}
+.filterbar button{font:inherit;font-size:12px;font-weight:600;border:1px solid var(--line);background:var(--surface2);color:var(--soft);padding:4px 11px;border-radius:20px;cursor:pointer}
+.filterbar button.on{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.plist{list-style:none;margin:0;padding:0;font-size:13px}.plist li{display:flex;gap:9px;padding:7px 0;color:var(--soft)}.plist li.ok{color:var(--ink)}.plist .mk{color:var(--brand)}.plist .mk.p{color:var(--faint)}
+.ins{display:flex;gap:11px;padding:11px 0;border-bottom:1px solid var(--line)}.ins:last-child{border:none}.ins .ic{flex:0 0 auto;color:var(--brand)}.ins.todo .ic{color:var(--brand2)}
+.chatcard{display:flex;flex-direction:column;min-height:500px}
+.chat-head{display:flex;gap:11px;align-items:center;border-bottom:1px solid var(--line);padding-bottom:13px;margin-bottom:13px}
+.botav{width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#fff;display:flex;align-items:center;justify-content:center;font-weight:700;font-family:"Fraunces",serif;flex:0 0 auto}
+.chat{flex:1;overflow-y:auto;display:flex;flex-direction:column;gap:11px;padding:4px 2px;max-height:430px}
+.msg{display:flex;gap:9px;max-width:80%;align-items:flex-end}.msg.me{align-self:flex-end;flex-direction:row-reverse}
+.msg .ma{width:26px;height:26px;border-radius:8px;background:color-mix(in srgb,var(--brand) 18%,transparent);color:var(--brand);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:12px;flex:0 0 auto}
+.bub{background:var(--surface2);border:1px solid var(--line);padding:10px 14px;border-radius:15px;font-size:13.5px;line-height:1.55;animation:fade .35s ease}
+.msg.me .bub{background:var(--brand);color:#fff;border-color:transparent}
+.bub.typing{letter-spacing:3px;color:var(--faint)}
+.chips{display:flex;gap:7px;flex-wrap:wrap;margin:13px 0}
+.chips button{font:inherit;font-size:12.5px;font-weight:500;border:1px solid var(--line);background:var(--surface2);color:var(--ink);padding:7px 13px;border-radius:20px;cursor:pointer}
+.chips button:hover{border-color:var(--brand);color:var(--brand)}
+.chatinput{display:flex;gap:8px;margin-top:auto}
+.chatinput input{flex:1;font:inherit;font-size:13.5px;background:var(--surface2);border:1px solid var(--line);border-radius:12px;padding:12px 15px;color:var(--ink);outline:none}
+.chatinput input:focus{border-color:var(--brand)}
+.chatinput button{width:46px;border:none;border-radius:12px;background:var(--brand);color:#fff;cursor:pointer;display:flex;align-items:center;justify-content:center}
+.foot{color:var(--faint);font-size:11px;margin-top:26px;text-align:center}
+</style></head><body>
+<div class="wrap">
+  <div class="top">
+    <div class="brand"><span class="mark">Faro<i>.</i></span><span class="sub">presencia local en Google</span></div>
+    <div class="top-r">
+      <span class="live"><span class="dot"></span>Trabajando en tu web</span>
+      <div class="periods" id="periods">
+        <button data-p="7d">7d</button><button data-p="30d" class="on">30d</button><button data-p="90d">90d</button><button data-p="6m">6m</button><button data-p="1a">1a</button>
+      </div>
+      <button class="iconbtn" id="theme" title="Modo claro/oscuro"><i data-lucide="moon"></i></button>
+      <span class="acct" id="acct"></span>
+    </div>
+  </div>
+
+  <div class="hd">
+    <div><h1 class="display" id="cname"></h1><div class="meta" id="cmeta"></div></div>
+  </div>
+
+  <div class="tabs" id="tabs">
+    <button data-t="resumen" class="on"><i data-lucide="layout-dashboard"></i>Resumen</button>
+    <button data-t="pos"><i data-lucide="map-pin"></i>Posiciones</button>
+    <button data-t="rev"><i data-lucide="star"></i>Reseñas</button>
+    <button data-t="comp"><i data-lucide="swords"></i>Competencia</button>
+    <button data-t="act"><i data-lucide="activity"></i>Actividad</button>
+    <button data-t="bot"><i data-lucide="sparkles"></i>Asistente</button>
+  </div>
+
+  <!-- RESUMEN -->
+  <section class="tab on" id="t-resumen">
+    <div class="grid">
+      <div class="card span5"><div class="lbl">Índice de visibilidad</div>
+        <div class="hero" style="margin-top:10px">
+          <div class="radial"><svg width="150" height="150" viewBox="0 0 150 150" style="transform:rotate(-90deg)">
+            <defs><linearGradient id="rg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="var(--brand)"/><stop offset="1" stop-color="var(--brand2)"/></linearGradient></defs>
+            <circle cx="75" cy="75" r="62" fill="none" stroke="var(--line)" stroke-width="12"/>
+            <circle id="visarc" cx="75" cy="75" r="62" fill="none" stroke="url(#rg)" stroke-width="12" stroke-linecap="round"/></svg>
+            <div class="num"><b id="visnum">0</b><span>/ 100</span></div></div>
+          <div><div class="chip" id="visdelta"></div><h2 class="display">Vas por buen camino</h2><p id="vissub"></p></div>
+        </div></div>
+      <div class="card span7"><div class="lbl">Tu visibilidad en el tiempo</div><div id="chVis"></div></div>
+
+      <div class="card span3 kpi"><span class="ic"><i data-lucide="phone"></i></span><div class="lbl">Llamadas/mes</div><div class="v" id="k-calls">0</div><div class="d up">▲ creciendo · <span class="muted">est.</span></div></div>
+      <div class="card span3 kpi"><span class="ic"><i data-lucide="mouse-pointer-click"></i></span><div class="lbl">Clics a tu ficha</div><div class="v" id="k-clicks">0</div><div class="d up">▲ · <span class="muted">est.</span></div></div>
+      <div class="card span3 kpi"><span class="ic"><i data-lucide="eye"></i></span><div class="lbl">Veces que apareces</div><div class="v" id="k-views">0</div><div class="d up">▲ · <span class="muted">est.</span></div></div>
+      <div class="card span3 kpi"><span class="ic"><i data-lucide="navigation"></i></span><div class="lbl">Cómo llegar</div><div class="v" id="k-routes">0</div><div class="d muted">peticiones de ruta · est.</div></div>
+
+      <div class="card span7"><div class="lbl">Acciones de clientes (estimado)</div><div id="chAct"></div></div>
+      <div class="card span5"><div class="lbl">Lo que estás ganando</div><div id="insights" style="margin-top:8px"></div></div>
+    </div>
+  </section>
+
+  <!-- POSICIONES -->
+  <section class="tab" id="t-pos">
+    <div class="grid">
+      <div class="card span12" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:10px">
+        <div><div class="lbl">Posición en el Map Pack (real, hoy)</div><div style="color:var(--soft);font-size:12.5px;margin-top:4px">Cuanto más arriba (1-3), más clientes te ven.</div></div>
+        <select class="kwsel" id="kwsel"></select>
+      </div>
+      <div class="card span7"><div class="lbl">Evolución de tu posición</div><div id="chRank"></div></div>
+      <div class="card span5"><div class="lbl">Todas tus búsquedas</div>
+        <table id="kwtable" style="margin-top:6px"><thead><tr><th data-s="q">Búsqueda</th><th data-s="cur">Posición</th><th>Mov.</th></tr></thead><tbody></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- RESEÑAS -->
+  <section class="tab" id="t-rev">
+    <div class="grid">
+      <div class="card span4"><div class="lbl">Reseñas</div><div style="display:flex;align-items:baseline;gap:10px;margin-top:8px"><span class="display" style="font-size:42px" id="rtot">0</span><span class="stars" id="rstars"></span></div>
+        <div style="color:var(--soft);font-size:13px;margin-top:2px" id="rrate"></div><div id="chDist" style="margin-top:6px"></div></div>
+      <div class="card span8"><div class="lbl">Crecimiento de reseñas</div><div id="chRev"></div></div>
+      <div class="card span12"><div class="lbl">Reseñas recientes</div><div id="recent" style="margin-top:10px"></div></div>
+    </div>
+  </section>
+
+  <!-- COMPETENCIA -->
+  <section class="tab" id="t-comp">
+    <div class="grid">
+      <div class="card span7"><div class="lbl">Tú vs tu competencia (reseñas)</div><div id="chComp"></div></div>
+      <div class="card span5"><div class="lbl">Ranking de tu zona</div>
+        <table style="margin-top:6px"><thead><tr><th>Negocio</th><th>Reseñas</th><th>Nota</th></tr></thead><tbody id="compbody"></tbody></table></div>
+    </div>
+  </section>
+
+  <!-- ACTIVIDAD -->
+  <section class="tab" id="t-act">
+    <div class="grid">
+      <div class="card span7"><div class="lbl">En qué estoy trabajando</div>
+        <div class="filterbar" id="actfilter"><button data-k="all" class="on">Todo</button><button data-k="reseñas">Reseñas</button><button data-k="ficha">Ficha</button><button data-k="web">Web</button><button data-k="post">Posts</button></div>
+        <ul class="feed" id="feed"></ul></div>
+      <div class="card span5"><div class="lbl">Progreso del plan</div><div id="plan" style="margin-top:12px"></div></div>
+    </div>
+  </section>
+
+  <section class="tab" id="t-bot">
+    <div class="grid"><div class="card span12 chatcard">
+      <div class="chat-head"><span class="botav" id="botav"></span><div><b>Asistente de <span id="botbrand"></span></b><div style="font-size:12px;color:var(--faint)">Te explico tu SEO en cristiano · disponible 24/7</div></div></div>
+      <div class="chat" id="chat"></div>
+      <div class="chips" id="chips"></div>
+      <div class="chatinput"><input id="cin" placeholder="Escríbeme tu pregunta..."><button id="csend"><i data-lucide="send"></i></button></div>
+    </div></div>
+  </section>
+
+  <div class="foot" id="foot"></div>
+</div>
+<script>
+var DATA = {"brand":"Faro","assistant":{"welcome":"Hola 👋 Soy tu asistente de Faro. Te explico tu presencia en Google sin tecnicismos y te cuento en qué estamos trabajando. Pregúntame lo que quieras 👇","qa":[{"q":"¿Cómo voy este mes?","a":"Tu índice de visibilidad está en 30/100 (+11 este mes 📈). Apareces sobre el 9º cuando buscan «pilates Pamplona» y tienes 13 reseñas (5.0★). Vamos subiendo en Map Pack y en reseñas."},{"q":"¿Qué estáis haciendo en mi ficha?","a":"Estos días: pedidas reseñas a 9 clientes por WhatsApp; publicado post: «Nuevas clases de suelo pélvico»; respondidas 6 reseñas. Lo verás todo en la pestaña «Actividad»."},{"q":"¿Por qué importa el Map Pack?","a":"El Map Pack son los 3 negocios con mapa que salen arriba en Google. Se llevan la mayoría de los clics y llamadas locales. Subir ahí = más clientes que te encuentran sin pagar anuncios."},{"q":"Me han dejado una reseña mala 😟","a":"Tranqui: respondemos a todas con cabeza (sin discutir, ofreciendo solución). Una buena respuesta a una mala reseña transmite MÁS confianza que no tener ninguna. Lo gestionamos nosotros."},{"q":"¿Cómo consigo más reseñas?","a":"Te montamos un link directo + QR para el local y pedimos reseña a TODOS tus clientes por WhatsApp/email (sin filtrar, como exige Google). Te faltan ~212 para alcanzar al líder de tu zona."},{"q":"¿Cuándo veré resultados?","a":"La ficha de Google se mueve en semanas; el SEO de la web tarda algo más (1-3 meses). No prometemos el nº1: prometemos mejoras concretas y te las enseñamos aquí cada mes."}],"fallback":"Buena pregunta 🙌 Cuando activemos el asistente con IA te responderé al momento con tus datos en la mano. De momento se lo paso a Jordi y te contesta enseguida."},"client":{"name":"Pagadi Studio de pilates","city":"Pamplona","date":"2026-06-04"},"vis":30,"visDelta":11,"visSeries":{"7d":[19,21,22,25,28,30,30],"30d":[19,20,20,23,24,26,28,29,29,30],"90d":[19,20,20,22,23,24,26,27,27,28,30,30],"6m":[19,21,23,27,29,30],"1a":[19,20,20,22,23,24,26,27,27,28,30,30]},"visLabels":{"7d":["D-6","D-5","D-4","D-3","D-2","D-1","D"],"30d":["S1","S2","S3","S4","S5","S6","S7","S8","S9","S10"],"90d":["Sem 1","Sem 2","Sem 3","Sem 4","Sem 5","Sem 6","Sem 7","Sem 8","Sem 9","Sem 10","Sem 11","Sem 12"],"6m":["Feb","Mar","Abr","May","Jun","Jul"],"1a":["Ago","Sep","Oct","Nov","Dic","Ene","Feb","Mar","Abr","May","Jun","Jul"]},"kpis":{"avgPos":9,"reviews":13,"rating":5,"calls":45,"clicks":279,"views":1080,"routes":95,"compsBeaten":0},"kw":[{"q":"pilates Pamplona","cur":9,"series":{"7d":[15,15,14,13,11,10,9],"30d":[16,17,15,15,13,12,11,10,9,9],"90d":[18,19,17,17,16,15,14,12,10,9,9,9]}},{"q":"pilates cerca de mí","cur":18,"series":{"7d":[31,31,28,25,22,19,18],"30d":[32,32,30,29,27,24,22,20,18,18],"90d":[36,37,34,33,31,29,26,24,21,19,18,18]}},{"q":"clases de pilates Pamplona","cur":8,"series":{"7d":[14,14,13,12,10,9,8],"30d":[14,15,13,13,12,11,10,9,8,8],"90d":[16,17,15,15,14,13,12,11,9,8,8,8]}}],"dist":[0,0,1,2,11],"revMonthly":[7,9,9,11,13,13],"recent":[{"author":"María Muñoa","rating":5,"when":"6 months ago","text":"I had no prior experience with Pilates and I'm very happy. Klaudia leads the class, explains the exercises clearly, and makes corrections when necessary. The cl"},{"author":"Angela Grandival Garcia","rating":5,"when":"7 months ago","text":"I had no prior Pilates experience, but Klaudia makes it easy. She motivates her students in every exercise and corrects their posture so they can perform the ex"},{"author":"Adriana Urmeneta","rating":5,"when":"6 months ago","text":"Great place and, above all, a great teacher. Klaudia takes excellent care of all of us, teaching with patience and joy. She also adapts each class to your level"},{"author":"Arantxa San Agustin","rating":5,"when":"5 months ago","text":"I loved it! I've already noticed an improvement after just one class. Klaudia explains things brilliantly and makes sure everyone has good posture—really great!"}],"actSeries":{"calls":[25,29,32,39,44,45],"clicks":[153,176,198,241,270,279],"views":[648,733,803,952,1051,1080]},"competitors":[{"name":"Gimnasio Sparta Sport Center Pamplona - Calle Estella","reviews":225,"rating":4.7},{"name":"Amore Pilates Studio","reviews":52,"rating":4.9},{"name":"Pilates Pamplona - Studio o2 Pilates","reviews":49,"rating":4.9},{"name":"Tú","reviews":13,"me":true,"rating":5}],"activity":[{"d":"Hoy","k":"reseñas","t":"Pedidas reseñas a 9 clientes por WhatsApp"},{"d":"Ayer","k":"post","t":"Publicado post: «Nuevas clases de suelo pélvico»"},{"d":"Hace 3 días","k":"reseñas","t":"Respondidas 6 reseñas"},{"d":"Hace 5 días","k":"fotos","t":"Subidas 8 fotos nuevas a la ficha"},{"d":"Hace 1 sem","k":"web","t":"Añadido schema LocalBusiness a tu web"},{"d":"Hace 1 sem","k":"ficha","t":"Corregida categoría principal y horario"},{"d":"Hace 2 sem","k":"ficha","t":"Optimizada descripción con keywords locales"}],"insights":[{"kind":"up","t":"Has subido en «pilates Pamplona»: ahora 9º."},{"kind":"todo","t":"Te faltan ~212 reseñas para alcanzar al líder."},{"kind":"todo","t":"Falta marcado LocalBusiness en tu web."}],"plan":[{"t":"Configurar el horario en la ficha (incl. festivos)","done":true},{"t":"Arrancar una campaña de reseñas","done":false},{"t":"Meter keyword local en el title y el H1 de la web","done":false},{"t":"Optimización continua de la ficha","done":false}],"web":{"url":"https://pagadi-studio.trainin.app/signup","speed":49}};
+var CUR_PERIOD = "30d", CUR_KW = 0, charts = {};
+function vars(){var s=getComputedStyle(document.documentElement);return{brand:s.getPropertyValue('--brand').trim(),brand2:s.getPropertyValue('--brand2').trim(),ink:s.getPropertyValue('--ink').trim(),soft:s.getPropertyValue('--soft').trim(),line:s.getPropertyValue('--line').trim(),surface:s.getPropertyValue('--surface').trim()};}
+function baseOpts(){var v=vars();return{chart:{fontFamily:'Hanken Grotesk',toolbar:{show:false},foreColor:v.soft,animations:{easing:'easeinout',speed:700}},grid:{borderColor:v.line,strokeDashArray:4},tooltip:{theme:document.documentElement.getAttribute('data-theme')},dataLabels:{enabled:false},legend:{show:false}};}
+function fmtInt(n){return Math.round(n).toLocaleString('es-ES');}
+
+function setVis(){
+  var s=DATA.visSeries[CUR_PERIOD],l=DATA.visLabels[CUR_PERIOD],v=vars();
+  var o=Object.assign(baseOpts(),{chart:Object.assign(baseOpts().chart,{type:'area',height:230}),series:[{name:'Visibilidad',data:s}],xaxis:{categories:l,axisBorder:{show:false},axisTicks:{show:false}},yaxis:{min:0,max:100,tickAmount:4},colors:[v.brand],stroke:{curve:'smooth',width:3},fill:{type:'gradient',gradient:{shadeIntensity:1,opacityFrom:.4,opacityTo:0,stops:[0,95]}},markers:{size:0,hover:{size:5}},tooltip:{theme:document.documentElement.getAttribute('data-theme'),y:{formatter:function(x){return x+' / 100';}}}});
+  if(charts.vis){charts.vis.updateOptions(o);}else{charts.vis=new ApexCharts(document.querySelector('#chVis'),o);charts.vis.render();}
+}
+function setAct(){
+  var v=vars(),p='6m';
+  var o=Object.assign(baseOpts(),{chart:Object.assign(baseOpts().chart,{type:'area',height:230,stacked:false}),
+    series:[{name:'Vistas',data:DATA.actSeries.views},{name:'Clics',data:DATA.actSeries.clicks},{name:'Llamadas',data:DATA.actSeries.calls}],
+    xaxis:{categories:DATA.visLabels['6m'],axisBorder:{show:false},axisTicks:{show:false}},colors:[v.brand2,v.brand,v.ink],stroke:{curve:'smooth',width:[2,2,2]},fill:{type:'gradient',gradient:{opacityFrom:.18,opacityTo:0}},legend:{show:true,position:'top',horizontalAlign:'right',labels:{colors:v.soft}},markers:{size:0}});
+  if(charts.act){charts.act.updateOptions(o);}else{charts.act=new ApexCharts(document.querySelector('#chAct'),o);charts.act.render();}
+}
+function setRank(){
+  var k=DATA.kw[CUR_KW];if(!k)return;var s=k.series[CUR_PERIOD]||k.series['90d']||k.series['30d'],v=vars();
+  var o=Object.assign(baseOpts(),{chart:Object.assign(baseOpts().chart,{type:'line',height:240}),series:[{name:'Posición',data:s}],xaxis:{categories:DATA.visLabels[CUR_PERIOD]||DATA.visLabels['90d'],axisBorder:{show:false},axisTicks:{show:false}},yaxis:{reversed:true,min:1,forceNiceScale:true,labels:{formatter:function(x){return Math.round(x)+'º';}}},colors:[v.brand2],stroke:{curve:'smooth',width:3},markers:{size:4,colors:[v.surface],strokeColors:v.brand2,strokeWidth:3},tooltip:{theme:document.documentElement.getAttribute('data-theme'),y:{formatter:function(x){return 'posición '+Math.round(x)+'º';}}}});
+  if(charts.rank){charts.rank.updateOptions(o);}else{charts.rank=new ApexCharts(document.querySelector('#chRank'),o);charts.rank.render();}
+}
+function setRev(){
+  var v=vars();
+  var o=Object.assign(baseOpts(),{chart:Object.assign(baseOpts().chart,{type:'bar',height:230}),series:[{name:'Reseñas',data:DATA.revMonthly}],xaxis:{categories:DATA.visLabels['6m'],axisBorder:{show:false},axisTicks:{show:false}},colors:[v.brand],plotOptions:{bar:{borderRadius:6,columnWidth:'52%'}},tooltip:{theme:document.documentElement.getAttribute('data-theme')}});
+  if(charts.rev){charts.rev.updateOptions(o);}else{charts.rev=new ApexCharts(document.querySelector('#chRev'),o);charts.rev.render();}
+}
+function setDist(){
+  var v=vars();
+  var o={chart:{type:'bar',height:150,fontFamily:'Hanken Grotesk',toolbar:{show:false},foreColor:v.soft},series:[{name:'',data:DATA.dist.slice().reverse()}],
+    xaxis:{categories:['5★','4★','3★','2★','1★']},colors:[v.brand2],plotOptions:{bar:{horizontal:true,borderRadius:4,barHeight:'60%'}},dataLabels:{enabled:false},grid:{borderColor:v.line},tooltip:{theme:document.documentElement.getAttribute('data-theme')}};
+  if(charts.dist){charts.dist.updateOptions(o);}else{charts.dist=new ApexCharts(document.querySelector('#chDist'),o);charts.dist.render();}
+}
+function setComp(){
+  var v=vars();var names=DATA.competitors.map(function(c){return c.me?'Tú':(c.name.length>22?c.name.slice(0,21)+'…':c.name);});
+  var o=Object.assign(baseOpts(),{chart:Object.assign(baseOpts().chart,{type:'bar',height:260}),series:[{name:'Reseñas',data:DATA.competitors.map(function(c){return c.reviews;})}],xaxis:{categories:names},colors:[v.brand],plotOptions:{bar:{horizontal:true,borderRadius:6,barHeight:'58%',distributed:false,colors:{ranges:[]}}},dataLabels:{enabled:true,style:{colors:[v.ink]},offsetX:18},tooltip:{theme:document.documentElement.getAttribute('data-theme')}});
+  o.colors=[v.brand];o.fill={colors:DATA.competitors.map(function(c){return c.me?v.brand2:v.brand;}),opacity:1};o.plotOptions.bar.distributed=true;o.legend={show:false};
+  if(charts.comp){charts.comp.updateOptions(o);}else{charts.comp=new ApexCharts(document.querySelector('#chComp'),o);charts.comp.render();}
+}
+function renderAllCharts(){setVis();setAct();setRank();setRev();setDist();setComp();}
+
+function fillStatic(){
+  document.getElementById('cname').textContent=DATA.client.name;
+  document.getElementById('cmeta').textContent='Tu presencia en Google · '+DATA.client.city+' · actualizado '+DATA.client.date;
+  document.getElementById('acct').textContent=(DATA.client.name[0]||'·').toUpperCase();
+  document.getElementById('foot').textContent='Panel de cliente · posición y reseñas REALES (Google, hoy) · evolución y estimaciones representativas hasta acumular tu histórico · '+DATA.brand;
+  // radial
+  var C=2*Math.PI*62;var arc=document.getElementById('visarc');arc.setAttribute('stroke-dasharray',C);arc.setAttribute('stroke-dashoffset',C);
+  setTimeout(function(){arc.style.transition='stroke-dashoffset 1.5s cubic-bezier(.2,.7,.2,1)';arc.setAttribute('stroke-dashoffset',C*(1-DATA.vis/100));},200);
+  document.getElementById('visdelta').textContent='▲ +'+DATA.visDelta+' este mes';
+  document.getElementById('vissub').textContent='Subiendo en el Map Pack y en reseñas';
+  // counters
+  count('visnum',DATA.vis);count('k-calls',DATA.kpis.calls);count('k-clicks',DATA.kpis.clicks);count('k-views',DATA.kpis.views);count('k-routes',DATA.kpis.routes);
+  // insights
+  var ins=document.getElementById('insights');ins.innerHTML=DATA.insights.map(function(i){return '<div class="ins '+(i.kind==='up'?'':'todo')+'"><span class="ic"><i data-lucide="'+(i.kind==='up'?'trending-up':'target')+'"></i></span><span>'+i.t+'</span></div>';}).join('');
+  // keyword selector + table
+  var sel=document.getElementById('kwsel');sel.innerHTML=DATA.kw.map(function(k,i){return '<option value="'+i+'">'+k.q+'</option>';}).join('');
+  var tb=document.querySelector('#kwtable tbody');tb.innerHTML=DATA.kw.map(function(k){var mv=k.series['30d'][0]-k.cur;return '<tr><td>'+k.q+'</td><td class="n">'+(k.cur>=18?'+20':k.cur+'º')+'</td><td><span class="'+(mv>=0?'pos-up':'pos-dn')+'">'+(mv>=0?'▲ +'+mv:'▼ '+mv)+'</span></td></tr>';}).join('');
+  // reviews
+  document.getElementById('rtot').textContent=DATA.kpis.reviews;
+  document.getElementById('rstars').textContent='★★★★★'.slice(0,Math.round(DATA.kpis.rating));
+  document.getElementById('rrate').textContent=DATA.kpis.rating?(DATA.kpis.rating.toFixed(1)+' de media · velocidad de reseñas al alza'):'';
+  var rc=document.getElementById('recent');rc.innerHTML=DATA.recent.length?DATA.recent.map(function(r){return '<div class="rev"><div class="h"><b>'+r.author+'</b><span class="stars">'+'★★★★★'.slice(0,Math.round(r.rating))+'</span></div><div class="t">'+(r.text||'(sin texto)')+'</div><div class="fd" style="font-size:11px;color:var(--faint);margin-top:5px">'+(r.when||'')+'</div></div>';}).join(''):'<div style="color:var(--soft);font-size:13px">Aún sin muestra de reseñas.</div>';
+  // competitors table
+  document.getElementById('compbody').innerHTML=DATA.competitors.map(function(c){return '<tr><td>'+(c.me?'<b style="color:var(--brand2)">Tú</b>':c.name)+'</td><td class="n" style="font-size:15px">'+c.reviews+'</td><td>'+(c.rating?c.rating.toFixed(1)+'★':'—')+'</td></tr>';}).join('');
+  // plan
+  document.getElementById('plan').innerHTML='<ul class="plist">'+DATA.plan.slice(0,5).map(function(p){return '<li class="'+(p.done?'ok':'')+'"><span class="mk '+(p.done?'':'p')+'">'+(p.done?'✓':'○')+'</span>'+p.t+'</li>';}).join('')+'</ul>';
+  renderFeed('all');
+}
+function count(id,end){var el=document.getElementById(id);var t0=performance.now(),dur=1300;function tk(t){var p=Math.min((t-t0)/dur,1),e=1-Math.pow(1-p,3);el.textContent=Math.round(end*e).toLocaleString('es-ES');if(p<1)requestAnimationFrame(tk);}requestAnimationFrame(tk);}
+var ICON={'reseñas':'star','post':'megaphone','fotos':'image','web':'code','ficha':'map-pin'};
+function renderFeed(k){var f=document.getElementById('feed');var items=DATA.activity.filter(function(a){return k==='all'||a.k===k;});
+  f.innerHTML=items.map(function(a){return '<li class="fi"><span class="fic"><i data-lucide="'+(ICON[a.k]||'check')+'"></i></span><div><div class="ft">'+a.t+'</div><div class="fd">'+a.d+' · '+DATA.brand+'</div></div></li>';}).join('');
+  if(window.lucide)lucide.createIcons();}
+
+// asistente (chat)
+function chatEl(){return document.getElementById('chat');}
+function botBubble(t){var d=document.createElement('div');d.className='msg bot';d.innerHTML='<span class="ma">'+(DATA.brand[0]||'F')+'</span><div class="bub">'+t+'</div>';chatEl().appendChild(d);chatEl().scrollTop=1e9;}
+function userBubble(t){var d=document.createElement('div');d.className='msg me';d.innerHTML='<div class="bub">'+t+'</div>';chatEl().appendChild(d);chatEl().scrollTop=1e9;}
+function ask(q,a){userBubble(q);var c=chatEl();var typ=document.createElement('div');typ.className='msg bot';typ.innerHTML='<span class="ma">'+(DATA.brand[0]||'F')+'</span><div class="bub typing">•••</div>';c.appendChild(typ);c.scrollTop=1e9;setTimeout(function(){c.removeChild(typ);botBubble(a);},700);}
+function initChat(){var c=chatEl();if(!c)return;document.getElementById('botav').textContent=(DATA.brand[0]||'F').toUpperCase();document.getElementById('botbrand').textContent=DATA.brand;c.innerHTML='';botBubble(DATA.assistant.welcome);document.getElementById('chips').innerHTML=DATA.assistant.qa.map(function(x,i){return '<button data-i="'+i+'">'+x.q+'</button>';}).join('');}
+function sendInput(){var i=document.getElementById('cin');var v=(i.value||'').trim();if(!v)return;i.value='';ask(v,DATA.assistant.fallback);}
+document.getElementById('chips').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;var x=DATA.assistant.qa[+b.dataset.i];ask(x.q,x.a);});
+document.getElementById('csend').addEventListener('click',sendInput);
+document.getElementById('cin').addEventListener('keydown',function(e){if(e.key==='Enter')sendInput();});
+
+// wiring
+document.getElementById('periods').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;CUR_PERIOD=b.dataset.p;[].forEach.call(this.children,function(c){c.classList.toggle('on',c===b);});setVis();setRank();});
+document.getElementById('tabs').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;[].forEach.call(this.children,function(c){c.classList.toggle('on',c===b);});['resumen','pos','rev','comp','act','bot'].forEach(function(t){document.getElementById('t-'+t).classList.toggle('on',t===b.dataset.t);});setTimeout(renderAllCharts,60);});
+document.getElementById('kwsel').addEventListener('change',function(){CUR_KW=+this.value;setRank();});
+document.getElementById('actfilter').addEventListener('click',function(e){var b=e.target.closest('button');if(!b)return;[].forEach.call(this.children,function(c){c.classList.toggle('on',c===b);});renderFeed(b.dataset.k);});
+document.getElementById('theme').addEventListener('click',function(){var d=document.documentElement.getAttribute('data-theme')==='dark';document.documentElement.setAttribute('data-theme',d?'light':'dark');this.innerHTML='<i data-lucide="'+(d?'moon':'sun')+'"></i>';lucide.createIcons();setTimeout(renderAllCharts,80);try{localStorage.setItem('jtheme',d?'light':'dark');}catch(e){}});
+
+(function init(){try{var t=localStorage.getItem('jtheme');if(t)document.documentElement.setAttribute('data-theme',t);}catch(e){}
+  if(window.lucide)lucide.createIcons();fillStatic();initChat();renderAllCharts();
+  if(document.documentElement.getAttribute('data-theme')==='dark')document.getElementById('theme').innerHTML='<i data-lucide="sun"></i>',lucide.createIcons();
+})();
+</script></body></html>

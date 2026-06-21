@@ -1,0 +1,18 @@
+# Secretos — NUNCA subir al repo (ver 05-marrones-y-politicas.md)
+.env
+.env.local
+*.key
+
+# Dependencias (no usamos, pero por si acaso)
+node_modules/
+
+# Auditorías generadas + tracker (datos de clientes, no subir)
+audits/*
+!audits/.gitkeep
+
+# Perfil temporal de Chrome para generar PDFs
+.pdf-profile/
+
+# Sistema
+.DS_Store
+Thumbs.db

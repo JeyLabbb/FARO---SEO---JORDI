@@ -1,0 +1,112 @@
+// send-followups.mjs — envía SEGUIMIENTOS (Re:) a los negocios ya contactados que
+// NO han respondido ni rebotado. SIN PDF (el PDF solo va en el primer email).
+// Cadencia: siguiente toque a los SPACING días del anterior; MÁX 3 toques.
+// Idempotente vía followup-log.json. Sale desde la MISMA cuenta del envío inicial.
+// Exclusiones: rebotes + respuestas (por place_id, email Y nombre del negocio) +
+// lista dura de leads que se queda Jordi.
+//   node src/send-followups.mjs [--limit 25] [--spacing 2] [--throttle 45000] [--dry|--test]
+// NECESITA RED → dangerouslyDisableSandbox.
+import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
+import { resolve } from "node:path";
+import { REPO_ROOT } from "./config.mjs";
+import { today } from "./lib/slug.mjs";
+import { sendMail, gmailAccounts } from "./lib/gmail-smtp.mjs";
+import { followupBody, variantById } from "./lib/email-copy.mjs";
+
+const args = process.argv.slice(2);
+const DRY = args.includes("--dry"), TEST = args.includes("--test");
+const numAfter = (f, d) => { const i = args.indexOf(f); return i >= 0 ? Number(args[i + 1]) : d; };
+const LIMIT = numAfter("--limit", 25);
+const SCHEDULE = [2, 5];            // días desde el envío INICIAL para el toque 1 y el 2 (cadencia decidida: +2 y +5)
+const THROTTLE = numAfter("--throttle", 45000);
+const TEST_TO = "borrutjordi548@gmail.com";
+const DAY = 86400000;
+
+if (!DRY && !TEST && existsSync(resolve(REPO_ROOT, "targets", "PARAR.flag"))) { console.error("⛔ FRENO: existe targets/PARAR.flag — no se envían seguimientos. Bórralo para reanudar."); process.exit(0); }
+const T = (p) => resolve(REPO_ROOT, "targets", p);
+const norm = (s) => String(s || "").normalize("NFD").replace(/[̀-ͯ]/g, "").toLowerCase().replace(/[^a-z0-9]/g, "");
+
+// 1) contactados (envío inicial)
+const sent = JSON.parse(readFileSync(T("sent-log.json"), "utf8"));
+
+// 2) findings desde TODOS los envios-HOY-*.json (para redactar el seguimiento)
+const fmap = new Map();
+for (const f of readdirSync(resolve(REPO_ROOT, "targets")).filter((n) => /^envios-HOY-.*\.json$/.test(n))) {
+  try { for (const r of JSON.parse(readFileSync(T(f), "utf8"))) if (r.place_id && r.findings && !fmap.has(r.place_id)) fmap.set(r.place_id, { negocio: r.negocio, ciudad: r.ciudad, findings: r.findings }); } catch {}
+}
+
+// 3) inbox-state → exclusiones (rebotes + respuestas)
+const ours = new Set(gmailAccounts().map((a) => a.user));
+function parseName(subj) {
+  let s = String(subj || "").replace(/^re:\s*/i, "").trim(), m;
+  if ((m = s.match(/cómo aparece (.+?) en Google/i))) return m[1];
+  if ((m = s.match(/^(.+?)\s+—\s+por qué/i))) return m[1];
+  if ((m = s.match(/antes que (.+)$/i))) return m[1];
+  if ((m = s.match(/^Te busqué en Google,\s*(.+)$/i))) return m[1];
+  return null;
+}
+let bouncedIds = new Set(), bouncedEmails = new Set(), repliedIds = new Set(), repliedEmails = new Set(), repliedNames = [];
+try {
+  const st = JSON.parse(readFileSync(T(`inbox-state-${today()}.json`), "utf8"));
+  bouncedIds = new Set(st.bouncedPlaceIds || []);
+  bouncedEmails = new Set((st.bouncedEmails || []).map((e) => e.toLowerCase()));
+  for (const r of st.replies || []) {
+    if (!/^re:/i.test(r.subject || "") || ours.has(r.fromEmail)) continue;
+    if (r.placeId) repliedIds.add(r.placeId);
+    if (r.fromEmail) repliedEmails.add(r.fromEmail.toLowerCase());
+    const nm = parseName(r.subject); if (nm) repliedNames.push(norm(nm));
+  }
+} catch (e) { console.log("⚠ sin inbox-state de hoy:", e.message); }
+// leads que se queda Jordi (no tocar nunca)
+const HARD_EMAILS = new Set(["martadental1963@hotmail.com", "clinicadentalserreria@gmail.com"]);
+const nameExcluded = (neg) => { const n = norm(neg); return repliedNames.some((rn) => rn && (rn === n || n.includes(rn) || rn.includes(n))); };
+
+// 4) followup-log (idempotencia)
+const flPath = T("followup-log.json");
+const fl = existsSync(flPath) ? JSON.parse(readFileSync(flPath, "utf8")) : {};
+
+const now = Date.now();
+const accByUser = new Map(gmailAccounts().map((a) => [a.user, a]));
+
+let nB = 0, nR = 0, nNoF = 0, nWait = 0, nDone = 0;
+const elig = [];
+for (const [pid, info] of Object.entries(sent)) {
+  if (info.channel && info.channel !== "email") continue;
+  const to = (info.to || "").toLowerCase();
+  const fdata = fmap.get(pid);
+  if (!fdata) { nNoF++; continue; }
+  if (bouncedIds.has(pid) || bouncedEmails.has(to)) { nB++; continue; }
+  if (repliedIds.has(pid) || repliedEmails.has(to) || HARD_EMAILS.has(to) || nameExcluded(fdata.negocio)) { nR++; continue; }
+  const prev = fl[pid];
+  const n = (prev?.n || 0) + 1;
+  if (n > SCHEDULE.length) { nDone++; continue; }
+  const initialAt = Date.parse(info.at);
+  const dueAt = initialAt + SCHEDULE[n - 1] * DAY;   // anclado al envío inicial: toque 1 a +2, toque 2 a +5
+  if (isNaN(initialAt) || now < dueAt) { nWait++; continue; }
+  elig.push({ pid, to, account: info.account, at: info.at, n, variant: info.variant || "v1", ...fdata });
+}
+elig.sort((a, b) => Date.parse(a.at) - Date.parse(b.at)); // más antiguos primero
+const list = elig.slice(0, TEST ? 1 : LIMIT);
+
+console.log(`${DRY ? "DRY-RUN (no envía)" : TEST ? `TEST → ${TEST_TO}` : "ENVÍO REAL"} · seguimientos`);
+console.log(`Excluidos → rebotes:${nB} · respuestas/leads:${nR} · sin findings:${nNoF} · ya 2 toques:${nDone} · esperando turno:${nWait}`);
+console.log(`Elegibles ahora: ${elig.length} · a enviar: ${list.length}\n`);
+
+const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+let okN = 0;
+for (let i = 0; i < list.length; i++) {
+  const r = list[i];
+  const subj = `Re: ${variantById(r.variant).subject(r.findings, r.negocio, r.ciudad)}`;
+  const body = followupBody(r.n, r.findings, r.negocio, r.ciudad);
+  if (DRY) { console.log(`──#${i + 1} · toque ${r.n} · ${r.negocio} (${r.ciudad}) → ${r.to} [${r.account}]\nASUNTO: ${subj}\n${body}\n`); continue; }
+  const acc = accByUser.get(r.account) || gmailAccounts()[okN % gmailAccounts().length];
+  const to = TEST ? TEST_TO : r.to;
+  try {
+    await sendMail({ user: acc.user, pass: acc.pass, fromName: "Jordi de Faro", to, subject: subj, text: body });
+    okN++;
+    console.log(`  ✓ toque ${r.n} · ${r.negocio} → ${to} [${acc.user}]`);
+    if (!TEST) { fl[r.pid] = { n: r.n, at: new Date().toISOString(), account: acc.user }; writeFileSync(flPath, JSON.stringify(fl, null, 2), "utf8"); }
+    if (i < list.length - 1) await sleep(THROTTLE);
+  } catch (e) { console.log(`  ✗ ${r.negocio}: ${e.message}`); }
+}
+console.log(`\n${DRY ? "Preview hecho." : `Seguimientos enviados: ${okN}`}`);

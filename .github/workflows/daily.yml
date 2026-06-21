@@ -1,0 +1,58 @@
+name: Faro · envío diario
+
+on:
+  schedule:
+    - cron: "0 8 * * *"      # 08:00 UTC ≈ 10:00 España (verano). Cada mañana.
+  workflow_dispatch: {}        # botón para lanzarlo a mano desde la pestaña Actions
+
+permissions:
+  contents: write              # para guardar el estado (almacén, logs) de vuelta en el repo
+
+concurrency:
+  group: faro-daily
+  cancel-in-progress: false
+
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    timeout-minutes: 180
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Instalar Chrome (para los PDFs)
+        uses: browser-actions/setup-chrome@v1
+        id: chrome
+
+      - name: Cargar credenciales (desde los Secrets del repo)
+        env:
+          GMAIL_ACCOUNTS: ${{ secrets.GMAIL_ACCOUNTS }}
+          GOOGLE_MAPS_API_KEY: ${{ secrets.GOOGLE_MAPS_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
+          DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+        run: |
+          mkdir -p "$HOME/.faro"
+          {
+            echo "GMAIL_ACCOUNTS=$GMAIL_ACCOUNTS"
+            echo "GOOGLE_MAPS_API_KEY=$GOOGLE_MAPS_API_KEY"
+            echo "OPENAI_API_KEY=$OPENAI_API_KEY"
+            echo "DATAFORSEO_LOGIN=$DATAFORSEO_LOGIN"
+            echo "DATAFORSEO_PASSWORD=$DATAFORSEO_PASSWORD"
+          } > "$HOME/.faro/.env"
+
+      - name: Correr el día (lee bandeja → coge del almacén → envía → panel)
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: node tools/audit-generator/src/run-daily.mjs
+
+      - name: Guardar el estado de vuelta en el repo
+        run: |
+          git config user.name "faro-bot"
+          git config user.email "faro-bot@users.noreply.github.com"
+          git add targets apps/web/audits || true
+          git commit -m "estado: $(date -u +%F)" || echo "sin cambios que guardar"
+          git push || true

@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Faro — Sal el primero cuando te buscan en Google</title>
+<meta name="description" content="Posicionamos tu negocio local en el mapa de Google (Map Pack), optimizamos tu ficha y tus reseñas, y te enseñamos el progreso en un panel en tiempo real. Análisis gratis.">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600;9..144,700&family=Hanken+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F5F4EF;--surface:#FFFFFF;--surface2:#FBFAF6;--ink:#15171C;--soft:#585C63;--faint:#9AA0A6;--line:#E7E3D9;
+  --brand:#0E7C5E;--brand-2:#0E9D77;--ochre:#DE9326;--up:#0E9D77;--shadow:0 18px 50px -28px rgba(20,40,30,.4);}
+*{box-sizing:border-box;margin:0}html{scroll-behavior:smooth}
+body{background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",system-ui,sans-serif;font-size:17px;line-height:1.6;
+  background-image:radial-gradient(900px 520px at 88% -6%,rgba(222,147,38,.10),transparent 60%),radial-gradient(760px 480px at 0% 4%,rgba(14,124,94,.08),transparent 55%);}
+.display{font-family:"Fraunces",Georgia,serif}
+.wrap{max-width:1120px;margin:0 auto;padding:0 24px}
+a{color:inherit;text-decoration:none}
+.btn{display:inline-flex;align-items:center;gap:8px;font-weight:700;font-size:15px;padding:14px 22px;border-radius:999px;cursor:pointer;border:1px solid transparent;transition:transform .15s,box-shadow .15s,background .15s}
+.btn:hover{transform:translateY(-2px)}
+.btn-primary{background:var(--brand);color:#fff;box-shadow:0 12px 26px -12px rgba(14,124,94,.7)}
+.btn-primary:hover{background:var(--brand-2)}
+.btn-ghost{background:transparent;color:var(--ink);border-color:var(--line)}
+.btn-ghost:hover{border-color:var(--ink)}
+.btn-ochre{background:var(--ochre);color:#fff}
+.btn-lg{font-size:16px;padding:16px 26px}
+nav{position:sticky;top:0;z-index:50;backdrop-filter:saturate(140%) blur(10px);background:color-mix(in srgb,var(--bg) 80%,transparent);border-bottom:1px solid var(--line)}
+.nav-in{display:flex;align-items:center;justify-content:space-between;height:68px}
+.logo{font-family:"Fraunces",serif;font-weight:600;font-size:25px;letter-spacing:-.01em}.logo i{color:var(--brand);font-style:normal}
+.nav-links{display:flex;align-items:center;gap:28px;font-weight:600;font-size:15px;color:var(--soft)}
+.nav-links a:hover{color:var(--ink)}
+.nav-cta{display:flex;align-items:center;gap:12px}
+@media(max-width:820px){.nav-links{display:none}}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:48px;align-items:center;padding:74px 0 56px}
+@media(max-width:880px){.hero{grid-template-columns:1fr;gap:36px;padding:48px 0}}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;font-size:13px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;color:var(--brand);background:color-mix(in srgb,var(--brand) 10%,transparent);border:1px solid color-mix(in srgb,var(--brand) 22%,transparent);padding:6px 13px;border-radius:999px}
+h1{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(38px,6vw,62px);line-height:1.03;letter-spacing:-.02em;margin:18px 0 16px}
+h1 em{font-style:italic;color:var(--brand)}
+.lead{font-size:19px;color:var(--soft);max-width:30em}
+.hero-cta{display:flex;gap:13px;margin-top:28px;flex-wrap:wrap}
+.hero-note{margin-top:16px;font-size:14px;color:var(--faint)}
+.mock{background:var(--surface);border:1px solid var(--line);border-radius:22px;box-shadow:var(--shadow);padding:18px;transform:rotate(1.2deg)}
+.mock .sb{display:flex;align-items:center;gap:10px;background:var(--surface2);border:1px solid var(--line);border-radius:999px;padding:11px 16px;color:var(--soft);font-size:15px}
+.mock .sb b{color:var(--ink);font-weight:600}
+.res{display:flex;gap:13px;align-items:center;padding:14px 6px;border-bottom:1px solid var(--line)}
+.res:last-child{border:none}
+.pin{width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center;font-weight:700;color:#fff;flex:0 0 auto;font-size:15px}
+.res .nm{font-weight:600;font-size:15px}.res .st{font-size:13px;color:var(--faint)}
+.res.you{background:color-mix(in srgb,var(--brand) 8%,transparent);border-radius:12px;border:1px solid color-mix(in srgb,var(--brand) 25%,transparent);margin:6px 0}
+.tag-you{margin-left:auto;font-size:12px;font-weight:700;color:var(--brand);background:#fff;border:1px solid color-mix(in srgb,var(--brand) 30%,transparent);padding:3px 9px;border-radius:999px}
+.stars{color:var(--ochre);font-size:13px}
+section{padding:64px 0}
+.kicker{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:var(--ochre)}
+h2{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(28px,4vw,40px);line-height:1.1;letter-spacing:-.01em;margin:10px 0 14px}
+.sub{color:var(--soft);max-width:34em;font-size:18px}
+.center{text-align:center}.center .sub{margin-left:auto;margin-right:auto}
+.trust{display:flex;gap:30px;flex-wrap:wrap;justify-content:center;padding:22px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:var(--soft);font-weight:600;font-size:15px}
+.trust span{display:inline-flex;align-items:center;gap:9px}.trust b{color:var(--brand)}
+/* problema */
+.problem{background:#10241C;border-radius:28px;padding:54px;color:#EAF3EE;position:relative;overflow:hidden}
+@media(max-width:820px){.problem{padding:34px}}
+.problem .big{font-family:"Fraunces",serif;font-weight:600;font-size:clamp(26px,3.6vw,38px);line-height:1.18;letter-spacing:-.01em;max-width:18em}
+.problem .big u{text-decoration:none;color:var(--ochre)}
+.problem .pstats{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:34px}
+@media(max-width:680px){.problem .pstats{grid-template-columns:1fr}}
+.problem .ps{background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.12);border-radius:16px;padding:22px}
+.problem .ps b{font-family:"Fraunces",serif;font-size:34px;color:#fff;display:block;line-height:1}
+.problem .ps span{font-size:14.5px;color:#A9C3B8;display:block;margin-top:8px}
+.steps{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;margin-top:38px}
+@media(max-width:820px){.steps{grid-template-columns:1fr}}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:26px}
+.step .n{font-family:"Fraunces",serif;font-size:15px;font-weight:600;color:#fff;background:var(--brand);width:34px;height:34px;border-radius:10px;display:flex;align-items:center;justify-content:center}
+.step h3{font-size:19px;margin:16px 0 7px;font-weight:700}
+.step p{color:var(--soft);font-size:15.5px}
+.pricing{display:grid;grid-template-columns:1fr 1.15fr;gap:22px;margin-top:18px;align-items:stretch}
+@media(max-width:820px){.pricing{grid-template-columns:1fr}}
+.plan{background:var(--surface);border:1px solid var(--line);border-radius:22px;padding:32px;display:flex;flex-direction:column}
+.plan.feat{border:1.5px solid var(--brand);box-shadow:var(--shadow);position:relative}
+.plan .pl{font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;color:var(--soft)}
+.plan .price{font-family:"Fraunces",serif;font-size:46px;font-weight:600;margin:12px 0 2px;letter-spacing:-.01em}
+.plan .price small{font-size:17px;color:var(--faint);font-weight:500;font-family:"Hanken Grotesk"}
+.plan ul{list-style:none;margin:18px 0 24px;display:flex;flex-direction:column;gap:11px}
+.plan li{display:flex;gap:10px;font-size:15.5px;color:var(--ink)}
+.plan li svg{flex:0 0 auto;margin-top:3px;color:var(--brand)}
+.plan .btn{justify-content:center;margin-top:auto}
+.badge-feat{position:absolute;top:-13px;right:24px;background:var(--ochre);color:#fff;font-size:12px;font-weight:700;padding:5px 12px;border-radius:999px}
+.howpay{display:flex;align-items:flex-start;gap:14px;background:var(--surface2);border:1px solid var(--line);border-radius:16px;padding:18px 22px;margin-top:18px;font-size:15.5px;color:var(--soft)}
+.howpay b{color:var(--ink)}
+.howpay .ic{font-size:22px;line-height:1.2}
+.guarantee{margin-top:18px;display:flex;align-items:center;gap:14px;background:color-mix(in srgb,var(--brand) 7%,transparent);border:1px solid color-mix(in srgb,var(--brand) 20%,transparent);border-radius:16px;padding:18px 22px}
+.guarantee .ic{font-size:26px}.guarantee b{color:var(--brand)}
+.freebar{text-align:center;margin-top:24px;font-size:16px;color:var(--soft)}
+.freebar a{color:var(--brand);font-weight:700}
+.band{background:#10241C;color:#EAF3EE;border-radius:26px;padding:48px;display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:center;overflow:hidden;position:relative}
+@media(max-width:820px){.band{grid-template-columns:1fr;padding:34px}}
+.band h2{color:#fff}.band .sub{color:#A9C3B8}
+.band-vis{background:rgba(255,255,255,.04);border:1px solid rgba(255,255,255,.12);border-radius:18px;padding:22px}
+.bar{height:9px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden;margin:9px 0 16px}
+.bar i{display:block;height:100%;border-radius:99px;background:linear-gradient(90deg,var(--brand-2),var(--ochre))}
+.band-vis .lab{font-size:13px;color:#A9C3B8;display:flex;justify-content:space-between}
+.kpi-row{display:flex;gap:14px;margin-top:6px}
+.kpi-row div{flex:1;background:rgba(255,255,255,.05);border-radius:12px;padding:12px}
+.kpi-row b{font-family:"Fraunces",serif;font-size:24px;display:block}
+.kpi-row span{font-size:12px;color:#A9C3B8}
+.sectors{display:flex;gap:12px;flex-wrap:wrap;justify-content:center;margin-top:26px}
+.sector{display:inline-flex;align-items:center;gap:9px;background:var(--surface);border:1px solid var(--line);border-radius:999px;padding:11px 18px;font-weight:600;font-size:15px}
+.sector span{font-size:19px}
+.acc{margin-top:28px;border-top:1px solid var(--line);max-width:760px;margin-left:auto;margin-right:auto}
+.acc details{border-bottom:1px solid var(--line)}
+.acc summary{list-style:none;cursor:pointer;padding:24px 4px;display:flex;justify-content:space-between;align-items:center;gap:18px;font-family:"Fraunces",serif;font-weight:600;font-size:21px}
+.acc summary::-webkit-details-marker{display:none}
+.acc summary .pm{flex:0 0 auto;width:30px;height:30px;border-radius:50%;border:1px solid var(--line);display:flex;align-items:center;justify-content:center;color:var(--brand);font-size:22px;line-height:1;transition:transform .2s}
+.acc details[open] summary .pm{transform:rotate(45deg)}
+.acc .ans{padding:0 4px 26px;color:var(--soft);font-size:16.5px;max-width:54em;animation:fade .3s ease}
+@keyframes fade{from{opacity:0}to{opacity:1}}
+.cta-band{text-align:center;background:var(--surface);border:1px solid var(--line);border-radius:26px;padding:52px 24px;box-shadow:var(--shadow)}
+.cta-band h2{margin-bottom:8px}
+.lead-form{display:grid;grid-template-columns:1fr 1fr;gap:13px;max-width:600px;margin:8px auto 0;text-align:left}
+.lead-form .full{grid-column:1 / -1}
+@media(max-width:560px){.lead-form{grid-template-columns:1fr}}
+.lead-form input,.lead-form select,.lead-form textarea{font:inherit;font-size:15.5px;padding:14px 16px;border:1px solid var(--line);border-radius:12px;background:var(--surface2);color:var(--ink);width:100%;outline:none}
+.lead-form textarea{min-height:84px;resize:vertical}
+.lead-form input:focus,.lead-form select:focus,.lead-form textarea:focus{border-color:var(--brand)}
+.lead-form button{width:100%;justify-content:center;font-size:16px;padding:15px}
+.form-msg{font-size:14.5px;font-weight:600;margin-top:2px;min-height:20px;text-align:center}
+footer{border-top:1px solid var(--line);padding:40px 0;color:var(--faint);font-size:14px}
+.foot-in{display:flex;justify-content:space-between;flex-wrap:wrap;gap:16px;align-items:center}
+.reveal{opacity:0;transform:translateY(18px);transition:opacity .7s,transform .7s}
+.reveal.in{opacity:1;transform:none}
+</style>
+</head>
+<body>
+
+<nav><div class="wrap nav-in">
+  <div class="logo">Faro<i>.</i></div>
+  <div class="nav-links">
+    <a href="#como">Cómo funciona</a>
+    <a href="#precios">Precios</a>
+    <a href="#panel">El panel</a>
+    <a href="#faq">FAQ</a>
+  </div>
+  <div class="nav-cta">
+    <a class="btn btn-ghost" href="https://faro-panel.vercel.app" target="_blank" rel="noopener">Acceso clientes</a>
+    <a class="btn btn-primary" href="#contacto">Análisis gratis</a>
+  </div>
+</div></nav>
+
+<header class="wrap hero">
+  <div>
+    <span class="eyebrow">● SEO local para negocios de cita previa</span>
+    <h1>Sal <em>el primero</em> cuando te buscan en Google.</h1>
+    <p class="lead">Cuando alguien busca «dentista cerca de mí», Google enseña solo 3 negocios en el mapa — y se llevan casi todas las llamadas. Te metemos ahí: optimizamos tu ficha, tus reseñas y el SEO local de tu web. Y lo ves crecer en un panel, en tiempo real.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary btn-lg" href="#contacto">Pídenos tu análisis gratis →</a>
+      <a class="btn btn-ghost btn-lg" href="#como">Cómo funciona</a>
+    </div>
+    <p class="hero-note">Análisis de 1 página con datos reales · sin compromiso · sin permanencia.</p>
+  </div>
+  <div class="mock reveal">
+    <div class="sb">🔍 <b>fisioterapia en Pamplona</b></div>
+    <div class="res you">
+      <span class="pin" style="background:var(--brand)">1</span>
+      <div><div class="nm">Tu negocio</div><div class="st"><span class="stars">★★★★★</span> 128 reseñas · Abierto</div></div>
+      <span class="tag-you">tú, con Faro</span>
+    </div>
+    <div class="res"><span class="pin" style="background:#B9B3A6">2</span><div><div class="nm">Competidor A</div><div class="st"><span class="stars">★★★★☆</span> 96 reseñas</div></div></div>
+    <div class="res"><span class="pin" style="background:#B9B3A6">3</span><div><div class="nm">Competidor B</div><div class="st"><span class="stars">★★★★☆</span> 74 reseñas</div></div></div>
+  </div>
+</header>
+
+<div class="wrap"><div class="trust">
+  <span><b>✓</b> Datos reales de Google</span>
+  <span><b>✓</b> Sin permanencia</span>
+  <span><b>✓</b> Garantía de 60 días</span>
+  <span><b>✓</b> Precio fijo, sin sorpresas</span>
+</div></div>
+
+<section class="wrap"><div class="problem reveal">
+  <span class="kicker">El problema</span>
+  <p class="big">Cuando alguien busca tu servicio en tu zona, o sales tú en el mapa… o sale <u>tu competencia</u> y se queda con ese cliente.</p>
+  <div class="pstats">
+    <div class="ps"><b>3</b><span>Los negocios que Google enseña en el mapa. Si no estás, no existes para quien busca.</span></div>
+    <div class="ps"><b>~70%</b><span>De los clics se los llevan esos 3 primeros. El resto se reparte las migas.</span></div>
+    <div class="ps"><b>Cada mes</b><span>Que no lo trabajas, la competencia que sí lo hace te saca más distancia.</span></div>
+  </div>
+</div></section>
+
+<section id="como" class="wrap">
+  <span class="kicker">Cómo funciona</span>
+  <h2>De invisible a los 3 primeros, en 3 pasos.</h2>
+  <p class="sub">Lo montamos y gestionamos todo nosotros. Tú atiendes a tus clientes.</p>
+  <div class="steps">
+    <div class="step reveal"><div class="n">1</div><h3>Análisis gratis</h3><p>Te preparamos un análisis de 1 página de tu presencia en Google frente a tu competencia, con tus números reales. Gratis y sin compromiso.</p></div>
+    <div class="step reveal"><div class="n">2</div><h3>Lo arreglamos</h3><p>Optimizamos tu ficha de Google entera, montamos tu sistema de reseñas y mejoramos el SEO local de tu web. Empiezas a subir en semanas.</p></div>
+    <div class="step reveal"><div class="n">3</div><h3>Ves tu progreso</h3><p>Cada cliente tiene su panel: posición en el mapa, reseñas y en qué estamos trabajando. Transparencia total, no una caja negra.</p></div>
+  </div>
+</section>
+
+<section id="precios" class="wrap">
+  <span class="kicker">Precios</span>
+  <h2>Un arranque, y una cuota que te mantiene arriba.</h2>
+  <p class="sub">Precio fijo, alcance fijo, sin sorpresas. Sin permanencia: cancelas cuando quieras.</p>
+  <div class="pricing">
+    <div class="plan reveal">
+      <span class="pl">1 · Puesta en marcha</span>
+      <div class="price">490€ <small>/ pago único</small></div>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Optimización completa de tu ficha de Google (categorías, fotos, horarios, posts)</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>SEO local de tu web (keywords, datos de contacto, marcado técnico)</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Sistema de reseñas: link directo + QR + plantillas</li>
+      </ul>
+      <a class="btn btn-ghost" href="#contacto">Empezar por el análisis gratis →</a>
+    </div>
+    <div class="plan feat reveal">
+      <span class="badge-feat">El producto</span>
+      <span class="pl">2 · Gestión mensual</span>
+      <div class="price">290€ <small>/ mes</small></div>
+      <ul>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Posts regulares en tu ficha de Google</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Respondemos todas tus reseñas y conseguimos nuevas</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Vigilancia de tu posición y de tu competencia, mes a mes</li>
+        <li><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><path d="M20 6 9 17l-5-5"/></svg>Tu panel de progreso, siempre actualizado</li>
+      </ul>
+      <a class="btn btn-primary" href="#contacto">Quiero empezar →</a>
+    </div>
+  </div>
+  <div class="howpay reveal">
+    <span class="ic">🤝</span>
+    <div><b>Cómo empezamos:</b> primero te hacemos el <b>análisis gratis</b>. Si encaja, nos encargamos de dejarlo todo montado y te pasamos el pago seguro nosotros — <b>puesta en marcha (490€)</b> y <b>gestión mensual (290€/mes)</b>. Sin permanencia, cancelas cuando quieras. Nada de pagar a ciegas desde la web.</div>
+  </div>
+  <div class="guarantee reveal">
+    <span class="ic">🛡️</span>
+    <div><b>Garantía de 60 días.</b> Si en los primeros 60 días no ves mejoras concretas en tu presencia local, te devolvemos la puesta en marcha. Sin letra pequeña.</div>
+  </div>
+  <p class="freebar reveal">¿Aún no lo tienes claro? <a href="#contacto">Pídenos el análisis gratis →</a> y te enseñamos qué haríamos antes de que pagues nada.</p>
+</section>
+
+<section id="panel" class="wrap">
+  <div class="band reveal">
+    <div>
+      <span class="kicker" style="color:var(--ochre)">Tu panel</span>
+      <h2>Ve exactamente por qué estás pagando.</h2>
+      <p class="sub">Nuestra ventaja es la transparencia. Cada cliente entra a su panel y ve su posición en Google, sus reseñas, las acciones que hacemos y su progreso mes a mes. Nada de informes confusos.</p>
+      <a class="btn btn-ochre" href="https://faro-panel.vercel.app" target="_blank" rel="noopener" style="margin-top:8px">Ver el panel (demo) →</a>
+    </div>
+    <div class="band-vis">
+      <div class="lab"><span>Índice de visibilidad</span><span>+13 este mes</span></div>
+      <div style="font-family:'Fraunces',serif;font-size:40px;font-weight:600">68<span style="font-size:18px;color:#A9C3B8"> / 100</span></div>
+      <div class="bar"><i style="width:68%"></i></div>
+      <div class="kpi-row">
+        <div><b>3º</b><span>posición media</span></div>
+        <div><b>128</b><span>reseñas</span></div>
+        <div><b>5.0★</b><span>nota</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="wrap center">
+  <span class="kicker">Para quién</span>
+  <h2>Hecho para negocios de cita previa.</h2>
+  <p class="sub">Si tus clientes te buscan en Google antes de llamar, esto es para ti.</p>
+  <div class="sectors reveal">
+    <span class="sector"><span>🦷</span> Clínicas dentales</span>
+    <span class="sector"><span>💪</span> Fisioterapia</span>
+    <span class="sector"><span>🧘</span> Pilates &amp; yoga</span>
+    <span class="sector"><span>💅</span> Estética &amp; belleza</span>
+    <span class="sector"><span>✂️</span> Peluquerías</span>
+  </div>
+</section>
+
+<section id="faq" class="wrap center">
+  <span class="kicker">Preguntas</span>
+  <h2>Lo que sueles preguntarte.</h2>
+  <div class="acc" style="text-align:left">
+    <details open><summary>¿Me garantizáis el nº1 en Google?<span class="pm">+</span></summary><div class="ans">No, y desconfía de quien lo prometa. Te prometemos mejoras concretas —ficha completa, más reseñas, mejor posición en tus búsquedas— en plazos honestos, y te las enseñamos en tu panel.</div></details>
+    <details><summary>¿Hay permanencia?<span class="pm">+</span></summary><div class="ans">No. La mensualidad es mes a mes y la cancelas cuando quieras. Si dejamos de aportar, te vas.</div></details>
+    <details><summary>¿Cómo es el pago?<span class="pm">+</span></summary><div class="ans">Un pago único de puesta en marcha (490€) para dejarlo todo montado, y luego una gestión mensual de 290€/mes que es la que te mantiene subiendo. Pago seguro con tarjeta vía Stripe. Sin permanencia.</div></details>
+    <details><summary>¿Necesitáis acceso a mi web?<span class="pm">+</span></summary><div class="ans">Para empezar, no: la ficha de Google y las reseñas se trabajan aparte. Para el SEO de la web te pedimos acceso de editor solo cuando lleguemos a esa fase, ya como cliente. Y si tu web está floja, te la montamos nosotros.</div></details>
+    <details><summary>¿Cuándo veré resultados?<span class="pm">+</span></summary><div class="ans">La ficha de Google se mueve en semanas; el SEO de la web tarda algo más (1-3 meses). Lo verás todo en tu panel desde el primer día.</div></details>
+  </div>
+</section>
+
+<section id="contacto" class="wrap">
+  <div class="cta-band reveal">
+    <span class="kicker">Empieza gratis</span>
+    <h2>Pídenos tu análisis gratis.</h2>
+    <p class="sub" style="margin:0 auto 22px">Déjanos los datos de tu negocio y te preparamos el análisis de tu presencia en Google frente a tu competencia, sin compromiso. Te respondemos el mismo día.</p>
+    <form class="lead-form" id="leadForm">
+      <input name="nombre" placeholder="Tu nombre *" required>
+      <input name="negocio" placeholder="Nombre de tu negocio *" required>
+      <input name="ciudad" placeholder="Ciudad *" required>
+      <select name="sector" required>
+        <option value="" disabled selected>Tu sector *</option>
+        <option>Clínica dental</option>
+        <option>Fisioterapia</option>
+        <option>Pilates / yoga</option>
+        <option>Estética / belleza</option>
+        <option>Peluquería</option>
+        <option>Otro</option>
+      </select>
+      <input class="full" name="web" placeholder="Tu web (si tienes)">
+      <input class="full" name="contacto" placeholder="Email o WhatsApp donde contactarte *" required>
+      <textarea class="full" name="mensaje" placeholder="¿Algo que quieras contarnos? (opcional)"></textarea>
+      <button class="full btn btn-primary" type="submit">Quiero mi análisis gratis →</button>
+      <div class="form-msg full" id="formMsg"></div>
+    </form>
+    <p class="hero-note" style="margin-top:8px">¿Ya eres cliente? <a href="https://faro-panel.vercel.app" target="_blank" rel="noopener" style="color:var(--brand);font-weight:700">Entra a tu panel →</a></p>
+  </div>
+</section>
+
+<footer><div class="wrap foot-in">
+  <div><span class="logo" style="font-size:20px">Faro<i>.</i></span> &nbsp; Presencia local en Google, clara.</div>
+  <div>© 2026 Faro · <a href="#" style="color:var(--soft)">Aviso legal</a> · <a href="#" style="color:var(--soft)">Privacidad</a></div>
+</div></footer>
+
+<script>
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.14});
+document.querySelectorAll('.reveal').forEach(function(el){io.observe(el);});
+var lf=document.getElementById('leadForm');
+if(lf)lf.addEventListener('submit',async function(e){
+  e.preventDefault();
+  var msg=document.getElementById('formMsg');msg.style.color='var(--soft)';msg.textContent='Enviando...';
+  var btn=lf.querySelector('button');btn.disabled=true;
+  try{
+    var payload={nombre:lf.nombre.value,negocio:lf.negocio.value,ciudad:lf.ciudad.value,sector:lf.sector.value,web:lf.web.value,contacto:lf.contacto.value,mensaje:lf.mensaje.value};
+    var r=await fetch('/api/lead',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify(payload)});
+    if(r.ok){lf.reset();msg.style.color='var(--brand)';msg.textContent='¡Recibido! Te escribimos hoy mismo 🙌';}
+    else{msg.style.color='#D9534F';msg.textContent='No se pudo enviar. Escríbenos por WhatsApp e igual lo solucionamos.';}
+  }catch(_){msg.style.color='#D9534F';msg.textContent='No se pudo enviar. Inténtalo de nuevo.';}
+  btn.disabled=false;
+});
+</script>
+</body>
+</html>

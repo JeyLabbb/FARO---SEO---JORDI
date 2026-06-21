@@ -1,0 +1,22 @@
+{
+  "name": "audit-generator",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Generador de auditorías de SEO local (Google Business + reseñas + SEO web) para negocios de cita previa. Datos públicos vía Google Places API oficial + PageSpeed Insights. Cero dependencias.",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "audit": "node src/index.mjs",
+    "demo": "node src/index.mjs --demo",
+    "discover": "node src/discover.mjs",
+    "run": "node src/run.mjs",
+    "batch": "node src/batch.mjs",
+    "pdf": "node src/topdf.mjs",
+    "messages": "node src/regen-messages.mjs",
+    "rebuild": "node src/rebuild-sends.mjs",
+    "send-emails": "node src/send-emails.mjs",
+    "dashboard": "node src/dashboard.mjs"
+  }
+}
