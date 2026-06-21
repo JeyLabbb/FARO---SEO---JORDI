@@ -40,7 +40,7 @@ function toPdf(f, i) {
     const inPath = resolve(dir, f);
     const outPath = inPath.replace(/\.html$/i, ".pdf");
     execFile(browser, [
-      "--headless=new", "--disable-gpu", "--no-pdf-header-footer",
+      "--headless=new", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage", "--no-pdf-header-footer",
       "--run-all-compositor-stages-before-draw", "--virtual-time-budget=8000",
       `--user-data-dir=${profBase}_${i % 4}`,
       `--print-to-pdf=${outPath}`,
