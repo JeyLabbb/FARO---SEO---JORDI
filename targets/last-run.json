@@ -1,0 +1,13 @@
+{
+  "at": "2026-06-21T12:27:05.484Z",
+  "freno": true,
+  "pasos": {
+    "bandeja": "ok",
+    "clasificar": "ok",
+    "cola_dia": "ok",
+    "pdfs": "ok",
+    "panel": "ok"
+  },
+  "elegidos": 29,
+  "pdfsListos": 0
+}
