@@ -1,6 +1,8 @@
 name: Faro · envío diario
 
 on:
+  push:
+    branches: [main]           # TEMPORAL: dispara la prueba al subir; lo quito tras validar
   schedule:
     - cron: "0 8 * * *"      # 08:00 UTC ≈ 10:00 España (verano). Cada mañana.
   workflow_dispatch: {}        # botón para lanzarlo a mano desde la pestaña Actions
