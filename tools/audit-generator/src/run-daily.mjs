@@ -11,11 +11,11 @@ import { today } from "./lib/slug.mjs";
 
 const CWD = resolve(REPO_ROOT, "tools", "audit-generator");
 const STOP = existsSync(resolve(REPO_ROOT, "targets", "PARAR.flag"));
-const summary = { at: new Date().toISOString(), freno: STOP, pasos: {} };
+const summary = { at: new Date().toISOString(), sha: (process.env.GITHUB_SHA || "local").slice(0, 7), chrome: process.env.CHROME_PATH || "(sin CHROME_PATH)", freno: STOP, pasos: {} };
 const run = (name, cmd) => {
   console.log(`\n▶ node ${cmd}`);
-  try { execSync(`node ${cmd}`, { cwd: CWD, stdio: "inherit" }); summary.pasos[name] = "ok"; }
-  catch (e) { summary.pasos[name] = "ERROR: " + (e.message || "").slice(0, 120); console.error(`  ✗ ${name}: ${e.message}`); }
+  try { const out = execSync(`node ${cmd}`, { cwd: CWD, encoding: "utf8" }); process.stdout.write(out); summary.pasos[name] = "ok · " + (out.trim().split("\n").pop() || "").slice(0, 160); }
+  catch (e) { const o = (String(e.stdout || "") + String(e.stderr || "") + (e.message || "")).slice(-220); summary.pasos[name] = "ERROR · " + o; console.error(o); }
 };
 
 console.log(`===== Faro · run-daily · ${today()} ${STOP ? "· ⛔ FRENO (no envía)" : ""} =====`);
