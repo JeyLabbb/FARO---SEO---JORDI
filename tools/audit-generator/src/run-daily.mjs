@@ -22,7 +22,7 @@ console.log(`===== Faro · run-daily · ${today()} ${STOP ? "· ⛔ FRENO (no en
 run("bandeja", "src/_inbox-check.mjs");
 run("clasificar", "src/classify-replies.mjs");
 run("cola_dia", "src/cola-day.mjs");
-run("pdfs", "src/pdf-web.mjs --today");          // SIEMPRE: generar PDFs es inofensivo y hay que probarlo
+// Los PDFs se pre-generan en local y se versionan; la nube NO usa Chrome, solo los adjunta.
 if (STOP) console.log("\n⛔ Envío saltado por targets/PARAR.flag.");
 else { run("seguimientos", "src/send-followups.mjs --limit 25"); run("emails", "src/send-emails.mjs"); }
 run("panel", "src/build-stats.mjs");

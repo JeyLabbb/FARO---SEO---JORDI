@@ -7,8 +7,7 @@
 # ── Dependencias ──
 node_modules/
 
-# ── PDFs de audits: se regeneran y pesan mucho (el HTML sí se versiona) ──
-apps/web/audits/*.pdf
+# ── PDFs de audits: se generan en LOCAL y SÍ se versionan (la nube solo los adjunta) ──
 
 # ── Artefactos / transitorios (se regeneran en cada ejecución) ──
 panel-interno.html
