@@ -26,7 +26,7 @@
     "date": "Sat, 13 Jun 2026 15:27:01 +0200",
     "estado": "baja",
     "resumen": "No tengo el local en Madrid",
-    "accion": "Registrar la baja del negocio.",
+    "accion": "Marcar como baja y archivar.",
     "body": "Buenas, ya no tengo el local en Madrid, gracias. Un saludo. M CARMEN El sÃ¡b, 13 jun 2026, 10:47, Jordi de Faro <borrutjordi548@gmail.com> escribiÃ³:"
   },
   {
@@ -45,8 +45,8 @@
     "account": "yourbusinesstry@gmail.com",
     "date": "Sun, 7 Jun 2026 10:13:16 +0200",
     "estado": "baja",
-    "resumen": "Clínica ya no existe.",
-    "accion": "Actualizar base de datos y eliminar contacto.",
+    "resumen": "La clínica ya no existe.",
+    "accion": "Actualizar la base de datos y archivar.",
     "body": "Hola Jordi, gracias por tu email, pero no estamos interesados ahora mismo. Esta clÃ­nica (Marina Dent) ya no existe, ya que se traspasÃ³ a MQ Dent y por lo tanto no estÃ¡ activa ni en google maps ni en la web. Saludos, El vie, 5 jun 2026 a las 17:35, Jordi de Faro (<yourbusinesstry@gmail.com>) escribiÃ³:"
   }
 ]
