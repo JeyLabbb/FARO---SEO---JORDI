@@ -8,6 +8,7 @@ import { resolve } from "node:path";
 import { REPO_ROOT } from "./config.mjs";
 import { today } from "./lib/slug.mjs";
 import { capacity } from "./lib/caps.mjs";
+import { verifyMany } from "./lib/verify-email.mjs";
 
 const args = process.argv.slice(2);
 const numAfter = (f, d) => { const i = args.indexOf(f); return i >= 0 ? Number(args[i + 1]) : d; };
@@ -30,10 +31,20 @@ const candidates = Object.values(cola.items || {})
   .filter((it) => it.status === "listo" && !sentIds.has(it.place_id) && !sentEmails.has(norm(it.email))
     && existsSync(resolve(REPO_ROOT, "apps", "web", "audits", `${it.slug}.pdf`)))  // solo los que YA tienen PDF (si no, se saltarían)
   .sort((a, b) => String(a.addedAt).localeCompare(String(b.addedAt)));
-const pick = candidates.slice(0, LIMIT).map((r, i) => ({ priority: i + 1, ...r }));
+
+// Verificación GRATIS de buzón (MX vía DoH + sonda SMTP RCPT): descartamos las direcciones MUERTAS
+// antes de enviar (es lo que causaba los rebotes). Verificamos un pool con margen para los descartes.
+const pool = candidates.slice(0, Math.min(candidates.length, Math.ceil(LIMIT * 1.6)));
+const verdicts = await verifyMany(pool.map((it) => it.email));
+const pick = []; let deadDomains = 0;
+for (const it of pool) {
+  if (pick.length >= LIMIT) break;
+  if (verdicts[String(it.email).toLowerCase().trim()] === "dead") { deadDomains++; continue; }
+  pick.push({ priority: pick.length + 1, ...it });
+}
 
 const out = T(`envios-HOY-${today()}.json`);
 writeFileSync(out, JSON.stringify(pick, null, 2), "utf8");
 console.log(`Capacidad del día ~${cap} · candidatos a coger: ${LIMIT}`);
-console.log(`Almacén listos disponibles: ${candidates.length} · elegidos hoy: ${pick.length}`);
+console.log(`Almacén listos disponibles: ${candidates.length} · descartados (buzón muerto verificado): ${deadDomains} · elegidos hoy: ${pick.length}`);
 console.log(`→ ${out}\n  Siguiente: pdf-web --today  →  send-followups + send-emails`);
