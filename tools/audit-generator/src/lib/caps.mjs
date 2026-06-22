@@ -5,19 +5,24 @@ import { gmailAccounts } from "./gmail-smtp.mjs";
 
 const DAY = 86400000;
 export const BOUNCE_FREEZE = 0.08; // >8% rebotes → congelar la cuenta
-// Cuentas ya calentadas (p.ej. en Smartlead): arrancan POR ENCIMA de una nueva del todo,
-// pero igual suben poco a poco (no a saco) y se vigilan por rebotes como las demás.
+// Cuentas calentadas en Smartlead (reputación ya construida): arrancan ALTO y suben más rápido
+// que una nueva, PERO con techo SANO (~35/día en frío). Calentar = caer en bandeja, NO licencia
+// para mandar cientos (pasarse = baneo igual). El límite real se halla vigilando rebotes.
 const WARMED = new Set(["jordi@tryjeylabbb.com", "jordi@getjeylabbb.com"]);
-const WARMUP_BONUS = 8; // días "de ventaja" → empiezan ~13/día y van subiendo
 
 // Tope diario por antigüedad (Gmail gratis en frío). Conservador y por escalones:
 // arranca bajo, se acerca al nivel ya probado (~13/cuenta) y sube despacio. Techo 20.
 // El de verdad protege la entregabilidad es la congelación por rebotes (>8%).
-export function rampCap(daysActive) {
+export function rampCap(daysActive) {          // Gmail gratis (3 antiguas): conservador
   if (daysActive < 5) return 10;
   if (daysActive < 12) return 13;
   if (daysActive < 30) return 16;
-  return 20;
+  return 22;
+}
+export function warmedCap(daysActive) {         // Workspace calentada en Smartlead: arranca alto, techo ~35
+  if (daysActive < 7) return 20;
+  if (daysActive < 21) return 28;
+  return 35;
 }
 
 // Informe por cuenta a partir del sent-log (+ set de emails rebotados, opcional).
@@ -35,10 +40,10 @@ export function accountReport(sentLog = {}, bouncedEmails = new Set()) {
   // incluir cuentas configuradas aunque aún no hayan enviado (empiezan en el escalón 1)
   for (const acc of gmailAccounts()) if (!byAcc[acc.user]) byAcc[acc.user] = { account: acc.user, sends: 0, firstAt: null, bounces: 0 };
   return Object.values(byAcc).map((o) => {
-    const days = (o.firstAt == null ? 0 : Math.floor((now - o.firstAt) / DAY)) + (WARMED.has(o.account) ? WARMUP_BONUS : 0);
+    const days = o.firstAt == null ? 0 : Math.floor((now - o.firstAt) / DAY);
     const bounceRate = o.sends ? o.bounces / o.sends : 0;
     const frozen = bounceRate > BOUNCE_FREEZE;
-    const cap = frozen ? 0 : rampCap(days);
+    const cap = frozen ? 0 : (WARMED.has(o.account) ? warmedCap(days) : rampCap(days));
     return { ...o, days, bounceRate: Math.round(bounceRate * 1000) / 10, frozen, cap };
   });
 }
