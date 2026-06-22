@@ -7,6 +7,9 @@
 # ── Dependencias ──
 node_modules/
 
+# ── Perfiles temporales que crea Chrome al generar PDFs ──
+tools/audit-generator/.pdf-profile_*
+
 # ── PDFs de audits: se generan en LOCAL y SÍ se versionan (la nube solo los adjunta) ──
 
 # ── Artefactos / transitorios (se regeneran en cada ejecución) ──
