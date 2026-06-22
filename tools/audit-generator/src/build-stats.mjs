@@ -2,7 +2,7 @@
 // (almacén, cuentas+ramp, envíos, seguimientos, variantes, leads, último run) y
 // genera un dashboard HTML autocontenido que se regenera en cada ejecución.
 //   node src/build-stats.mjs   → panel-interno.html (raíz del repo)
-import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
+import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from "node:fs";
 import { resolve } from "node:path";
 import { REPO_ROOT } from "./config.mjs";
 import { today } from "./lib/slug.mjs";
@@ -211,5 +211,22 @@ ${kpi(interesados, "Interesados", `${bajas} bajas · los cierra Jordi`, "green")
 
 const out = resolve(REPO_ROOT, "panel-interno.html");
 writeFileSync(out, html, "utf8");
-console.log(`Panel → ${out}`);
+
+// Versión DESPLEGABLE protegida: una función serverless que pide contraseña (Basic Auth)
+// antes de servir el panel → los emails de leads NO quedan en un estático público. Gratis.
+const fnDir = resolve(REPO_ROOT, "apps", "panel-ops", "api");
+mkdirSync(fnDir, { recursive: true });
+const fn = "const HTML = " + JSON.stringify(html) + ";\n"
+  + "module.exports = (req, res) => {\n"
+  + "  const pass = process.env.PANEL_PASS || 'faro2026';\n"
+  + "  const a = req.headers.authorization || '';\n"
+  + "  const dec = a.indexOf('Basic ') === 0 ? Buffer.from(a.slice(6), 'base64').toString() : '';\n"
+  + "  const pw = dec.indexOf(':') >= 0 ? dec.slice(dec.indexOf(':') + 1) : '';\n"
+  + "  if (pw !== pass) { res.setHeader('WWW-Authenticate', 'Basic'); res.statusCode = 401; res.end('Auth requerida'); return; }\n"
+  + "  res.setHeader('Content-Type', 'text/html; charset=utf-8'); res.statusCode = 200; res.end(HTML);\n"
+  + "};\n";
+writeFileSync(resolve(fnDir, "index.js"), fn, "utf8");
+writeFileSync(resolve(REPO_ROOT, "apps", "panel-ops", "vercel.json"), JSON.stringify({ rewrites: [{ source: "/(.*)", destination: "/api/index" }] }, null, 2), "utf8");
+
+console.log(`Panel → ${out}  ·  función protegida → apps/panel-ops/`);
 console.log(`Contactados ${contactados} · Entregados ${entregados} · Respuestas ${respuestas} · Interesados ${interesados} · Almacén ${listos.length} (${conPDF} con PDF) · Capacidad ${capDia}/día · Freno ${frenoOn ? "ON" : "off"}`);
