@@ -5,6 +5,10 @@ import { gmailAccounts } from "./gmail-smtp.mjs";
 
 const DAY = 86400000;
 export const BOUNCE_FREEZE = 0.08; // >8% rebotes → congelar la cuenta
+// Cuentas ya calentadas (p.ej. en Smartlead): arrancan POR ENCIMA de una nueva del todo,
+// pero igual suben poco a poco (no a saco) y se vigilan por rebotes como las demás.
+const WARMED = new Set(["jordi@tryjeylabbb.com", "jordi@getjeylabbb.com"]);
+const WARMUP_BONUS = 8; // días "de ventaja" → empiezan ~13/día y van subiendo
 
 // Tope diario por antigüedad (Gmail gratis en frío). Conservador y por escalones:
 // arranca bajo, se acerca al nivel ya probado (~13/cuenta) y sube despacio. Techo 20.
@@ -31,7 +35,7 @@ export function accountReport(sentLog = {}, bouncedEmails = new Set()) {
   // incluir cuentas configuradas aunque aún no hayan enviado (empiezan en el escalón 1)
   for (const acc of gmailAccounts()) if (!byAcc[acc.user]) byAcc[acc.user] = { account: acc.user, sends: 0, firstAt: null, bounces: 0 };
   return Object.values(byAcc).map((o) => {
-    const days = o.firstAt == null ? 0 : Math.floor((now - o.firstAt) / DAY);
+    const days = (o.firstAt == null ? 0 : Math.floor((now - o.firstAt) / DAY)) + (WARMED.has(o.account) ? WARMUP_BONUS : 0);
     const bounceRate = o.sends ? o.bounces / o.sends : 0;
     const frozen = bounceRate > BOUNCE_FREEZE;
     const cap = frozen ? 0 : rampCap(days);
