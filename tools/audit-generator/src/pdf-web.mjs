@@ -35,19 +35,20 @@ if (args.includes("--today")) {
   files = named.length ? named : readdirSync(dir).filter((f) => f.endsWith(".html"));
 }
 
+let firstErr = "";
 function toPdf(f, i) {
   return new Promise((res) => {
     const inPath = resolve(dir, f);
     const outPath = inPath.replace(/\.html$/i, ".pdf");
     execFile(browser, [
-      "--headless=new", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage", "--no-pdf-header-footer",
+      "--headless=old", "--disable-gpu", "--no-sandbox", "--disable-dev-shm-usage", "--no-pdf-header-footer",
       "--run-all-compositor-stages-before-draw", "--virtual-time-budget=8000",
       `--user-data-dir=${profBase}_${i % 4}`,
       `--print-to-pdf=${outPath}`,
       inPath.startsWith("/") ? `file://${inPath}` : `file:///${inPath.replace(/\\/g, "/")}`,
-    ], { timeout: 90000 }, (err) => {
-      if (err) { console.log("  PDF ✗", f); res(false); }
-      else { console.log("  PDF ✓", f.replace(/\.html$/i, ".pdf")); res(true); }
+    ], { timeout: 90000 }, (err, _o, stderr) => {
+      if (!err && existsSync(outPath)) { console.log("  PDF ✓", f.replace(/\.html$/i, ".pdf")); res(true); }
+      else { if (!firstErr) firstErr = err ? String(err.message) : "exit 0 sin fichero · " + String(stderr || "").slice(-120); console.log("  PDF ✗", f); res(false); }
     });
   });
 }
@@ -56,4 +57,4 @@ async function mapLimit(items, limit, fn) { const out = []; let i = 0; await Pro
 
 const results = await mapLimit(files, 4, toPdf);
 const ok = results.filter(Boolean).length;
-console.log(`\nHecho: ${ok}/${files.length} PDFs en apps/web/audits/`);
+console.log(`\nHecho: ${ok}/${files.length} PDFs en apps/web/audits/${ok < files.length && firstErr ? " · 1er fallo: " + firstErr.slice(0, 150) : ""}`);
