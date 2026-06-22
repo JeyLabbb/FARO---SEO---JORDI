@@ -1,15 +1,14 @@
 {
-  "at": "2026-06-22T09:09:14.278Z",
-  "sha": "849580e",
+  "at": "2026-06-22T09:32:54.377Z",
+  "sha": "72a3f4c",
   "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1650168/x64/chrome",
   "freno": true,
   "pasos": {
     "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-22.json",
     "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-22.json (5 leads)",
     "cola_dia": "ok ·   Siguiente: pdf-web --today  →  send-followups + send-emails",
-    "pdfs": "ok · Hecho: 0/29 PDFs en apps/web/audits/ · 1er fallo: exit 0 sin fichero · 7397:ERROR:google_apis/gcm/engine/registration_request.cc:291] Registration response erro",
     "panel": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/panel-interno.html"
   },
   "elegidos": 29,
-  "pdfsListos": 0
+  "pdfsListos": 20
 }
