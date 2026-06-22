@@ -29,6 +29,13 @@ if (STOP) console.log("\n⛔ Envío saltado por targets/PARAR.flag.");
 else { run("seguimientos", "src/send-followups.mjs --limit 25"); run("emails", "src/send-emails.mjs"); }
 run("panel", "src/build-stats.mjs");
 
+// Publicar el panel a Vercel (protegido con contraseña) si hay token de Vercel.
+if (process.env.VERCEL_TOKEN) {
+  console.log("\n▶ desplegar panel a Vercel");
+  try { execSync("npx vercel@latest deploy apps/panel-ops --prod --yes --scope jeylabbbs-projects", { cwd: REPO_ROOT, stdio: "inherit" }); summary.pasos.deploy_panel = "ok"; }
+  catch (e) { summary.pasos.deploy_panel = "ERROR: " + (e.message || "").slice(0, 100); console.error(e.message); }
+}
+
 // Resumen verificable: cuántos se eligieron y cuántos tienen ya su PDF generado.
 try {
   const ev = JSON.parse(readFileSync(resolve(REPO_ROOT, "targets", `envios-HOY-${today()}.json`), "utf8"));

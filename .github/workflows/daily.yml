@@ -34,6 +34,7 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           DATAFORSEO_LOGIN: ${{ secrets.DATAFORSEO_LOGIN }}
           DATAFORSEO_PASSWORD: ${{ secrets.DATAFORSEO_PASSWORD }}
+          VERCEL_TOKEN: ${{ secrets.VERCEL_TOKEN }}
         run: |
           mkdir -p "$HOME/.faro"
           {
@@ -42,6 +43,7 @@ jobs:
             echo "OPENAI_API_KEY=$OPENAI_API_KEY"
             echo "DATAFORSEO_LOGIN=$DATAFORSEO_LOGIN"
             echo "DATAFORSEO_PASSWORD=$DATAFORSEO_PASSWORD"
+            echo "VERCEL_TOKEN=$VERCEL_TOKEN"
           } > "$HOME/.faro/.env"
 
       - name: Correr el día (lee bandeja → coge del almacén → envía → panel)
