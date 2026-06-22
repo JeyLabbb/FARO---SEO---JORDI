@@ -1,6 +1,6 @@
-// build-stats.mjs — PANEL INTERNO de outreach. Junta sent-log + followup-log +
-// inbox-state + leads y genera un HTML claro: embudo, salud por cuenta, envíos por
-// día, por etapa, variantes (experimento) y la lista de leads clasificados.
+// build-stats.mjs — PANEL DE OPERACIONES de Faro. Junta TODO el estado del sistema
+// (almacén, cuentas+ramp, envíos, seguimientos, variantes, leads, último run) y
+// genera un dashboard HTML autocontenido que se regenera en cada ejecución.
 //   node src/build-stats.mjs   → panel-interno.html (raíz del repo)
 import { readFileSync, writeFileSync, existsSync, readdirSync } from "node:fs";
 import { resolve } from "node:path";
@@ -12,125 +12,204 @@ import { accountReport, capacity } from "./lib/caps.mjs";
 
 const T = (p) => resolve(REPO_ROOT, "targets", p);
 const J = (p, d) => { try { return JSON.parse(readFileSync(p, "utf8")); } catch { return d; } };
+const latest = (re) => { try { const f = readdirSync(resolve(REPO_ROOT, "targets")).filter((n) => re.test(n)).sort(); return f.length ? f[f.length - 1] : null; } catch { return null; } };
+const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const pct = (n, d) => (d ? (n / d * 100) : 0);
+const pc1 = (n, d) => pct(n, d).toFixed(1) + "%";
 
+// ── datos ──
 const sent = J(T("sent-log.json"), {});
 const fl = J(T("followup-log.json"), {});
-const state = J(T(`inbox-state-${today()}.json`), { bouncedEmails: [], replies: [] });
-// leads más reciente
-const leadFiles = readdirSync(resolve(REPO_ROOT, "targets")).filter((n) => /^leads-.*\.json$/.test(n)).sort();
-const leads = leadFiles.length ? J(T(leadFiles[leadFiles.length - 1]), []) : [];
+const cola = J(T("cola.json"), { items: {}, descartados: {} });
+const leadsFile = latest(/^leads-.*\.json$/);
+const leads = leadsFile ? J(T(leadsFile), []) : [];
+const inboxFile = latest(/^inbox-state-.*\.json$/);
+const inbox = inboxFile ? J(T(inboxFile), { bouncedEmails: [] }) : { bouncedEmails: [] };
+const lastRun = J(T("last-run.json"), null);
+const frenoOn = existsSync(T("PARAR.flag"));
 
-const bounced = new Set((state.bouncedEmails || []).map((e) => e.toLowerCase()));
-// Almacén (cola) + capacidad de envío para la monitorización.
-const cola = (() => { try { return JSON.parse(readFileSync(T("cola.json"), "utf8")); } catch { return { items: {}, descartados: {} }; } })();
-const colaListos = Object.values(cola.items || {}).filter((i) => i.status === "listo").length;
-const colaDesc = Object.keys(cola.descartados || {}).length;
-const capDia = capacity(sent, bounced);
+const bounced = new Set((inbox.bouncedEmails || []).map((e) => String(e).toLowerCase()));
 
 // ── agregados ──
-const sentByAcc = {}, bounceByAcc = {}, byDay = {}, sentByVariant = {}, emailToVariant = {};
-let rebotes = 0;
-for (const [pid, v] of Object.entries(sent)) {
-  const acc = v.account || "?"; sentByAcc[acc] = (sentByAcc[acc] || 0) + 1;
-  const vr = v.variant || "v1"; sentByVariant[vr] = (sentByVariant[vr] || 0) + 1; if (v.to) emailToVariant[v.to.toLowerCase()] = vr;
+const sentArr = Object.entries(sent).map(([pid, v]) => ({ pid, ...v }));
+const contactados = sentArr.length;
+let rebotes = 0; const byDay = {}; const sentByAcc = {};
+for (const v of sentArr) {
+  if (v.to && bounced.has(String(v.to).toLowerCase())) rebotes++;
   const d = (v.at || "").slice(0, 10); if (d) (byDay[d] = byDay[d] || { ini: 0, fu: 0 }).ini++;
-  if (v.to && bounced.has(v.to.toLowerCase())) { bounceByAcc[acc] = (bounceByAcc[acc] || 0) + 1; rebotes++; }
+  sentByAcc[v.account || "?"] = (sentByAcc[v.account || "?"] || 0) + 1;
 }
-for (const [pid, v] of Object.entries(fl)) { const d = (v.at || "").slice(0, 10); if (d) (byDay[d] = byDay[d] || { ini: 0, fu: 0 }).fu++; }
-
-const contactados = Object.keys(sent).length;
+for (const v of Object.values(fl)) { const d = (v.at || "").slice(0, 10); if (d) (byDay[d] = byDay[d] || { ini: 0, fu: 0 }).fu++; }
 const entregados = contactados - rebotes;
-const fuEntries = Object.values(fl);
-const seg1 = fuEntries.filter((v) => (v.n || 0) >= 1).length;
-const seg2 = fuEntries.filter((v) => (v.n || 0) >= 2).length;
 const respuestas = leads.length;
+const POSITIVE = new Set(["interesado", "pregunta"]);
 const interesados = leads.filter((l) => l.estado === "interesado").length;
 const bajas = leads.filter((l) => l.estado === "baja").length;
-const pct = (n, d) => (d ? (n / d * 100).toFixed(1) : "0") + "%";
 
-const accounts = [...new Set([...Object.keys(sentByAcc)])];
+// almacén
+const items = Object.values(cola.items || {});
+const listos = items.filter((i) => i.status === "listo");
+const conPDF = listos.filter((i) => existsSync(resolve(REPO_ROOT, "apps", "web", "audits", `${i.slug}.pdf`))).length;
+const descartados = cola.descartados || {};
+const descTotal = Object.keys(descartados).length;
+const descCat = { "sin email": 0, "sin competidor": 0, "categoría vetada": 0, "otros": 0 };
+for (const r of Object.values(descartados)) {
+  const s = String(r).toLowerCase();
+  if (s.includes("email")) descCat["sin email"]++;
+  else if (s.includes("competidor")) descCat["sin competidor"]++;
+  else if (s.includes("vetada")) descCat["categoría vetada"]++;
+  else descCat["otros"]++;
+}
+
+// cuentas + capacidad
+const caps = accountReport(sent, bounced);
+const capDia = capacity(sent, bounced);
+const nuevosDia = Math.max(1, Math.round(capDia * 0.6));
+const bufferDias = nuevosDia ? Math.round(conPDF / nuevosDia) : 0;
+
+// etapas
+const seg1 = Object.values(fl).filter((v) => (v.n || 0) >= 1).length;
+const seg2 = Object.values(fl).filter((v) => (v.n || 0) >= 2).length;
+
+// variantes
+const vw = variantWeights(sent, leads);
+
+// ── HTML ──
 const days = Object.keys(byDay).sort();
 const maxDay = Math.max(1, ...days.map((d) => byDay[d].ini + byDay[d].fu));
-
 const estadoColor = { interesado: "#1C8A5B", pregunta: "#1C8A5B", no_interesado: "#C9780A", baja: "#8A8790", fuera_oficina: "#8A8790", automatico: "#8A8790" };
-const esc = (s) => String(s ?? "").replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
 
-const funnel = [
-  ["Contactados", contactados, "negocios con email enviado"],
-  ["Entregados", entregados, `${pct(entregados, contactados)} · ${rebotes} rebotes`],
-  ["Respuestas", respuestas, pct(respuestas, contactados) + " de contactados"],
-  ["Interesados", interesados, pct(interesados, contactados) + " · leads"],
-];
+const kpi = (n, label, sub, cls = "") => `<div class="kpi"><div class="kn ${cls}">${n}</div><div class="kl">${label}</div><div class="ks">${sub}</div></div>`;
 
-const accRows = accountReport(sent, bounced).map((a) => `<tr><td>${esc(a.account)}</td><td class="num">${a.sends}</td><td class="num">${a.days}d</td><td class="num" style="color:${a.bounceRate > 8 ? "#DC2330" : "#1C8A5B"}">${a.bounceRate}%</td><td class="num">${a.frozen ? "❄ congelada" : a.cap + "/día"}</td></tr>`).join("");
-const dayRows = days.map((d) => { const o = byDay[d]; const tot = o.ini + o.fu; return `<div class="bar-row"><span class="bl">${d}</span><span class="bt"><span class="bf" style="width:${tot / maxDay * 100}%"></span></span><span class="bn">${tot} <span class="bsub">(${o.ini} ini · ${o.fu} seg)</span></span></div>`; }).join("");
-const leadRows = leads.map((l) => `<tr>
-  <td><b>${esc(l.negocio || l.email)}</b><div class="sub">${esc(l.email)}</div></td>
-  <td><span class="badge" style="background:${estadoColor[l.estado] || "#8A8790"}">${esc(l.estado)}</span></td>
-  <td>${esc(l.resumen)}</td>
-  <td class="acc">${esc(l.accion)}</td>
+const accRows = caps.map((a) => `<tr>
+  <td class="b">${esc(a.account)}</td>
+  <td class="num">${a.sends}</td>
+  <td class="num">${a.days}d</td>
+  <td class="num" style="color:${a.bounceRate > 8 ? "var(--red)" : a.bounceRate > 4 ? "var(--amber)" : "var(--green)"}">${a.bounceRate}%</td>
+  <td class="num">${a.frozen ? '<span class="pill red">❄ congelada</span>' : '<span class="pill green">' + a.cap + "/día</span>"}</td>
 </tr>`).join("");
-const vw = variantWeights(sent, leads);
-const repByVar = {}, intByVar = {};
-for (const l of leads) { const vr = emailToVariant[(l.email || "").toLowerCase()] || "v1"; repByVar[vr] = (repByVar[vr] || 0) + 1; if (l.estado === "interesado") intByVar[vr] = (intByVar[vr] || 0) + 1; }
-const varRows = [...new Set([...VARIANTS.map((v) => v.id), ...Object.keys(sentByVariant)])].map((id) => { const nombre = (VARIANTS.find((v) => v.id === id) || {}).nombre || ""; const s = sentByVariant[id] || 0, rp = repByVar[id] || 0, it = intByVar[id] || 0; return `<tr><td>${id} · ${esc(nombre)}</td><td class="num">${s}</td><td class="num">${rp}</td><td class="num">${pct(rp, s)}</td><td class="num">${it}</td></tr>`; }).join("");
+
+const dayRows = days.slice(-21).map((d) => { const o = byDay[d]; const tot = o.ini + o.fu; return `<div class="bar"><span class="bl">${d.slice(5)}</span><span class="bt"><span class="bf ini" style="width:${o.ini / maxDay * 100}%"></span><span class="bf fu" style="width:${o.fu / maxDay * 100}%"></span></span><span class="bn">${tot}<span class="bsub"> · ${o.ini}n/${o.fu}s</span></span></div>`; }).join("") || '<div class="empty">Aún no hay envíos.</div>';
+
+const varRows = [...new Set([...VARIANTS.map((v) => v.id), ...Object.keys(vw.sends)])].map((id) => {
+  const nombre = (VARIANTS.find((v) => v.id === id) || {}).nombre || "";
+  const s = vw.sends[id] || 0, rp = vw.replies[id] || 0, it = vw.positives[id] || 0, w = vw.weights[id] || 0;
+  return `<tr><td class="b">${id} · ${esc(nombre)}</td><td class="num">${s}</td><td class="num">${rp}</td><td class="num">${pc1(rp, s)}</td><td class="num">${it}</td><td class="num">${Math.round(w * 100)}%</td></tr>`;
+}).join("");
+
+const descBars = Object.entries(descCat).filter(([, n]) => n > 0).map(([k, n]) => `<div class="bar"><span class="bl wide">${k}</span><span class="bt"><span class="bf grey" style="width:${n / Math.max(1, descTotal) * 100}%"></span></span><span class="bn">${n}</span></div>`).join("") || '<div class="empty">—</div>';
+
+const leadRows = leads.map((l, i) => `<tr data-s="${esc((l.negocio || "") + " " + (l.email || "") + " " + (l.estado || ""))}">
+  <td class="b">${esc(l.negocio || l.email || "?")}<div class="sub">${esc(l.email || "")}</div></td>
+  <td><span class="badge" style="background:${estadoColor[l.estado] || "#8A8790"}">${esc(l.estado || "?")}</span></td>
+  <td>${esc(l.resumen || "")}</td>
+  <td class="acc">${esc(l.accion || "")}</td>
+</tr>`).join("");
+
+const runSteps = lastRun && lastRun.pasos ? Object.entries(lastRun.pasos).map(([k, v]) => `<span class="step ${String(v).startsWith("ok") ? "ok" : "err"}">${esc(k)}</span>`).join(" ") : "<i>sin datos de ejecución todavía</i>";
 
 const html = `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Faro · Panel interno de outreach</title>
+<title>Faro · Panel de operaciones</title>
 <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <style>
-  :root{ --ink:#16151A; --mut:#6A6770; --faint:#9A97A1; --line:#E9E7EC; --red:#DC2330; --green:#1C8A5B; --bg:#F4F3F6; }
-  *{box-sizing:border-box} body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",system-ui,sans-serif;font-size:15px;line-height:1.5}
-  .wrap{max-width:1000px;margin:0 auto;padding:34px 26px 60px}
-  h1{font-size:30px;font-weight:800;letter-spacing:-.02em;margin:0} .top{display:flex;justify-content:space-between;align-items:baseline;border-bottom:1px solid var(--line);padding-bottom:16px;margin-bottom:26px}
-  .top .d{color:var(--faint);font-size:13px}
-  h2{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);font-weight:700;margin:34px 0 14px}
-  .funnel{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
-  .fcard{background:#fff;border:1px solid var(--line);border-radius:16px;padding:20px 22px}
-  .fcard .n{font-size:42px;font-weight:800;letter-spacing:-.02em;line-height:1}
-  .fcard .l{font-weight:600;margin-top:8px} .fcard .s{color:var(--mut);font-size:12.5px;margin-top:3px}
-  .fcard.green .n{color:var(--green)} .fcard.red .n{color:var(--red)}
-  .grid2{display:grid;grid-template-columns:1fr 1fr;gap:26px}
-  table{width:100%;border-collapse:collapse;background:#fff;border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:14px}
-  th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);text-align:left;padding:12px 14px;border-bottom:1px solid var(--line)}
-  td{padding:13px 14px;border-bottom:1px solid var(--line)} tr:last-child td{border-bottom:none}
-  td.num,th.num{text-align:right} .sub{color:var(--faint);font-size:12px} .acc{color:var(--mut);font-size:13px}
-  .badge{color:#fff;font-size:11.5px;font-weight:700;padding:3px 10px;border-radius:20px;text-transform:capitalize}
-  .bar-row{display:grid;grid-template-columns:90px 1fr 150px;align-items:center;gap:12px;padding:6px 0}
-  .bl{font-size:13px;color:var(--mut)} .bt{height:18px;background:#E7E5EA;border-radius:5px;overflow:hidden} .bf{display:block;height:100%;background:var(--ink);border-radius:5px}
-  .bn{font-size:13px;font-weight:700} .bsub{color:var(--faint);font-weight:400;font-size:11.5px}
-  .stages{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
-  .scard{background:#fff;border:1px solid var(--line);border-radius:14px;padding:16px 18px} .scard .n{font-size:28px;font-weight:800} .scard .l{color:var(--mut);font-size:13px;margin-top:4px}
-  .note{background:#fff;border:1px solid var(--line);border-left:3px solid var(--ink);border-radius:10px;padding:14px 16px;color:var(--mut);font-size:13px;margin-top:12px}
-  .card{background:#fff;border:1px solid var(--line);border-radius:14px;padding:4px 0}
-</style></head><body><div class="wrap">
-  <div class="top"><h1>Faro · Panel de outreach</h1><span class="d">Actualizado ${today()}</span></div>
+:root{--ink:#16151A;--mut:#6A6770;--faint:#9A97A1;--line:#E9E7EC;--red:#DC2330;--amber:#C9780A;--green:#1C8A5B;--bg:#F3F4F6;--card:#fff;--pine:#155E47}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--ink);font-family:"Hanken Grotesk",system-ui,sans-serif;font-size:15px;line-height:1.5}
+.top{position:sticky;top:0;z-index:9;background:rgba(243,244,246,.92);backdrop-filter:blur(8px);border-bottom:1px solid var(--line);padding:14px 26px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+.brand{font-weight:800;letter-spacing:.02em;font-size:18px}.brand b{color:var(--pine)}
+.top .when{color:var(--faint);font-size:12.5px}
+.freno{margin-left:auto;font-weight:700;font-size:12.5px;padding:6px 14px;border-radius:20px}
+.freno.on{background:#FBE6E8;color:var(--red)}.freno.off{background:#E6F4EC;color:var(--green)}
+nav{display:flex;gap:8px;flex-wrap:wrap;padding:14px 26px 0}
+nav a{font-size:13px;font-weight:600;color:var(--mut);text-decoration:none;padding:6px 12px;border:1px solid var(--line);border-radius:20px;background:#fff}
+nav a:hover{color:var(--ink);border-color:var(--ink)}
+.wrap{max-width:1080px;margin:0 auto;padding:8px 26px 80px}
+h2{font-size:12.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);font-weight:700;margin:34px 0 14px}
+section{scroll-margin-top:120px}
+.kpis{display:grid;grid-template-columns:repeat(5,1fr);gap:12px}
+@media(max-width:880px){.kpis{grid-template-columns:repeat(2,1fr)}.cards3{grid-template-columns:1fr 1fr!important}}
+.kpi{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 18px}
+.kn{font-size:34px;font-weight:800;letter-spacing:-.02em;line-height:1}.kn.green{color:var(--green)}.kn.red{color:var(--red)}.kn.pine{color:var(--pine)}
+.kl{font-weight:600;margin-top:8px;font-size:14px}.ks{color:var(--faint);font-size:12px;margin-top:2px}
+.cards3{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:18px 20px}
+.grid2{display:grid;grid-template-columns:1.3fr 1fr;gap:20px}@media(max-width:880px){.grid2{grid-template-columns:1fr}}
+table{width:100%;border-collapse:collapse;background:var(--card);border:1px solid var(--line);border-radius:14px;overflow:hidden;font-size:14px}
+th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);text-align:left;padding:11px 14px;border-bottom:1px solid var(--line)}
+td{padding:12px 14px;border-bottom:1px solid var(--line)}tr:last-child td{border-bottom:none}
+td.num,th.num{text-align:right}td.b{font-weight:600}.sub{color:var(--faint);font-size:12px;font-weight:400}.acc{color:var(--mut);font-size:13px}
+.pill{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:20px}.pill.green{background:#E6F4EC;color:var(--green)}.pill.red{background:#FBE6E8;color:var(--red)}
+.badge{color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;text-transform:capitalize}
+.bar{display:grid;grid-template-columns:64px 1fr 96px;align-items:center;gap:10px;padding:5px 0}
+.bar .wide{grid-column:auto}.bl{font-size:12.5px;color:var(--mut)}.bl.wide{width:auto}
+.bt{height:16px;background:#ECEBEF;border-radius:5px;overflow:hidden;display:flex}
+.bf{display:block;height:100%}.bf.ini{background:var(--pine)}.bf.fu{background:#9DC8B8}.bf.grey{background:var(--faint);border-radius:5px}
+.bn{font-size:12.5px;font-weight:700;text-align:right}.bsub{color:var(--faint);font-weight:400;font-size:11px}
+.note{background:var(--card);border:1px solid var(--line);border-left:3px solid var(--pine);border-radius:10px;padding:13px 16px;color:var(--mut);font-size:13px;margin-top:12px}
+.legend{font-size:12px;color:var(--faint);margin-top:8px}.legend b{font-weight:700}
+.sbox{width:100%;padding:10px 14px;border:1px solid var(--line);border-radius:10px;font:inherit;font-size:14px;margin-bottom:10px}
+.steps{display:flex;gap:6px;flex-wrap:wrap}.step{font-size:11.5px;font-weight:600;padding:4px 10px;border-radius:8px}.step.ok{background:#E6F4EC;color:var(--green)}.step.err{background:#FBE6E8;color:var(--red)}
+.empty{color:var(--faint);font-size:13px;padding:8px 0}
+.foot{margin-top:40px;padding-top:16px;border-top:1px solid var(--line);color:var(--faint);font-size:12.5px}
+</style></head><body>
+<div class="top"><span class="brand"><b>Faro</b> · Operaciones</span><span class="when">actualizado ${esc(lastRun?.at?.slice(0, 16).replace("T", " ") || today())}</span>
+<span class="freno ${frenoOn ? "on" : "off"}">${frenoOn ? "⛔ FRENO PUESTO · no envía" : "● ENVIANDO"}</span></div>
+<nav><a href="#resumen">Resumen</a><a href="#almacen">Almacén</a><a href="#cuentas">Cuentas</a><a href="#envios">Envíos</a><a href="#variantes">Variantes</a><a href="#leads">Leads</a></nav>
+<div class="wrap">
 
-  <h2>Embudo</h2>
-  <div class="funnel">${funnel.map((f, i) => `<div class="fcard ${i === 3 ? "green" : i === 1 && rebotes > 0 ? "" : ""}"><div class="n">${f[1]}</div><div class="l">${f[0]}</div><div class="s">${f[2]}</div></div>`).join("")}</div>
+<section id="resumen"><h2>Embudo</h2>
+<div class="kpis">
+${kpi(conPDF, "Munición lista", `${listos.length} en almacén · ${bufferDias} días`, "pine")}
+${kpi(contactados, "Contactados", `${descTotal} descartados por calidad`)}
+${kpi(entregados, "Entregados", `${pc1(entregados, contactados)} · ${rebotes} rebotes`)}
+${kpi(respuestas, "Respuestas", pc1(respuestas, contactados) + " de contactados")}
+${kpi(interesados, "Interesados", `${bajas} bajas · los cierra Jordi`, "green")}
+</div>
+<div class="note">Capacidad actual: <b>${capDia} envíos/día</b> con ${caps.length} cuentas (~${nuevosDia} nuevos + seguimientos). Métrica de éxito = <b>respuestas</b>, no aperturas.</div>
+</section>
 
-  <div class="note">Almacén: <b>${colaListos}</b> informes listos para enviar · ${colaDesc} descartados por calidad · capacidad de envío ~${capDia}/día.</div>
-  <div class="grid2">
-    <div><h2>Salud por cuenta (rebotes y tope)</h2><table><thead><tr><th>Cuenta</th><th class="num">Enviados</th><th class="num">Antig.</th><th class="num">% rebote</th><th class="num">Tope hoy</th></tr></thead><tbody>${accRows}</tbody></table><div class="note">El tope sube con la antigüedad de la cuenta. Si una pasa del ~8% de rebotes se <b>congela</b> sola para proteger la entregabilidad del resto.</div></div>
-    <div><h2>Por etapa</h2><div class="stages">
-      <div class="scard"><div class="n">${contactados}</div><div class="l">Email inicial</div></div>
-      <div class="scard"><div class="n">${seg1}</div><div class="l">Seguimiento 1</div></div>
-      <div class="scard"><div class="n">${seg2}</div><div class="l">Seguimiento 2</div></div>
-    </div>
-    <h2>Variantes (experimento)</h2><table><thead><tr><th>Variante</th><th class="num">Enviados</th><th class="num">Respuestas</th><th class="num">% resp.</th><th class="num">Interes.</th></tr></thead><tbody>${varRows}</tbody></table>
-    <div class="note">Reparto actual: ${vw.decided ? "<b>ponderado</b> (ya hay muestra)" : "<b>igual</b> — muestra insuficiente, aún no se decide nada (sería suerte)"} → ${Object.entries(vw.weights).map(([k, v]) => k + " " + Math.round(v * 100) + "%").join(" · ")}. Métrica = respuestas positivas. Umbral para decidir: 120 envíos/variante y 8 respuestas (llevamos ${vw.totalReplies}).</div></div>
+<section id="almacen"><h2>Almacén (munición)</h2>
+<div class="grid2">
+  <div class="cards3">
+    ${kpi(listos.length, "Listos", "informes en cola", "pine")}
+    ${kpi(conPDF, "Con PDF", `${listos.length - conPDF} sin PDF`)}
+    ${kpi(bufferDias + "d", "Colchón", "a ritmo actual")}
   </div>
+  <div class="card"><div class="kl" style="margin:0 0 8px">Descartados por calidad (${descTotal})</div>${descBars}</div>
+</div>
+<div class="note">El almacén se rellena solo (audit cold gratis + gancho IA + QA). Lo que no pasa el filtro (sin email, sin competidor para comparar, categoría que no encaja) se descarta y no se vuelve a tocar.</div>
+</section>
 
-  <h2>Envíos por día</h2>
-  <div class="card" style="padding:14px 18px">${dayRows}</div>
+<section id="cuentas"><h2>Cuentas (salud y ramp-up)</h2>
+<table><thead><tr><th>Cuenta</th><th class="num">Enviados</th><th class="num">Antig.</th><th class="num">% rebote</th><th class="num">Tope hoy</th></tr></thead><tbody>${accRows}</tbody></table>
+<div class="note">El tope sube con la antigüedad de cada cuenta. Si una pasa del <b>8% de rebotes</b> se <b>congela sola</b>. Mete más cuentas calentadas → la capacidad sube sola.</div>
+</section>
 
-  <h2>Leads y respuestas (clasificadas por IA)</h2>
-  <table><thead><tr><th>Negocio</th><th>Estado</th><th>Resumen</th><th>Qué haría Jordi</th></tr></thead><tbody>${leadRows || `<tr><td colspan="4" style="color:var(--faint)">Sin respuestas todavía.</td></tr>`}</tbody></table>
-  <div class="note">Los <b>interesados</b> los cierras tú (salen del seguimiento automático). Las <b>bajas</b> (cerró / cambió de dueño) se descartan. El resto sigue su secuencia.</div>
+<section id="envios"><h2>Envíos por día (últimos 21)</h2>
+<div class="grid2">
+  <div class="card">${dayRows}<div class="legend"><b style="color:var(--pine)">■</b> nuevos · <b style="color:#9DC8B8">■</b> seguimientos</div></div>
+  <div class="cards3" style="grid-template-columns:1fr">
+    ${kpi(contactados, "Email inicial", "")}
+    ${kpi(seg1, "Seguimiento 1", "")}
+    ${kpi(seg2, "Seguimiento 2", "")}
+  </div>
+</div>
+</section>
 
+<section id="variantes"><h2>Variantes de email (experimento A/B)</h2>
+<table><thead><tr><th>Variante</th><th class="num">Enviados</th><th class="num">Respuestas</th><th class="num">% resp.</th><th class="num">Interes.</th><th class="num">Reparto</th></tr></thead><tbody>${varRows}</tbody></table>
+<div class="note">Reparto actual: <b>${vw.decided ? "ponderado" : "igual"}</b> ${vw.decided ? "(ya hay muestra → más volumen a la que más convierte)" : "— muestra insuficiente, no se decide nada todavía (sería suerte)"}. Umbral para decidir: 120 envíos/variante y 8 respuestas (llevamos ${vw.totalReplies}).</div>
+</section>
+
+<section id="leads"><h2>Leads y respuestas (clasificadas por IA)</h2>
+<input class="sbox" id="q" placeholder="Buscar negocio / email / estado…" oninput="for(const r of document.querySelectorAll('#lt tbody tr')){r.style.display=r.dataset.s.toLowerCase().includes(this.value.toLowerCase())?'':'none'}">
+<table id="lt"><thead><tr><th>Negocio</th><th>Estado</th><th>Resumen</th><th>Qué haría Jordi</th></tr></thead><tbody>${leadRows || `<tr><td colspan="4" class="empty">Sin respuestas todavía.</td></tr>`}</tbody></table>
+<div class="note">Los <b>interesados</b> los cierras tú (salen del seguimiento automático). Las <b>bajas</b> se descartan. El resto sigue su secuencia de seguimientos.</div>
+</section>
+
+<div class="foot">Última ejecución del sistema: ${lastRun ? esc(lastRun.at?.slice(0, 16).replace("T", " ")) + ` · elegidos ${lastRun.elegidos ?? "—"} · PDFs ${lastRun.pdfsListos ?? "—"} · cuentas ${lastRun.cuentas ?? "—"}` : "—"}<div class="steps" style="margin-top:8px">${runSteps}</div></div>
 </div></body></html>`;
 
 const out = resolve(REPO_ROOT, "panel-interno.html");
 writeFileSync(out, html, "utf8");
-console.log(`Contactados ${contactados} · Entregados ${entregados} · Respuestas ${respuestas} · Interesados ${interesados} · Rebotes ${rebotes}`);
-console.log(`→ ${out}`);
+console.log(`Panel → ${out}`);
+console.log(`Contactados ${contactados} · Entregados ${entregados} · Respuestas ${respuestas} · Interesados ${interesados} · Almacén ${listos.length} (${conPDF} con PDF) · Capacidad ${capDia}/día · Freno ${frenoOn ? "ON" : "off"}`);
