@@ -1,6 +1,6 @@
 {
-  "at": "2026-06-22T09:34:11.746Z",
-  "sha": "427e19d",
+  "at": "2026-06-22T10:10:54.592Z",
+  "sha": "2ab4af9",
   "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1650168/x64/chrome",
   "freno": true,
   "pasos": {
@@ -9,6 +9,8 @@
     "cola_dia": "ok ·   Siguiente: pdf-web --today  →  send-followups + send-emails",
     "panel": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/panel-interno.html"
   },
-  "elegidos": 29,
-  "pdfsListos": 20
+  "elegidos": 44,
+  "pdfsListos": 41,
+  "cuentas": 5,
+  "capacidad": 74
 }
