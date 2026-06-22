@@ -17,6 +17,7 @@ import { today } from "./lib/slug.mjs";
 import { sendMail, gmailAccounts } from "./lib/gmail-smtp.mjs";
 import { VARIANTS } from "./lib/email-copy.mjs";
 import { variantWeights, pickVariant } from "./lib/variant-policy.mjs";
+import { accountReport } from "./lib/caps.mjs";
 
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry");
@@ -55,6 +56,15 @@ const { weights, decided } = variantWeights(log, leads);
 const accs = gmailAccounts();
 if (!accs.length && !DRY) { console.error("✗ No hay GMAIL_ACCOUNTS en ~/.faro/.env"); process.exit(1); }
 
+// Tope diario POR CUENTA (ramp-up) + carga de hoy (envíos + seguimientos ya hechos):
+// enviamos el MÁXIMO posible sin pasar el tope de NINGUNA cuenta (y el tope sube solo con la antigüedad).
+const bouncedSet = (() => { try { const f = readdirSync(resolve(REPO_ROOT, "targets")).filter((n) => /^inbox-state-.*\.json$/.test(n)).sort().pop(); const st = f ? JSON.parse(readFileSync(resolve(REPO_ROOT, "targets", f), "utf8")) : { bouncedEmails: [] }; return new Set((st.bouncedEmails || []).map((e) => String(e).toLowerCase())); } catch { return new Set(); } })();
+const capByAcc = {}; for (const a of accountReport(log, bouncedSet)) capByAcc[a.account] = a.cap;
+const loadByAcc = {}; const todayStr = today();
+for (const v of Object.values(log)) if ((v.at || "").slice(0, 10) === todayStr && v.account) loadByAcc[v.account] = (loadByAcc[v.account] || 0) + 1;
+try { const flg = JSON.parse(readFileSync(resolve(REPO_ROOT, "targets", "followup-log.json"), "utf8")); for (const v of Object.values(flg)) if ((v.at || "").slice(0, 10) === todayStr && v.account) loadByAcc[v.account] = (loadByAcc[v.account] || 0) + 1; } catch {}
+const pickAcc = () => { let best = null, rem = 0; for (const a of accs) { const r = (capByAcc[a.user] || 0) - (loadByAcc[a.user] || 0); if (r > rem) { rem = r; best = a; } } return best; };
+
 const pdfFor = (slug) => resolve(REPO_ROOT, "apps", "web", "audits", `${slug}.pdf`);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
@@ -80,11 +90,12 @@ for (let i = 0; i < list.length; i++) {
   if (!hasPdf) { console.log(`  ⚠ #${r.priority} ${r.negocio}: falta ${r.slug}.pdf → salto`); skipped++; continue; }
   if (!TEST && (log[r.place_id] || sentEmails.has(cleanEmail(r.email)))) { console.log(`  ↷ #${r.priority} ${r.negocio}: ya contactado (ficha o email), salto`); skipped++; continue; }
 
-  const acc = accs[sent % accs.length]; // rota cuentas Gmail
+  const acc = TEST ? accs[0] : pickAcc();
+  if (!acc) { console.log(`  ⏸ tope diario por cuenta alcanzado en todas — paro (enviados ${sent})`); break; }
   const to = TEST ? TEST_TO : cleanEmail(r.email);
   try {
     await sendMail({ user: acc.user, pass: acc.pass, fromName: "Jordi de Faro", to, subject: subj, text: body, attachments: [{ path: pdf, filename: "analisis-faro.pdf" }] });
-    sent++;
+    sent++; loadByAcc[acc.user] = (loadByAcc[acc.user] || 0) + 1;
     console.log(`  ✓ #${r.priority} ${r.negocio} → ${to}  [${acc.user}]`);
     if (!TEST) { log[r.place_id] = { channel: "email", at: new Date().toISOString(), to: r.email, account: acc.user, variant: variant.id }; sentEmails.add(cleanEmail(r.email)); writeFileSync(logPath, JSON.stringify(log, null, 2), "utf8"); }
     if (i < list.length - 1) await sleep(THROTTLE_MS);

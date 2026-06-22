@@ -23,8 +23,8 @@ const sentIds = new Set(Object.keys(sentLog));
 const sentEmails = new Set(Object.values(sentLog).map((v) => norm(v.to)).filter(Boolean));
 
 const cap = capacity(sentLog, bounced);
-// Reservamos ~60% de la capacidad del día para emails NUEVOS; el resto lo usan los seguimientos.
-const LIMIT = numAfter("--limit", Math.max(1, Math.round(cap * 0.6)));
+// Cogemos hasta la capacidad del día; send-emails respeta el tope por cuenta y descuenta los seguimientos.
+const LIMIT = numAfter("--limit", Math.max(1, cap));
 
 const candidates = Object.values(cola.items || {})
   .filter((it) => it.status === "listo" && !sentIds.has(it.place_id) && !sentEmails.has(norm(it.email))
@@ -34,6 +34,6 @@ const pick = candidates.slice(0, LIMIT).map((r, i) => ({ priority: i + 1, ...r }
 
 const out = T(`envios-HOY-${today()}.json`);
 writeFileSync(out, JSON.stringify(pick, null, 2), "utf8");
-console.log(`Capacidad del día ~${cap} · reservado para nuevos: ${LIMIT}`);
+console.log(`Capacidad del día ~${cap} · candidatos a coger: ${LIMIT}`);
 console.log(`Almacén listos disponibles: ${candidates.length} · elegidos hoy: ${pick.length}`);
 console.log(`→ ${out}\n  Siguiente: pdf-web --today  →  send-followups + send-emails`);
