@@ -27,7 +27,8 @@ const cap = capacity(sentLog, bounced);
 const LIMIT = numAfter("--limit", Math.max(1, Math.round(cap * 0.6)));
 
 const candidates = Object.values(cola.items || {})
-  .filter((it) => it.status === "listo" && !sentIds.has(it.place_id) && !sentEmails.has(norm(it.email)))
+  .filter((it) => it.status === "listo" && !sentIds.has(it.place_id) && !sentEmails.has(norm(it.email))
+    && existsSync(resolve(REPO_ROOT, "apps", "web", "audits", `${it.slug}.pdf`)))  // solo los que YA tienen PDF (si no, se saltarían)
   .sort((a, b) => String(a.addedAt).localeCompare(String(b.addedAt)));
 const pick = candidates.slice(0, LIMIT).map((r, i) => ({ priority: i + 1, ...r }));
 
