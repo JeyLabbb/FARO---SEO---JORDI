@@ -8,6 +8,8 @@ import { existsSync, writeFileSync, readFileSync } from "node:fs";
 import { resolve } from "node:path";
 import { REPO_ROOT } from "./config.mjs";
 import { today } from "./lib/slug.mjs";
+import { gmailAccounts } from "./lib/gmail-smtp.mjs";
+import { capacity } from "./lib/caps.mjs";
 
 const CWD = resolve(REPO_ROOT, "tools", "audit-generator");
 const STOP = existsSync(resolve(REPO_ROOT, "targets", "PARAR.flag"));
@@ -33,5 +35,6 @@ try {
   summary.elegidos = ev.length;
   summary.pdfsListos = ev.filter((r) => existsSync(resolve(REPO_ROOT, "apps", "web", "audits", `${r.slug}.pdf`))).length;
 } catch { summary.elegidos = 0; summary.pdfsListos = 0; }
+try { summary.cuentas = gmailAccounts().length; summary.capacidad = capacity(JSON.parse(readFileSync(resolve(REPO_ROOT, "targets", "sent-log.json"), "utf8"))); } catch {}
 writeFileSync(resolve(REPO_ROOT, "targets", "last-run.json"), JSON.stringify(summary, null, 2));
 console.log(`\n===== Fin · elegidos ${summary.elegidos} · PDFs ${summary.pdfsListos} · freno ${STOP} =====`);
