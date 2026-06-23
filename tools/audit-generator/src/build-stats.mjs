@@ -66,6 +66,9 @@ const caps = accountReport(sent, bounced);
 const capDia = capacity(sent, bounced);
 const nuevosDia = Math.max(1, Math.round(capDia * 0.6));
 const bufferDias = nuevosDia ? Math.round(conPDF / nuevosDia) : 0;
+// Alerta de cuentas con problema (ralentizada/congelada/pausada): se ve en el panel y en el parte diario (last-run).
+const problemAcc = caps.filter((a) => a.state && a.state !== "ok");
+const alerta = problemAcc.length ? "⚠️ " + problemAcc.map((a) => `${a.account} ${a.state === "paused" ? "PAUSADA" : a.state === "frozen" ? "CONGELADA" : "ralentizada " + a.cap + "/día"}`).join(" · ") : "";
 
 // etapas
 const seg1 = Object.values(fl).filter((v) => (v.n || 0) >= 1).length;
@@ -86,7 +89,7 @@ const accRows = caps.map((a) => `<tr>
   <td class="num">${a.sends}</td>
   <td class="num">${a.days}d</td>
   <td class="num" style="color:${a.bounceRate > 8 ? "var(--red)" : a.bounceRate > 4 ? "var(--amber)" : "var(--green)"}">${a.bounceRate}%</td>
-  <td class="num">${a.frozen ? '<span class="pill red">❄ congelada</span>' : '<span class="pill green">' + a.cap + "/día</span>"}</td>
+  <td class="num">${a.state === "paused" ? '<span class="pill grey">⏸ pausada a mano</span>' : a.state === "frozen" ? '<span class="pill red">❄ congelada</span>' : a.state === "throttled" ? '<span class="pill amber">🐢 ralentizada · ' + a.cap + '/día</span>' : '<span class="pill green">' + a.cap + '/día</span>'}</td>
 </tr>`).join("");
 
 const dayRows = days.slice(-21).map((d) => { const o = byDay[d]; const tot = o.ini + o.fu; return `<div class="bar"><span class="bl">${d.slice(5)}</span><span class="bt"><span class="bf ini" style="width:${o.ini / maxDay * 100}%"></span><span class="bf fu" style="width:${o.fu / maxDay * 100}%"></span></span><span class="bn">${tot}<span class="bsub"> · ${o.ini}n/${o.fu}s</span></span></div>`; }).join("") || '<div class="empty">Aún no hay envíos.</div>';
@@ -137,7 +140,7 @@ table{width:100%;border-collapse:collapse;background:var(--card);border:1px soli
 th{font-size:11px;letter-spacing:.05em;text-transform:uppercase;color:var(--faint);text-align:left;padding:11px 14px;border-bottom:1px solid var(--line)}
 td{padding:12px 14px;border-bottom:1px solid var(--line)}tr:last-child td{border-bottom:none}
 td.num,th.num{text-align:right}td.b{font-weight:600}.sub{color:var(--faint);font-size:12px;font-weight:400}.acc{color:var(--mut);font-size:13px}
-.pill{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:20px}.pill.green{background:#E6F4EC;color:var(--green)}.pill.red{background:#FBE6E8;color:var(--red)}
+.pill{font-size:11.5px;font-weight:700;padding:3px 9px;border-radius:20px}.pill.green{background:#E6F4EC;color:var(--green)}.pill.red{background:#FBE6E8;color:var(--red)}.pill.amber{background:#FBF0DD;color:var(--amber)}.pill.grey{background:#ECEBEF;color:var(--mut)}
 .badge{color:#fff;font-size:11px;font-weight:700;padding:3px 10px;border-radius:20px;text-transform:capitalize}
 .bar{display:grid;grid-template-columns:64px 1fr 96px;align-items:center;gap:10px;padding:5px 0}
 .bar .wide{grid-column:auto}.bl{font-size:12.5px;color:var(--mut)}.bl.wide{width:auto}
@@ -181,7 +184,8 @@ ${kpi(interesados, "Interesados", `${bajas} bajas · los cierra Jordi`, "green")
 
 <section id="cuentas"><h2>Cuentas (salud y ramp-up)</h2>
 <table><thead><tr><th>Cuenta</th><th class="num">Enviados</th><th class="num">Antig.</th><th class="num">% rebote</th><th class="num">Tope hoy</th></tr></thead><tbody>${accRows}</tbody></table>
-<div class="note">El tope sube con la antigüedad de cada cuenta. Si una pasa del <b>8% de rebotes</b> se <b>congela sola</b>. Mete más cuentas calentadas → la capacidad sube sola.</div>
+${alerta ? `<div class="note" style="border-left-color:var(--amber);color:var(--amber);font-weight:600">${esc(alerta)}</div>` : ""}
+<div class="note">El tope sube con la antigüedad de cada cuenta. Si una pasa del <b>8% de rebotes</b> se <b>ralentiza/congela sola</b>. Para parar una a mano: añade su email a <b>targets/cuentas-pausadas.json</b>. Mete más cuentas calentadas → la capacidad sube sola.</div>
 </section>
 
 <section id="envios"><h2>Envíos por día (últimos 21)</h2>
@@ -229,4 +233,4 @@ writeFileSync(resolve(fnDir, "index.js"), fn, "utf8");
 writeFileSync(resolve(REPO_ROOT, "apps", "panel-ops", "vercel.json"), JSON.stringify({ rewrites: [{ source: "/(.*)", destination: "/api/index" }] }, null, 2), "utf8");
 
 console.log(`Panel → ${out}  ·  función protegida → apps/panel-ops/`);
-console.log(`Contactados ${contactados} · Entregados ${entregados} · Respuestas ${respuestas} · Interesados ${interesados} · Almacén ${listos.length} (${conPDF} con PDF) · Capacidad ${capDia}/día · Freno ${frenoOn ? "ON" : "off"}`);
+console.log(`Contactados ${contactados} · Entregados ${entregados} · Respuestas ${respuestas} · Interesados ${interesados} · Almacén ${listos.length} (${conPDF} con PDF) · Capacidad ${capDia}/día · Freno ${frenoOn ? "ON" : "off"}${alerta ? " · " + alerta : ""}`);

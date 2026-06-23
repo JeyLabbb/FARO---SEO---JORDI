@@ -2,9 +2,23 @@
 // antigüedad (días desde su primer envío) y se CONGELA si su tasa de rebote supera el
 // umbral. Capacidad total del día = suma de topes. Conservador: mejor lento que quemado.
 import { gmailAccounts } from "./gmail-smtp.mjs";
+import { readFileSync, existsSync } from "node:fs";
+import { resolve } from "node:path";
+import { REPO_ROOT } from "../config.mjs";
 
 const DAY = 86400000;
 export const BOUNCE_FREEZE = 0.08; // >8% rebotes → congelar la cuenta
+
+// Freno MANUAL por-cuenta (el global es targets/PARAR.flag). Los emails que estén en
+// targets/cuentas-pausadas.json NO envían (tope 0, estado "paused"). Reactivar = quitarlos.
+export function pausedAccounts() {
+  try {
+    const p = resolve(REPO_ROOT, "targets", "cuentas-pausadas.json");
+    if (!existsSync(p)) return new Set();
+    const arr = JSON.parse(readFileSync(p, "utf8"));
+    return new Set((Array.isArray(arr) ? arr : []).map((e) => String(e).toLowerCase()));
+  } catch { return new Set(); }
+}
 // Cuentas calentadas en Smartlead (reputación ya construida): arrancan ALTO (28) y suben a 40→50/día.
 // Calentar NO es licencia para cientos (pasarse = baneo igual); ~50/buzón es el techo agresivo-pero-sano
 // en frío. El límite REAL se verifica con los rebotes (freeze a >8%) y con la calidad de la lista.
@@ -41,6 +55,7 @@ export function accountReport(sentLog = {}, bouncedEmails = new Set()) {
   }
   // incluir cuentas configuradas aunque aún no hayan enviado (empiezan en el escalón 1)
   for (const acc of gmailAccounts()) if (!byAcc[acc.user]) byAcc[acc.user] = { account: acc.user, sends: 0, firstAt: null, bounces: 0, ev: [] };
+  const paused = pausedAccounts();
   return Object.values(byAcc).map((o) => {
     const days = o.firstAt == null ? 0 : Math.floor((now - o.firstAt) / DAY);
     const base = WARMED.has(o.account) ? warmedCap(days) : rampCap(days);
@@ -52,6 +67,7 @@ export function accountReport(sentLog = {}, bouncedEmails = new Set()) {
     let cap = base, state = "ok";
     if (recent.length >= 15 && recRate > 0.30) { cap = 0; state = "frozen"; }
     else if (recent.length >= 15 && recRate > BOUNCE_FREEZE) { cap = Math.max(5, Math.floor(base / 3)); state = "throttled"; }
+    if (paused.has(o.account.toLowerCase())) { cap = 0; state = "paused"; } // freno manual por-cuenta (override)
     return { account: o.account, sends: o.sends, firstAt: o.firstAt, bounces: o.bounces, days, bounceRate: Math.round(recRate * 1000) / 10, frozen: cap === 0, state, cap };
   });
 }
