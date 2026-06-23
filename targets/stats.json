@@ -1,54 +1,73 @@
 {
-  "at": "2026-06-23T16:35:57.824Z",
+  "at": "2026-06-23T19:55:17.418Z",
   "contactados": 392,
-  "entregados": 377,
-  "rebotes": 15,
-  "rebotePct": "3.8%",
-  "respuestas": 6,
+  "entregados": 368,
+  "rebotes": 24,
+  "rebotePct": "6.1%",
+  "respuestas": 7,
   "interesados": 2,
   "bajas": 3,
   "enviadosHoy": 93,
   "listos": 482,
   "stockDesplegable": 260,
-  "bufferDias": 3,
-  "capDia": 104,
+  "bufferDias": 5,
+  "capDia": 57,
   "cuentas": [
     {
       "account": "pleiamusicstudio@gmail.com",
       "state": "ok",
       "cap": 16,
-      "bounceRate": 0,
+      "bounceRate": 3.3,
       "sends": 104
     },
     {
       "account": "borrutjordi548@gmail.com",
-      "state": "ok",
-      "cap": 16,
-      "bounceRate": 6.7,
+      "state": "throttled",
+      "cap": 4,
+      "bounceRate": 10,
       "sends": 81
     },
     {
       "account": "yourbusinesstry@gmail.com",
-      "state": "ok",
-      "cap": 16,
-      "bounceRate": 3.3,
+      "state": "throttled",
+      "cap": 2,
+      "bounceRate": 13.3,
       "sends": 95
     },
     {
       "account": "jordi@tryjeylabbb.com",
-      "state": "ok",
-      "cap": 28,
-      "bounceRate": 0,
+      "state": "throttled",
+      "cap": 7,
+      "bounceRate": 6.7,
       "sends": 56
     },
     {
       "account": "jordi@getjeylabbb.com",
       "state": "ok",
       "cap": 28,
-      "bounceRate": 0,
+      "bounceRate": 3.3,
       "sends": 56
     }
   ],
-  "cuentasTocadas": [],
-  "alerta": ""
+  "cuentasTocadas": [
+    {
+      "account": "borrutjordi548@gmail.com",
+      "state": "throttled",
+      "bounceRate": 10,
+      "cap": 4
+    },
+    {
+      "account": "yourbusinesstry@gmail.com",
+      "state": "throttled",
+      "bounceRate": 13.3,
+      "cap": 2
+    },
+    {
+      "account": "jordi@tryjeylabbb.com",
+      "state": "throttled",
+      "bounceRate": 6.7,
+      "cap": 7
+    }
+  ],
+  "alerta": "⚠️ borrutjordi548@gmail.com ralentizada 4/día · yourbusinesstry@gmail.com ralentizada 2/día · jordi@tryjeylabbb.com ralentizada 7/día"
 }

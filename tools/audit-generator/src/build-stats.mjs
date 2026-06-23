@@ -70,7 +70,7 @@ const nuevosDia = Math.max(1, Math.round(capDia * 0.6));
 const bufferDias = nuevosDia ? Math.round(conPDF / nuevosDia) : 0;
 // Alerta de cuentas con problema (ralentizada/congelada/pausada): se ve en el panel y en el parte diario (last-run).
 const problemAcc = caps.filter((a) => a.state && a.state !== "ok");
-const alerta = problemAcc.length ? "⚠️ " + problemAcc.map((a) => `${a.account} ${a.state === "paused" ? "PAUSADA" : a.state === "frozen" ? "CONGELADA" : "ralentizada " + a.cap + "/día"}`).join(" · ") : "";
+const alerta = problemAcc.length ? "⚠️ " + problemAcc.map((a) => `${a.account} ${a.state === "spam" ? "EN SPAM (parada)" : a.state === "paused" ? "PAUSADA" : a.state === "frozen" ? "CONGELADA" : "ralentizada " + a.cap + "/día"}`).join(" · ") : "";
 
 // etapas
 const seg1 = Object.values(fl).filter((v) => (v.n || 0) >= 1).length;
@@ -90,8 +90,8 @@ const accRows = caps.map((a) => `<tr>
   <td class="b">${esc(a.account)}</td>
   <td class="num">${a.sends}</td>
   <td class="num">${a.days}d</td>
-  <td class="num" style="color:${a.bounceRate > 8 ? "var(--red)" : a.bounceRate > 4 ? "var(--amber)" : "var(--green)"}">${a.bounceRate}%</td>
-  <td class="num">${a.state === "paused" ? '<span class="pill grey">⏸ pausada a mano</span>' : a.state === "frozen" ? '<span class="pill red">❄ congelada</span>' : a.state === "throttled" ? '<span class="pill amber">🐢 ralentizada · ' + a.cap + '/día</span>' : '<span class="pill green">' + a.cap + '/día</span>'}</td>
+  <td class="num" style="color:${a.bounceRate > 10 ? "var(--red)" : a.bounceRate > 5 ? "var(--amber)" : "var(--green)"}">${a.bounceRate}%</td>
+  <td class="num">${a.state === "spam" ? '<span class="pill red">🚫 en spam (parada)</span>' : a.state === "paused" ? '<span class="pill grey">⏸ pausada a mano</span>' : a.state === "frozen" ? '<span class="pill red">❄ congelada</span>' : a.state === "throttled" ? '<span class="pill amber">🐢 ralentizada · ' + a.cap + '/día</span>' : '<span class="pill green">' + a.cap + '/día</span>'}</td>
 </tr>`).join("");
 
 const dayRows = days.slice(-21).map((d) => { const o = byDay[d]; const tot = o.ini + o.fu; return `<div class="bar"><span class="bl">${d.slice(5)}</span><span class="bt"><span class="bf ini" style="width:${o.ini / maxDay * 100}%"></span><span class="bf fu" style="width:${o.fu / maxDay * 100}%"></span></span><span class="bn">${tot}<span class="bsub"> · ${o.ini}n/${o.fu}s</span></span></div>`; }).join("") || '<div class="empty">Aún no hay envíos.</div>';
@@ -187,7 +187,7 @@ ${kpi(interesados, "Interesados", `${bajas} bajas · los cierra Jordi`, "green")
 <section id="cuentas"><h2>Cuentas (salud y ramp-up)</h2>
 <table><thead><tr><th>Cuenta</th><th class="num">Enviados</th><th class="num">Antig.</th><th class="num">% rebote</th><th class="num">Tope hoy</th></tr></thead><tbody>${accRows}</tbody></table>
 ${alerta ? `<div class="note" style="border-left-color:var(--amber);color:var(--amber);font-weight:600">${esc(alerta)}</div>` : ""}
-<div class="note">El tope sube con la antigüedad de cada cuenta. Si una pasa del <b>8% de rebotes</b> se <b>ralentiza/congela sola</b>. Para parar una a mano: añade su email a <b>targets/cuentas-pausadas.json</b>. Mete más cuentas calentadas → la capacidad sube sola.</div>
+<div class="note">El tope sube con la antigüedad de cada cuenta. Si una pasa del <b>5% de rebotes</b> se <b>ralentiza</b>, del <b>10%</b> se <b>para sola</b>, y si el monitor la detecta <b>en spam</b> también se para. Para parar una a mano: añade su email a <b>targets/cuentas-pausadas.json</b>. Mete más cuentas calentadas → la capacidad sube sola.</div>
 </section>
 
 <section id="envios"><h2>Envíos por día (últimos 21)</h2>

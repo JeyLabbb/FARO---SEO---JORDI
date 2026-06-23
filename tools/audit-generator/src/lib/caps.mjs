@@ -7,7 +7,10 @@ import { resolve } from "node:path";
 import { REPO_ROOT } from "../config.mjs";
 
 const DAY = 86400000;
-export const BOUNCE_FREEZE = 0.08; // >8% rebotes → congelar la cuenta
+// Umbrales de rebote (estándar de industria: <2% bien · 2-5% aceptable · >5% problema · >10% daña reputación).
+// Conservador a propósito: mejor frenar una cuenta que quemarla.
+export const BOUNCE_THROTTLE = 0.05; // >5% rebote reciente → ralentizar
+export const BOUNCE_CRITICAL = 0.10; // >10% → goteo mínimo (NO 0: así la cuenta se sana sola enviando limpio)
 
 // Freno MANUAL por-cuenta (el global es targets/PARAR.flag). Los emails que estén en
 // targets/cuentas-pausadas.json NO envían (tope 0, estado "paused"). Reactivar = quitarlos.
@@ -17,6 +20,17 @@ export function pausedAccounts() {
     if (!existsSync(p)) return new Set();
     const arr = JSON.parse(readFileSync(p, "utf8"));
     return new Set((Array.isArray(arr) ? arr : []).map((e) => String(e).toLowerCase()));
+  } catch { return new Set(); }
+}
+
+// Cuentas detectadas EN SPAM por el monitor de colocación (spam-check.mjs → spam-state.json).
+// Si una cuenta cayó en spam en el último test, NO envía (cap 0) hasta que vuelva a bandeja.
+export function spamAccounts() {
+  try {
+    const p = resolve(REPO_ROOT, "targets", "spam-state.json");
+    if (!existsSync(p)) return new Set();
+    const st = JSON.parse(readFileSync(p, "utf8"));
+    return new Set(Object.entries(st.byAccount || {}).filter(([, o]) => o && o.placement === "spam").map(([a]) => a.toLowerCase()));
   } catch { return new Set(); }
 }
 // Cuentas calentadas en Smartlead (reputación ya construida): arrancan ALTO (28) y suben a 40→50/día.
@@ -56,6 +70,7 @@ export function accountReport(sentLog = {}, bouncedEmails = new Set()) {
   // incluir cuentas configuradas aunque aún no hayan enviado (empiezan en el escalón 1)
   for (const acc of gmailAccounts()) if (!byAcc[acc.user]) byAcc[acc.user] = { account: acc.user, sends: 0, firstAt: null, bounces: 0, ev: [] };
   const paused = pausedAccounts();
+  const spam = spamAccounts();
   return Object.values(byAcc).map((o) => {
     const days = o.firstAt == null ? 0 : Math.floor((now - o.firstAt) / DAY);
     const base = WARMED.has(o.account) ? warmedCap(days) : rampCap(days);
@@ -65,9 +80,10 @@ export function accountReport(sentLog = {}, bouncedEmails = new Set()) {
     const recent = o.ev.sort((a, b) => b.t - a.t).slice(0, 30);
     const recRate = recent.length ? recent.filter((e) => e.b).length / recent.length : 0;
     let cap = base, state = "ok";
-    if (recent.length >= 15 && recRate > 0.30) { cap = 0; state = "frozen"; }
-    else if (recent.length >= 15 && recRate > BOUNCE_FREEZE) { cap = Math.max(5, Math.floor(base / 3)); state = "throttled"; }
-    if (paused.has(o.account.toLowerCase())) { cap = 0; state = "paused"; } // freno manual por-cuenta (override)
+    if (recent.length >= 12 && recRate > BOUNCE_CRITICAL) { cap = 2; state = "throttled"; }                                     // >10% → goteo (se sana solo enviando limpio)
+    else if (recent.length >= 12 && recRate > BOUNCE_THROTTLE) { cap = Math.max(3, Math.floor(base / 4)); state = "throttled"; } // >5% → ralentizar
+    if (spam.has(o.account.toLowerCase())) { cap = 0; state = "spam"; }      // en spam (seed test) → parar (se reintenta a diario)
+    if (paused.has(o.account.toLowerCase())) { cap = 0; state = "paused"; }  // freno manual (override final)
     return { account: o.account, sends: o.sends, firstAt: o.firstAt, bounces: o.bounces, days, bounceRate: Math.round(recRate * 1000) / 10, frozen: cap === 0, state, cap };
   });
 }

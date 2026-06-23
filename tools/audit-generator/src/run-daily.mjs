@@ -25,6 +25,9 @@ console.log(`===== Faro · run-daily · ${today()} ${STOP ? "· ⛔ FRENO (no en
 run("bandeja", "src/_inbox-check.mjs");
 run("clasificar", "src/classify-replies.mjs");
 run("cola_dia", "src/cola-day.mjs");
+// MONITOR DE COLOCACIÓN: cada cuenta manda una semilla y miramos si cae en bandeja o spam.
+// Escribe spam-state.json → caps.mjs para una cuenta en spam (deja de enviar hoy).
+run("spam_check", "src/spam-check.mjs");
 // GUARDIÁN (última línea de defensa): antes de enviar NADA, comprobar que todo cuadra.
 // "Ante la duda, no enviar" → si aborta, se salta el envío y se anota por qué.
 let pf; try { pf = preflight(); } catch (e) { pf = { abort: true, reasons: ["preflight error: " + (e.message || e)], warnings: [] }; }

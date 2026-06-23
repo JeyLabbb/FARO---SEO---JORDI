@@ -18,6 +18,7 @@ targets/envios-HOY-*.json
 targets/envios-HOY-*.csv
 targets/inbox-state-*.json
 targets/preflight-*.json
+targets/spam-state.json
 targets/lote-*.csv
 
 # ── Capturas, logs, basura del SO ──
