@@ -28,7 +28,7 @@ for (const [k, v] of Object.entries(lastRun.pasos || {})) if (String(v).startsWi
 
 const hayProblema = problems.length > 0;
 const enviadosHoy = stats.enviadosHoy ?? "?";
-const subject = `${hayProblema ? "⚠️" : "✅"} Faro ${t} · ${enviadosHoy} enviados${hayProblema ? " · REVISAR" : ""}`;
+const subject = `Faro · parte ${t} · ${enviadosHoy} enviados${hayProblema ? " · ⚠️ REVISAR" : ""}`;
 
 let body = `Parte diario de Faro · ${t}\n\n`;
 body += hayProblema ? ("⚠️ REVISAR:\n" + problems.map((p) => "  • " + p).join("\n") + "\n\n") : "Todo en orden hoy. ✅\n\n";
@@ -38,11 +38,14 @@ body += `Respuestas: ${stats.respuestas ?? "?"}  ·  interesados: ${stats.intere
 body += `Almacén: ${stats.stockDesplegable ?? "?"} listos para enviar (~${stats.bufferDias ?? "?"} días de margen)\n\n`;
 body += "Cuentas:\n";
 for (const a of (stats.cuentas || [])) body += `  ${a.account} — ${a.state === "ok" ? "ok" : String(a.state).toUpperCase()} · tope ${a.cap}/día · rebote ${a.bounceRate}%\n`;
-body += `\nPanel completo: https://panel-ops-jeylabbbs-projects.vercel.app (contraseña faro2026)\n`;
+body += `\nPanel completo: https://panel-ops-jeylabbbs-projects.vercel.app\n`;
 body += "\n— Guardián de Faro (automático)\n";
 
 if (DRY) { console.log(`PARA: ${REPORT_TO}\nASUNTO: ${subject}\n\n${body}`); process.exit(0); }
-const acc = gmailAccounts()[0];
+const accs = gmailAccounts();
+// Enviamos desde una cuenta de dominio propio (getjeylabbb/tryjeylabbb) si la hay: mejor
+// reputación/DKIM → menos probabilidad de caer en spam que una @gmail.com en frío.
+const acc = accs.find((a) => /@(get|try)jeylabbb\.com$/i.test(a.user)) || accs[0];
 if (!acc) { console.error("Sin cuenta Gmail para enviar el parte."); process.exit(0); }
 try {
   await sendMail({ user: acc.user, pass: acc.pass, fromName: "Guardián Faro", to: REPORT_TO, subject, text: body });
