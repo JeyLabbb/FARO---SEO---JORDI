@@ -88,7 +88,7 @@ for (let i = 0; i < list.length; i++) {
     continue;
   }
   if (!hasPdf) { console.log(`  ⚠ #${r.priority} ${r.negocio}: falta ${r.slug}.pdf → salto`); skipped++; continue; }
-  if (!TEST && (log[r.place_id] || sentEmails.has(cleanEmail(r.email)))) { console.log(`  ↷ #${r.priority} ${r.negocio}: ya contactado (ficha o email), salto`); skipped++; continue; }
+  if (!TEST && (log[r.place_id] || sentEmails.has(cleanEmail(r.email)) || bouncedSet.has(cleanEmail(r.email)))) { console.log(`  ↷ #${r.priority} ${r.negocio}: ya contactado/rebotado, salto`); skipped++; continue; }
 
   const acc = TEST ? accs[0] : pickAcc();
   if (!acc) { console.log(`  ⏸ tope diario por cuenta alcanzado en todas — paro (enviados ${sent})`); break; }

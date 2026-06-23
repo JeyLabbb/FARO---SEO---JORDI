@@ -10,6 +10,7 @@ import { REPO_ROOT } from "./config.mjs";
 import { today } from "./lib/slug.mjs";
 import { gmailAccounts } from "./lib/gmail-smtp.mjs";
 import { capacity } from "./lib/caps.mjs";
+import { preflight } from "./preflight.mjs";
 
 const CWD = resolve(REPO_ROOT, "tools", "audit-generator");
 const STOP = existsSync(resolve(REPO_ROOT, "targets", "PARAR.flag"));
@@ -24,10 +25,17 @@ console.log(`===== Faro · run-daily · ${today()} ${STOP ? "· ⛔ FRENO (no en
 run("bandeja", "src/_inbox-check.mjs");
 run("clasificar", "src/classify-replies.mjs");
 run("cola_dia", "src/cola-day.mjs");
+// GUARDIÁN (última línea de defensa): antes de enviar NADA, comprobar que todo cuadra.
+// "Ante la duda, no enviar" → si aborta, se salta el envío y se anota por qué.
+let pf; try { pf = preflight(); } catch (e) { pf = { abort: true, reasons: ["preflight error: " + (e.message || e)], warnings: [] }; }
+summary.preflight = { abort: pf.abort, reasons: pf.reasons, warnings: pf.warnings, capacidadRestante: pf.capacidadRestante };
+if (pf.warnings && pf.warnings.length) for (const w of pf.warnings) console.log("⚠️ " + w);
+const skipSend = STOP || pf.abort;
 // Los PDFs se pre-generan en local y se versionan; la nube NO usa Chrome, solo los adjunta.
-if (STOP) console.log("\n⛔ Envío saltado por targets/PARAR.flag.");
+if (skipSend) console.log(`\n⛔ Envío saltado: ${STOP ? "PARAR.flag (freno manual)" : "GUARDIÁN → " + pf.reasons.join(" | ")}`);
 else { run("seguimientos", "src/send-followups.mjs --limit 25"); run("emails", "src/send-emails.mjs"); }
 run("panel", "src/build-stats.mjs");
+run("parte", "src/daily-report.mjs");
 
 // Publicar el panel a Vercel (protegido con contraseña) si hay token de Vercel.
 if (process.env.VERCEL_TOKEN) {

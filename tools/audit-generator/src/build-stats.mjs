@@ -45,11 +45,13 @@ const respuestas = leads.length;
 const POSITIVE = new Set(["interesado", "pregunta"]);
 const interesados = leads.filter((l) => l.estado === "interesado").length;
 const bajas = leads.filter((l) => l.estado === "baja").length;
+const enviadosHoy = sentArr.filter((v) => (v.at || "").slice(0, 10) === today()).length;
 
 // almacén
 const items = Object.values(cola.items || {});
 const listos = items.filter((i) => i.status === "listo");
 const conPDF = listos.filter((i) => existsSync(resolve(REPO_ROOT, "apps", "web", "audits", `${i.slug}.pdf`))).length;
+const deployable = listos.filter((i) => i.email && !sent[i.place_id] && existsSync(resolve(REPO_ROOT, "apps", "web", "audits", `${i.slug}.pdf`))).length;
 const descartados = cola.descartados || {};
 const descTotal = Object.keys(descartados).length;
 const descCat = { "sin email": 0, "sin competidor": 0, "categoría vetada": 0, "otros": 0 };
@@ -231,6 +233,17 @@ const fn = "const HTML = " + JSON.stringify(html) + ";\n"
   + "};\n";
 writeFileSync(resolve(fnDir, "index.js"), fn, "utf8");
 writeFileSync(resolve(REPO_ROOT, "apps", "panel-ops", "vercel.json"), JSON.stringify({ rewrites: [{ source: "/(.*)", destination: "/api/index" }] }, null, 2), "utf8");
+
+// Estado resumido para el parte diario por email (daily-report.mjs): JSON pequeño y estable.
+writeFileSync(T("stats.json"), JSON.stringify({
+  at: new Date().toISOString(),
+  contactados, entregados, rebotes, rebotePct: pc1(rebotes, contactados),
+  respuestas, interesados, bajas, enviadosHoy,
+  listos: listos.length, stockDesplegable: deployable, bufferDias: Math.round(deployable / Math.max(1, Math.round(capDia * 0.9))), capDia,
+  cuentas: caps.map((a) => ({ account: a.account, state: a.state, cap: a.cap, bounceRate: a.bounceRate, sends: a.sends })),
+  cuentasTocadas: problemAcc.map((a) => ({ account: a.account, state: a.state, bounceRate: a.bounceRate, cap: a.cap })),
+  alerta,
+}, null, 2), "utf8");
 
 console.log(`Panel → ${out}  ·  función protegida → apps/panel-ops/`);
 console.log(`Contactados ${contactados} · Entregados ${entregados} · Respuestas ${respuestas} · Interesados ${interesados} · Almacén ${listos.length} (${conPDF} con PDF) · Capacidad ${capDia}/día · Freno ${frenoOn ? "ON" : "off"}${alerta ? " · " + alerta : ""}`);
