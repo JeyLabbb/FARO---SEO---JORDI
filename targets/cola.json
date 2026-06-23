@@ -529,7 +529,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:45:43.001Z"
+      "addedAt": "2026-06-21T10:45:43.001Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:35.975Z"
+      }
     },
     "ChIJAd-zkGInQg0R-orASbeQ2RI": {
       "place_id": "ChIJAd-zkGInQg0R-orASbeQ2RI",
@@ -1705,7 +1710,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:50:27.562Z"
+      "addedAt": "2026-06-21T10:50:27.562Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:35.951Z"
+      }
     },
     "ChIJuYN1puSipBIRSLwUwiUypqo": {
       "place_id": "ChIJuYN1puSipBIRSLwUwiUypqo",
@@ -1764,7 +1774,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:50:38.396Z"
+      "addedAt": "2026-06-21T10:50:38.396Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:39.844Z"
+      }
     },
     "ChIJ1QPzjBxGYA0RFro2tZG6lBw": {
       "place_id": "ChIJ1QPzjBxGYA0RFro2tZG6lBw",
@@ -2752,7 +2767,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:52:46.691Z"
+      "addedAt": "2026-06-21T10:52:46.691Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:37.492Z"
+      }
     },
     "ChIJJUX91ouEQQ0RYPrjq8z1Enk": {
       "place_id": "ChIJJUX91ouEQQ0RYPrjq8z1Enk",
@@ -2811,7 +2831,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:52:50.524Z"
+      "addedAt": "2026-06-21T10:52:50.524Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:35.973Z"
+      }
     },
     "ChIJy6kzEPEsQg0Rs34ow4EjdZ4": {
       "place_id": "ChIJy6kzEPEsQg0Rs34ow4EjdZ4",
@@ -2929,7 +2954,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:53:19.504Z"
+      "addedAt": "2026-06-21T10:53:19.504Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:59.481Z"
+      }
     },
     "ChIJ9SJl_029pBIR71xbA5gdbtg": {
       "place_id": "ChIJ9SJl_029pBIR71xbA5gdbtg",
@@ -3165,7 +3195,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:53:41.928Z"
+      "addedAt": "2026-06-21T10:53:41.928Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:59.783Z"
+      }
     },
     "ChIJR_7PfdgxQg0REN3AP9rVPqI": {
       "place_id": "ChIJR_7PfdgxQg0REN3AP9rVPqI",
@@ -3928,7 +3963,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:55:42.892Z"
+      "addedAt": "2026-06-21T10:55:42.892Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:59.793Z"
+      }
     },
     "ChIJLaGm4p87Qg0RoJOzPdIwttM": {
       "place_id": "ChIJLaGm4p87Qg0RoJOzPdIwttM",
@@ -3988,65 +4028,6 @@
       },
       "status": "listo",
       "addedAt": "2026-06-21T10:55:44.072Z"
-    },
-    "ChIJjaumBXW7pBIR7-x9N4RqSsc": {
-      "place_id": "ChIJjaumBXW7pBIR7-x9N4RqSsc",
-      "slug": "q-unas-badalona",
-      "negocio": "+ Q Uñas",
-      "ciudad": "Badalona",
-      "vertical": "estetica",
-      "channel": "email",
-      "contact": "masqueunas@gmail.com",
-      "email": "masqueunas@gmail.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/q-unas-badalona.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/q-unas-badalona.html",
-      "findings": {
-        "reviews": 39,
-        "rating": 4.3,
-        "bestCompetitor": {
-          "name": "Manuïa Clínica Medicina Estética Badalona",
-          "reviews": 803,
-          "rating": 4.8
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 81,
-        "speed": 74,
-        "photos": 7,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 39 reseñas vs 803 del mejor competidor (Manuïa Clínica Medicina Estética Badalona). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~7 fotos. Más fotos = más clics, llamadas y rutas."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          }
-        ],
-        "primarySearch": "centro de estética Badalona",
-        "category": "Beauty Salon",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que ofreces uñas de gel y depilación.",
-        "hookGeneric": false,
-        "hookBasis": "uñas de gel y depilación"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T10:55:57.303Z"
     },
     "ChIJyeoKhMdIYA0RR1DOW47h2cs": {
       "place_id": "ChIJyeoKhMdIYA0RR1DOW47h2cs",
@@ -4278,7 +4259,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:56:15.274Z"
+      "addedAt": "2026-06-21T10:56:15.274Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:30:59.223Z"
+      }
     },
     "ChIJcyXDraklQg0R5g0kD4dLSs4": {
       "place_id": "ChIJcyXDraklQg0R5g0kD4dLSs4",
@@ -4923,7 +4909,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:57:22.927Z"
+      "addedAt": "2026-06-21T10:57:22.927Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:00.781Z"
+      }
     },
     "ChIJG8yeWfaHQQ0R4e0Jn3LZ_5o": {
       "place_id": "ChIJG8yeWfaHQQ0R4e0Jn3LZ_5o",
@@ -5926,7 +5917,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T10:59:46.621Z"
+      "addedAt": "2026-06-21T10:59:46.621Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:02.722Z"
+      }
     },
     "ChIJP-hnHh8pQg0Rv-DhLc2Br50": {
       "place_id": "ChIJP-hnHh8pQg0Rv-DhLc2Br50",
@@ -6285,7 +6281,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:00:34.360Z"
+      "addedAt": "2026-06-21T11:00:34.360Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:04.995Z"
+      }
     },
     "ChIJK5W64p87Qg0RgCXzqriE5bs": {
       "place_id": "ChIJK5W64p87Qg0RgCXzqriE5bs",
@@ -6521,7 +6522,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:00:57.646Z"
+      "addedAt": "2026-06-21T11:00:57.646Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:04.080Z"
+      }
     },
     "ChIJbashZgBGYA0Rym2gDxYLPtI": {
       "place_id": "ChIJbashZgBGYA0Rym2gDxYLPtI",
@@ -7403,7 +7409,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:03:22.703Z"
+      "addedAt": "2026-06-21T11:03:22.703Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:31:05.262Z"
+      }
     },
     "ChIJB1DaB34oQg0RBpTCMyqOzBw": {
       "place_id": "ChIJB1DaB34oQg0RBpTCMyqOzBw",
@@ -8454,7 +8465,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:05:56.742Z"
+      "addedAt": "2026-06-21T11:05:56.742Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:05.865Z"
+      }
     },
     "ChIJi9eZ_6opQg0RNTr16NpUIqc": {
       "place_id": "ChIJi9eZ_6opQg0RNTr16NpUIqc",
@@ -9095,7 +9111,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:07:43.460Z"
+      "addedAt": "2026-06-21T11:07:43.460Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:04.343Z"
+      }
     },
     "ChIJSbB-d0ejpBIR1wUOPC2O2mg": {
       "place_id": "ChIJSbB-d0ejpBIR1wUOPC2O2mg",
@@ -9733,7 +9754,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:09:06.995Z"
+      "addedAt": "2026-06-21T11:09:06.995Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:04.857Z"
+      }
     },
     "ChIJH8lW6XiYpBIRGX7Faae8lOM": {
       "place_id": "ChIJH8lW6XiYpBIRGX7Faae8lOM",
@@ -10142,7 +10168,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:10:12.746Z"
+      "addedAt": "2026-06-21T11:10:12.746Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:04.770Z"
+      }
     },
     "ChIJ-VkZ8IiipBIRvB1X0VuPwNU": {
       "place_id": "ChIJ-VkZ8IiipBIRvB1X0VuPwNU",
@@ -10844,65 +10875,6 @@
       },
       "status": "listo",
       "addedAt": "2026-06-21T11:11:28.372Z"
-    },
-    "ChIJqQ8IX1FPYA0R0e9BRg_9pOU": {
-      "place_id": "ChIJqQ8IX1FPYA0R0e9BRg_9pOU",
-      "slug": "clinica-dental-na-jordana-valencia",
-      "negocio": "Clínica Dental Na Jordana",
-      "ciudad": "València",
-      "vertical": "dental",
-      "channel": "email",
-      "contact": "info@dentalnajordana.com",
-      "email": "info@dentalnajordana.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-na-jordana-valencia.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-na-jordana-valencia.html",
-      "findings": {
-        "reviews": 92,
-        "rating": 4.2,
-        "bestCompetitor": {
-          "name": "Dentistas de urgencias 24 horas Arte Sano Clínica Dental",
-          "reviews": 621,
-          "rating": 4.8
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": 11,
-        "businessRanked": true,
-        "businessVisibility": null,
-        "competitorVisibility": 81,
-        "speed": 69,
-        "photos": 10,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 92 reseñas vs 621 del mejor competidor (Dentistas de urgencias 24 horas Arte Sano Clínica Dental). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          },
-          {
-            "title": "Reactivar la recencia de reseñas",
-            "detail": "La última reseña es de \"2 years ago\". La recencia es señal de ranking."
-          }
-        ],
-        "primarySearch": "dentista València",
-        "category": "Dentist",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que te centras en diseñar sonrisas para toda la vida.",
-        "hookGeneric": false,
-        "hookBasis": "diseñar sonrisas para toda la vida"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:11:36.805Z"
     },
     "ChIJuwpcW-IlQg0RfNqiUwMXANs": {
       "place_id": "ChIJuwpcW-IlQg0RfNqiUwMXANs",
@@ -11840,70 +11812,6 @@
       "status": "listo",
       "addedAt": "2026-06-21T11:13:34.157Z"
     },
-    "ChIJFz5x7s8nQg0RIZeEMwW2r8Q": {
-      "place_id": "ChIJFz5x7s8nQg0RIZeEMwW2r8Q",
-      "slug": "podologia-fisioterapia-osteopatia-y-nutricion-pododinamica-m",
-      "negocio": "Podología, Fisioterapia/Osteopatía y Nutrición PODODINÁMICA",
-      "ciudad": "Madrid",
-      "vertical": "fisioterapia",
-      "channel": "email",
-      "contact": "info@pododinamica.es",
-      "email": "info@pododinamica.es",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/podologia-fisioterapia-osteopatia-y-nutricion-pododinamica-m.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/podologia-fisioterapia-osteopatia-y-nutricion-pododinamica-m.html",
-      "findings": {
-        "reviews": 92,
-        "rating": 4.3,
-        "bestCompetitor": {
-          "name": "FISIO TIRSO MADRID. Centro de Fisioterapia, Ecografía, Osteopatía, Punción seca y Masaje.",
-          "reviews": 354,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": 17,
-        "businessRanked": true,
-        "businessVisibility": null,
-        "competitorVisibility": 69,
-        "speed": 59,
-        "photos": 10,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 92 reseñas vs 354 del mejor competidor (FISIO TIRSO MADRID. Centro de Fisioterapia, Ecografía, Osteopatía, Punción seca y Masaje.). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Meter keyword local en el title y el H1 de la web",
-            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          }
-        ],
-        "primarySearch": "fisioterapia Madrid",
-        "category": "Doctor",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "",
-        "hookGeneric": true,
-        "hookBasis": "descartado: tono negativo"
-      },
-      "qa": {
-        "pass": true,
-        "score": 85,
-        "flags": [
-          {
-            "sev": "soft",
-            "msg": "personalización genérica (sin gancho propio)"
-          }
-        ]
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:13:37.332Z"
-    },
     "ChIJb3CBe8KVpBIRzEaIVVGm3L0": {
       "place_id": "ChIJb3CBe8KVpBIRzEaIVVGm3L0",
       "slug": "clinica-dental-new-york-style-barbera-del-valles-barbera-del",
@@ -12366,7 +12274,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:14:43.742Z"
+      "addedAt": "2026-06-21T11:14:43.742Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:08.393Z"
+      }
     },
     "ChIJ-TlmP1xPYA0ROalpfyIrCJw": {
       "place_id": "ChIJ-TlmP1xPYA0ROalpfyIrCJw",
@@ -12425,7 +12338,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:14:48.142Z"
+      "addedAt": "2026-06-21T11:14:48.142Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:06.149Z"
+      }
     },
     "ChIJKagXjcCipBIRrtvWDbBqJ48": {
       "place_id": "ChIJKagXjcCipBIRrtvWDbBqJ48",
@@ -12480,7 +12398,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:04.041Z"
+      "addedAt": "2026-06-21T11:15:04.041Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:08.423Z"
+      }
     },
     "ChIJDdhhv-WUpBIRpLUw7YNI1hA": {
       "place_id": "ChIJDdhhv-WUpBIRpLUw7YNI1hA",
@@ -12539,7 +12462,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:06.774Z"
+      "addedAt": "2026-06-21T11:15:06.774Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:06.858Z"
+      }
     },
     "ChIJgzjRfkMoQg0Rxq8TOCt1zd8": {
       "place_id": "ChIJgzjRfkMoQg0Rxq8TOCt1zd8",
@@ -12599,7 +12527,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:11.300Z"
+      "addedAt": "2026-06-21T11:15:11.300Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:18.766Z"
+      }
     },
     "ChIJPcedOJIpQg0Rc-xSHVHW9Gg": {
       "place_id": "ChIJPcedOJIpQg0Rc-xSHVHW9Gg",
@@ -12658,7 +12591,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:20.140Z"
+      "addedAt": "2026-06-21T11:15:20.140Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:07.677Z"
+      }
     },
     "ChIJ9efQNYMpQg0RI2ZySBN7d58": {
       "place_id": "ChIJ9efQNYMpQg0RI2ZySBN7d58",
@@ -12717,7 +12655,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:27.130Z"
+      "addedAt": "2026-06-21T11:15:27.130Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:09.648Z"
+      }
     },
     "ChIJNd0ooPMoQg0Row-bWwSWDe0": {
       "place_id": "ChIJNd0ooPMoQg0Row-bWwSWDe0",
@@ -12772,7 +12715,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:49.215Z"
+      "addedAt": "2026-06-21T11:15:49.215Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:31:07.785Z"
+      }
     },
     "ChIJCQJ5BpRIYA0Rl7e8i5gxm8M": {
       "place_id": "ChIJCQJ5BpRIYA0Rl7e8i5gxm8M",
@@ -12831,7 +12779,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:50.929Z"
+      "addedAt": "2026-06-21T11:15:50.929Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:08.752Z"
+      }
     },
     "ChIJvyjEdKZIYA0RMmx8220qiaA": {
       "place_id": "ChIJvyjEdKZIYA0RMmx8220qiaA",
@@ -12890,7 +12843,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:50.996Z"
+      "addedAt": "2026-06-21T11:15:50.996Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:31:11.948Z"
+      }
     },
     "ChIJc7huVpkpQg0RtmiEzmHvbbI": {
       "place_id": "ChIJc7huVpkpQg0RtmiEzmHvbbI",
@@ -12949,7 +12907,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:15:57.163Z"
+      "addedAt": "2026-06-21T11:15:57.163Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:31:08.534Z"
+      }
     },
     "ChIJieyV8kVPYA0RGvIzTd2fLy4": {
       "place_id": "ChIJieyV8kVPYA0RGvIzTd2fLy4",
@@ -13008,7 +12971,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:16:26.809Z"
+      "addedAt": "2026-06-21T11:16:26.809Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:11.507Z"
+      }
     },
     "ChIJIfLysSovQg0RIscbaSCIZzw": {
       "place_id": "ChIJIfLysSovQg0RIscbaSCIZzw",
@@ -13063,7 +13031,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:16:31.810Z"
+      "addedAt": "2026-06-21T11:16:31.810Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:12.114Z"
+      }
     },
     "ChIJD1c6ScujpBIRGjCOxjJem7A": {
       "place_id": "ChIJD1c6ScujpBIRGjCOxjJem7A",
@@ -13122,66 +13095,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:16:34.953Z"
-    },
-    "ChIJu4oAWUi9pBIRn_YeaN3o77M": {
-      "place_id": "ChIJu4oAWUi9pBIRn_YeaN3o77M",
-      "slug": "glamourama-barcelona",
-      "negocio": "Glamourama",
-      "ciudad": "Barcelona",
-      "vertical": "estetica",
-      "channel": "email",
-      "contact": "info@glamourama.es",
-      "email": "info@glamourama.es",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/glamourama-barcelona.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/glamourama-barcelona.html",
-      "findings": {
-        "reviews": 112,
-        "rating": 4.5,
-        "bestCompetitor": {
-          "name": "SANTÉ Clínica Estética",
-          "reviews": 700,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 84,
-        "speed": 64,
-        "photos": 10,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 112 reseñas vs 700 del mejor competidor (SANTÉ Clínica Estética). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Meter keyword local en el title y el H1 de la web",
-            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          }
-        ],
-        "primarySearch": "centro de estética Barcelona",
-        "category": "Hair Salon",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que cuidáis de la imagen de vuestros clientes.",
-        "hookGeneric": false,
-        "hookBasis": "Cuidamos de tu imagen"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:16:52.484Z"
+      "addedAt": "2026-06-21T11:16:34.953Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:31:11.396Z"
+      }
     },
     "ChIJtdCKhNONQQ0Rb1MlQb6aC50": {
       "place_id": "ChIJtdCKhNONQQ0Rb1MlQb6aC50",
@@ -13240,7 +13159,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:16:52.511Z"
+      "addedAt": "2026-06-21T11:16:52.511Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:11.877Z"
+      }
     },
     "ChIJwzLDYbFIYA0R_R_9RFSLQPU": {
       "place_id": "ChIJwzLDYbFIYA0R_R_9RFSLQPU",
@@ -13295,7 +13219,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:17:03.519Z"
+      "addedAt": "2026-06-21T11:17:03.519Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:13.562Z"
+      }
     },
     "ChIJU7ZFmEi9pBIR3SrAg7qQvrk": {
       "place_id": "ChIJU7ZFmEi9pBIR3SrAg7qQvrk",
@@ -13354,7 +13283,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:17:15.516Z"
+      "addedAt": "2026-06-21T11:17:15.516Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:13.887Z"
+      }
     },
     "ChIJDTzr5CMtQg0R1FtxvPtWa2I": {
       "place_id": "ChIJDTzr5CMtQg0R1FtxvPtWa2I",
@@ -13409,7 +13343,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:17:21.813Z"
+      "addedAt": "2026-06-21T11:17:21.813Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:24.934Z"
+      }
     },
     "ChIJhRnlioYwQg0RnbUh_YSSr5M": {
       "place_id": "ChIJhRnlioYwQg0RnbUh_YSSr5M",
@@ -13468,7 +13407,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:17:32.832Z"
+      "addedAt": "2026-06-21T11:17:32.832Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:15.109Z"
+      }
     },
     "ChIJRx3AKjomQg0RsiGTzJFp-z4": {
       "place_id": "ChIJRx3AKjomQg0RsiGTzJFp-z4",
@@ -13527,7 +13471,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:17:44.691Z"
+      "addedAt": "2026-06-21T11:17:44.691Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:15.291Z"
+      }
     },
     "ChIJeUqKDgAlQg0R21oftnNIQqM": {
       "place_id": "ChIJeUqKDgAlQg0R21oftnNIQqM",
@@ -13586,7 +13535,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:17:48.911Z"
+      "addedAt": "2026-06-21T11:17:48.911Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:16.143Z"
+      }
     },
     "ChIJuZn5ALFIYA0RkBSYHg72gZo": {
       "place_id": "ChIJuZn5ALFIYA0RkBSYHg72gZo",
@@ -13645,7 +13599,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:17:53.850Z"
+      "addedAt": "2026-06-21T11:17:53.850Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:30.368Z"
+      }
     },
     "ChIJyReU2WomQg0RnuccD0Rmobc": {
       "place_id": "ChIJyReU2WomQg0RnuccD0Rmobc",
@@ -13704,7 +13663,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:18:01.050Z"
+      "addedAt": "2026-06-21T11:18:01.050Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:16.363Z"
+      }
     },
     "ChIJ5SMuqM5IYA0RVuS6F3_LZZ4": {
       "place_id": "ChIJ5SMuqM5IYA0RVuS6F3_LZZ4",
@@ -13763,7 +13727,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:18:15.134Z"
+      "addedAt": "2026-06-21T11:18:15.134Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:29.136Z"
+      }
     },
     "ChIJ-8ogl5YpQg0RVOQC181kwlM": {
       "place_id": "ChIJ-8ogl5YpQg0RVOQC181kwlM",
@@ -13822,7 +13791,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:18:17.134Z"
+      "addedAt": "2026-06-21T11:18:17.134Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:20.175Z"
+      }
     },
     "ChIJPRhnB6svQg0RItMEq4tT3tU": {
       "place_id": "ChIJPRhnB6svQg0RItMEq4tT3tU",
@@ -13881,7 +13855,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:18:34.020Z"
+      "addedAt": "2026-06-21T11:18:34.020Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:21.372Z"
+      }
     },
     "ChIJs9nHmAomQg0RdfxfmNYq2p0": {
       "place_id": "ChIJs9nHmAomQg0RdfxfmNYq2p0",
@@ -13940,7 +13919,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:18:42.842Z"
+      "addedAt": "2026-06-21T11:18:42.842Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:23.251Z"
+      }
     },
     "ChIJJR8SnSEvQg0RW0m3r4YfYjA": {
       "place_id": "ChIJJR8SnSEvQg0RW0m3r4YfYjA",
@@ -14004,7 +13988,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:18:49.918Z"
+      "addedAt": "2026-06-21T11:18:49.918Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:34.865Z"
+      }
     },
     "ChIJrfGfVWODQQ0RRiRbWbBFmbI": {
       "place_id": "ChIJrfGfVWODQQ0RRiRbWbBFmbI",
@@ -14063,7 +14052,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:05.532Z"
+      "addedAt": "2026-06-21T11:19:05.532Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:23.626Z"
+      }
     },
     "ChIJo5zrLAA7Qg0RVZEnRf5d5wk": {
       "place_id": "ChIJo5zrLAA7Qg0RVZEnRf5d5wk",
@@ -14122,7 +14116,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:10.039Z"
+      "addedAt": "2026-06-21T11:19:10.039Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:37.153Z"
+      }
     },
     "ChIJg53mHduFQQ0RQblnvT-a88Q": {
       "place_id": "ChIJg53mHduFQQ0RQblnvT-a88Q",
@@ -14181,7 +14180,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:23.774Z"
+      "addedAt": "2026-06-21T11:19:23.774Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:36.813Z"
+      }
     },
     "ChIJPSib7e4sQg0R5cG89w_YmJY": {
       "place_id": "ChIJPSib7e4sQg0R5cG89w_YmJY",
@@ -14240,7 +14244,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:29.949Z"
+      "addedAt": "2026-06-21T11:19:29.949Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:33.445Z"
+      }
     },
     "ChIJSTaPTb-ipBIRNujOLG8sioQ": {
       "place_id": "ChIJSTaPTb-ipBIRNujOLG8sioQ",
@@ -14299,7 +14308,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:33.014Z"
+      "addedAt": "2026-06-21T11:19:33.014Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:32.105Z"
+      }
     },
     "ChIJx17fZZOepBIRdTDTFZ8Inr4": {
       "place_id": "ChIJx17fZZOepBIRdTDTFZ8Inr4",
@@ -14358,7 +14372,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:44.203Z"
+      "addedAt": "2026-06-21T11:19:44.203Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:33.971Z"
+      }
     },
     "ChIJpZPw9Lu9pBIR8jApuc5HeOM": {
       "place_id": "ChIJpZPw9Lu9pBIR8jApuc5HeOM",
@@ -14417,7 +14436,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:49.465Z"
+      "addedAt": "2026-06-21T11:19:49.465Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:35.023Z"
+      }
     },
     "ChIJh7lSu7uipBIRilyTLS6zBag": {
       "place_id": "ChIJh7lSu7uipBIRilyTLS6zBag",
@@ -14481,7 +14505,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:19:50.670Z"
+      "addedAt": "2026-06-21T11:19:50.670Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:45.590Z"
+      }
     },
     "ChIJ5dfQKJqapBIR-ecsoamfN7E": {
       "place_id": "ChIJ5dfQKJqapBIR-ecsoamfN7E",
@@ -14540,7 +14569,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:20:07.005Z"
+      "addedAt": "2026-06-21T11:20:07.005Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:35.338Z"
+      }
     },
     "ChIJV827ihOYpBIRzccrVndrScc": {
       "place_id": "ChIJV827ihOYpBIRzccrVndrScc",
@@ -14599,7 +14633,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:20:08.292Z"
+      "addedAt": "2026-06-21T11:20:08.292Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:36.717Z"
+      }
     },
     "ChIJueW3hXG9pBIRja0mJCkOaA8": {
       "place_id": "ChIJueW3hXG9pBIRja0mJCkOaA8",
@@ -14658,125 +14697,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:20:22.650Z"
-    },
-    "ChIJ-WnWFgORpBIRdhU1RDgutZY": {
-      "place_id": "ChIJ-WnWFgORpBIRdhU1RDgutZY",
-      "slug": "new-style-perruqueria-rubi",
-      "negocio": "New style perruqueria",
-      "ciudad": "Rubí",
-      "vertical": "peluqueria",
-      "channel": "email",
-      "contact": "asxvmprobertest@gmail.com",
-      "email": "asxvmprobertest@gmail.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/new-style-perruqueria-rubi.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/new-style-perruqueria-rubi.html",
-      "findings": {
-        "reviews": 10,
-        "rating": 4.6,
-        "bestCompetitor": {
-          "name": "Peluquería Mounir",
-          "reviews": 286,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 75,
-        "speed": 72,
-        "photos": 10,
-        "hasHours": false,
-        "quickWins": [
-          {
-            "title": "Configurar el horario en la ficha (incl. festivos)",
-            "detail": "La ficha no tiene horario configurado. Es un dato básico que Google premia y que el cliente mira antes de ir."
-          },
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 10 reseñas vs 286 del mejor competidor (Peluquería Mounir). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Meter keyword local en el title y el H1 de la web",
-            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
-          }
-        ],
-        "primarySearch": "peluquería Rubí",
-        "category": "Hair Salon",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que tienes un servicio espectacular.",
-        "hookGeneric": false,
-        "hookBasis": "servicio espectacular"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:20:24.450Z"
-    },
-    "ChIJBZI4SW2YpBIRsi5bbm5q_8I": {
-      "place_id": "ChIJBZI4SW2YpBIRsi5bbm5q_8I",
-      "slug": "clinica-lagos-laser-barcelona",
-      "negocio": "Clínica Lagos Láser",
-      "ciudad": "Barcelona",
-      "vertical": "estetica",
-      "channel": "email",
-      "contact": "clinicagos.lasermedico@clinicalagos.com",
-      "email": "clinicagos.lasermedico@clinicalagos.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/clinica-lagos-laser-barcelona.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/clinica-lagos-laser-barcelona.html",
-      "findings": {
-        "reviews": 29,
-        "rating": 4.9,
-        "bestCompetitor": {
-          "name": "SANTÉ Clínica Estética",
-          "reviews": 700,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 68,
-        "speed": 75,
-        "photos": 4,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 29 reseñas vs 700 del mejor competidor (SANTÉ Clínica Estética). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~4 fotos. Más fotos = más clics, llamadas y rutas."
-          },
-          {
-            "title": "Meter keyword local en el title y el H1 de la web",
-            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
-          }
-        ],
-        "primarySearch": "centro de estética Barcelona",
-        "category": "Skin Care Clinic",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "He visto que ofreces tratamientos de dermatología estética.",
-        "hookGeneric": false,
-        "hookBasis": "tratamientos de dermatología estética"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:20:28.498Z"
+      "addedAt": "2026-06-21T11:20:22.650Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:50.428Z"
+      }
     },
     "ChIJq--nwRBNYA0RDKFlVf728Ms": {
       "place_id": "ChIJq--nwRBNYA0RDKFlVf728Ms",
@@ -14835,7 +14761,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:20:29.288Z"
+      "addedAt": "2026-06-21T11:20:29.288Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:51.926Z"
+      }
     },
     "ChIJBW5WrE5PYA0Rq60zkC-xbLM": {
       "place_id": "ChIJBW5WrE5PYA0Rq60zkC-xbLM",
@@ -14894,7 +14825,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:20:48.730Z"
+      "addedAt": "2026-06-21T11:20:48.730Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:38.373Z"
+      }
     },
     "ChIJzXxlZV5IYA0RAplyYnHw9CY": {
       "place_id": "ChIJzXxlZV5IYA0RAplyYnHw9CY",
@@ -14953,7 +14889,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:20:51.000Z"
+      "addedAt": "2026-06-21T11:20:51.000Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:39.355Z"
+      }
     },
     "ChIJUbFQ-5YpQg0R8CULV4lfhcc": {
       "place_id": "ChIJUbFQ-5YpQg0R8CULV4lfhcc",
@@ -15008,7 +14949,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:06.885Z"
+      "addedAt": "2026-06-21T11:21:06.885Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:40.776Z"
+      }
     },
     "ChIJy-Rt5vkpQg0RFGn7sypxMe0": {
       "place_id": "ChIJy-Rt5vkpQg0RFGn7sypxMe0",
@@ -15067,7 +15013,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:27.222Z"
+      "addedAt": "2026-06-21T11:21:27.222Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:44.768Z"
+      }
     },
     "ChIJV4udfuooQg0R3gMY9vEzrXc": {
       "place_id": "ChIJV4udfuooQg0R3gMY9vEzrXc",
@@ -15126,7 +15077,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:29.656Z"
+      "addedAt": "2026-06-21T11:21:29.656Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:45.837Z"
+      }
     },
     "ChIJw0V_gkb1QQ0RA2Voh7P1lZE": {
       "place_id": "ChIJw0V_gkb1QQ0RA2Voh7P1lZE",
@@ -15185,7 +15141,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:31.852Z"
+      "addedAt": "2026-06-21T11:21:31.852Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:46.619Z"
+      }
     },
     "ChIJ4cTXf5Q5Qg0RxO3JuBXqTXE": {
       "place_id": "ChIJ4cTXf5Q5Qg0RxO3JuBXqTXE",
@@ -15244,7 +15205,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:38.135Z"
+      "addedAt": "2026-06-21T11:21:38.135Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:31:46.377Z"
+      }
     },
     "ChIJZe3QQiaIQQ0RXsk_LXchc8E": {
       "place_id": "ChIJZe3QQiaIQQ0RXsk_LXchc8E",
@@ -15303,7 +15269,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:44.551Z"
+      "addedAt": "2026-06-21T11:21:44.551Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:55.299Z"
+      }
     },
     "ChIJlwDqEaEpQg0REt3b2vGfBfA": {
       "place_id": "ChIJlwDqEaEpQg0REt3b2vGfBfA",
@@ -15362,7 +15333,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:50.069Z"
+      "addedAt": "2026-06-21T11:21:50.069Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:47.646Z"
+      }
     },
     "ChIJAUugIV0pQg0RbXFqk3OSs-A": {
       "place_id": "ChIJAUugIV0pQg0RbXFqk3OSs-A",
@@ -15421,7 +15397,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:21:50.242Z"
+      "addedAt": "2026-06-21T11:21:50.242Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:48.577Z"
+      }
     },
     "ChIJDeeLFdeYpBIRZNDS7w-EYIs": {
       "place_id": "ChIJDeeLFdeYpBIRZNDS7w-EYIs",
@@ -15480,7 +15461,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:22:02.838Z"
+      "addedAt": "2026-06-21T11:22:02.838Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:51.467Z"
+      }
     },
     "ChIJLYcueqa8pBIRIR6blyQF25I": {
       "place_id": "ChIJLYcueqa8pBIRIR6blyQF25I",
@@ -15539,7 +15525,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:22:07.697Z"
+      "addedAt": "2026-06-21T11:22:07.697Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:49.531Z"
+      }
     },
     "ChIJj1sXfP2ryYkRbuRCT92IBXY": {
       "place_id": "ChIJj1sXfP2ryYkRbuRCT92IBXY",
@@ -15598,7 +15589,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:22:10.421Z"
+      "addedAt": "2026-06-21T11:22:10.421Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:51.675Z"
+      }
     },
     "ChIJPx2IHAWZpBIRtvemMu-JoZI": {
       "place_id": "ChIJPx2IHAWZpBIRtvemMu-JoZI",
@@ -15657,7 +15653,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:22:19.833Z"
+      "addedAt": "2026-06-21T11:22:19.833Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:50.863Z"
+      }
     },
     "ChIJywj60ROYpBIRCpVmTl1zU9o": {
       "place_id": "ChIJywj60ROYpBIRCpVmTl1zU9o",
@@ -15716,66 +15717,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:22:29.949Z"
-    },
-    "ChIJP1pQ-lijpBIR-JAmYhNHp8Q": {
-      "place_id": "ChIJP1pQ-lijpBIR-JAmYhNHp8Q",
-      "slug": "fisio-brain-barcelona-barcelona",
-      "negocio": "Fisio-Brain Barcelona",
-      "ciudad": "Barcelona",
-      "vertical": "fisioterapia",
-      "channel": "email",
-      "contact": "info@fisio-brain.es",
-      "email": "info@fisio-brain.es",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/fisio-brain-barcelona-barcelona.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/fisio-brain-barcelona-barcelona.html",
-      "findings": {
-        "reviews": 11,
-        "rating": 5,
-        "bestCompetitor": {
-          "name": "jfisio",
-          "reviews": 41,
-          "rating": 5
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": 15,
-        "businessRanked": true,
-        "businessVisibility": null,
-        "competitorVisibility": 80,
-        "speed": 40,
-        "photos": 1,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 11 reseñas vs 41 del mejor competidor (jfisio). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~1 fotos. Más fotos = más clics, llamadas y rutas."
-          },
-          {
-            "title": "Meter keyword local en el title y el H1 de la web",
-            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
-          }
-        ],
-        "primarySearch": "fisioterapia Barcelona",
-        "category": "Physical Therapist",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Me fijé en que ofreces rehabilitación fisioterapéutica a domicilio.",
-        "hookGeneric": false,
-        "hookBasis": "rehabilitación fisioterapéutica a domicilio"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:22:51.113Z"
+      "addedAt": "2026-06-21T11:22:29.949Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:55.648Z"
+      }
     },
     "ChIJ5WLRv6WZpBIRmJC749JLEDw": {
       "place_id": "ChIJ5WLRv6WZpBIRmJC749JLEDw",
@@ -15834,7 +15781,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:22:52.757Z"
+      "addedAt": "2026-06-21T11:22:52.757Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:58.564Z"
+      }
     },
     "ChIJLa9f67eCpBIRYeBwD6G5qA8": {
       "place_id": "ChIJLa9f67eCpBIRYeBwD6G5qA8",
@@ -15893,7 +15845,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:22:57.305Z"
+      "addedAt": "2026-06-21T11:22:57.305Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:07.010Z"
+      }
     },
     "ChIJDxScW6yPpBIRe3ziyr148Ec": {
       "place_id": "ChIJDxScW6yPpBIRe3ziyr148Ec",
@@ -15952,7 +15909,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:02.636Z"
+      "addedAt": "2026-06-21T11:23:02.636Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:56.178Z"
+      }
     },
     "ChIJ8_i8GEWjpBIR8VGt-Du-6lk": {
       "place_id": "ChIJ8_i8GEWjpBIR8VGt-Du-6lk",
@@ -16011,7 +15973,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:07.510Z"
+      "addedAt": "2026-06-21T11:23:07.510Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:55.962Z"
+      }
     },
     "ChIJhaJxwAhBYA0RkEfHcN75ZcU": {
       "place_id": "ChIJhaJxwAhBYA0RkEfHcN75ZcU",
@@ -16070,7 +16037,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:16.364Z"
+      "addedAt": "2026-06-21T11:23:16.364Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:56.871Z"
+      }
     },
     "ChIJy7atH0oTKU4RDkDUXCYiKbc": {
       "place_id": "ChIJy7atH0oTKU4RDkDUXCYiKbc",
@@ -16129,7 +16101,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:19.758Z"
+      "addedAt": "2026-06-21T11:23:19.758Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:57.078Z"
+      }
     },
     "ChIJxS3K6TJPYA0RXHx2TO_7qNA": {
       "place_id": "ChIJxS3K6TJPYA0RXHx2TO_7qNA",
@@ -16188,7 +16165,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:27.338Z"
+      "addedAt": "2026-06-21T11:23:27.338Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:57.693Z"
+      }
     },
     "ChIJvzBufQBJYA0R0xPkA8nCyVE": {
       "place_id": "ChIJvzBufQBJYA0R0xPkA8nCyVE",
@@ -16247,7 +16229,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:32.826Z"
+      "addedAt": "2026-06-21T11:23:32.826Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:57.859Z"
+      }
     },
     "ChIJmUbOfxJPYA0RLNqIf8kyWuA": {
       "place_id": "ChIJmUbOfxJPYA0RLNqIf8kyWuA",
@@ -16306,7 +16293,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:40.859Z"
+      "addedAt": "2026-06-21T11:23:40.859Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:57.873Z"
+      }
     },
     "ChIJ7SxcmJtPYA0RYr8kp-zE7aw": {
       "place_id": "ChIJ7SxcmJtPYA0RYr8kp-zE7aw",
@@ -16365,7 +16357,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:47.925Z"
+      "addedAt": "2026-06-21T11:23:47.925Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:32:00.730Z"
+      }
     },
     "ChIJAbDxM5VOYA0R8YTb65o_YcM": {
       "place_id": "ChIJAbDxM5VOYA0R8YTb65o_YcM",
@@ -16424,7 +16421,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:23:52.693Z"
+      "addedAt": "2026-06-21T11:23:52.693Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:31:58.222Z"
+      }
     },
     "ChIJHVYqpzxPYA0Rc6hfs-JewyA": {
       "place_id": "ChIJHVYqpzxPYA0Rc6hfs-JewyA",
@@ -16483,7 +16485,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:02.479Z"
+      "addedAt": "2026-06-21T11:24:02.479Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:03.098Z"
+      }
     },
     "ChIJw0yRopFIYA0RrxWN_zbVOAM": {
       "place_id": "ChIJw0yRopFIYA0RrxWN_zbVOAM",
@@ -16542,7 +16549,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:05.168Z"
+      "addedAt": "2026-06-21T11:24:05.168Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:00.327Z"
+      }
     },
     "ChIJP--xaQdGYA0RqZyDiTfwLz0": {
       "place_id": "ChIJP--xaQdGYA0RqZyDiTfwLz0",
@@ -16601,7 +16613,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:09.937Z"
+      "addedAt": "2026-06-21T11:24:09.937Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:31:59.829Z"
+      }
     },
     "ChIJ8XvvmOAvQg0RiCcmlYISMIs": {
       "place_id": "ChIJ8XvvmOAvQg0RiCcmlYISMIs",
@@ -16660,7 +16677,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:12.468Z"
+      "addedAt": "2026-06-21T11:24:12.468Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:05.260Z"
+      }
     },
     "ChIJgY4R4X8oQg0RtgLcI4Fkv6k": {
       "place_id": "ChIJgY4R4X8oQg0RtgLcI4Fkv6k",
@@ -16719,7 +16741,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:17.023Z"
+      "addedAt": "2026-06-21T11:24:17.023Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:32:06.456Z"
+      }
     },
     "ChIJA5AIHmIoQg0Re8z55e7P1cY": {
       "place_id": "ChIJA5AIHmIoQg0Re8z55e7P1cY",
@@ -16778,7 +16805,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:24.479Z"
+      "addedAt": "2026-06-21T11:24:24.479Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:03.162Z"
+      }
     },
     "ChIJIyI7S_OPQQ0R9bgVgieFKBo": {
       "place_id": "ChIJIyI7S_OPQQ0R9bgVgieFKBo",
@@ -16837,7 +16869,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:37.498Z"
+      "addedAt": "2026-06-21T11:24:37.498Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:32:03.995Z"
+      }
     },
     "ChIJ7zFmsjcmQg0RVNAaAdCvm5E": {
       "place_id": "ChIJ7zFmsjcmQg0RVNAaAdCvm5E",
@@ -16896,7 +16933,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:43.158Z"
+      "addedAt": "2026-06-21T11:24:43.158Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:16.345Z"
+      }
     },
     "ChIJPRNxBdwpQg0RT9F_aCq8I6E": {
       "place_id": "ChIJPRNxBdwpQg0RT9F_aCq8I6E",
@@ -16955,7 +16997,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:46.960Z"
+      "addedAt": "2026-06-21T11:24:46.960Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:05.112Z"
+      }
     },
     "ChIJZdqhPEopQg0Rjd-N-HfT4I0": {
       "place_id": "ChIJZdqhPEopQg0Rjd-N-HfT4I0",
@@ -17014,7 +17061,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:24:48.565Z"
+      "addedAt": "2026-06-21T11:24:48.565Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:05.755Z"
+      }
     },
     "ChIJxTgDUc-ipBIReae1VfjqZo4": {
       "place_id": "ChIJxTgDUc-ipBIReae1VfjqZo4",
@@ -17073,7 +17125,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:25:06.317Z"
+      "addedAt": "2026-06-21T11:25:06.317Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:05.396Z"
+      }
     },
     "ChIJq6qtKFyipBIRusXaPekqFow": {
       "place_id": "ChIJq6qtKFyipBIRusXaPekqFow",
@@ -17132,7 +17189,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:25:09.057Z"
+      "addedAt": "2026-06-21T11:25:09.057Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:06.542Z"
+      }
     },
     "ChIJW6Wx0MaWpBIRE5oRSAmiZTQ": {
       "place_id": "ChIJW6Wx0MaWpBIRE5oRSAmiZTQ",
@@ -17191,66 +17253,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:25:12.295Z"
-    },
-    "ChIJqUrFYEUpQg0RUar2HxM3bJg": {
-      "place_id": "ChIJqUrFYEUpQg0RUar2HxM3bJg",
-      "slug": "meditul-madrid",
-      "negocio": "Meditul",
-      "ciudad": "Madrid",
-      "vertical": "estetica",
-      "channel": "email",
-      "contact": "ujidosteresa@yahoo.es",
-      "email": "ujidosteresa@yahoo.es",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/meditul-madrid.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/meditul-madrid.html",
-      "findings": {
-        "reviews": 16,
-        "rating": 4.9,
-        "bestCompetitor": {
-          "name": "Amarán Estética",
-          "reviews": 253,
-          "rating": 4.8
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 88,
-        "speed": 48,
-        "photos": 0,
-        "hasHours": false,
-        "quickWins": [
-          {
-            "title": "Configurar el horario en la ficha (incl. festivos)",
-            "detail": "La ficha no tiene horario configurado. Es un dato básico que Google premia y que el cliente mira antes de ir."
-          },
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 16 reseñas vs 253 del mejor competidor (Amarán Estética). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~0 fotos. Más fotos = más clics, llamadas y rutas."
-          }
-        ],
-        "primarySearch": "centro de estética Madrid",
-        "category": "Beauty Salon",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "He visto que Dr. Teresa tiene clientes fieles desde hace años.",
-        "hookGeneric": false,
-        "hookBasis": "clientes fieles desde hace años"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:25:15.588Z"
+      "addedAt": "2026-06-21T11:25:12.295Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:20.841Z"
+      }
     },
     "ChIJsaz2uGmYpBIR7vNvy7Ix3Wk": {
       "place_id": "ChIJsaz2uGmYpBIR7vNvy7Ix3Wk",
@@ -17309,66 +17317,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:25:21.397Z"
-    },
-    "ChIJP3J0fvOipBIRGchYjJ6CXpw": {
-      "place_id": "ChIJP3J0fvOipBIRGchYjJ6CXpw",
-      "slug": "silvana-rios-rios-de-bienestar-barcelona",
-      "negocio": "Silvana Ríos - Rios de bienestar",
-      "ciudad": "Barcelona",
-      "vertical": "fisioterapia",
-      "channel": "email",
-      "contact": "info@silvanarios.com",
-      "email": "info@silvanarios.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/silvana-rios-rios-de-bienestar-barcelona.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/silvana-rios-rios-de-bienestar-barcelona.html",
-      "findings": {
-        "reviews": 12,
-        "rating": 5,
-        "bestCompetitor": {
-          "name": "Fisioterapia Deportiva Castro",
-          "reviews": 384,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 84,
-        "speed": 32,
-        "photos": 1,
-        "hasHours": false,
-        "quickWins": [
-          {
-            "title": "Configurar el horario en la ficha (incl. festivos)",
-            "detail": "La ficha no tiene horario configurado. Es un dato básico que Google premia y que el cliente mira antes de ir."
-          },
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 12 reseñas vs 384 del mejor competidor (Fisioterapia Deportiva Castro). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~1 fotos. Más fotos = más clics, llamadas y rutas."
-          }
-        ],
-        "primarySearch": "fisioterapia Barcelona",
-        "category": "Massage",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que te centras en la transformación personal.",
-        "hookGeneric": false,
-        "hookBasis": "Transformación personal"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:25:31.565Z"
+      "addedAt": "2026-06-21T11:25:21.397Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:07.511Z"
+      }
     },
     "ChIJQ1zK7li9pBIRWxtI1dyvVUA": {
       "place_id": "ChIJQ1zK7li9pBIRWxtI1dyvVUA",
@@ -17427,7 +17381,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:25:43.982Z"
+      "addedAt": "2026-06-21T11:25:43.982Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:32:09.129Z"
+      }
     },
     "ChIJsVdrwOiWpBIRdCPeK-fma6A": {
       "place_id": "ChIJsVdrwOiWpBIRdCPeK-fma6A",
@@ -17482,7 +17441,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:25:58.328Z"
+      "addedAt": "2026-06-21T11:25:58.328Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:10.718Z"
+      }
     },
     "ChIJDU3eXciW9YwRNkvjyGAmH18": {
       "place_id": "ChIJDU3eXciW9YwRNkvjyGAmH18",
@@ -17541,7 +17505,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:04.428Z"
+      "addedAt": "2026-06-21T11:26:04.428Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:24.235Z"
+      }
     },
     "ChIJgzjb_Yy9pBIRArZf1tJuOjk": {
       "place_id": "ChIJgzjb_Yy9pBIRArZf1tJuOjk",
@@ -17600,7 +17569,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:08.182Z"
+      "addedAt": "2026-06-21T11:26:08.182Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:11.248Z"
+      }
     },
     "ChIJJTY1KGCYpBIRaiGtT0SfXaY": {
       "place_id": "ChIJJTY1KGCYpBIRaiGtT0SfXaY",
@@ -17659,7 +17633,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:09.542Z"
+      "addedAt": "2026-06-21T11:26:09.542Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:12.105Z"
+      }
     },
     "ChIJax6os4WipBIR2wm_o6hZ9tU": {
       "place_id": "ChIJax6os4WipBIR2wm_o6hZ9tU",
@@ -17718,7 +17697,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:27.327Z"
+      "addedAt": "2026-06-21T11:26:27.327Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:12.878Z"
+      }
     },
     "ChIJ5cGR3rJIYA0Rh_XEhACFhfw": {
       "place_id": "ChIJ5cGR3rJIYA0Rh_XEhACFhfw",
@@ -17777,7 +17761,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:43.309Z"
+      "addedAt": "2026-06-21T11:26:43.309Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:16.699Z"
+      }
     },
     "ChIJvbhzObFPYA0RAXNp4wJCXMs": {
       "place_id": "ChIJvbhzObFPYA0RAXNp4wJCXMs",
@@ -17832,7 +17821,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:47.595Z"
+      "addedAt": "2026-06-21T11:26:47.595Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:31.471Z"
+      }
     },
     "ChIJIy4SGXlJYA0RGwAdvhI16cY": {
       "place_id": "ChIJIy4SGXlJYA0RGwAdvhI16cY",
@@ -17891,66 +17885,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:50.794Z"
-    },
-    "ChIJA0QT8k1JYA0RoT2izSR36yU": {
-      "place_id": "ChIJA0QT8k1JYA0RoT2izSR36yU",
-      "slug": "corpore-sano-fisioterapia-y-salud-valencia",
-      "negocio": "Corpore Sano Fisioterapia y Salud",
-      "ciudad": "Valencia",
-      "vertical": "fisioterapia",
-      "channel": "email",
-      "contact": "sonia@fisiocorporesano.com",
-      "email": "sonia@fisiocorporesano.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/corpore-sano-fisioterapia-y-salud-valencia.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/corpore-sano-fisioterapia-y-salud-valencia.html",
-      "findings": {
-        "reviews": 12,
-        "rating": 4.6,
-        "bestCompetitor": {
-          "name": "Fisiosalud Valencia",
-          "reviews": 268,
-          "rating": 5
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 76,
-        "speed": 59,
-        "photos": 9,
-        "hasHours": false,
-        "quickWins": [
-          {
-            "title": "Configurar el horario en la ficha (incl. festivos)",
-            "detail": "La ficha no tiene horario configurado. Es un dato básico que Google premia y que el cliente mira antes de ir."
-          },
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 12 reseñas vs 268 del mejor competidor (Fisiosalud Valencia). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~9 fotos. Más fotos = más clics, llamadas y rutas."
-          }
-        ],
-        "primarySearch": "fisioterapia Valencia",
-        "category": "Physical Therapist",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que te centras en tratamientos personalizados para lesiones.",
-        "hookGeneric": false,
-        "hookBasis": "tratamientos personalizados para lesiones"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:26:51.967Z"
+      "addedAt": "2026-06-21T11:26:50.794Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:31.773Z"
+      }
     },
     "ChIJYce09GlPYA0RiAVLEZwO3qk": {
       "place_id": "ChIJYce09GlPYA0RiAVLEZwO3qk",
@@ -18009,7 +17949,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:26:56.034Z"
+      "addedAt": "2026-06-21T11:26:56.034Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:21.127Z"
+      }
     },
     "ChIJdxxQ1EWGQQ0R6WUvDTF_gLk": {
       "place_id": "ChIJdxxQ1EWGQQ0R6WUvDTF_gLk",
@@ -18064,7 +18009,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:27:14.636Z"
+      "addedAt": "2026-06-21T11:27:14.636Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:24.261Z"
+      }
     },
     "ChIJ0aGXs00oQg0RLbEKPeSXF6w": {
       "place_id": "ChIJ0aGXs00oQg0RLbEKPeSXF6w",
@@ -18123,7 +18073,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:27:17.362Z"
+      "addedAt": "2026-06-21T11:27:17.362Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:25.532Z"
+      }
     },
     "ChIJP_zLpLpPYA0RCWQLXkIJZqA": {
       "place_id": "ChIJP_zLpLpPYA0RCWQLXkIJZqA",
@@ -18182,7 +18137,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:27:20.036Z"
+      "addedAt": "2026-06-21T11:27:20.036Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:24.914Z"
+      }
     },
     "ChIJ9-YIVbFIYA0R0tGaEommzZU": {
       "place_id": "ChIJ9-YIVbFIYA0R0tGaEommzZU",
@@ -18241,7 +18201,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:27:25.687Z"
+      "addedAt": "2026-06-21T11:27:25.687Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:26.695Z"
+      }
     },
     "ChIJ5dlJ-8sgQg0Rm1kaM_5ZEyY": {
       "place_id": "ChIJ5dlJ-8sgQg0Rm1kaM_5ZEyY",
@@ -18300,7 +18265,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:27:39.339Z"
+      "addedAt": "2026-06-21T11:27:39.339Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:30.389Z"
+      }
     },
     "ChIJEzLabYCDQQ0Rs5TTzm8GLgU": {
       "place_id": "ChIJEzLabYCDQQ0Rs5TTzm8GLgU",
@@ -18351,7 +18321,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:27:41.476Z"
+      "addedAt": "2026-06-21T11:27:41.476Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:28.053Z"
+      }
     },
     "ChIJB1HwJH8vQg0RFlu0M2DBCJY": {
       "place_id": "ChIJB1HwJH8vQg0RFlu0M2DBCJY",
@@ -18410,7 +18385,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:27:50.901Z"
+      "addedAt": "2026-06-21T11:27:50.901Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:31.804Z"
+      }
     },
     "ChIJvTMRrvMoQg0RxduxgWYMS6Y": {
       "place_id": "ChIJvTMRrvMoQg0RxduxgWYMS6Y",
@@ -18474,7 +18454,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:28:06.791Z"
+      "addedAt": "2026-06-21T11:28:06.791Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:32.948Z"
+      }
     },
     "ChIJTwJXiTYmQg0RJrAjxnyZ2Zg": {
       "place_id": "ChIJTwJXiTYmQg0RJrAjxnyZ2Zg",
@@ -18533,7 +18518,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:28:07.969Z"
+      "addedAt": "2026-06-21T11:28:07.969Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:41.577Z"
+      }
     },
     "ChIJT71m-tkpQg0R1UuKY0K0opE": {
       "place_id": "ChIJT71m-tkpQg0R1UuKY0K0opE",
@@ -18592,7 +18582,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:28:09.728Z"
+      "addedAt": "2026-06-21T11:28:09.728Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:32:33.281Z"
+      }
     },
     "ChIJQyPidh4pQg0Rr_JBN2qhZaE": {
       "place_id": "ChIJQyPidh4pQg0Rr_JBN2qhZaE",
@@ -18651,7 +18646,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:28:12.119Z"
+      "addedAt": "2026-06-21T11:28:12.119Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:32.087Z"
+      }
     },
     "ChIJEcMysgejpBIRXxdB4ZQFNZI": {
       "place_id": "ChIJEcMysgejpBIRXxdB4ZQFNZI",
@@ -18710,7 +18710,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:28:28.295Z"
+      "addedAt": "2026-06-21T11:28:28.295Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:35.617Z"
+      }
     },
     "ChIJ1_289XGYpBIRRNI4M9DcsuI": {
       "place_id": "ChIJ1_289XGYpBIRRNI4M9DcsuI",
@@ -18769,7 +18774,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:28:44.800Z"
+      "addedAt": "2026-06-21T11:28:44.800Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:36.729Z"
+      }
     },
     "ChIJF4FcCvuVpBIRtO_Rim73fko": {
       "place_id": "ChIJF4FcCvuVpBIRtO_Rim73fko",
@@ -18828,67 +18838,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:28:54.497Z"
-    },
-    "ChIJQwUCZxuWpBIRXVfU9t4vcso": {
-      "place_id": "ChIJQwUCZxuWpBIRXVfU9t4vcso",
-      "slug": "espai-bucal-miralles-s-l-cerdanyola-del-valles",
-      "negocio": "Espai Bucal Miralles S.L.",
-      "ciudad": "Cerdanyola del Vallès",
-      "vertical": "dental",
-      "channel": "email",
-      "contact": "mailto:montse@ebmiralles.cat",
-      "email": "mailto:montse@ebmiralles.cat",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/espai-bucal-miralles-s-l-cerdanyola-del-valles.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/espai-bucal-miralles-s-l-cerdanyola-del-valles.html",
-      "findings": {
-        "reviews": 13,
-        "rating": 4.9,
-        "bestCompetitor": {
-          "name": "Clínica Dental Dentobucal Cerdanyola del Vallès",
-          "reviews": 267,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": 17,
-        "businessRanked": true,
-        "businessVisibility": null,
-        "competitorVisibility": 66,
-        "speed": 65,
-        "photos": 10,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 13 reseñas vs 819 del mejor competidor (CLÍNICA DENTAL LA DENTISTA). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          }
-        ],
-        "primarySearch": "dentista Cerdanyola del Vallès",
-        "category": "Dentist",
-        "webReachable": false,
-        "coldMode": true,
-        "hook": "Vi que tienes una nota de 4.9 en Google.",
-        "hookGeneric": false,
-        "hookBasis": "nota 4.9 en Google"
-      },
-      "qa": {
-        "pass": true,
-        "score": 85,
-        "flags": [
-          {
-            "sev": "soft",
-            "msg": "la web no responde"
-          }
-        ]
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:28:58.922Z"
+      "addedAt": "2026-06-21T11:28:54.497Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:33.678Z"
+      }
     },
     "ChIJG73Syo6YpBIR6ccdO6KHiLg": {
       "place_id": "ChIJG73Syo6YpBIR6ccdO6KHiLg",
@@ -18947,7 +18902,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:29:11.034Z"
+      "addedAt": "2026-06-21T11:29:11.034Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:34.011Z"
+      }
     },
     "ChIJOyrn926jpBIRdD12HcBxUpU": {
       "place_id": "ChIJOyrn926jpBIRdD12HcBxUpU",
@@ -19006,7 +18966,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:29:11.354Z"
+      "addedAt": "2026-06-21T11:29:11.354Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:37.733Z"
+      }
     },
     "ChIJg4VNNd9RYA0REMOgmRFK7gY": {
       "place_id": "ChIJg4VNNd9RYA0REMOgmRFK7gY",
@@ -19065,7 +19030,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:29:29.534Z"
+      "addedAt": "2026-06-21T11:29:29.534Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:49.110Z"
+      }
     },
     "ChIJ80K_SDlNYA0ROtRBiKIdHUM": {
       "place_id": "ChIJ80K_SDlNYA0ROtRBiKIdHUM",
@@ -19124,7 +19094,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:29:31.670Z"
+      "addedAt": "2026-06-21T11:29:31.670Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:36.095Z"
+      }
     },
     "ChIJya5Zp91FYA0R0dwt-nIVlFI": {
       "place_id": "ChIJya5Zp91FYA0R0dwt-nIVlFI",
@@ -19183,7 +19158,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:29:31.750Z"
+      "addedAt": "2026-06-21T11:29:31.750Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:36.827Z"
+      }
     },
     "ChIJo4DN7lRMYA0RFsNDbnP3EQA": {
       "place_id": "ChIJo4DN7lRMYA0RFsNDbnP3EQA",
@@ -19242,62 +19222,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:29:33.580Z"
-    },
-    "ChIJiXKvOiNRYA0RaLn1KgbEDRs": {
-      "place_id": "ChIJiXKvOiNRYA0RaLn1KgbEDRs",
-      "slug": "atb-studio-aldaia",
-      "negocio": "ATB STUDIO",
-      "ciudad": "Aldaia",
-      "vertical": "peluqueria",
-      "channel": "email",
-      "contact": "adonayrivera3395@gmail.comtel",
-      "email": "adonayrivera3395@gmail.comtel",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/atb-studio-aldaia.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/atb-studio-aldaia.html",
-      "findings": {
-        "reviews": 14,
-        "rating": 4.9,
-        "bestCompetitor": {
-          "name": "Salón 92 Estilistas.",
-          "reviews": 448,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 75,
-        "speed": 59,
-        "photos": 10,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 14 reseñas vs 448 del mejor competidor (Salón 92 Estilistas.). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          }
-        ],
-        "primarySearch": "peluquería Aldaia",
-        "category": "Barber shop",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "He visto que el equipo se centra en la formación continua.",
-        "hookGeneric": false,
-        "hookBasis": "personal amable y profesional"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:29:51.269Z"
+      "addedAt": "2026-06-21T11:29:33.580Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:37.561Z"
+      }
     },
     "ChIJD-bMtSCIQQ0RlDuAtY0nH_8": {
       "place_id": "ChIJD-bMtSCIQQ0RlDuAtY0nH_8",
@@ -19356,7 +19286,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:29:59.833Z"
+      "addedAt": "2026-06-21T11:29:59.833Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:38.375Z"
+      }
     },
     "ChIJu1k1_JYoQg0RDlk1EdB43bs": {
       "place_id": "ChIJu1k1_JYoQg0RDlk1EdB43bs",
@@ -19415,7 +19350,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:06.520Z"
+      "addedAt": "2026-06-21T11:30:06.520Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:43.723Z"
+      }
     },
     "ChIJZwnLFREvQg0REE7zep4X1yA": {
       "place_id": "ChIJZwnLFREvQg0REE7zep4X1yA",
@@ -19474,7 +19414,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:15.671Z"
+      "addedAt": "2026-06-21T11:30:15.671Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:32:38.851Z"
+      }
     },
     "ChIJ4fR-5q8nQg0RmRIqkZ5wCaY": {
       "place_id": "ChIJ4fR-5q8nQg0RmRIqkZ5wCaY",
@@ -19533,7 +19478,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:20.634Z"
+      "addedAt": "2026-06-21T11:30:20.634Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:39.679Z"
+      }
     },
     "ChIJ57uFZ5IoQg0R-FP0Vl28UrE": {
       "place_id": "ChIJ57uFZ5IoQg0R-FP0Vl28UrE",
@@ -19592,7 +19542,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:32.475Z"
+      "addedAt": "2026-06-21T11:30:32.475Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:39.865Z"
+      }
     },
     "ChIJx044ZAAlQg0RchWOfl1AXpU": {
       "place_id": "ChIJx044ZAAlQg0RchWOfl1AXpU",
@@ -19647,7 +19602,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:40.491Z"
+      "addedAt": "2026-06-21T11:30:40.491Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:39.983Z"
+      }
     },
     "ChIJpXh6JOgsQg0RVabJqANctBQ": {
       "place_id": "ChIJpXh6JOgsQg0RVabJqANctBQ",
@@ -19706,7 +19666,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:45.244Z"
+      "addedAt": "2026-06-21T11:30:45.244Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:43.737Z"
+      }
     },
     "ChIJ3zQB7wwpQg0RNlqfb2AKJi8": {
       "place_id": "ChIJ3zQB7wwpQg0RNlqfb2AKJi8",
@@ -19765,7 +19730,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:48.432Z"
+      "addedAt": "2026-06-21T11:30:48.432Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:43.191Z"
+      }
     },
     "ChIJNQnkODcvQg0R928azLxWUKc": {
       "place_id": "ChIJNQnkODcvQg0R928azLxWUKc",
@@ -19824,66 +19794,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:30:51.774Z"
-    },
-    "ChIJKzqPsx4vQg0Rtr_B4-FlH6o": {
-      "place_id": "ChIJKzqPsx4vQg0Rtr_B4-FlH6o",
-      "slug": "sonrie-studio-dental-madrid",
-      "negocio": "Sonrie+ Studio Dental",
-      "ciudad": "Madrid",
-      "vertical": "dental",
-      "channel": "email",
-      "contact": "contacto@sonriestudiodental.es",
-      "email": "contacto@sonriestudiodental.es",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/sonrie-studio-dental-madrid.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/sonrie-studio-dental-madrid.html",
-      "findings": {
-        "reviews": 17,
-        "rating": 5,
-        "bestCompetitor": {
-          "name": "Clínica Dental en Madrid Dental Mark",
-          "reviews": 200,
-          "rating": 4.2
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": 5,
-        "businessRanked": true,
-        "businessVisibility": null,
-        "competitorVisibility": 74,
-        "speed": 93,
-        "photos": 6,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 17 reseñas vs 200 del mejor competidor (Clínica Dental en Madrid Dental Mark). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~6 fotos. Más fotos = más clics, llamadas y rutas."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          }
-        ],
-        "primarySearch": "dentista Madrid",
-        "category": "Dentist",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Noté que ofreces un cuidado bucodental de precisión.",
-        "hookGeneric": false,
-        "hookBasis": "cuidado bucodental de precisión"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:30:56.525Z"
+      "addedAt": "2026-06-21T11:30:51.774Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:45.151Z"
+      }
     },
     "ChIJ96_b3Si7pBIR0kUzxtui6E0": {
       "place_id": "ChIJ96_b3Si7pBIR0kUzxtui6E0",
@@ -19943,7 +19859,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:31:28.967Z"
+      "addedAt": "2026-06-21T11:31:28.967Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:58.800Z"
+      }
     },
     "ChIJvSik0pcpQg0Rshw9ns32ZJQ": {
       "place_id": "ChIJvSik0pcpQg0Rshw9ns32ZJQ",
@@ -20002,7 +19923,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:31:30.227Z"
+      "addedAt": "2026-06-21T11:31:30.227Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:32:58.826Z"
+      }
     },
     "ChIJvVLrs2SipBIRiJGg0oha6iI": {
       "place_id": "ChIJvVLrs2SipBIRiJGg0oha6iI",
@@ -20061,7 +19987,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:31:30.243Z"
+      "addedAt": "2026-06-21T11:31:30.243Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:00.257Z"
+      }
     },
     "ChIJm6-4JygnQg0RJBHPQ1l5nbU": {
       "place_id": "ChIJm6-4JygnQg0RJBHPQ1l5nbU",
@@ -20120,7 +20051,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:31:33.646Z"
+      "addedAt": "2026-06-21T11:31:33.646Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:04.186Z"
+      }
     },
     "ChIJA1FDN4GZpBIR0Qu6k7LxRcA": {
       "place_id": "ChIJA1FDN4GZpBIR0Qu6k7LxRcA",
@@ -20179,7 +20115,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:31:54.547Z"
+      "addedAt": "2026-06-21T11:31:54.547Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:32:59.338Z"
+      }
     },
     "ChIJVV7b76OipBIRwRRDMbyTkw4": {
       "place_id": "ChIJVV7b76OipBIRwRRDMbyTkw4",
@@ -20238,7 +20179,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:31:59.348Z"
+      "addedAt": "2026-06-21T11:31:59.348Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:06.742Z"
+      }
     },
     "ChIJNXZjH62jpBIRsiDJjZ17cE8": {
       "place_id": "ChIJNXZjH62jpBIRsiDJjZ17cE8",
@@ -20297,7 +20243,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:05.652Z"
+      "addedAt": "2026-06-21T11:32:05.652Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:04.770Z"
+      }
     },
     "ChIJ2Ul05cmCpBIRgZckjx0VQdo": {
       "place_id": "ChIJ2Ul05cmCpBIRgZckjx0VQdo",
@@ -20356,7 +20307,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:14.112Z"
+      "addedAt": "2026-06-21T11:32:14.112Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:04.453Z"
+      }
     },
     "ChIJTcbK6rBFYA0R5A7GZkmuumY": {
       "place_id": "ChIJTcbK6rBFYA0R5A7GZkmuumY",
@@ -20415,7 +20371,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:19.751Z"
+      "addedAt": "2026-06-21T11:32:19.751Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:03.375Z"
+      }
     },
     "ChIJdW7hor5FYA0RcSGbnvTEGSc": {
       "place_id": "ChIJdW7hor5FYA0RcSGbnvTEGSc",
@@ -20474,7 +20435,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:28.433Z"
+      "addedAt": "2026-06-21T11:32:28.433Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:07.532Z"
+      }
     },
     "ChIJZY_P0DyjpBIRT_lnCoKbvYw": {
       "place_id": "ChIJZY_P0DyjpBIRT_lnCoKbvYw",
@@ -20533,7 +20499,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:32.086Z"
+      "addedAt": "2026-06-21T11:32:32.086Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:19.267Z"
+      }
     },
     "ChIJ0WClIh5bYA0RljjEQhe0S1g": {
       "place_id": "ChIJ0WClIh5bYA0RljjEQhe0S1g",
@@ -20592,7 +20563,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:33.632Z"
+      "addedAt": "2026-06-21T11:32:33.632Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:08.346Z"
+      }
     },
     "ChIJ3_7nmBVfYA0RrZAsZZQRdUs": {
       "place_id": "ChIJ3_7nmBVfYA0RrZAsZZQRdUs",
@@ -20651,7 +20627,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:46.838Z"
+      "addedAt": "2026-06-21T11:32:46.838Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:08.110Z"
+      }
     },
     "ChIJB8RWEAFGYA0R3ev5UamKZjk": {
       "place_id": "ChIJB8RWEAFGYA0R3ev5UamKZjk",
@@ -20715,7 +20696,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:57.670Z"
+      "addedAt": "2026-06-21T11:32:57.670Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:07.341Z"
+      }
     },
     "ChIJiRMbP61JYA0RnlM2IMSIVAo": {
       "place_id": "ChIJiRMbP61JYA0RnlM2IMSIVAo",
@@ -20774,7 +20760,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:32:58.995Z"
+      "addedAt": "2026-06-21T11:32:58.995Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:22.422Z"
+      }
     },
     "ChIJ1alhdgBFYA0RR6Bz9fAYJNg": {
       "place_id": "ChIJ1alhdgBFYA0RR6Bz9fAYJNg",
@@ -20833,7 +20824,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:13.432Z"
+      "addedAt": "2026-06-21T11:33:13.432Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:08.371Z"
+      }
     },
     "ChIJ14DJWJiPQQ0RYXvjQDJQqb8": {
       "place_id": "ChIJ14DJWJiPQQ0RYXvjQDJQqb8",
@@ -20892,7 +20888,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:16.836Z"
+      "addedAt": "2026-06-21T11:33:16.836Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:08.885Z"
+      }
     },
     "ChIJcXarkAUnQg0R8wVgy77VPrA": {
       "place_id": "ChIJcXarkAUnQg0R8wVgy77VPrA",
@@ -20951,7 +20952,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:20.872Z"
+      "addedAt": "2026-06-21T11:33:20.872Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:10.570Z"
+      }
     },
     "ChIJDb2E7UxPYA0RJ1enN7xEaJk": {
       "place_id": "ChIJDb2E7UxPYA0RJ1enN7xEaJk",
@@ -21010,7 +21016,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:22.605Z"
+      "addedAt": "2026-06-21T11:33:22.605Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:33:14.020Z"
+      }
     },
     "ChIJEyQjiBeIQQ0Rhecyl6nLbPg": {
       "place_id": "ChIJEyQjiBeIQQ0Rhecyl6nLbPg",
@@ -21065,7 +21076,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:35.605Z"
+      "addedAt": "2026-06-21T11:33:35.605Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:33:09.946Z"
+      }
     },
     "ChIJEawW6-MoQg0RaSBQbVPWJyg": {
       "place_id": "ChIJEawW6-MoQg0RaSBQbVPWJyg",
@@ -21124,7 +21140,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:35.880Z"
+      "addedAt": "2026-06-21T11:33:35.880Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:13.761Z"
+      }
     },
     "ChIJS50LRxApQg0RrvgOPovClWQ": {
       "place_id": "ChIJS50LRxApQg0RrvgOPovClWQ",
@@ -21183,7 +21204,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:48.828Z"
+      "addedAt": "2026-06-21T11:33:48.828Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:12.543Z"
+      }
     },
     "ChIJAVJXD2IvQg0RDCx2HRTxyQo": {
       "place_id": "ChIJAVJXD2IvQg0RDCx2HRTxyQo",
@@ -21242,7 +21268,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:49.861Z"
+      "addedAt": "2026-06-21T11:33:49.861Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:15.507Z"
+      }
     },
     "ChIJLa4PgB0vQg0RTkcNTfwK9nQ": {
       "place_id": "ChIJLa4PgB0vQg0RTkcNTfwK9nQ",
@@ -21301,7 +21332,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:33:52.207Z"
+      "addedAt": "2026-06-21T11:33:52.207Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:20.069Z"
+      }
     },
     "ChIJb_zKrlUnQg0RqL_Eu4ved6E": {
       "place_id": "ChIJb_zKrlUnQg0RqL_Eu4ved6E",
@@ -21360,7 +21396,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:08.334Z"
+      "addedAt": "2026-06-21T11:34:08.334Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:17.677Z"
+      }
     },
     "ChIJmwyfo50oQg0RgZqZ4vaWj2A": {
       "place_id": "ChIJmwyfo50oQg0RgZqZ4vaWj2A",
@@ -21419,7 +21460,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:11.540Z"
+      "addedAt": "2026-06-21T11:34:11.540Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:17.381Z"
+      }
     },
     "ChIJS5BwCNSJQQ0RviRNcNFucqQ": {
       "place_id": "ChIJS5BwCNSJQQ0RviRNcNFucqQ",
@@ -21478,7 +21524,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:15.958Z"
+      "addedAt": "2026-06-21T11:34:15.958Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:18.614Z"
+      }
     },
     "ChIJL7YMe8guQg0RDVRPTrOXN5E": {
       "place_id": "ChIJL7YMe8guQg0RDVRPTrOXN5E",
@@ -21537,7 +21588,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:25.946Z"
+      "addedAt": "2026-06-21T11:34:25.946Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:18.520Z"
+      }
     },
     "ChIJq6qqqrY7Qg0RXzVP1NZSxo4": {
       "place_id": "ChIJq6qqqrY7Qg0RXzVP1NZSxo4",
@@ -21596,7 +21652,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:38.921Z"
+      "addedAt": "2026-06-21T11:34:38.921Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:19.072Z"
+      }
     },
     "ChIJfYgcYE2bpBIR4qGAFbaKICM": {
       "place_id": "ChIJfYgcYE2bpBIR4qGAFbaKICM",
@@ -21655,7 +21716,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:50.035Z"
+      "addedAt": "2026-06-21T11:34:50.035Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:19.983Z"
+      }
     },
     "ChIJkVHPft2jpBIROI0irbqrNcE": {
       "place_id": "ChIJkVHPft2jpBIROI0irbqrNcE",
@@ -21714,7 +21780,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:50.589Z"
+      "addedAt": "2026-06-21T11:34:50.589Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:24.891Z"
+      }
     },
     "ChIJcWD-6QyZpBIRCAq6DPb2coM": {
       "place_id": "ChIJcWD-6QyZpBIRCAq6DPb2coM",
@@ -21773,7 +21844,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:51.224Z"
+      "addedAt": "2026-06-21T11:34:51.224Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:20.458Z"
+      }
     },
     "ChIJJ1oL1oWYpBIROM5UhMnI1rk": {
       "place_id": "ChIJJ1oL1oWYpBIROM5UhMnI1rk",
@@ -21832,7 +21908,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:34:51.538Z"
+      "addedAt": "2026-06-21T11:34:51.538Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:24.108Z"
+      }
     },
     "ChIJe5vWdBmjpBIRNYBr1XVAgkI": {
       "place_id": "ChIJe5vWdBmjpBIRNYBr1XVAgkI",
@@ -21887,7 +21968,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:16.559Z"
+      "addedAt": "2026-06-21T11:35:16.559Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:35.158Z"
+      }
     },
     "ChIJ17_z6O2ipBIRPVlGYAcO9tw": {
       "place_id": "ChIJ17_z6O2ipBIRPVlGYAcO9tw",
@@ -21951,7 +22037,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:17.229Z"
+      "addedAt": "2026-06-21T11:35:17.229Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:21.390Z"
+      }
     },
     "ChIJs109GOtPYA0RjkH8XQ-sVeI": {
       "place_id": "ChIJs109GOtPYA0RjkH8XQ-sVeI",
@@ -22010,7 +22101,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:21.992Z"
+      "addedAt": "2026-06-21T11:35:21.992Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:23.988Z"
+      }
     },
     "ChIJc7u-H5u8pBIRw6PmKbDm66o": {
       "place_id": "ChIJc7u-H5u8pBIRw6PmKbDm66o",
@@ -22069,7 +22165,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:28.500Z"
+      "addedAt": "2026-06-21T11:35:28.500Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:26.322Z"
+      }
     },
     "ChIJhRjrBnKYpBIRx2zsrS9yId0": {
       "place_id": "ChIJhRjrBnKYpBIRx2zsrS9yId0",
@@ -22128,7 +22229,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:30.365Z"
+      "addedAt": "2026-06-21T11:35:30.365Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:27.447Z"
+      }
     },
     "ChIJgceHYrpRYA0RTUykRYCyY6E": {
       "place_id": "ChIJgceHYrpRYA0RTUykRYCyY6E",
@@ -22187,7 +22293,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:40.189Z"
+      "addedAt": "2026-06-21T11:35:40.189Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:39.180Z"
+      }
     },
     "ChIJ39sFEu6ZpBIR72hxtDPTKJ4": {
       "place_id": "ChIJ39sFEu6ZpBIR72hxtDPTKJ4",
@@ -22246,7 +22357,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:40.678Z"
+      "addedAt": "2026-06-21T11:35:40.678Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:25.427Z"
+      }
     },
     "ChIJtxZgMqlaYA0Rxo7AMXeVS88": {
       "place_id": "ChIJtxZgMqlaYA0Rxo7AMXeVS88",
@@ -22305,7 +22421,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:48.699Z"
+      "addedAt": "2026-06-21T11:35:48.699Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:28.052Z"
+      }
     },
     "ChIJlX62BUNPYA0Rk7Y1o73jKgU": {
       "place_id": "ChIJlX62BUNPYA0Rk7Y1o73jKgU",
@@ -22364,66 +22485,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:35:57.677Z"
-    },
-    "ChIJw5WcCqxIYA0RpAx-m183yqQ": {
-      "place_id": "ChIJw5WcCqxIYA0RpAx-m183yqQ",
-      "slug": "clinica-dental-alboraya-10-valencia",
-      "negocio": "Clínica Dental Alboraya 10",
-      "ciudad": "València",
-      "vertical": "dental",
-      "channel": "email",
-      "contact": "info@clinicadentalalboraya.com",
-      "email": "info@clinicadentalalboraya.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-alboraya-10-valencia.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-alboraya-10-valencia.html",
-      "findings": {
-        "reviews": 15,
-        "rating": 4.7,
-        "bestCompetitor": {
-          "name": "Dentistas de urgencias 24 horas Arte Sano Clínica Dental",
-          "reviews": 621,
-          "rating": 4.8
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 81,
-        "speed": 61,
-        "photos": 10,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 15 reseñas vs 621 del mejor competidor (Dentistas de urgencias 24 horas Arte Sano Clínica Dental). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          },
-          {
-            "title": "Reactivar la recencia de reseñas",
-            "detail": "La última reseña es de \"5 years ago\". La recencia es señal de ranking."
-          }
-        ],
-        "primarySearch": "dentista València",
-        "category": "Dental Clinic",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que muchos clientes destacan la profesionalidad de Sofía.",
-        "hookGeneric": false,
-        "hookBasis": "clientes destacan la profesionalidad de Sofía"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:35:58.405Z"
+      "addedAt": "2026-06-21T11:35:57.677Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:26.789Z"
+      }
     },
     "ChIJc8rB3_pFYA0RsVu-_0murS0": {
       "place_id": "ChIJc8rB3_pFYA0RsVu-_0murS0",
@@ -22482,7 +22549,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:01.090Z"
+      "addedAt": "2026-06-21T11:36:01.090Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:27.936Z"
+      }
     },
     "ChIJM67UQlJJYA0RppE47mAxpDw": {
       "place_id": "ChIJM67UQlJJYA0RppE47mAxpDw",
@@ -22541,7 +22613,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:12.101Z"
+      "addedAt": "2026-06-21T11:36:12.101Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:28.686Z"
+      }
     },
     "ChIJ96V68ZEpQg0RTcnxboQnYqw": {
       "place_id": "ChIJ96V68ZEpQg0RTcnxboQnYqw",
@@ -22600,7 +22677,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:24.036Z"
+      "addedAt": "2026-06-21T11:36:24.036Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:41.460Z"
+      }
     },
     "ChIJEWjPZnZPYA0RqPqXJ39TNh4": {
       "place_id": "ChIJEWjPZnZPYA0RqPqXJ39TNh4",
@@ -22659,7 +22741,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:25.898Z"
+      "addedAt": "2026-06-21T11:36:25.898Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:29.569Z"
+      }
     },
     "ChIJeVAokxAvQg0Rir9wu_WTQq0": {
       "place_id": "ChIJeVAokxAvQg0Rir9wu_WTQq0",
@@ -22718,7 +22805,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:37.485Z"
+      "addedAt": "2026-06-21T11:36:37.485Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:29.891Z"
+      }
     },
     "ChIJS6kfv9shQg0RE_EghS8Nuak": {
       "place_id": "ChIJS6kfv9shQg0RE_EghS8Nuak",
@@ -22777,7 +22869,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:42.581Z"
+      "addedAt": "2026-06-21T11:36:42.581Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:32.456Z"
+      }
     },
     "ChIJlZrsKagoQg0R_fCfi6K7kf0": {
       "place_id": "ChIJlZrsKagoQg0R_fCfi6K7kf0",
@@ -22836,7 +22933,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:48.997Z"
+      "addedAt": "2026-06-21T11:36:48.997Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:30.737Z"
+      }
     },
     "ChIJH2it4JUoQg0R2gkwAwp-MMQ": {
       "place_id": "ChIJH2it4JUoQg0R2gkwAwp-MMQ",
@@ -22895,7 +22997,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:36:49.795Z"
+      "addedAt": "2026-06-21T11:36:49.795Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:34.702Z"
+      }
     },
     "ChIJa-M715LDxwcRBh2OUr-Z8vI": {
       "place_id": "ChIJa-M715LDxwcRBh2OUr-Z8vI",
@@ -22954,7 +23061,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:02.985Z"
+      "addedAt": "2026-06-21T11:37:02.985Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:33.869Z"
+      }
     },
     "ChIJdWXNvRslQg0RiVd1BIoGdxk": {
       "place_id": "ChIJdWXNvRslQg0RiVd1BIoGdxk",
@@ -23013,7 +23125,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:10.178Z"
+      "addedAt": "2026-06-21T11:37:10.178Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:34.676Z"
+      }
     },
     "ChIJp9N7Rx8pQg0R9KTu-k4w7JM": {
       "place_id": "ChIJp9N7Rx8pQg0R9KTu-k4w7JM",
@@ -23072,7 +23189,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:12.301Z"
+      "addedAt": "2026-06-21T11:37:12.301Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:34.776Z"
+      }
     },
     "ChIJg8rIUUwpQg0R3pbLHEE49_Q": {
       "place_id": "ChIJg8rIUUwpQg0R3pbLHEE49_Q",
@@ -23131,7 +23253,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:18.135Z"
+      "addedAt": "2026-06-21T11:37:18.135Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:38.217Z"
+      }
     },
     "ChIJQ53LreQpQg0R_G6Gnt-KdpQ": {
       "place_id": "ChIJQ53LreQpQg0R_G6Gnt-KdpQ",
@@ -23190,7 +23317,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:26.428Z"
+      "addedAt": "2026-06-21T11:37:26.428Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:38.357Z"
+      }
     },
     "ChIJ4SpPP0B3vIkREQ-whQm2jK0": {
       "place_id": "ChIJ4SpPP0B3vIkREQ-whQm2jK0",
@@ -23249,7 +23381,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:27.828Z"
+      "addedAt": "2026-06-21T11:37:27.828Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:35.970Z"
+      }
     },
     "ChIJg9tjJV6PQQ0RqJ1cy_wuQ7E": {
       "place_id": "ChIJg9tjJV6PQQ0RqJ1cy_wuQ7E",
@@ -23308,7 +23445,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:40.189Z"
+      "addedAt": "2026-06-21T11:37:40.189Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:36.549Z"
+      }
     },
     "ChIJxyDFDpGipBIRQygq2S3i_Zo": {
       "place_id": "ChIJxyDFDpGipBIRQygq2S3i_Zo",
@@ -23363,7 +23505,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:45.512Z"
+      "addedAt": "2026-06-21T11:37:45.512Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:51.646Z"
+      }
     },
     "ChIJx7jBiVa-pBIRr6GfzR6AlLc": {
       "place_id": "ChIJx7jBiVa-pBIRr6GfzR6AlLc",
@@ -23422,66 +23569,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:48.584Z"
-    },
-    "ChIJjQrmG-WQpBIRjtdp7O7tPdw": {
-      "place_id": "ChIJjQrmG-WQpBIRjtdp7O7tPdw",
-      "slug": "pilatestudi-sant-cugat-valldoreix-barcelona",
-      "negocio": "Pilatestudi Sant Cugat, Valldoreix",
-      "ciudad": "Barcelona",
-      "vertical": "pilates",
-      "channel": "email",
-      "contact": "info@pilatestudi.com",
-      "email": "info@pilatestudi.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/pilatestudi-sant-cugat-valldoreix-barcelona.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/pilatestudi-sant-cugat-valldoreix-barcelona.html",
-      "findings": {
-        "reviews": 16,
-        "rating": 5,
-        "bestCompetitor": {
-          "name": "Club Pilates Bonanova",
-          "reviews": 208,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": 1,
-        "businessRanked": true,
-        "businessVisibility": null,
-        "competitorVisibility": 67,
-        "speed": 73,
-        "photos": 10,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 16 reseñas vs 208 del mejor competidor (Club Pilates Bonanova). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          },
-          {
-            "title": "Embeber el mapa de Google + página de localización",
-            "detail": "Refuerza la señal local y la consistencia de NAP."
-          }
-        ],
-        "primarySearch": "pilates Barcelona",
-        "category": "Gym",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "He visto que tienes un equipo de instructores muy bien valorados.",
-        "hookGeneric": false,
-        "hookBasis": "mejores instructores en reseñas"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:37:54.490Z"
+      "addedAt": "2026-06-21T11:37:48.584Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:39.109Z"
+      }
     },
     "ChIJY0vRtLopQg0RWASYj7HwDro": {
       "place_id": "ChIJY0vRtLopQg0RWASYj7HwDro",
@@ -23540,7 +23633,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:37:57.771Z"
+      "addedAt": "2026-06-21T11:37:57.771Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:41.406Z"
+      }
     },
     "ChIJ8RIyRtGjpBIRTzUcy7sUgh8": {
       "place_id": "ChIJ8RIyRtGjpBIRTzUcy7sUgh8",
@@ -23595,7 +23693,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:02.902Z"
+      "addedAt": "2026-06-21T11:38:02.902Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:39.631Z"
+      }
     },
     "ChIJc-73TMO7pBIRlo2QDTZHDG0": {
       "place_id": "ChIJc-73TMO7pBIRlo2QDTZHDG0",
@@ -23654,7 +23757,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:13.771Z"
+      "addedAt": "2026-06-21T11:38:13.771Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:42.928Z"
+      }
     },
     "ChIJmyw_Lt6ipBIRBZYrKEIlvw8": {
       "place_id": "ChIJmyw_Lt6ipBIRBZYrKEIlvw8",
@@ -23713,7 +23821,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:28.111Z"
+      "addedAt": "2026-06-21T11:38:28.111Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:45.128Z"
+      }
     },
     "ChIJrcpe9b29pBIRhRiR9CLWcag": {
       "place_id": "ChIJrcpe9b29pBIRhRiR9CLWcag",
@@ -23772,7 +23885,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:30.263Z"
+      "addedAt": "2026-06-21T11:38:30.263Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:42.408Z"
+      }
     },
     "ChIJ3XQ1ZV2YpBIR3KnCDGhvH5Y": {
       "place_id": "ChIJ3XQ1ZV2YpBIR3KnCDGhvH5Y",
@@ -23831,7 +23949,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:31.498Z"
+      "addedAt": "2026-06-21T11:38:31.498Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:45.389Z"
+      }
     },
     "ChIJi4UEUryipBIRZeDVMtnVn6g": {
       "place_id": "ChIJi4UEUryipBIRZeDVMtnVn6g",
@@ -23890,7 +24013,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:33.504Z"
+      "addedAt": "2026-06-21T11:38:33.504Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:55.127Z"
+      }
     },
     "ChIJdUSH8jtRaKQRlA7iFMVektc": {
       "place_id": "ChIJdUSH8jtRaKQRlA7iFMVektc",
@@ -23949,7 +24077,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:47.007Z"
+      "addedAt": "2026-06-21T11:38:47.007Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:55.870Z"
+      }
     },
     "ChIJxYGHJ3mYpBIRroG4YHSS35s": {
       "place_id": "ChIJxYGHJ3mYpBIRroG4YHSS35s",
@@ -24008,7 +24141,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:38:54.397Z"
+      "addedAt": "2026-06-21T11:38:54.397Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:51.739Z"
+      }
     },
     "ChIJUWGD_YmipBIRz1NGpqOJx74": {
       "place_id": "ChIJUWGD_YmipBIRz1NGpqOJx74",
@@ -24067,7 +24205,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:00.200Z"
+      "addedAt": "2026-06-21T11:39:00.200Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:46.247Z"
+      }
     },
     "ChIJiz7BQ32YpBIRUHXDSSCZJNQ": {
       "place_id": "ChIJiz7BQ32YpBIRUHXDSSCZJNQ",
@@ -24126,7 +24269,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:11.298Z"
+      "addedAt": "2026-06-21T11:39:11.298Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:47.144Z"
+      }
     },
     "ChIJS0C1EYmZpBIR6xCwGAgw_Jk": {
       "place_id": "ChIJS0C1EYmZpBIR6xCwGAgw_Jk",
@@ -24185,7 +24333,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:23.498Z"
+      "addedAt": "2026-06-21T11:39:23.498Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:56.658Z"
+      }
     },
     "ChIJXzPQckOjpBIR1FnZvdjSwWc": {
       "place_id": "ChIJXzPQckOjpBIR1FnZvdjSwWc",
@@ -24244,7 +24397,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:26.789Z"
+      "addedAt": "2026-06-21T11:39:26.789Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:54.721Z"
+      }
     },
     "ChIJb_O-rm9PYA0RBi9SsOVgCck": {
       "place_id": "ChIJb_O-rm9PYA0RBi9SsOVgCck",
@@ -24303,7 +24461,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:32.027Z"
+      "addedAt": "2026-06-21T11:39:32.027Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:33:52.496Z"
+      }
     },
     "ChIJzUQRTfdFYA0RwoRqegQ1uJQ": {
       "place_id": "ChIJzUQRTfdFYA0RwoRqegQ1uJQ",
@@ -24362,7 +24525,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:35.105Z"
+      "addedAt": "2026-06-21T11:39:35.105Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:07.584Z"
+      }
     },
     "ChIJ8YNIt5VIYA0RBsecKPfoIc0": {
       "place_id": "ChIJ8YNIt5VIYA0RBsecKPfoIc0",
@@ -24421,7 +24589,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:48.394Z"
+      "addedAt": "2026-06-21T11:39:48.394Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:09.812Z"
+      }
     },
     "ChIJl3MCfHQpQg0Ri3N2CIPAj6M": {
       "place_id": "ChIJl3MCfHQpQg0Ri3N2CIPAj6M",
@@ -24480,7 +24653,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:50.076Z"
+      "addedAt": "2026-06-21T11:39:50.076Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:33:56.167Z"
+      }
     },
     "ChIJV8xy-lMnQg0Ro7iRiw-Pw40": {
       "place_id": "ChIJV8xy-lMnQg0Ro7iRiw-Pw40",
@@ -24539,7 +24717,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:39:52.427Z"
+      "addedAt": "2026-06-21T11:39:52.427Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:01.012Z"
+      }
     },
     "ChIJHZggmHMpQg0Rt6AemISRVbM": {
       "place_id": "ChIJHZggmHMpQg0Rt6AemISRVbM",
@@ -24598,7 +24781,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:40:14.513Z"
+      "addedAt": "2026-06-21T11:40:14.513Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:11.264Z"
+      }
     },
     "ChIJFcelk_IpQg0RJrEYF07t47c": {
       "place_id": "ChIJFcelk_IpQg0RJrEYF07t47c",
@@ -24662,7 +24850,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:40:18.796Z"
+      "addedAt": "2026-06-21T11:40:18.796Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:11.231Z"
+      }
     },
     "ChIJ31u9xngvQg0Rdlt76LHpDZk": {
       "place_id": "ChIJ31u9xngvQg0Rdlt76LHpDZk",
@@ -24721,7 +24914,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:40:19.788Z"
+      "addedAt": "2026-06-21T11:40:19.788Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:01.949Z"
+      }
     },
     "ChIJ-7HtoIElQg0RXXFON8GFZro": {
       "place_id": "ChIJ-7HtoIElQg0RXXFON8GFZro",
@@ -24780,7 +24978,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:40:25.945Z"
+      "addedAt": "2026-06-21T11:40:25.945Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:07.320Z"
+      }
     },
     "ChIJ2c8O09otQg0RINrR4AfJtJM": {
       "place_id": "ChIJ2c8O09otQg0RINrR4AfJtJM",
@@ -24839,7 +25042,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:40:46.032Z"
+      "addedAt": "2026-06-21T11:40:46.032Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:22.403Z"
+      }
     },
     "ChIJu-9AdCQnQg0R_vaE7KwbywI": {
       "place_id": "ChIJu-9AdCQnQg0R_vaE7KwbywI",
@@ -24903,7 +25111,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:40:52.860Z"
+      "addedAt": "2026-06-21T11:40:52.860Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:18.278Z"
+      }
     },
     "ChIJY15-k8AoQg0R6X-WdNv7f6A": {
       "place_id": "ChIJY15-k8AoQg0R6X-WdNv7f6A",
@@ -24962,7 +25175,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:40:54.738Z"
+      "addedAt": "2026-06-21T11:40:54.738Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:19.404Z"
+      }
     },
     "ChIJKbxps_4pQg0RV1_aXeaVLfc": {
       "place_id": "ChIJKbxps_4pQg0RV1_aXeaVLfc",
@@ -25021,7 +25239,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:41:05.386Z"
+      "addedAt": "2026-06-21T11:41:05.386Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:19.454Z"
+      }
     },
     "ChIJD4yDoKGipBIRVD5wKspEdCA": {
       "place_id": "ChIJD4yDoKGipBIRVD5wKspEdCA",
@@ -25080,7 +25303,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:41:29.483Z"
+      "addedAt": "2026-06-21T11:41:29.483Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:13.127Z"
+      }
     },
     "ChIJz26tPF2UpBIRrHdkfGDdQLk": {
       "place_id": "ChIJz26tPF2UpBIRrHdkfGDdQLk",
@@ -25139,7 +25367,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:41:41.021Z"
+      "addedAt": "2026-06-21T11:41:41.021Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:14.930Z"
+      }
     },
     "ChIJP9h9cE6DYYkRS63_ffDj6Ec": {
       "place_id": "ChIJP9h9cE6DYYkRS63_ffDj6Ec",
@@ -25198,66 +25431,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:41:45.123Z"
-    },
-    "ChIJo2YnzcqZpBIR-UgsXtpvgco": {
-      "place_id": "ChIJo2YnzcqZpBIR-UgsXtpvgco",
-      "slug": "clinica-dental-hossdent-l-hospitalet-de-llobregat",
-      "negocio": "Clinica Dental Hossdent",
-      "ciudad": "L'Hospitalet de Llobregat",
-      "vertical": "dental",
-      "channel": "email",
-      "contact": "clinicadentalhossdent@gmail.com",
-      "email": "clinicadentalhossdent@gmail.com",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-hossdent-l-hospitalet-de-llobregat.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-hossdent-l-hospitalet-de-llobregat.html",
-      "findings": {
-        "reviews": 17,
-        "rating": 4.8,
-        "bestCompetitor": {
-          "name": "Clínica Dental NATURAL DENT Dra.Montse Granollers i Equip",
-          "reviews": 340,
-          "rating": 4.9
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": null,
-        "businessRanked": false,
-        "businessVisibility": null,
-        "competitorVisibility": 68,
-        "speed": 74,
-        "photos": 8,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 17 reseñas vs 340 del mejor competidor (Clínica Dental NATURAL DENT Dra.Montse Granollers i Equip). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~8 fotos. Más fotos = más clics, llamadas y rutas."
-          },
-          {
-            "title": "Meter keyword local en el title y el H1 de la web",
-            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
-          }
-        ],
-        "primarySearch": "dentista L'Hospitalet de Llobregat",
-        "category": "Dental Clinic",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "Vi que Fatima es muy valorada por su profesionalidad.",
-        "hookGeneric": false,
-        "hookBasis": "Fatima es una gran profesional"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:41:58.426Z"
+      "addedAt": "2026-06-21T11:41:45.123Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:19.350Z"
+      }
     },
     "ChIJ6X9aO0ujpBIRMDM4p8ktEBM": {
       "place_id": "ChIJ6X9aO0ujpBIRMDM4p8ktEBM",
@@ -25316,7 +25495,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:41:59.225Z"
+      "addedAt": "2026-06-21T11:41:59.225Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:30.373Z"
+      }
     },
     "ChIJtVAt9mdIYA0Ri2EZkqF8uzg": {
       "place_id": "ChIJtVAt9mdIYA0Ri2EZkqF8uzg",
@@ -25375,7 +25559,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:42:05.942Z"
+      "addedAt": "2026-06-21T11:42:05.942Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:19.532Z"
+      }
     },
     "ChIJOUes1UdPYA0RR44hU3YJXMI": {
       "place_id": "ChIJOUes1UdPYA0RR44hU3YJXMI",
@@ -25434,7 +25623,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:42:13.315Z"
+      "addedAt": "2026-06-21T11:42:13.315Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:20.194Z"
+      }
     },
     "ChIJTQuyLJpOYA0R9WVAd4o4ao8": {
       "place_id": "ChIJTQuyLJpOYA0R9WVAd4o4ao8",
@@ -25493,7 +25687,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:42:19.610Z"
+      "addedAt": "2026-06-21T11:42:19.610Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:20.260Z"
+      }
     },
     "ChIJtUvN2GNSYA0RY77pOqsa2Zo": {
       "place_id": "ChIJtUvN2GNSYA0RY77pOqsa2Zo",
@@ -25552,7 +25751,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:42:29.735Z"
+      "addedAt": "2026-06-21T11:42:29.735Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:20.511Z"
+      }
     },
     "ChIJO023GkhPYA0ROAMiStencJI": {
       "place_id": "ChIJO023GkhPYA0ROAMiStencJI",
@@ -25611,66 +25815,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:42:31.740Z"
-    },
-    "ChIJGZaJgTtGYA0RScr37G9B2_Y": {
-      "place_id": "ChIJGZaJgTtGYA0RScr37G9B2_Y",
-      "slug": "centro-de-belleza-y-salud-maria-moreno-alboraya",
-      "negocio": "Centro de belleza y salud Maria Moreno",
-      "ciudad": "Alboraya",
-      "vertical": "estetica",
-      "channel": "email",
-      "contact": "centrobellezamariamoreno@gmail.con",
-      "email": "centrobellezamariamoreno@gmail.con",
-      "wa_link": null,
-      "pdf_url": "https://faroseo.vercel.app/audits/centro-de-belleza-y-salud-maria-moreno-alboraya.pdf",
-      "audit_url": "https://faroseo.vercel.app/audits/centro-de-belleza-y-salud-maria-moreno-alboraya.html",
-      "findings": {
-        "reviews": 17,
-        "rating": 4.6,
-        "bestCompetitor": {
-          "name": "Elva Estética & Bienestar",
-          "reviews": 94,
-          "rating": 4.7
-        },
-        "compNamed": true,
-        "posMeasured": false,
-        "avgPos": 8,
-        "businessRanked": true,
-        "businessVisibility": null,
-        "competitorVisibility": 71,
-        "speed": 65,
-        "photos": 5,
-        "hasHours": true,
-        "quickWins": [
-          {
-            "title": "Arrancar una campaña de reseñas",
-            "detail": "Tienes 17 reseñas vs 94 del mejor competidor (Elva Estética & Bienestar). Pedir a todos los clientes con link/QR."
-          },
-          {
-            "title": "Subir fotos a la ficha (y de forma regular)",
-            "detail": "Se ven ~5 fotos. Más fotos = más clics, llamadas y rutas."
-          },
-          {
-            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
-            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
-          }
-        ],
-        "primarySearch": "centro de estética Alboraya",
-        "category": "Beauty Salon",
-        "webReachable": true,
-        "coldMode": true,
-        "hook": "He visto que muchos destacan tu atención al cliente.",
-        "hookGeneric": false,
-        "hookBasis": "gran atención al cliente"
-      },
-      "qa": {
-        "pass": true,
-        "score": 100,
-        "flags": []
-      },
-      "status": "listo",
-      "addedAt": "2026-06-21T11:42:54.627Z"
+      "addedAt": "2026-06-21T11:42:31.740Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:20.855Z"
+      }
     },
     "ChIJIxDBQkhPYA0R1Cs2xtAp7o0": {
       "place_id": "ChIJIxDBQkhPYA0R1Cs2xtAp7o0",
@@ -25729,7 +25879,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:42:58.902Z"
+      "addedAt": "2026-06-21T11:42:58.902Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:25.617Z"
+      }
     },
     "ChIJ9wpH-nJJYA0RC5pFZAZfYaE": {
       "place_id": "ChIJ9wpH-nJJYA0RC5pFZAZfYaE",
@@ -25780,7 +25935,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:43:00.382Z"
+      "addedAt": "2026-06-21T11:43:00.382Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:35.613Z"
+      }
     },
     "ChIJwfO4ZUMlQg0RBKunGoGrlI8": {
       "place_id": "ChIJwfO4ZUMlQg0RBKunGoGrlI8",
@@ -25839,7 +25999,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:43:17.985Z"
+      "addedAt": "2026-06-21T11:43:17.985Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:21.173Z"
+      }
     },
     "ChIJn-UcTuVHYA0RAQohJcOFbCE": {
       "place_id": "ChIJn-UcTuVHYA0RAQohJcOFbCE",
@@ -25898,7 +26063,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:43:27.082Z"
+      "addedAt": "2026-06-21T11:43:27.082Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:22.431Z"
+      }
     },
     "ChIJvRh-91aNQQ0R69V-l1809-Y": {
       "place_id": "ChIJvRh-91aNQQ0R69V-l1809-Y",
@@ -25957,7 +26127,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:43:27.545Z"
+      "addedAt": "2026-06-21T11:43:27.545Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:27.285Z"
+      }
     },
     "ChIJneZyGY4oQg0RppNzBe4a6gQ": {
       "place_id": "ChIJneZyGY4oQg0RppNzBe4a6gQ",
@@ -26016,7 +26191,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:43:35.506Z"
+      "addedAt": "2026-06-21T11:43:35.506Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:24.402Z"
+      }
     },
     "ChIJkw_jYvwzQg0RjghIed88gmE": {
       "place_id": "ChIJkw_jYvwzQg0RjghIed88gmE",
@@ -26075,7 +26255,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:43:50.980Z"
+      "addedAt": "2026-06-21T11:43:50.980Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:39.501Z"
+      }
     },
     "ChIJZzzQ6k6JQQ0R5mydUIVrwqU": {
       "place_id": "ChIJZzzQ6k6JQQ0R5mydUIVrwqU",
@@ -26134,7 +26319,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:43:52.468Z"
+      "addedAt": "2026-06-21T11:43:52.468Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:27.224Z"
+      }
     },
     "ChIJUxXbRKOPQQ0Rv_Sp26pg59s": {
       "place_id": "ChIJUxXbRKOPQQ0Rv_Sp26pg59s",
@@ -26185,7 +26375,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:44:00.909Z"
+      "addedAt": "2026-06-21T11:44:00.909Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:28.231Z"
+      }
     },
     "ChIJb9gINV8pQg0R7LrRsBRPQ_k": {
       "place_id": "ChIJb9gINV8pQg0R7LrRsBRPQ_k",
@@ -26244,7 +26439,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:44:11.345Z"
+      "addedAt": "2026-06-21T11:44:11.345Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:28.109Z"
+      }
     },
     "ChIJ_aXQyc0vQg0R5jQ-8ypjpt8": {
       "place_id": "ChIJ_aXQyc0vQg0R5jQ-8ypjpt8",
@@ -26303,7 +26503,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:44:28.608Z"
+      "addedAt": "2026-06-21T11:44:28.608Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:30.313Z"
+      }
     },
     "ChIJlRDvXTQtQg0Rq1I7hh-FDfo": {
       "place_id": "ChIJlRDvXTQtQg0Rq1I7hh-FDfo",
@@ -26362,7 +26567,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:44:29.067Z"
+      "addedAt": "2026-06-21T11:44:29.067Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:30.224Z"
+      }
     },
     "ChIJ75hjSz5q3oARtXCh4TsxBt4": {
       "place_id": "ChIJ75hjSz5q3oARtXCh4TsxBt4",
@@ -26421,7 +26631,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:44:33.627Z"
+      "addedAt": "2026-06-21T11:44:33.627Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:33.039Z"
+      }
     },
     "ChIJ01QDZeooQg0RBwrPjgzhQ7Y": {
       "place_id": "ChIJ01QDZeooQg0RBwrPjgzhQ7Y",
@@ -26480,7 +26695,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:44:49.430Z"
+      "addedAt": "2026-06-21T11:44:49.430Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:34.284Z"
+      }
     },
     "ChIJeUSSBAAtQg0RnppHX3TNNb4": {
       "place_id": "ChIJeUSSBAAtQg0RnppHX3TNNb4",
@@ -26539,7 +26759,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:44:53.096Z"
+      "addedAt": "2026-06-21T11:44:53.096Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:32.819Z"
+      }
     },
     "ChIJ2cRg5IWLQQ0RU7jKVZOOp50": {
       "place_id": "ChIJ2cRg5IWLQQ0RU7jKVZOOp50",
@@ -26594,7 +26819,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:02.089Z"
+      "addedAt": "2026-06-21T11:45:02.089Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:35.271Z"
+      }
     },
     "ChIJ63K9jzeZpBIRlIhpNQf7ssE": {
       "place_id": "ChIJ63K9jzeZpBIRlIhpNQf7ssE",
@@ -26653,7 +26883,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:16.311Z"
+      "addedAt": "2026-06-21T11:45:16.311Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:35.679Z"
+      }
     },
     "ChIJr6QlnvQoQg0RkcgUNLxmDb8": {
       "place_id": "ChIJr6QlnvQoQg0RkcgUNLxmDb8",
@@ -26712,7 +26947,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:22.666Z"
+      "addedAt": "2026-06-21T11:45:22.666Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:34.553Z"
+      }
     },
     "ChIJHfL6X--9pBIRUtcrFj_d7R4": {
       "place_id": "ChIJHfL6X--9pBIRUtcrFj_d7R4",
@@ -26771,7 +27011,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:25.661Z"
+      "addedAt": "2026-06-21T11:45:25.661Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:49.641Z"
+      }
     },
     "ChIJjae-RXOjpBIRuvjHMMUyBW4": {
       "place_id": "ChIJjae-RXOjpBIRuvjHMMUyBW4",
@@ -26830,7 +27075,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:36.223Z"
+      "addedAt": "2026-06-21T11:45:36.223Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:37.106Z"
+      }
     },
     "ChIJ5SOSvze9pBIRd3CLXUrVNFs": {
       "place_id": "ChIJ5SOSvze9pBIRd3CLXUrVNFs",
@@ -26889,7 +27139,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:37.284Z"
+      "addedAt": "2026-06-21T11:45:37.284Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:37.098Z"
+      }
     },
     "ChIJP589D1S4pBIRJ0nN9GeeCBc": {
       "place_id": "ChIJP589D1S4pBIRJ0nN9GeeCBc",
@@ -26948,7 +27203,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:41.793Z"
+      "addedAt": "2026-06-21T11:45:41.793Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:37.076Z"
+      }
     },
     "ChIJKcn32tybpBIREF30DHub87U": {
       "place_id": "ChIJKcn32tybpBIREF30DHub87U",
@@ -27007,7 +27267,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:41.805Z"
+      "addedAt": "2026-06-21T11:45:41.805Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:39.769Z"
+      }
     },
     "ChIJJZp4hH2ipBIRI-IhjzawSfw": {
       "place_id": "ChIJJZp4hH2ipBIRI-IhjzawSfw",
@@ -27066,7 +27331,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:51.518Z"
+      "addedAt": "2026-06-21T11:45:51.518Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:37.914Z"
+      }
     },
     "ChIJv-CuWdi-pBIRlVFUCzpGJ2Q": {
       "place_id": "ChIJv-CuWdi-pBIRlVFUCzpGJ2Q",
@@ -27125,7 +27395,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:45:56.176Z"
+      "addedAt": "2026-06-21T11:45:56.176Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:38.104Z"
+      }
     },
     "ChIJF9QMib-ZpBIRNDnDtVxS08E": {
       "place_id": "ChIJF9QMib-ZpBIRNDnDtVxS08E",
@@ -27184,7 +27459,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:00.769Z"
+      "addedAt": "2026-06-21T11:46:00.769Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:38.375Z"
+      }
     },
     "ChIJsZRY2umXpBIRD2wcL-RsBJk": {
       "place_id": "ChIJsZRY2umXpBIRD2wcL-RsBJk",
@@ -27243,7 +27523,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:07.887Z"
+      "addedAt": "2026-06-21T11:46:07.887Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:40.696Z"
+      }
     },
     "ChIJ5_k__BSZpBIRpd3y_zTVwDg": {
       "place_id": "ChIJ5_k__BSZpBIRpd3y_zTVwDg",
@@ -27302,7 +27587,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:09.261Z"
+      "addedAt": "2026-06-21T11:46:09.261Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:39.917Z"
+      }
     },
     "ChIJ7SDAujm9pBIRJkiq_b0SSKw": {
       "place_id": "ChIJ7SDAujm9pBIRJkiq_b0SSKw",
@@ -27361,7 +27651,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:12.377Z"
+      "addedAt": "2026-06-21T11:46:12.377Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:41.118Z"
+      }
     },
     "ChIJcXBhfRG_pBIRaELg9W7J27w": {
       "place_id": "ChIJcXBhfRG_pBIRaELg9W7J27w",
@@ -27420,7 +27715,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:21.287Z"
+      "addedAt": "2026-06-21T11:46:21.287Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:40.781Z"
+      }
     },
     "ChIJj_ukolVHYA0RhuOJzMubXZI": {
       "place_id": "ChIJj_ukolVHYA0RhuOJzMubXZI",
@@ -27479,7 +27779,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:28.934Z"
+      "addedAt": "2026-06-21T11:46:28.934Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:40.827Z"
+      }
     },
     "ChIJr-WhDGBHYA0RW1VUrVNovl0": {
       "place_id": "ChIJr-WhDGBHYA0RW1VUrVNovl0",
@@ -27538,7 +27843,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:40.842Z"
+      "addedAt": "2026-06-21T11:46:40.842Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:47.314Z"
+      }
     },
     "ChIJuZtrFUNOYA0RluZdf4APjR0": {
       "place_id": "ChIJuZtrFUNOYA0RluZdf4APjR0",
@@ -27597,7 +27907,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:47.495Z"
+      "addedAt": "2026-06-21T11:46:47.495Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:34:44.353Z"
+      }
     },
     "ChIJA0hnrKFIYA0R8-WXcnErhtI": {
       "place_id": "ChIJA0hnrKFIYA0R8-WXcnErhtI",
@@ -27661,7 +27976,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:46:48.407Z"
+      "addedAt": "2026-06-21T11:46:48.407Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:54.537Z"
+      }
     },
     "ChIJVQh8ZzZNYA0RCyNAh2A-tTQ": {
       "place_id": "ChIJVQh8ZzZNYA0RCyNAh2A-tTQ",
@@ -27720,7 +28040,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:06.215Z"
+      "addedAt": "2026-06-21T11:47:06.215Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:42.501Z"
+      }
     },
     "ChIJzdnHB_EoQg0RKHSzw1kkexA": {
       "place_id": "ChIJzdnHB_EoQg0RKHSzw1kkexA",
@@ -27779,7 +28104,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:09.453Z"
+      "addedAt": "2026-06-21T11:47:09.453Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:43.655Z"
+      }
     },
     "ChIJSUU86IMnQg0RO03bP9Dpn54": {
       "place_id": "ChIJSUU86IMnQg0RO03bP9Dpn54",
@@ -27838,7 +28168,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:13.363Z"
+      "addedAt": "2026-06-21T11:47:13.363Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:34:45.465Z"
+      }
     },
     "ChIJLVRyYCgpQg0R6P2DW_l205E": {
       "place_id": "ChIJLVRyYCgpQg0R6P2DW_l205E",
@@ -27897,7 +28232,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:14.813Z"
+      "addedAt": "2026-06-21T11:47:14.813Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:45.277Z"
+      }
     },
     "ChIJxbmC_r8nQg0RTwa4ObOnpaU": {
       "place_id": "ChIJxbmC_r8nQg0RTwa4ObOnpaU",
@@ -27952,7 +28292,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:20.951Z"
+      "addedAt": "2026-06-21T11:47:20.951Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:51.757Z"
+      }
     },
     "ChIJLeDNN04oQg0ROQBK5qC4kvM": {
       "place_id": "ChIJLeDNN04oQg0ROQBK5qC4kvM",
@@ -28011,7 +28356,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:33.465Z"
+      "addedAt": "2026-06-21T11:47:33.465Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:46.606Z"
+      }
     },
     "ChIJ61czLFgoQg0R0d_jcmu83zQ": {
       "place_id": "ChIJ61czLFgoQg0R0d_jcmu83zQ",
@@ -28070,7 +28420,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:37.363Z"
+      "addedAt": "2026-06-21T11:47:37.363Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:53.719Z"
+      }
     },
     "ChIJ0yotDjsnQg0RXlL6mMUm-9w": {
       "place_id": "ChIJ0yotDjsnQg0RXlL6mMUm-9w",
@@ -28129,7 +28484,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:39.000Z"
+      "addedAt": "2026-06-21T11:47:39.000Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all",
+        "at": "2026-06-23T16:34:47.747Z"
+      }
     },
     "ChIJXehl_2ApQg0RHjguGS0xpeU": {
       "place_id": "ChIJXehl_2ApQg0RHjguGS0xpeU",
@@ -28188,7 +28548,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:47:51.635Z"
+      "addedAt": "2026-06-21T11:47:51.635Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:54.273Z"
+      }
     },
     "ChIJFdajfEQmQg0RECoXEx8sCZg": {
       "place_id": "ChIJFdajfEQmQg0RECoXEx8sCZg",
@@ -28247,7 +28612,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:48:14.358Z"
+      "addedAt": "2026-06-21T11:48:14.358Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:50.007Z"
+      }
     },
     "ChIJbeUUDEMpQg0R_cj8L8Y9wp4": {
       "place_id": "ChIJbeUUDEMpQg0R_cj8L8Y9wp4",
@@ -28306,7 +28676,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:48:19.043Z"
+      "addedAt": "2026-06-21T11:48:19.043Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:50.611Z"
+      }
     },
     "ChIJHZYc6cQtQg0RgKB4QFWGcGI": {
       "place_id": "ChIJHZYc6cQtQg0RgKB4QFWGcGI",
@@ -28365,7 +28740,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:48:30.437Z"
+      "addedAt": "2026-06-21T11:48:30.437Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:54.926Z"
+      }
     },
     "ChIJPfBj514pQg0RSMooDFMagf4": {
       "place_id": "ChIJPfBj514pQg0RSMooDFMagf4",
@@ -28424,7 +28804,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:48:33.963Z"
+      "addedAt": "2026-06-21T11:48:33.963Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:52.223Z"
+      }
     },
     "ChIJacLIOicpQg0Rgtio4TEMUek": {
       "place_id": "ChIJacLIOicpQg0Rgtio4TEMUek",
@@ -28483,7 +28868,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:48:41.997Z"
+      "addedAt": "2026-06-21T11:48:41.997Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:52.546Z"
+      }
     },
     "ChIJUQ8SaVOKQQ0RgH8vQXYRsZo": {
       "place_id": "ChIJUQ8SaVOKQQ0RgH8vQXYRsZo",
@@ -28542,7 +28932,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:48:44.474Z"
+      "addedAt": "2026-06-21T11:48:44.474Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:55.449Z"
+      }
     },
     "ChIJg4c5GnAmQg0R-dimJzCx7bo": {
       "place_id": "ChIJg4c5GnAmQg0R-dimJzCx7bo",
@@ -28601,7 +28996,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:03.007Z"
+      "addedAt": "2026-06-21T11:49:03.007Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:54.699Z"
+      }
     },
     "ChIJ8zRCi9ijpBIRuSQP2zn0h-Y": {
       "place_id": "ChIJ8zRCi9ijpBIRuSQP2zn0h-Y",
@@ -28660,7 +29060,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:10.587Z"
+      "addedAt": "2026-06-21T11:49:10.587Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:35:03.872Z"
+      }
     },
     "ChIJQwiUOFajpBIRGNLyhih-zpE": {
       "place_id": "ChIJQwiUOFajpBIRGNLyhih-zpE",
@@ -28719,7 +29124,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:16.872Z"
+      "addedAt": "2026-06-21T11:49:16.872Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:54.787Z"
+      }
     },
     "ChIJKRNpOHu7pBIRo2LfmLS05CQ": {
       "place_id": "ChIJKRNpOHu7pBIRo2LfmLS05CQ",
@@ -28774,7 +29184,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:23.706Z"
+      "addedAt": "2026-06-21T11:49:23.706Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:54.944Z"
+      }
     },
     "ChIJp1nSmISipBIRhW05VXLHYZE": {
       "place_id": "ChIJp1nSmISipBIRhW05VXLHYZE",
@@ -28833,7 +29248,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:27.832Z"
+      "addedAt": "2026-06-21T11:49:27.832Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:56.149Z"
+      }
     },
     "ChIJZX17LX2ZpBIR50WT_bpk_WE": {
       "place_id": "ChIJZX17LX2ZpBIR50WT_bpk_WE",
@@ -28892,7 +29312,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:28.544Z"
+      "addedAt": "2026-06-21T11:49:28.544Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:55.491Z"
+      }
     },
     "ChIJG97mVsCipBIRnokqLjwO9ME": {
       "place_id": "ChIJG97mVsCipBIRnokqLjwO9ME",
@@ -28951,7 +29376,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:48.346Z"
+      "addedAt": "2026-06-21T11:49:48.346Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:56.354Z"
+      }
     },
     "ChIJrcDsqMJJYA0RunPwmjPISrM": {
       "place_id": "ChIJrcDsqMJJYA0RunPwmjPISrM",
@@ -29015,7 +29445,12 @@
         ]
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:56.390Z"
+      "addedAt": "2026-06-21T11:49:56.390Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:35:06.857Z"
+      }
     },
     "ChIJkwMG5gpPYA0RG2gkPI0rw3k": {
       "place_id": "ChIJkwMG5gpPYA0RG2gkPI0rw3k",
@@ -29074,7 +29509,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:49:59.825Z"
+      "addedAt": "2026-06-21T11:49:59.825Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:34:56.809Z"
+      }
     },
     "ChIJ-YTj_HSYpBIRxP69YoEDfxM": {
       "place_id": "ChIJ-YTj_HSYpBIRxP69YoEDfxM",
@@ -29133,7 +29573,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:50:01.874Z"
+      "addedAt": "2026-06-21T11:50:01.874Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:56.934Z"
+      }
     },
     "ChIJQyWpGexIYA0RnOflq0N05tU": {
       "place_id": "ChIJQyWpGexIYA0RnOflq0N05tU",
@@ -29192,7 +29637,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:50:10.863Z"
+      "addedAt": "2026-06-21T11:50:10.863Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:56.829Z"
+      }
     },
     "ChIJR5yj2CZHYA0R6ZI0Vv47T2Q": {
       "place_id": "ChIJR5yj2CZHYA0R6ZI0Vv47T2Q",
@@ -29251,7 +29701,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:50:24.265Z"
+      "addedAt": "2026-06-21T11:50:24.265Z",
+      "mv": {
+        "verdict": "ok",
+        "result": "ok",
+        "at": "2026-06-23T16:34:58.122Z"
+      }
     },
     "ChIJJ09EVWFSYA0RglztW98de30": {
       "place_id": "ChIJJ09EVWFSYA0RglztW98de30",
@@ -29310,7 +29765,12 @@
         "flags": []
       },
       "status": "listo",
-      "addedAt": "2026-06-21T11:50:25.766Z"
+      "addedAt": "2026-06-21T11:50:25.766Z",
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown",
+        "at": "2026-06-23T16:35:11.921Z"
+      }
     }
   },
   "descartados": {
@@ -29951,6 +30411,23 @@
     "ChIJOxu4Mn2ipBIRoeTJcqsXPps": "sin email válido",
     "ChIJL7VZLMKVpBIRtEZK7GP4zgE": "sin email válido",
     "ChIJsZVTJTKjpBIRksGIkJsNJNA": "sin email válido",
-    "ChIJbZfIac9JYA0R-s6OooWKi1E": "sin email válido"
+    "ChIJbZfIac9JYA0R-s6OooWKi1E": "sin email válido",
+    "ChIJjaumBXW7pBIR7-x9N4RqSsc": "MillionVerifier: invalid",
+    "ChIJqQ8IX1FPYA0R0e9BRg_9pOU": "MillionVerifier: invalid",
+    "ChIJFz5x7s8nQg0RIZeEMwW2r8Q": "MillionVerifier: invalid",
+    "ChIJu4oAWUi9pBIRn_YeaN3o77M": "MillionVerifier: invalid",
+    "ChIJ-WnWFgORpBIRdhU1RDgutZY": "MillionVerifier: invalid",
+    "ChIJBZI4SW2YpBIRsi5bbm5q_8I": "MillionVerifier: invalid",
+    "ChIJP1pQ-lijpBIR-JAmYhNHp8Q": "MillionVerifier: invalid",
+    "ChIJqUrFYEUpQg0RUar2HxM3bJg": "MillionVerifier: invalid",
+    "ChIJP3J0fvOipBIRGchYjJ6CXpw": "MillionVerifier: invalid",
+    "ChIJA0QT8k1JYA0RoT2izSR36yU": "MillionVerifier: invalid",
+    "ChIJQwUCZxuWpBIRXVfU9t4vcso": "MillionVerifier: invalid",
+    "ChIJiXKvOiNRYA0RaLn1KgbEDRs": "MillionVerifier: invalid",
+    "ChIJKzqPsx4vQg0Rtr_B4-FlH6o": "MillionVerifier: invalid",
+    "ChIJw5WcCqxIYA0RpAx-m183yqQ": "MillionVerifier: invalid",
+    "ChIJjQrmG-WQpBIRjtdp7O7tPdw": "MillionVerifier: invalid",
+    "ChIJo2YnzcqZpBIR-UgsXtpvgco": "MillionVerifier: invalid",
+    "ChIJGZaJgTtGYA0RScr37G9B2_Y": "MillionVerifier: invalid"
   }
 }

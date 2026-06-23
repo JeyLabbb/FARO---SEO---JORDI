@@ -13,6 +13,7 @@ import { personalize } from "./lib/personalize.mjs";
 import { qaRow, validEmail } from "./lib/qa.mjs";
 import { projectFindings } from "./lib/email-copy.mjs";
 import { slugify } from "./lib/slug.mjs";
+import { mvVerify, saveMvCache } from "./lib/millionverifier.mjs";
 
 const BUSCA = { dental: "dentista", estetica: "centro de estética", fisioterapia: "fisioterapia", pilates: "pilates", peluqueria: "peluquería" };
 const args = process.argv.slice(2);
@@ -69,6 +70,9 @@ async function worker() {
       const emailN = norm(email);
       if (!validEmail(email)) { cola.descartados[b.place_id] = "sin email válido"; skipped++; console.log(`  ✗ ${b.negocio}: sin email válido`); continue; }
       if (knownEmails.has(emailN)) { skipped++; console.log(`  ↷ ${b.negocio}: email duplicado`); continue; }
+      // 1b) Verificación del email (MillionVerifier si hay key; si no, gratis): muerto → fuera SIN gastar el audit.
+      const mv = await mvVerify(email);
+      if (mv.verdict === "dead") { cola.descartados[b.place_id] = `email muerto (${mv.result})`; skipped++; console.log(`  ✗ ${b.negocio}: email muerto (${mv.result})`); continue; }
       // 2) Solo ahora gastamos el audit cold (Places + PageSpeed + web).
       const audit = await withRetry(() => buildAudit({ name: b.negocio, city: b.ciudad, placeId: b.place_id, website: b.web, searches: [`${busca} ${b.ciudad}`, `${busca} cerca de mí`] }, { cold: true }));
       const findings = projectFindings(audit);
@@ -78,7 +82,7 @@ async function worker() {
         findings.hook = p.hook; findings.hookGeneric = p.generic; findings.hookBasis = p.basis;
       } catch {}
       const slug = slugify(`${b.negocio}-${b.ciudad}`).slice(0, 60);
-      const row = { place_id: b.place_id, slug, negocio: b.negocio, ciudad: b.ciudad, vertical: b.vertical, channel: "email", contact: email, email, wa_link: null, pdf_url: `https://faroseo.vercel.app/audits/${slug}.pdf`, audit_url: `https://faroseo.vercel.app/audits/${slug}.html`, findings };
+      const row = { place_id: b.place_id, slug, negocio: b.negocio, ciudad: b.ciudad, vertical: b.vertical, channel: "email", contact: email, email, wa_link: null, pdf_url: `https://faroseo.vercel.app/audits/${slug}.pdf`, audit_url: `https://faroseo.vercel.app/audits/${slug}.html`, findings, mv: { verdict: mv.verdict, result: mv.result } };
       const qa = qaRow(row); row.qa = qa;
       if (!qa.pass) { cola.descartados[b.place_id] = qa.flags.map((f) => f.msg).join("; "); skipped++; console.log(`  ✗ ${b.negocio}: ${cola.descartados[b.place_id]}`); continue; }
       writeFileSync(resolve(auditsDir, `${slug}.html`), renderHtml(audit), "utf8");
@@ -92,6 +96,7 @@ async function worker() {
   }
 }
 await Promise.all([worker(), worker(), worker(), worker()]);
+saveMvCache();
 writeFileSync(colaPath, JSON.stringify(cola, null, 2), "utf8");
 console.log(`\nAñadidos: ${added} · saltados/descartados: ${skipped} · almacén ahora: ${listoCount()} listos · ${Object.keys(cola.descartados).length} descartados.`);
 console.log(`→ ${colaPath}`);

@@ -1,5 +1,5 @@
 {
-  "at": "2026-06-23T16:06:41.568Z",
+  "at": "2026-06-23T16:35:57.824Z",
   "contactados": 392,
   "entregados": 377,
   "rebotes": 15,
@@ -8,8 +8,8 @@
   "interesados": 2,
   "bajas": 3,
   "enviadosHoy": 93,
-  "listos": 499,
-  "stockDesplegable": 275,
+  "listos": 482,
+  "stockDesplegable": 260,
   "bufferDias": 3,
   "capDia": 104,
   "cuentas": [

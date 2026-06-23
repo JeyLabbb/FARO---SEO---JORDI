@@ -1,0 +1,1567 @@
+{
+  "bademail@gmal.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 10000
+  },
+  "jordi@getjeylabbb.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 10000
+  },
+  "info@arte-miss.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 10000
+  },
+  "info@etselquemenges.cat": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "zenkei@zenkei.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@pilatesh16.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@espaciocuidarte.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@lorente1947.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "masqueunas@gmail.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9998
+  },
+  "maiscentrodebelleza@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "magyc@magyc.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@anamonzon.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@marcoaldany.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "citaciones@gine4.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@santident.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@gransixiquets.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@gineobstetrics.cat": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "info@dentistacanillejas.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@mullersarrio.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "info@dentalserraiarus.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@sonrisabonita.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9998
+  },
+  "recepcion@ortegamonasterio.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "albertyfranknuevocentro@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@dentalnajordana.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9998
+  },
+  "info@jairopeluqueria.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "info@pododinamica.es": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9998
+  },
+  "mudrazfisioterapia@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@clinicadolororofacial.es": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9998
+  },
+  "doctoresquerdo@rehavitalis.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "barcelona@odontquality.cat": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "hola@playextensions.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9998
+  },
+  "sanimarginecologia@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@clinicadermatologicalaser.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@dentalcarebarcelona.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9998
+  },
+  "info@danielmatallin.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "mostolesdental@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "empleo@peluqueriaspascual.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9998
+  },
+  "alcala@bluegym.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@dermoguillen.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "valldaura@clinicadentalmarin.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "hermas.beauty.center@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@centrodelicias.org": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "consulta@cpsalud.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@peluqueriavanityhair.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "consultas@gimnasioscg.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "contacto@thesolidstudio.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "igfisiotech@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@glamourama.es": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9998
+  },
+  "kibo@kibopeluqueros.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@doctorateresaruiz.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "info@clinicanatal.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@pradentis.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@ivade.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "info@bodybcn.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@dentalempecinado.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "abedentclinicadental@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@healthandlife.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "novafisiomontcada@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@clinicadentallagranja.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "hola@valbos.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "reserva@centromedicoalborea.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "asxvmprobertest@gmail.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9987
+  },
+  "info@satyaomniyoga.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "info@clinicadentalbarjau.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "fisioterapiavalencia@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "hardcore.wo@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@saudadecentrointegraldesalud.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@osteopatiagir.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9998
+  },
+  "activafisioterapia@icloud.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "info@recuperacionfuncional.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9987
+  },
+  "contacto@fisiorespiracion.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "fisio.domicilio.mad@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "nsanchezfisiopsicologa@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "clinicagos.lasermedico@clinicalagos.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9987
+  },
+  "miquicalde@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@dentidentfamiliar.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9998
+  },
+  "contact@turoparkmedical.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@fisioterapiafisal.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "hola@supyogabarcelona.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@barreclubcatarroja.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "fisioterapiascr@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "mmontero2312@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "pablogelber@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "fisioavanzada.fabian@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@fisio-brain.es": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9987
+  },
+  "becanpilates@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "santandreu@inidental.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "studioturia38@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "pranapilatesvlc@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "genua.info@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@clinicanachervazquez.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "edurne@despertarpelvico.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@endodoncialozano.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@clinicaribesterol.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "miguelgilabert@dentistamislata.es": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9987
+  },
+  "info@clinicavendent.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@2dpilates.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@pilatesboadilla.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9987
+  },
+  "direccion@comindentalclinic.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "pilates.etruria@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "adeguirior@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@mifisioenmadrid.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "mikel@mikelsalud.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9987
+  },
+  "noesaludcreativa@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@fisiosteticnature.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "info@acrobaticsbarcelona.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "ujidosteresa@yahoo.es": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9987
+  },
+  "info@uen.cat": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9987
+  },
+  "nayragrauclinicadental@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@salutcotxeres.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "clinicadresmoral@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "drs.palanques156@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "cdsanz@calidad-dental.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "massyoga@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@silvanarios.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9987
+  },
+  "info@pilatespowerhouse.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "info@ivoa.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "info@fisioenmovimiento.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "epersonnalpilatespozuelo@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@vymakeup.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@amiosfisioterapia.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "abeneytocas@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@trainingboutique.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@arvefisioterapia.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "sonia@fisiocorporesano.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9987
+  },
+  "contacto@jfisio.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "hola@rosamarinfisio.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "masos.fisioterapia@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "fj.berchi@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@luciavillafane.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@clinicadentalgp.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9987
+  },
+  "mailto:montse@ebmiralles.cat": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9987
+  },
+  "nensiadults@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@escuderperruqueres.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "dgbosteopatia@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@clinicabalans.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "info@lourdescapdevila.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "alessandra.credico@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "clinicacirculodental@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "conelescp@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "fisio.fender@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@vibrabienestar.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9925
+  },
+  "info@fisiodom.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@nattcenter.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "clinicadoctoresmegia@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@clinicadentalbermejo.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9987
+  },
+  "adonayrivera3395@gmail.comtel": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9925
+  },
+  "hello@nomadclub.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@corporapilates.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "alba@aleasalud.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "clinicadentaldres.echeverria@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "hola@befeel.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9987
+  },
+  "contacto@sonriestudiodental.es": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9925
+  },
+  "info@olimpicmar.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "contacto@doctorawidad.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "agclinic.bcn@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@neocorpo.org": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@balancedplus.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "clinica@ortodonciamadrid.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@9dental.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "niba.gemma@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "clinicadental@clinicadentaldrbruix.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "logicaestetica@hotmail.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "ec.danceandfitness@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "pena.salcedo.jose@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@sabtraining.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "armoniavalterna@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "pilatesyogaflowmostoles@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "fisioaxis@centrofisioaxis.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9925
+  },
+  "hartametienesdeltodo@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@formapilates.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@pilates-trainingcenter.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@siscopel.es": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9925
+  },
+  "info@elementpilates.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@epal.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "recepcioncmjesusaprendiz@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "odontoiberica@telefonica.net": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "sol@clinicaegle.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@padeltraining.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@dermacalabria.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@blisspilatesstudio.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@marapilates.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@moviment.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "angels.fisioterapia.integrativa@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "maria@fisiomatica.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "bloom.barreformer@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@ossio.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@pilates10.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "mariamoyanorus@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@clinicadentaltasso.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "clinicaramongil@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "clinica@clinicamarco.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "clinicadentalcaminomoncada@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@ortodensdental.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@mihidental.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "bellezayesteticaolgaiguacel@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "romina156@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@clinicadentalalboraya.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9925
+  },
+  "info@atlanticasalud.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "floorstudioreformer@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@numafisio.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "esther.gpj@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@clinicavelazquez59.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@clinicazubillaga.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "hola@clinicaaxial.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "endodonciamadrid@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "imanestilistasmadrid@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "info@tuclinicafisioterapia.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "odontofocal@nancyarango.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "aire.creacio@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "clinica@21diaspsicoeducacion.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@pilatestudi.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9881
+  },
+  "espaiterapiesmou@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "clinicaestherbarroso@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@sanocenter.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9925
+  },
+  "juliacoderch@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@q-pilates.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@salutactiva.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@clinicasarria.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@clinicadentalrafaelarenas.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "clinicadentalaisa@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@originalpilatesbcn.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9925
+  },
+  "info@clinicadentalcampi.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "clinicadentaldoctorasalvador@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "contacto@lekinebarcelona.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "info@manuterapia.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@globalhealth.cat": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@enformafisioterapia.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "injertocapilar@cccibarcelona.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "profesionales.villaverdesl@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "naosystemsl@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "recepcion@centromedicofuentespina.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@activasalutfisioterapia.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "info@clinicadentalgarciaselva.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "info@fisiogestiona.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "veronique@tallerdelmovimiento.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "bolguins@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@atpilatestudio.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@logopediaypsicologiavillaverde.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "clinicadentalhossdent@gmail.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9881
+  },
+  "info@saludhome.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@clinicadentalfernandezrico.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@ignaciolorentefisioterapia.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "hola@fisiocabanyal.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "fisiosanmartin@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@clinicadentalarnao.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "centrobellezamariamoreno@gmail.con": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9881
+  },
+  "esmodent@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "dentaljesus41@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@alvest.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@dentalcen.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "info@cosmeticostbb.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@orfila3estudiopilates.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@enlineanatural.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@scpsalud.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "hola@naluastudio.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "fisioedumarin@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "contacto@andaconmigo.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "aliciafisioterapiamadrid@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "fisioterapia.david.algar@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "contacto@dentistaentuciudad.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "velazquezpeluqueria@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@ohanarivas.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "cmdermocosmeticaylaser@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@sanydelmedicinaestetica.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "citasmadrid@clinicadentalbuenomarquina.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@riofitestetica.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "danzaybienestarbcn@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "info@centreorus.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "districte7pilates@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "hola@eleve-barrestudio.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "estelsv@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "osteoclinic2.4@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "infobdn@gimenoclinicadental.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "info@animobienestar.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "info@fisiodespi.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "carolinagarciaalbo@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@mimosi.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9881
+  },
+  "nermacentros@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "miguel.hernandez.fisioterapeuta@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "ayurveda.wellness.beauty@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@niveldiezdental.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@illarinuna.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "citas@dermatologiapaiporta.es": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9823
+  },
+  "laanatomie@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "hola@estudioapilates.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9823
+  },
+  "info@osteovital.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9823
+  },
+  "renaixeresport@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@nalutraining.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9823
+  },
+  "info@lucipilates.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9881
+  },
+  "info@fisioterapiaimas.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9823
+  },
+  "evan.fisioterapia@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "sonrisainterior@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "baibacenter@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "kinesitefisioterapia@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "fispocanal@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "santilautz@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "clinicalanuzatejero@clinicalanuzatejero.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@clinicalcazaba.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@studio2pilates.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9823
+  },
+  "info@ardebarrestudio.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@fisiorelax.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9823
+  },
+  "citysmile.es@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "aligapilates@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "carlosbrudesalaoms@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "hola@esteticabessel.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "hello@wellnest-studio.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9823
+  },
+  "info@trainingforyou.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "sukhaestilistas@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@integralhealthcaretherapy.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@pilateselparque.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@vanesavallet.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9823
+  },
+  "info@fisioamanda.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9823
+  }
+}
