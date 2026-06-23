@@ -1,19 +1,19 @@
 {
-  "at": "2026-06-22T12:55:49.490Z",
-  "sha": "89ddafb",
-  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1650253/x64/chrome",
+  "at": "2026-06-23T11:14:20.375Z",
+  "sha": "aeaeccb",
+  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1650883/x64/chrome",
   "freno": false,
   "pasos": {
-    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-22.json",
-    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-22.json (5 leads)",
+    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-23.json",
+    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-23.json (6 leads)",
     "cola_dia": "ok ·   Siguiente: pdf-web --today  →  send-followups + send-emails",
     "seguimientos": "ok · Seguimientos enviados: 0",
     "emails": "ok · → Regenera el dashboard para ver los \"Enviado\": node src/build-ops.mjs",
-    "panel": "ok · Contactados 244 · Entregados 233 · Respuestas 5 · Interesados 2 · Almacén 499 (464 con PDF) · Capacidad 74/día · Freno off",
+    "panel": "ok · Contactados 392 · Entregados 377 · Respuestas 6 · Interesados 2 · Almacén 499 (464 con PDF) · Capacidad 104/día · Freno off",
     "deploy_panel": "ok"
   },
-  "elegidos": 44,
-  "pdfsListos": 41,
+  "elegidos": 93,
+  "pdfsListos": 93,
   "cuentas": 5,
-  "capacidad": 74
+  "capacidad": 104
 }
