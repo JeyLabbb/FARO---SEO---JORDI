@@ -1,16 +1,16 @@
 {
-  "at": "2026-06-23T19:55:17.418Z",
-  "contactados": 392,
-  "entregados": 368,
+  "at": "2026-06-24T11:33:00.875Z",
+  "contactados": 449,
+  "entregados": 425,
   "rebotes": 24,
-  "rebotePct": "6.1%",
+  "rebotePct": "5.3%",
   "respuestas": 7,
   "interesados": 2,
   "bajas": 3,
-  "enviadosHoy": 93,
+  "enviadosHoy": 57,
   "listos": 482,
-  "stockDesplegable": 260,
-  "bufferDias": 5,
+  "stockDesplegable": 203,
+  "bufferDias": 4,
   "capDia": 57,
   "cuentas": [
     {
@@ -18,35 +18,35 @@
       "state": "ok",
       "cap": 16,
       "bounceRate": 3.3,
-      "sends": 104
+      "sends": 120
     },
     {
       "account": "borrutjordi548@gmail.com",
       "state": "throttled",
       "cap": 4,
       "bounceRate": 10,
-      "sends": 81
+      "sends": 85
     },
     {
       "account": "yourbusinesstry@gmail.com",
       "state": "throttled",
       "cap": 2,
       "bounceRate": 13.3,
-      "sends": 95
+      "sends": 97
     },
     {
       "account": "jordi@tryjeylabbb.com",
       "state": "throttled",
       "cap": 7,
       "bounceRate": 6.7,
-      "sends": 56
+      "sends": 63
     },
     {
       "account": "jordi@getjeylabbb.com",
       "state": "ok",
       "cap": 28,
-      "bounceRate": 3.3,
-      "sends": 56
+      "bounceRate": 0,
+      "sends": 84
     }
   ],
   "cuentasTocadas": [
