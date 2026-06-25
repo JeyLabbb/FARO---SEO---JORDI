@@ -1,17 +1,17 @@
 {
-  "at": "2026-06-24T10:47:05.898Z",
-  "sha": "8f7d242",
-  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1651600/x64/chrome",
+  "at": "2026-06-25T10:39:57.591Z",
+  "sha": "38d77ab",
+  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1652277/x64/chrome",
   "freno": false,
   "pasos": {
-    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-24.json",
-    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-24.json (7 leads)",
+    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-25.json",
+    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-25.json (9 leads)",
     "cola_dia": "ok ·   Siguiente: pdf-web --today  →  send-followups + send-emails",
     "spam_check": "ok · → targets/spam-state.json",
     "seguimientos": "ok · Seguimientos enviados: 0",
     "emails": "ok · → Regenera el dashboard para ver los \"Enviado\": node src/build-ops.mjs",
-    "panel": "ok · Contactados 449 · Entregados 425 · Respuestas 7 · Interesados 2 · Almacén 482 (449 con PDF) · Capacidad 57/día · Freno off · ⚠️ borrutjordi548@gmail.com ralenti",
-    "parte": "ok · Parte enviado a yourbusinesstry@gmail.com: Faro · parte 2026-06-24 · 57 enviados · ⚠️ REVISAR",
+    "panel": "ok · Contactados 506 · Entregados 481 · Respuestas 9 · Interesados 1 · Almacén 482 (449 con PDF) · Capacidad 57/día · Freno off · ⚠️ borrutjordi548@gmail.com ralenti",
+    "parte": "ok · Parte enviado a yourbusinesstry@gmail.com: Faro · parte 2026-06-25 · 57 enviados · ⚠️ REVISAR",
     "deploy_panel": "ok"
   },
   "preflight": {
