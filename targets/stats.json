@@ -1,73 +1,61 @@
 {
-  "at": "2026-06-25T11:25:59.381Z",
-  "contactados": 506,
-  "entregados": 481,
+  "at": "2026-06-26T11:35:11.729Z",
+  "contactados": 563,
+  "entregados": 538,
   "rebotes": 25,
-  "rebotePct": "4.9%",
+  "rebotePct": "4.4%",
   "respuestas": 9,
   "interesados": 1,
   "bajas": 3,
   "enviadosHoy": 57,
   "listos": 482,
-  "stockDesplegable": 146,
-  "bufferDias": 3,
-  "capDia": 57,
+  "stockDesplegable": 89,
+  "bufferDias": 1,
+  "capDia": 90,
   "cuentas": [
     {
       "account": "pleiamusicstudio@gmail.com",
       "state": "ok",
       "cap": 16,
       "bounceRate": 0,
-      "sends": 136
+      "sends": 152
     },
     {
       "account": "borrutjordi548@gmail.com",
-      "state": "throttled",
-      "cap": 4,
-      "bounceRate": 10,
-      "sends": 89
+      "state": "ok",
+      "cap": 16,
+      "bounceRate": 3.3,
+      "sends": 93
     },
     {
       "account": "yourbusinesstry@gmail.com",
       "state": "throttled",
       "cap": 2,
       "bounceRate": 13.3,
-      "sends": 99
+      "sends": 101
     },
     {
       "account": "jordi@tryjeylabbb.com",
-      "state": "throttled",
-      "cap": 7,
-      "bounceRate": 6.7,
-      "sends": 70
+      "state": "ok",
+      "cap": 28,
+      "bounceRate": 3.3,
+      "sends": 77
     },
     {
       "account": "jordi@getjeylabbb.com",
       "state": "ok",
       "cap": 28,
       "bounceRate": 0,
-      "sends": 112
+      "sends": 140
     }
   ],
   "cuentasTocadas": [
-    {
-      "account": "borrutjordi548@gmail.com",
-      "state": "throttled",
-      "bounceRate": 10,
-      "cap": 4
-    },
     {
       "account": "yourbusinesstry@gmail.com",
       "state": "throttled",
       "bounceRate": 13.3,
       "cap": 2
-    },
-    {
-      "account": "jordi@tryjeylabbb.com",
-      "state": "throttled",
-      "bounceRate": 6.7,
-      "cap": 7
     }
   ],
-  "alerta": "⚠️ borrutjordi548@gmail.com ralentizada 4/día · yourbusinesstry@gmail.com ralentizada 2/día · jordi@tryjeylabbb.com ralentizada 7/día"
+  "alerta": "⚠️ yourbusinesstry@gmail.com ralentizada 2/día"
 }
