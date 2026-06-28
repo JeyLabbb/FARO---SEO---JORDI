@@ -1,17 +1,17 @@
 {
-  "at": "2026-06-27T10:05:58.174Z",
-  "sha": "6e20cbb",
-  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1653639/x64/chrome",
+  "at": "2026-06-28T10:26:14.753Z",
+  "sha": "64fe575",
+  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1653753/x64/chrome",
   "freno": false,
   "pasos": {
-    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-27.json",
-    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-27.json (9 leads)",
+    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-28.json",
+    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-28.json (9 leads)",
     "cola_dia": "ok ·   Siguiente: pdf-web --today  →  send-followups + send-emails",
     "spam_check": "ok · → targets/spam-state.json",
     "seguimientos": "ok · Seguimientos enviados: 0",
-    "emails": "ok · → Regenera el dashboard para ver los \"Enviado\": node src/build-ops.mjs",
+    "emails": "ERROR · ✗ No hay negocios de canal email con email válido en el JSON de hoy.\nCommand failed: node src/send-emails.mjs\n✗ No hay negocios de canal email con email válido en el JSON de hoy.\n",
     "panel": "ok · Contactados 652 · Entregados 626 · Respuestas 9 · Interesados 1 · Almacén 482 (449 con PDF) · Capacidad 90/día · Freno off · ⚠️ yourbusinesstry@gmail.com ralent",
-    "parte": "ok · Parte enviado a yourbusinesstry@gmail.com: Faro · parte 2026-06-27 · 89 enviados · ⚠️ REVISAR",
+    "parte": "ok · Parte enviado a yourbusinesstry@gmail.com: Faro · parte 2026-06-28 · 0 enviados · ⚠️ REVISAR",
     "deploy_panel": "ok"
   },
   "preflight": {
@@ -19,12 +19,12 @@
     "reasons": [],
     "warnings": [
       "Cuenta yourbusinesstry@gmail.com: throttled (rebote 13.3%, tope 2/día).",
-      "Stock bajo: 89 desplegables para ~90 de capacidad."
+      "Almacén sin stock desplegable (0 informes con PDF y email sin enviar)."
     ],
     "capacidadRestante": 90
   },
-  "elegidos": 89,
-  "pdfsListos": 89,
+  "elegidos": 0,
+  "pdfsListos": 0,
   "cuentas": 5,
   "capacidad": 104
 }
