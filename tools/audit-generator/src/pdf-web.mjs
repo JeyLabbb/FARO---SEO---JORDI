@@ -1,6 +1,6 @@
 // pdf-web.mjs — convierte los audits .html de apps/web/audits/ en .pdf (mismo
 // sitio), con Chrome/Edge headless, EN PARALELO (varios a la vez = rápido).
-//   node src/pdf-web.mjs            (todos)  ·  node src/pdf-web.mjs slug.html
+//   node src/pdf-web.mjs  (todos) · --missing (solo los que no tienen PDF) · --today · slug.html
 // NECESITA RED (fuentes) → dangerouslyDisableSandbox.
 import { readdirSync, existsSync, readFileSync } from "node:fs";
 import { execFile } from "node:child_process";
@@ -33,6 +33,8 @@ if (args.includes("--today")) {
 } else {
   const named = args.filter((a) => !a.startsWith("--"));
   files = named.length ? named : readdirSync(dir).filter((f) => f.endsWith(".html"));
+  // --missing: solo los audits que aún NO tienen su PDF (no regenera los ~700 ya hechos).
+  if (args.includes("--missing")) { files = files.filter((f) => !existsSync(resolve(dir, f.replace(/\.html$/i, ".pdf")))); console.log(`Modo --missing: ${files.length} audits sin PDF.`); }
 }
 
 let firstErr = "";
