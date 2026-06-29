@@ -25,6 +25,9 @@ if (existsSync(T("PARAR.flag"))) problems.push("Freno manual puesto (PARAR.flag)
 for (const w of (pf?.warnings || [])) problems.push(w);
 for (const c of (stats.cuentasTocadas || [])) problems.push(`Cuenta ${c.account}: ${c.state} (rebote ${c.bounceRate}%).`);
 for (const [k, v] of Object.entries(lastRun.pasos || {})) if (String(v).startsWith("ERROR")) problems.push(`Paso "${k}" falló: ${String(v).slice(0, 140)}`);
+// RECORDATORIO de stock: el relleno es MANUAL/local (la nube no hace PDFs) → avisar CLARO cuando queden pocos días.
+const bufDias = Number(stats.bufferDias);
+if (!isNaN(bufDias) && bufDias < 3) problems.push(`🔴 RELLENAR ALMACÉN: quedan ~${bufDias} día(s) de stock (${stats.stockDesplegable ?? "?"} desplegables). Generar informes en LOCAL (cola-add + pdf-web --missing) y push — la nube no puede sola.`);
 
 const hayProblema = problems.length > 0;
 const enviadosHoy = stats.enviadosHoy ?? "?";
