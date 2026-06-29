@@ -51961,6 +51961,1192 @@
       },
       "status": "listo",
       "addedAt": "2026-06-29T13:28:07.040Z"
+    },
+    "ChIJa5xYNUsvQg0RI3VAS_tpFUU": {
+      "place_id": "ChIJa5xYNUsvQg0RI3VAS_tpFUU",
+      "slug": "vitalidad-fisioterapia-pilates-vit4lid4d-pablo-serrano-madri",
+      "negocio": "Vitalidad Fisioterapia & Pilates (Vit4lid4d Pablo Serrano)",
+      "ciudad": "Madrid",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@vitalidadpilates.com",
+      "email": "info@vitalidadpilates.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/vitalidad-fisioterapia-pilates-vit4lid4d-pablo-serrano-madri.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/vitalidad-fisioterapia-pilates-vit4lid4d-pablo-serrano-madri.html",
+      "findings": {
+        "reviews": 37,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Pilates Nacho Arroyo",
+          "reviews": 257,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 2,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 57,
+        "speed": 64,
+        "photos": 8,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 37 reseñas vs 257 del mejor competidor (Pilates Nacho Arroyo). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~8 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates Madrid",
+        "category": "Gym",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces Pilates y fisioterapia combinados.",
+        "hookGeneric": false,
+        "hookBasis": "Pilates y fisioterapia combinados"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:29:12.526Z"
+    },
+    "ChIJ_QWN7QUpQg0RJA4nTA8sB0k": {
+      "place_id": "ChIJ_QWN7QUpQg0RJA4nTA8sB0k",
+      "slug": "pilates-madrid-pilates-maquinas-madrid-pilates-zentro-madrid",
+      "negocio": "Pilates Madrid | Pilates Maquinas Madrid | Pilates Zentro",
+      "ciudad": "Madrid",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "contacto@pilateszentro.es",
+      "email": "contacto@pilateszentro.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/pilates-madrid-pilates-maquinas-madrid-pilates-zentro-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/pilates-madrid-pilates-maquinas-madrid-pilates-zentro-madrid.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Pinar Pilates",
+          "reviews": 497,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 3,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 70,
+        "speed": 55,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 497 del mejor competidor (Pinar Pilates). Pedir a todos los clientes con link/QR."
+          }
+        ],
+        "primarySearch": "pilates Madrid",
+        "category": "Gym",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces clases de Pilates con máquinas.",
+        "hookGeneric": false,
+        "hookBasis": "clases de Pilates con máquinas"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:29:22.199Z"
+    },
+    "ChIJWcs4GxwpQg0RXsx0alJo6ds": {
+      "place_id": "ChIJWcs4GxwpQg0RXsx0alJo6ds",
+      "slug": "fisioknee-centro-de-fisioterapia-en-madrid-madrid",
+      "negocio": "FisioKnee | Centro de Fisioterapia en Madrid",
+      "ciudad": "Madrid",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "fisiokneemadrid@gmail.com",
+      "email": "fisiokneemadrid@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisioknee-centro-de-fisioterapia-en-madrid-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisioknee-centro-de-fisioterapia-en-madrid-madrid.html",
+      "findings": {
+        "reviews": 39,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Clínicas H3 Fisioterapia Madrid",
+          "reviews": 359,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 53,
+        "speed": 61,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 39 reseñas vs 359 del mejor competidor (Clínicas H3 Fisioterapia Madrid). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "fisioterapia Madrid",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que te centras en fisioterapia traumatológica.",
+        "hookGeneric": false,
+        "hookBasis": "fisioterapia traumatológica"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:29:24.735Z"
+    },
+    "ChIJbZFLR6cpQg0REHbf9NA86_M": {
+      "place_id": "ChIJbZFLR6cpQg0REHbf9NA86_M",
+      "slug": "lionel-catalan-tome-lionelterapia-madrid",
+      "negocio": "Lionel Catalán Tomé LionelTerapia",
+      "ciudad": "Madrid",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "infolionelterapia@gmail.com",
+      "email": "infolionelterapia@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/lionel-catalan-tome-lionelterapia-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/lionel-catalan-tome-lionelterapia-madrid.html",
+      "findings": {
+        "reviews": 39,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Fisiotherapy Madrid",
+          "reviews": 445,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 68,
+        "speed": 38,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 39 reseñas vs 445 del mejor competidor (Fisiotherapy Madrid). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Mejorar la velocidad en móvil",
+            "detail": "PageSpeed móvil 38/100. Imágenes pesadas y scripts suelen ser la causa."
+          }
+        ],
+        "primarySearch": "fisioterapia Madrid",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He ayudado a varios pacientes a recuperar movilidad.",
+        "hookGeneric": false,
+        "hookBasis": "terapia efectiva para movilidad"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:29:37.794Z"
+    },
+    "ChIJa2-x6ZuFQQ0Rq4wOLMb4Zts": {
+      "place_id": "ChIJa2-x6ZuFQQ0Rq4wOLMb4Zts",
+      "slug": "alborea-salud",
+      "negocio": "Alborea Salud",
+      "ciudad": "",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "contacto@alboreasalud.com",
+      "email": "contacto@alboreasalud.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/alborea-salud.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/alborea-salud.html",
+      "findings": {
+        "reviews": 37,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Clínica Fisioterapia y Podología Baluarte",
+          "reviews": 60,
+          "rating": 4.5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 51,
+        "speed": 37,
+        "photos": 2,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 37 reseñas vs 60 del mejor competidor (Clínica Fisioterapia y Podología Baluarte). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~2 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "fisioterapia ",
+        "category": "Doctor",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces cuidados paliativos a domicilio.",
+        "hookGeneric": false,
+        "hookBasis": "Cuidados Paliativos a Domicilio"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:29:39.812Z"
+    },
+    "ChIJm83w86QoQg0Rb54vPWzgZPc": {
+      "place_id": "ChIJm83w86QoQg0Rb54vPWzgZPc",
+      "slug": "caresia-madrid",
+      "negocio": "Caresia",
+      "ciudad": "Madrid",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@fisiocaresia.com",
+      "email": "info@fisiocaresia.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/caresia-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/caresia-madrid.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Clínica de Fisioterapia y Osteopatía Enric Gallofre, Goya, Madrid",
+          "reviews": 264,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 84,
+        "speed": 91,
+        "photos": 8,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 264 del mejor competidor (Clínica de Fisioterapia y Osteopatía Enric Gallofre, Goya, Madrid). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~8 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "fisioterapia Madrid",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que llevas más de 18 años en el sector.",
+        "hookGeneric": false,
+        "hookBasis": "más de 18 años en el sector"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:29:41.797Z"
+    },
+    "ChIJJXwgAH2LQQ0Rgta1kWcAm6c": {
+      "place_id": "ChIJJXwgAH2LQQ0Rgta1kWcAm6c",
+      "slug": "dentality-fuenlabrada-fuenlabrada",
+      "negocio": "Dentality - Fuenlabrada",
+      "ciudad": "Fuenlabrada",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@dentality.es",
+      "email": "info@dentality.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/dentality-fuenlabrada-fuenlabrada.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/dentality-fuenlabrada-fuenlabrada.html",
+      "findings": {
+        "reviews": 49,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Clínica Dental Fuenlabrada Medicalia",
+          "reviews": 465,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 10,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 74,
+        "speed": 54,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 49 reseñas vs 465 del mejor competidor (Clínica Dental Fuenlabrada Medicalia). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista Fuenlabrada",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que te centras en estética dental top.",
+        "hookGeneric": false,
+        "hookBasis": "estética dental top"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:29:59.780Z"
+    },
+    "ChIJRcSVWIijpBIR7QdLxcc_zKg": {
+      "place_id": "ChIJRcSVWIijpBIR7QdLxcc_zKg",
+      "slug": "lambda-fisioterapia-y-osteopatia-barcelona",
+      "negocio": "Lambda: Fisioterapia y Osteopatía",
+      "ciudad": "Barcelona",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "lambdafisioterapiayosteopatia@gmail.com",
+      "email": "lambdafisioterapiayosteopatia@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/lambda-fisioterapia-y-osteopatia-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/lambda-fisioterapia-y-osteopatia-barcelona.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "TKH fisioterapia pilates osteopatía poblenou",
+          "reviews": 174,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 1,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 62,
+        "speed": 81,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 174 del mejor competidor (TKH fisioterapia pilates osteopatía poblenou). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"4 years ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "fisioterapia Barcelona",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que tus clientes destacan el enfoque holístico en las sesiones.",
+        "hookGeneric": false,
+        "hookBasis": "enfoque holístico en las sesiones"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:09.483Z"
+    },
+    "ChIJ68-QvJCVpBIRCzg--mz2vY0": {
+      "place_id": "ChIJ68-QvJCVpBIRCzg--mz2vY0",
+      "slug": "clinica-sara-sanchez-sabadell",
+      "negocio": "Clínica Sara Sánchez",
+      "ciudad": "Sabadell",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "clinicasarasanchez@gmail.com",
+      "email": "clinicasarasanchez@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-sara-sanchez-sabadell.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-sara-sanchez-sabadell.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.7,
+        "bestCompetitor": {
+          "name": "Fisiocarreras",
+          "reviews": 242,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 55,
+        "speed": 79,
+        "photos": 5,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 242 del mejor competidor (Fisiocarreras). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~5 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "fisioterapia Sabadell",
+        "category": "Doctor",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que llevas más de 10 años cuidando de tus pacientes.",
+        "hookGeneric": false,
+        "hookBasis": "más de 10 años cuidando pacientes"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:14.588Z"
+    },
+    "ChIJX5ROZIqjpBIRVol-rSsYguw": {
+      "place_id": "ChIJX5ROZIqjpBIRVol-rSsYguw",
+      "slug": "kore-studio-lagree-fitness-barcelona",
+      "negocio": "Kore Studio - Lagree Fitness",
+      "ciudad": "Barcelona",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "hello@korestudio.es",
+      "email": "hello@korestudio.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/kore-studio-lagree-fitness-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/kore-studio-lagree-fitness-barcelona.html",
+      "findings": {
+        "reviews": 38,
+        "rating": 4.7,
+        "bestCompetitor": {
+          "name": "dona10 Sagrada Família",
+          "reviews": 279,
+          "rating": 4.7
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 73,
+        "speed": 76,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 38 reseñas vs 279 del mejor competidor (dona10 Sagrada Família). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Poner el teléfono/NAP visible en la web (footer)",
+            "detail": "No se detecta teléfono en la home. NAP consistente = confianza + señal local."
+          }
+        ],
+        "primarySearch": "pilates Barcelona",
+        "category": "Gym",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que el espacio está cuidadosamente diseñado y es muy acogedor.",
+        "hookGeneric": false,
+        "hookBasis": "estudio Lagree en Gràcia"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:18.445Z"
+    },
+    "ChIJ1RRoqjGjpBIRp8ijmSo-G-k": {
+      "place_id": "ChIJ1RRoqjGjpBIRp8ijmSo-G-k",
+      "slug": "decero-fisioterapia-barcelona",
+      "negocio": "Decero Fisioterapia",
+      "ciudad": "Barcelona",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "support@koalendar.com",
+      "email": "support@koalendar.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/decero-fisioterapia-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/decero-fisioterapia-barcelona.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "MyFisio Barcelona",
+          "reviews": 1033,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 71,
+        "speed": 47,
+        "photos": 10,
+        "hasHours": false,
+        "quickWins": [
+          {
+            "title": "Configurar el horario en la ficha (incl. festivos)",
+            "detail": "La ficha no tiene horario configurado. Es un dato básico que Google premia y que el cliente mira antes de ir."
+          },
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 1033 del mejor competidor (MyFisio Barcelona). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "fisioterapia Barcelona",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que Eliana se centra en el tratamiento de contracturas y tendinitis.",
+        "hookGeneric": false,
+        "hookBasis": "Eliana se centra en contracturas y tendinitis"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:22.149Z"
+    },
+    "ChIJh-W4UR69pBIR8Y2cV4DLvx0": {
+      "place_id": "ChIJh-W4UR69pBIR8Y2cV4DLvx0",
+      "slug": "nova-clinica-podologica-barcelona",
+      "negocio": "Nova Clínica Podològica",
+      "ciudad": "Barcelona",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@novaclinicapodologica.com",
+      "email": "info@novaclinicapodologica.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/nova-clinica-podologica-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/nova-clinica-podologica-barcelona.html",
+      "findings": {
+        "reviews": 40,
+        "rating": 4.4,
+        "bestCompetitor": {
+          "name": "Barcelona Fisioterapia",
+          "reviews": 199,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 81,
+        "speed": 82,
+        "photos": 7,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 40 reseñas vs 199 del mejor competidor (Barcelona Fisioterapia). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~7 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "fisioterapia Barcelona",
+        "category": "Doctor",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "",
+        "hookGeneric": true,
+        "hookBasis": "descartado: tono negativo"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 85,
+        "flags": [
+          {
+            "sev": "soft",
+            "msg": "personalización genérica (sin gancho propio)"
+          }
+        ]
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:28.797Z"
+    },
+    "ChIJA2rkqNicpBIR6E7dD4IfepI": {
+      "place_id": "ChIJA2rkqNicpBIR6E7dD4IfepI",
+      "slug": "clinica-dental-navarro-gava",
+      "negocio": "CLÍNICA DENTAL NAVARRO",
+      "ciudad": "Gavà",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@clinicadentalnavarro.cat",
+      "email": "info@clinicadentalnavarro.cat",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-navarro-gava.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-navarro-gava.html",
+      "findings": {
+        "reviews": 41,
+        "rating": 4.6,
+        "bestCompetitor": {
+          "name": "Instituts Odontològics - Clínica Dental Gavà",
+          "reviews": 263,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 17,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 81,
+        "speed": 69,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 41 reseñas vs 263 del mejor competidor (Instituts Odontològics - Clínica Dental Gavà). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista Gavà",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que tienes un equipo multidisciplinar.",
+        "hookGeneric": false,
+        "hookBasis": "equipo multidisciplinar"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:41.110Z"
+    },
+    "ChIJs4Z_Jti8pBIRR9VRDTLL3LE": {
+      "place_id": "ChIJs4Z_Jti8pBIRR9VRDTLL3LE",
+      "slug": "perruqueria-conchi-barcelona",
+      "negocio": "Perruqueria Conchi",
+      "ciudad": "Barcelona",
+      "vertical": "peluqueria",
+      "channel": "email",
+      "contact": "concamu67@gmail.com",
+      "email": "concamu67@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/perruqueria-conchi-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/perruqueria-conchi-barcelona.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "BETH'S HAIR · Fabra i Puig",
+          "reviews": 579,
+          "rating": 4.6
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 72,
+        "speed": 98,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 579 del mejor competidor (BETH'S HAIR · Fabra i Puig). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "peluquería Barcelona",
+        "category": "Hair Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que adaptas los estilos a cada cliente.",
+        "hookGeneric": false,
+        "hookBasis": "escucha las ideas de sus clientes"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:44.649Z"
+    },
+    "ChIJq6maE36ipBIRmIfTYr2-t0c": {
+      "place_id": "ChIJq6maE36ipBIRmIfTYr2-t0c",
+      "slug": "track-fisioterapia-readaptacio-entrenament-personal-barcelon",
+      "negocio": "TRACK - FISIOTERAPIA - READAPTACIÓ - ENTRENAMENT PERSONAL",
+      "ciudad": "Barcelona",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@trackbcn.com",
+      "email": "info@trackbcn.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/track-fisioterapia-readaptacio-entrenament-personal-barcelon.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/track-fisioterapia-readaptacio-entrenament-personal-barcelon.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "MyFisio Barcelona",
+          "reviews": 1033,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 68,
+        "speed": 13,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 1033 del mejor competidor (MyFisio Barcelona). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Mejorar la velocidad en móvil",
+            "detail": "PageSpeed móvil 13/100. Imágenes pesadas y scripts suelen ser la causa."
+          }
+        ],
+        "primarySearch": "fisioterapia Barcelona",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que te centras en entrenamiento personal y nutrición.",
+        "hookGeneric": false,
+        "hookBasis": "centro de entrenamiento y nutrición"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:30:49.128Z"
+    },
+    "ChIJC4pol9qipBIRtL3WBKkJRcI": {
+      "place_id": "ChIJC4pol9qipBIRtL3WBKkJRcI",
+      "slug": "institut-dental-i-d-ortodoncia-drs-moyano-barcelona",
+      "negocio": "Institut Dental i d'Ortodòncia Drs. Moyano",
+      "ciudad": "Barcelona",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@drsmoyano.com",
+      "email": "info@drsmoyano.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/institut-dental-i-d-ortodoncia-drs-moyano-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/institut-dental-i-d-ortodoncia-drs-moyano-barcelona.html",
+      "findings": {
+        "reviews": 43,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "VegaDortaDental Dentista",
+          "reviews": 457,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 76,
+        "speed": 55,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 43 reseñas vs 457 del mejor competidor (VegaDortaDental Dentista). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "dentista Barcelona",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Me fijé en que llevas casi 10 años tratando a los más pequeños.",
+        "hookGeneric": false,
+        "hookBasis": "casi 10 años tratando a los más pequeños"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:31:02.218Z"
+    },
+    "ChIJT8EIQvRFYA0Rxny4md8rlb8": {
+      "place_id": "ChIJT8EIQvRFYA0Rxny4md8rlb8",
+      "slug": "clinica-garcia-dalmau-valencia",
+      "negocio": "CLINICA GARCIA DALMAU",
+      "ciudad": "València",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "admin@garciadalmau.com",
+      "email": "admin@garciadalmau.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-garcia-dalmau-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-garcia-dalmau-valencia.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "COV Centro Odontológico Valenciano",
+          "reviews": 487,
+          "rating": 4.6
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 73,
+        "speed": 72,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 487 del mejor competidor (COV Centro Odontológico Valenciano). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista València",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que Dr. García Dalmau es un gran cirujano.",
+        "hookGeneric": false,
+        "hookBasis": "excelente tratamiento y técnica perfecta"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:31:06.571Z"
+    },
+    "ChIJO8YuwURPYA0RqMPBgSnXo-I": {
+      "place_id": "ChIJO8YuwURPYA0RqMPBgSnXo-I",
+      "slug": "clinica-fons-badal-valencia",
+      "negocio": "Clínica Fons Badal",
+      "ciudad": "València",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "hello@clinicafonsbadal.com",
+      "email": "hello@clinicafonsbadal.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-fons-badal-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-fons-badal-valencia.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Clinica Asensio Odontología Avanzada",
+          "reviews": 631,
+          "rating": 4.7
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 66,
+        "speed": 36,
+        "photos": 6,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 631 del mejor competidor (Clinica Asensio Odontología Avanzada). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~6 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista València",
+        "category": "Dental Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que tienes una nota de 4.9 en Google.",
+        "hookGeneric": false,
+        "hookBasis": "nota de 4.9 en Google"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:31:20.289Z"
+    },
+    "ChIJWZBM5HNRYA0R4_HEq7EUha8": {
+      "place_id": "ChIJWZBM5HNRYA0R4_HEq7EUha8",
+      "slug": "clinica-dentalma-clinica-dental-en-torrent-torrent",
+      "negocio": "Clínica Dentalma – Clínica Dental en Torrent",
+      "ciudad": "Torrent",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "administracion@clinicadentalma.com",
+      "email": "administracion@clinicadentalma.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dentalma-clinica-dental-en-torrent-torrent.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-dentalma-clinica-dental-en-torrent-torrent.html",
+      "findings": {
+        "reviews": 49,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Ziving Torrent - Salud Dental",
+          "reviews": 473,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 2,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 67,
+        "speed": 72,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 49 reseñas vs 473 del mejor competidor (Ziving Torrent - Salud Dental). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista Torrent",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en odontología con alma.",
+        "hookGeneric": false,
+        "hookBasis": "odontología con alma"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:31:23.251Z"
     }
   },
   "descartados": {
@@ -53079,6 +54265,35 @@
     "ChIJhRsK75lPYA0Rg71vwsg55zI": "sin email válido",
     "ChIJYYvAd0NOYA0Rmr39NHF_sBg": "sin email válido",
     "ChIJJ6h6AQhGYA0R2IcN7f7DXa4": "sin email válido",
-    "ChIJK3DLmz5JYA0RkSQ0qWu097M": "sin email válido"
+    "ChIJK3DLmz5JYA0RkSQ0qWu097M": "sin email válido",
+    "ChIJ0z0a8JIpQg0RDCW9RwDSHbM": "sin email válido",
+    "ChIJq6gJ0wmVlxIRRH3PVnjFV_Y": "sin email válido",
+    "ChIJcRMLp3woQg0R2wBVItPExpE": "sin email válido",
+    "ChIJIRaN4AUwQg0RHIXC3UHVCJ8": "sin email válido",
+    "ChIJwQn7yaQoQg0RK-pXM3AXt68": "sin email válido",
+    "ChIJo0z02FEoQg0Reqc5wisiKpA": "sin email válido",
+    "ChIJfzSyQukvQg0RH07h7EWiyZs": "sin email válido",
+    "ChIJ-73oCwYtQg0RMTGK8Fe_xrw": "sin email válido",
+    "ChIJzcyPc6iNQQ0RKv_LGajBCb8": "sin email válido",
+    "ChIJq6paLaCipBIREKIkJFlGuY4": "sin email válido",
+    "ChIJIXSXZQNys08RGox8e8_x-ss": "sin email válido",
+    "ChIJl2-4l9ubpBIRgEik8C7HAzo": "sin email válido",
+    "ChIJHxG-gRyjpBIRFomxACDtamQ": "sin email válido",
+    "ChIJCxtUiXmYpBIRBIVHk_ylFpI": "sin email válido",
+    "ChIJz86U49uepBIRfqHcyvCZ4p8": "sin email válido",
+    "ChIJFRPG7dWcpBIR_t16nkIJasQ": "sin email válido",
+    "ChIJ6WpuMSS9pBIRNvRQw2vAAps": "sin email válido",
+    "ChIJrzKqFABPYA0RnOHfMcTh6Y0": "sin email válido",
+    "ChIJwTt835NIYA0RlYo_xEfelKo": "sin email válido",
+    "ChIJUfPx8EtPYA0RMVpfTXpG2hE": "email muerto (invalid)",
+    "ChIJBzz9L5VOYA0Rn_AsSiryy8s": "sin email válido",
+    "ChIJH5ZtqAhbYA0RC-xeoYmvCdk": "sin email válido",
+    "ChIJz5hSAUhPYA0Rsd02GEHWqiE": "sin email válido",
+    "ChIJcca4ndBJYA0RSueieZmDBNw": "sin email válido",
+    "ChIJX_xVPL9JYA0RsKJera0iifk": "sin email válido",
+    "ChIJj2zTU8ZPYA0RZfvq8MFlbZA": "sin email válido",
+    "ChIJjWbtqEiJQQ0RDHb8u9sPk7Q": "sin email válido",
+    "ChIJV9SPA7goQg0RXA0Mv9VdXb0": "sin email válido",
+    "ChIJi0ZM_0hbYA0RlVX_sLIF8i4": "sin competidor de referencia (informe flojo → a un lado)"
   }
 }
