@@ -1563,5 +1563,145 @@
     "verdict": "unknown",
     "result": "unknown",
     "credits": 9823
+  },
+  "info@drribelles.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9545
+  },
+  "info@institutofisiomedico.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9545
+  },
+  "info@alineatfisio.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9545
+  },
+  "info@fisioterapiadomiciliobcn.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9545
+  },
+  "info@fisiofado.cat": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9545
+  },
+  "hola@osteostudio.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9545
+  },
+  "integracontacte@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9545
+  },
+  "pacientes@absantacolomadental.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9545
+  },
+  "clinica@csfdental.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9545
+  },
+  "centrodentalburjassot@hotmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9539
+  },
+  "grupo@titantraining.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9539
+  },
+  "info@lolata.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9539
+  },
+  "info@centroanaleon.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9539
+  },
+  "info@dramoreda.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9539
+  },
+  "koyigampilates@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9539
+  },
+  "info@paraisointerior.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9539
+  },
+  "info@desafiopersonal.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9539
+  },
+  "info@estudiofisio.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9533
+  },
+  "mperepit@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9533
+  },
+  "fisiocanillas@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9533
+  },
+  "info@fisioterapiamessana.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9533
+  },
+  "info@ahladas.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9533
+  },
+  "hormetikaclinica@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9533
+  },
+  "clinicalegos@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9533
+  },
+  "info@centroalmesis.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9533
+  },
+  "coialcordental@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9527
+  },
+  "info@hebebyaglaya.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9527
+  },
+  "agbiomedic@outlook.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9527
   }
 }
