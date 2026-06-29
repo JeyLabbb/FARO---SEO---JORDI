@@ -18,6 +18,7 @@ import { sendMail, gmailAccounts } from "./lib/gmail-smtp.mjs";
 import { VARIANTS } from "./lib/email-copy.mjs";
 import { variantWeights, pickVariant } from "./lib/variant-policy.mjs";
 import { accountReport } from "./lib/caps.mjs";
+import { execSync } from "node:child_process";
 
 const args = process.argv.slice(2);
 const DRY = args.includes("--dry");
@@ -67,6 +68,10 @@ const pickAcc = () => { let best = null, rem = 0; for (const a of accs) { const 
 
 const pdfFor = (slug) => resolve(REPO_ROOT, "apps", "web", "audits", `${slug}.pdf`);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
+// En LOCAL: guardar+subir el registro cada pocos envíos → sobrevive a cortes de sesión y evita que
+// la nube reenvíe lo ya enviado. En la nube (GITHUB_ACTIONS) NO: lo hace el paso de commit del workflow.
+const SELF_COMMIT = !process.env.GITHUB_ACTIONS && !process.env.CI && !DRY && !TEST;
+function commitBack() { if (!SELF_COMMIT) return; try { execSync('git add targets/sent-log.json targets/followup-log.json && git -c user.name=faro-bot -c user.email=faro-bot@users.noreply.github.com commit -q -m "envio: registro parcial" && git push -q origin main', { cwd: REPO_ROOT, stdio: "ignore" }); } catch {} }
 
 console.log(`${DRY ? "DRY-RUN (no envía)" : TEST ? `TEST → ${TEST_TO}` : "ENVÍO REAL"} · ${list.length} email(s)${dropped ? ` · ${dropped} descartados (email inválido/placeholder)` : ""}`);
 console.log(`Variantes → reparto ${decided ? "PONDERADO (hay muestra)" : "igual (muestra insuficiente)"}: ${Object.entries(weights).map(([k, v]) => `${k} ${Math.round(v * 100)}%`).join(" · ")}\n`);
@@ -97,6 +102,7 @@ for (let i = 0; i < list.length; i++) {
     await sendMail({ user: acc.user, pass: acc.pass, fromName: "Jordi de Faro", to, subject: subj, text: body, attachments: [{ path: pdf, filename: "analisis-faro.pdf" }] });
     sent++; loadByAcc[acc.user] = (loadByAcc[acc.user] || 0) + 1;
     console.log(`  ✓ #${r.priority} ${r.negocio} → ${to}  [${acc.user}]`);
+    if (sent % 10 === 0) commitBack();
     if (!TEST) { log[r.place_id] = { channel: "email", at: new Date().toISOString(), to: r.email, account: acc.user, variant: variant.id }; sentEmails.add(cleanEmail(r.email)); writeFileSync(logPath, JSON.stringify(log, null, 2), "utf8"); }
     if (i < list.length - 1) await sleep(THROTTLE_MS);
   } catch (e) {
@@ -105,4 +111,5 @@ for (let i = 0; i < list.length; i++) {
 }
 
 console.log(`\n${DRY ? "Preview hecho (no se ha enviado nada)." : `Enviados: ${sent} · Saltados: ${skipped}`}`);
+commitBack();
 if (!DRY && !TEST && sent) console.log(`→ Regenera el dashboard para ver los "Enviado": node src/build-ops.mjs`);
