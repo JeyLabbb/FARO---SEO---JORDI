@@ -59278,6 +59278,1323 @@
       },
       "status": "listo",
       "addedAt": "2026-06-29T15:26:28.186Z"
+    },
+    "ChIJRS7O5LFPYA0RztkWGEGuHXM": {
+      "place_id": "ChIJRS7O5LFPYA0RztkWGEGuHXM",
+      "slug": "fisiotraining-valencia",
+      "negocio": "FISIOTRAINING",
+      "ciudad": "València",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "fisiotrainingvlc@gmail.com",
+      "email": "fisiotrainingvlc@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisiotraining-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisiotraining-valencia.html",
+      "findings": {
+        "reviews": 45,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Mon Pilates Reformer",
+          "reviews": 120,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 12,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 68,
+        "speed": 59,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 45 reseñas vs 120 del mejor competidor (Mon Pilates Reformer). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates València",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que ofreces entrenamiento personalizado y fisioterapia.",
+        "hookGeneric": false,
+        "hookBasis": "entrenamiento personalizado y fisioterapia"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:27:41.018Z"
+    },
+    "ChIJGUMR3zdPYA0RgDqnmTd_KEY": {
+      "place_id": "ChIJGUMR3zdPYA0RgDqnmTd_KEY",
+      "slug": "clinica-fisioterapia-y-osteopatia-ramon-punzano-valencia",
+      "negocio": "Clínica Fisioterapia y Osteopatía Ramón Punzano",
+      "ciudad": "València",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@ramonpunzano.com",
+      "email": "info@ramonpunzano.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-fisioterapia-y-osteopatia-ramon-punzano-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-fisioterapia-y-osteopatia-ramon-punzano-valencia.html",
+      "findings": {
+        "reviews": 50,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Gravity - Clínica de Fisioterapia en Valencia",
+          "reviews": 348,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 74,
+        "speed": 27,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 50 reseñas vs 348 del mejor competidor (Gravity - Clínica de Fisioterapia en Valencia). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Mejorar la velocidad en móvil",
+            "detail": "PageSpeed móvil 27/100. Imágenes pesadas y scripts suelen ser la causa."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "fisioterapia València",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que tu clínica destaca por la terapia manual.",
+        "hookGeneric": false,
+        "hookBasis": "terapia manual muy apreciada"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:27:41.947Z"
+    },
+    "ChIJ-97ZTzVPYA0RevRcKamxmHM": {
+      "place_id": "ChIJ-97ZTzVPYA0RevRcKamxmHM",
+      "slug": "clinica-rubio-fisioterapia-y-ejercicio-c-angel-guimera-valen",
+      "negocio": "Clínica Rubio Fisioterapia y Ejercicio C/ Ángel Guimerá",
+      "ciudad": "València",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@clinicarubio.es",
+      "email": "info@clinicarubio.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-rubio-fisioterapia-y-ejercicio-c-angel-guimera-valen.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-rubio-fisioterapia-y-ejercicio-c-angel-guimera-valen.html",
+      "findings": {
+        "reviews": 42,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Gravity - Clínica de Fisioterapia en Valencia",
+          "reviews": 348,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 76,
+        "speed": 58,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 42 reseñas vs 348 del mejor competidor (Gravity - Clínica de Fisioterapia en Valencia). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"2 years ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "fisioterapia València",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en la rehabilitación de lesiones.",
+        "hookGeneric": false,
+        "hookBasis": "rehabilitación de lesiones"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:27:44.439Z"
+    },
+    "ChIJY_ayMuZGYA0RiMW0oXoBOzc": {
+      "place_id": "ChIJY_ayMuZGYA0RiMW0oXoBOzc",
+      "slug": "dental-sorells-albalat-dels-sorells",
+      "negocio": "Dental Sorells",
+      "ciudad": "Albalat dels Sorells",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@dentalsorells.com",
+      "email": "info@dentalsorells.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/dental-sorells-albalat-dels-sorells.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/dental-sorells-albalat-dels-sorells.html",
+      "findings": {
+        "reviews": 44,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Albaladent",
+          "reviews": 43,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 2,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 80,
+        "speed": 67,
+        "photos": 7,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~7 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"3 years ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "dentista Albalat dels Sorells",
+        "category": "Dental Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que han logrado que los niños se sientan tranquilos en la clínica.",
+        "hookGeneric": false,
+        "hookBasis": "hacen que ir al dentista sea positivo"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:27:57.472Z"
+    },
+    "ChIJg8JHMv5PYA0RM0R-8PMPm_I": {
+      "place_id": "ChIJg8JHMv5PYA0RM0R-8PMPm_I",
+      "slug": "revital-quart-de-poblet",
+      "negocio": "Revital",
+      "ciudad": "Quart de Poblet",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "info@centrorevital.es",
+      "email": "info@centrorevital.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/revital-quart-de-poblet.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/revital-quart-de-poblet.html",
+      "findings": {
+        "reviews": 43,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Elegance Studio by Nuria Ros",
+          "reviews": 92,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 9,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 84,
+        "speed": 96,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 43 reseñas vs 92 del mejor competidor (Elegance Studio by Nuria Ros). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Poner el teléfono/NAP visible en la web (footer)",
+            "detail": "No se detecta teléfono en la home. NAP consistente = confianza + señal local."
+          }
+        ],
+        "primarySearch": "centro de estética Quart de Poblet",
+        "category": "Hair Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que tus clientes destacan la dedicación de Cris en los tratamientos faciales.",
+        "hookGeneric": false,
+        "hookBasis": "Cris es muy valorada por sus faciales"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:01.134Z"
+    },
+    "ChIJ6eHUc2AvQg0RVUKZE3__zKs": {
+      "place_id": "ChIJ6eHUc2AvQg0RVUKZE3__zKs",
+      "slug": "spinal-center-madrid",
+      "negocio": "Spinal Center",
+      "ciudad": "Madrid",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "spinalcenter.fisio@gmail.com",
+      "email": "spinalcenter.fisio@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/spinal-center-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/spinal-center-madrid.html",
+      "findings": {
+        "reviews": 43,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "pilates estudio las rosas",
+          "reviews": 21,
+          "rating": 4.1
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 4,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 78,
+        "speed": 59,
+        "photos": 8,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~8 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "pilates Madrid",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te especializas en fisioterapia y pilates.",
+        "hookGeneric": false,
+        "hookBasis": "especializado en fisioterapia y pilates"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:09.894Z"
+    },
+    "ChIJAUCCi243Qg0RIUsxemHJshk": {
+      "place_id": "ChIJAUCCi243Qg0RIUsxemHJshk",
+      "slug": "fisioterapia-los-fresnos-torrejon-de-ardoz",
+      "negocio": "Fisioterapia los Fresnos",
+      "ciudad": "Torrejón de Ardoz",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "fisioterapialosfresnos@gmail.com",
+      "email": "fisioterapialosfresnos@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisioterapia-los-fresnos-torrejon-de-ardoz.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisioterapia-los-fresnos-torrejon-de-ardoz.html",
+      "findings": {
+        "reviews": 44,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "iMove Strength & Pilates",
+          "reviews": 225,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 7,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 70,
+        "speed": 82,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 44 reseñas vs 225 del mejor competidor (iMove Strength & Pilates). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"6 years ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "pilates Torrejón de Ardoz",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces recuperación personalizada.",
+        "hookGeneric": false,
+        "hookBasis": "Recuperación personalizada, resultados reales"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:16.161Z"
+    },
+    "ChIJldKni3ZJYA0RRCitlplss6M": {
+      "place_id": "ChIJldKni3ZJYA0RRCitlplss6M",
+      "slug": "devinis-estetica-valencia-valencia",
+      "negocio": "Dévinis Estética Valencia",
+      "ciudad": "València",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "info@devinis.es",
+      "email": "info@devinis.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/devinis-estetica-valencia-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/devinis-estetica-valencia-valencia.html",
+      "findings": {
+        "reviews": 54,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Mila Peris",
+          "reviews": 512,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 8,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 62,
+        "speed": 38,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 54 reseñas vs 512 del mejor competidor (Mila Peris). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Mejorar la velocidad en móvil",
+            "detail": "PageSpeed móvil 38/100. Imágenes pesadas y scripts suelen ser la causa."
+          },
+          {
+            "title": "Poner el teléfono/NAP visible en la web (footer)",
+            "detail": "No se detecta teléfono en la home. NAP consistente = confianza + señal local."
+          }
+        ],
+        "primarySearch": "centro de estética València",
+        "category": "Beauty Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que tus clientes destacan la atención al detalle.",
+        "hookGeneric": false,
+        "hookBasis": "atención al detalle en tratamientos"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:31.964Z"
+    },
+    "ChIJt8nZF3IpQg0RElyQs3PAzUk": {
+      "place_id": "ChIJt8nZF3IpQg0RElyQs3PAzUk",
+      "slug": "kyneos-fisioterapia-sport-madrid",
+      "negocio": "Kyneos Fisioterapia & Sport",
+      "ciudad": "Madrid",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@kyneosfisioterapia.com",
+      "email": "info@kyneosfisioterapia.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/kyneos-fisioterapia-sport-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/kyneos-fisioterapia-sport-madrid.html",
+      "findings": {
+        "reviews": 43,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Integrity Pilates Máquina Mirasierra",
+          "reviews": 65,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 3,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 55,
+        "speed": 56,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 43 reseñas vs 65 del mejor competidor (Integrity Pilates Máquina Mirasierra). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "pilates Madrid",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en fisioterapia y pilates.",
+        "hookGeneric": false,
+        "hookBasis": "fisioterapia y pilates"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:39.647Z"
+    },
+    "ChIJnQfRBM4hQg0RHMMTCBGUwJ0": {
+      "place_id": "ChIJnQfRBM4hQg0RHMMTCBGUwJ0",
+      "slug": "fisio-running-centro-de-fisioterapia-y-movimiento-juana-guti",
+      "negocio": "Fisio & Running - Centro De Fisioterapia y Movimiento (Juana Gutiérrez)",
+      "ciudad": "Pinto",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@fisioandrunning.com",
+      "email": "info@fisioandrunning.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisio-running-centro-de-fisioterapia-y-movimiento-juana-guti.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisio-running-centro-de-fisioterapia-y-movimiento-juana-guti.html",
+      "findings": {
+        "reviews": 42,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Fisioterapia y Osteopatía Pinto",
+          "reviews": 273,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 8,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 65,
+        "speed": 58,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 42 reseñas vs 273 del mejor competidor (Fisioterapia y Osteopatía Pinto). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "fisioterapia Pinto",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Me fijé en que ofreces masajes de recuperación para corredores.",
+        "hookGeneric": false,
+        "hookBasis": "masajes de recuperación para corredores"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:42.836Z"
+    },
+    "ChIJz3lKFhQpQg0RYV-XxIMu1LM": {
+      "place_id": "ChIJz3lKFhQpQg0RYV-XxIMu1LM",
+      "slug": "a1-dental-clinica-oral-personalizada-madrid",
+      "negocio": "A1 Dental - Clinica oral personalizada",
+      "ciudad": "Madrid",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "a1dentalmadrid@gmail.com",
+      "email": "a1dentalmadrid@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/a1-dental-clinica-oral-personalizada-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/a1-dental-clinica-oral-personalizada-madrid.html",
+      "findings": {
+        "reviews": 43,
+        "rating": 4.7,
+        "bestCompetitor": {
+          "name": "Centro Dental Habana 77 – Clínica dental en Chamartín",
+          "reviews": 168,
+          "rating": 4.7
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 10,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 66,
+        "speed": 67,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 43 reseñas vs 168 del mejor competidor (Centro Dental Habana 77 – Clínica dental en Chamartín). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista Madrid",
+        "category": "Dental Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en tratamientos de ortodoncia.",
+        "hookGeneric": false,
+        "hookBasis": "especialidad en ortodoncia"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:52.518Z"
+    },
+    "ChIJ3axIagOVpBIRMLwLC7IPNag": {
+      "place_id": "ChIJ3axIagOVpBIRMLwLC7IPNag",
+      "slug": "inspira-m-yoga-sabadell-sabadell",
+      "negocio": "Inspira'm Yoga Sabadell",
+      "ciudad": "Sabadell",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "hola@inspiram.net",
+      "email": "hola@inspiram.net",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/inspira-m-yoga-sabadell-sabadell.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/inspira-m-yoga-sabadell-sabadell.html",
+      "findings": {
+        "reviews": 42,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "POINTPILATES",
+          "reviews": 209,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 13,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 81,
+        "speed": 81,
+        "photos": 6,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 42 reseñas vs 209 del mejor competidor (POINTPILATES). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~6 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates Sabadell",
+        "category": "Yoga Studio",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que Jèssica acompaña a cada alumno en su camino.",
+        "hookGeneric": false,
+        "hookBasis": "clases de yoga con Jèssica"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:28:57.882Z"
+    },
+    "ChIJm1EMsYGipBIRHB7g5LN6na8": {
+      "place_id": "ChIJm1EMsYGipBIRHB7g5LN6na8",
+      "slug": "centro-de-entrenamiento-y-formacion-barcelona",
+      "negocio": "Centro de Entrenamiento y Formación",
+      "ciudad": "Barcelona",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "cef.barcelona@gmail.com",
+      "email": "cef.barcelona@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/centro-de-entrenamiento-y-formacion-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/centro-de-entrenamiento-y-formacion-barcelona.html",
+      "findings": {
+        "reviews": 44,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Dona10 Còrsega",
+          "reviews": 296,
+          "rating": 4.7
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 66,
+        "speed": 61,
+        "photos": 0,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 44 reseñas vs 296 del mejor competidor (Dona10 Còrsega). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~0 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates Barcelona",
+        "category": "Sports School",
+        "webReachable": false,
+        "coldMode": true,
+        "hook": "Me fijé en las clases de circuitos funcionales que ofreces.",
+        "hookGeneric": false,
+        "hookBasis": "clases de circuitos funcionales"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 85,
+        "flags": [
+          {
+            "sev": "soft",
+            "msg": "la web no responde"
+          }
+        ]
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:29:06.425Z"
+    },
+    "ChIJkcy8MowpQg0RdBTu71Ri5BE": {
+      "place_id": "ChIJkcy8MowpQg0RdBTu71Ri5BE",
+      "slug": "clinica-dental-sch-madrid-madrid",
+      "negocio": "Clínica Dental SCH Madrid",
+      "ciudad": "Madrid",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@clinicadentalsch.com",
+      "email": "info@clinicadentalsch.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-sch-madrid-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-sch-madrid-madrid.html",
+      "findings": {
+        "reviews": 51,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Clínica Dental Chamberí SDS | Dentista en Chamberí",
+          "reviews": 387,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 6,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 68,
+        "speed": 78,
+        "photos": 3,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 51 reseñas vs 387 del mejor competidor (Clínica Dental Chamberí SDS | Dentista en Chamberí). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~3 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista Madrid",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "",
+        "hookGeneric": true,
+        "hookBasis": "descartado: tono negativo"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 85,
+        "flags": [
+          {
+            "sev": "soft",
+            "msg": "personalización genérica (sin gancho propio)"
+          }
+        ]
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:29:09.669Z"
+    },
+    "ChIJwzVMvOaZpBIREII89GE16Lw": {
+      "place_id": "ChIJwzVMvOaZpBIREII89GE16Lw",
+      "slug": "karmabelleza-centro-de-estetica-en-cornella-cornella-de-llob",
+      "negocio": "Karmabelleza – Centro de Estética en Cornellà",
+      "ciudad": "Cornellà de Llobregat",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "info@karmabelleza.es",
+      "email": "info@karmabelleza.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/karmabelleza-centro-de-estetica-en-cornella-cornella-de-llob.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/karmabelleza-centro-de-estetica-en-cornella-cornella-de-llob.html",
+      "findings": {
+        "reviews": 46,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Sun and Beauty",
+          "reviews": 200,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 10,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 56,
+        "speed": 81,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 46 reseñas vs 200 del mejor competidor (Sun and Beauty). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Poner el teléfono/NAP visible en la web (footer)",
+            "detail": "No se detecta teléfono en la home. NAP consistente = confianza + señal local."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "centro de estética Cornellà de Llobregat",
+        "category": "Beauty Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces sesiones de presoterapia.",
+        "hookGeneric": false,
+        "hookBasis": "ofreces sesiones de presoterapia"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:29:39.577Z"
+    },
+    "ChIJfYhAtsBcYA0RWVJZa1l2ApQ": {
+      "place_id": "ChIJfYhAtsBcYA0RWVJZa1l2ApQ",
+      "slug": "betera-dental-dentista-en-betera-betera",
+      "negocio": "Bétera Dental - Dentista en Bétera",
+      "ciudad": "Bétera",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@beteradental.com",
+      "email": "info@beteradental.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/betera-dental-dentista-en-betera-betera.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/betera-dental-dentista-en-betera-betera.html",
+      "findings": {
+        "reviews": 44,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Clinica Dental Les Alfabegues Betera",
+          "reviews": 42,
+          "rating": 4.2
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 1,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 67,
+        "speed": 55,
+        "photos": 2,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~2 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "dentista Bétera",
+        "category": "Dental Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que muchos clientes destacan la atención excepcional.",
+        "hookGeneric": false,
+        "hookBasis": "atención excepcional en reseñas"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:29:43.608Z"
+    },
+    "ChIJYaXihcOVpBIRKoM6iV4LnDg": {
+      "place_id": "ChIJYaXihcOVpBIRKoM6iV4LnDg",
+      "slug": "clinica-proa-podologia-fisioterapia-y-traumatologia-sabadell",
+      "negocio": "Clinica PROA | Podología, Fisioterapia y Traumatología Sabadell",
+      "ciudad": "Sabadell",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "hola@clinicaproa.com",
+      "email": "hola@clinicaproa.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-proa-podologia-fisioterapia-y-traumatologia-sabadell.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-proa-podologia-fisioterapia-y-traumatologia-sabadell.html",
+      "findings": {
+        "reviews": 54,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Kinetic Fisioterapia osteopatia",
+          "reviews": 66,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 10,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 73,
+        "speed": 75,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"a year ago\". La recencia es señal de ranking."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "fisioterapia Sabadell",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en tratamientos personalizados.",
+        "hookGeneric": false,
+        "hookBasis": "servicio amigable y profesional"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:29:46.808Z"
+    },
+    "ChIJkXLWFkajpBIR27NGVXosf7I": {
+      "place_id": "ChIJkXLWFkajpBIR27NGVXosf7I",
+      "slug": "facialista-holistica-y-corporal-by-all-yours-barcelona",
+      "negocio": "Facialista Holística y Corporal | by All Yours",
+      "ciudad": "Barcelona",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "hello@allyours.com",
+      "email": "hello@allyours.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/facialista-holistica-y-corporal-by-all-yours-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/facialista-holistica-y-corporal-by-all-yours-barcelona.html",
+      "findings": {
+        "reviews": 42,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "CL estética masculina Barcelona",
+          "reviews": 245,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 66,
+        "speed": 54,
+        "photos": 10,
+        "hasHours": false,
+        "quickWins": [
+          {
+            "title": "Configurar el horario en la ficha (incl. festivos)",
+            "detail": "La ficha no tiene horario configurado. Es un dato básico que Google premia y que el cliente mira antes de ir."
+          },
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 42 reseñas vs 245 del mejor competidor (CL estética masculina Barcelona). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "centro de estética Barcelona",
+        "category": "Beauty Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Me fijé en que ofreces tratamientos holísticos únicos.",
+        "hookGeneric": false,
+        "hookBasis": "tratamientos holísticos únicos"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:30:04.851Z"
+    },
+    "ChIJp_bifd5HYA0R8h93g0FOv9E": {
+      "place_id": "ChIJp_bifd5HYA0R8h93g0FOv9E",
+      "slug": "clinica-dental-sirera-en-alboraya-alboraya",
+      "negocio": "Clínica Dental Sirera en Alboraya",
+      "ciudad": "Alboraya",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@clinicadentalsirera.com",
+      "email": "info@clinicadentalsirera.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-sirera-en-alboraya-alboraya.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-sirera-en-alboraya-alboraya.html",
+      "findings": {
+        "reviews": 46,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Clínica Dental Dra. Cortés",
+          "reviews": 90,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 9,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 84,
+        "speed": 87,
+        "photos": 3,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 46 reseñas vs 90 del mejor competidor (Clínica Dental Dra. Cortés). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~3 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "dentista Alboraya",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que tienes una nota de 5 en Google.",
+        "hookGeneric": false,
+        "hookBasis": "nota de 5 en Google"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:30:05.726Z"
+    },
+    "ChIJpev9j7tPYA0RQnFTpisMZN4": {
+      "place_id": "ChIJpev9j7tPYA0RQnFTpisMZN4",
+      "slug": "clinica-lb-clinica-estetica-valencia",
+      "negocio": "Clínica LB - Clínica Estética",
+      "ciudad": "València",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "gestion.bybusiness@gmail.com",
+      "email": "gestion.bybusiness@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-lb-clinica-estetica-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-lb-clinica-estetica-valencia.html",
+      "findings": {
+        "reviews": 42,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Alicia Baeza Estética Evolutiva",
+          "reviews": 726,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 72,
+        "speed": 56,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 42 reseñas vs 726 del mejor competidor (Alicia Baeza Estética Evolutiva). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"4 years ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "centro de estética València",
+        "category": "Beauty Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que tienes una nota de 4.9 en Google.",
+        "hookGeneric": false,
+        "hookBasis": "nota de 4.9 en Google"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:30:10.043Z"
+    },
+    "ChIJIzrpXstJYA0RNQE3DwMVzbE": {
+      "place_id": "ChIJIzrpXstJYA0RNQE3DwMVzbE",
+      "slug": "ignacio-torres-navarro-valencia",
+      "negocio": "Ignacio Torres Navarro",
+      "ciudad": "València",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "citas@heira.es",
+      "email": "citas@heira.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/ignacio-torres-navarro-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/ignacio-torres-navarro-valencia.html",
+      "findings": {
+        "reviews": 42,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Centro estético avanzado Laura Olcina",
+          "reviews": 347,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 73,
+        "speed": 58,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 42 reseñas vs 347 del mejor competidor (Centro estético avanzado Laura Olcina). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "centro de estética València",
+        "category": "Skin Care Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que Dr. Torres tiene una gran conexión con sus pacientes.",
+        "hookGeneric": false,
+        "hookBasis": "nota 5 en 42 reseñas"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T15:30:17.763Z"
     }
   },
   "descartados": {
@@ -60507,6 +61824,32 @@
     "ChIJ88ezV1CjpBIRu1RI5S85PBY": "sin email válido",
     "ChIJz2rk_VeipBIRWWQrdeivSmA": "email muerto (invalid)",
     "ChIJh711u92_pBIRtQYAayrxvo8": "sin email válido",
-    "ChIJY9y2oP6jpBIR6AlGkdb7C6U": "sin email válido"
+    "ChIJY9y2oP6jpBIR6AlGkdb7C6U": "sin email válido",
+    "ChIJKRtM2VdPYA0RGDi_nTbFbMQ": "sin email válido",
+    "ChIJwcMXDopPYA0RxzUrCp0GZNQ": "sin email válido",
+    "ChIJcZ3kYGhPYA0Re4c_zFYFM8I": "sin email válido",
+    "ChIJc7adCdOJQQ0RBRd8-XKSMpY": "sin email válido",
+    "ChIJRbmRskiHQQ0Rqw-d8o_57P8": "sin email válido",
+    "ChIJ-busqU4pQg0RnhWnKZdCkIw": "sin email válido",
+    "ChIJffqUqoMoQg0RG6qaKnGwcpw": "sin email válido",
+    "ChIJq6p6AZIoQg0RtbQgx__LZhA": "sin email válido",
+    "ChIJ22BSxemHQQ0RspNQPWIy4rQ": "sin email válido",
+    "ChIJP9KKtiaDQQ0RMq1gj-HfyqQ": "sin email válido",
+    "ChIJd4EyYdcnQg0RNwRPInz8zaI": "sin email válido",
+    "ChIJJ6Y9xO4nQg0ROVMadLY8A6w": "sin email válido",
+    "ChIJqVbfcQAnQg0RSOTGFbrDorY": "sin email válido",
+    "ChIJZar-WJ-ZpBIRju0-hcnztPw": "sin email válido",
+    "ChIJR1Yj6L2ipBIRHjpJ_T6RWh8": "sin email válido",
+    "ChIJIVwOUICZpBIR1kftm7nPXYs": "sin email válido",
+    "ChIJiUvZ4QaVpBIReQlzyoc8oaI": "sin email válido",
+    "ChIJV18KGhqjpBIRFQiP1w0sDMg": "sin email válido",
+    "ChIJ8_szVtyWpBIRUVAc-SjToJg": "sin email válido",
+    "ChIJ-QOOJ06jpBIRC0ethve-YJ0": "sin email válido",
+    "ChIJhb0QZgCZpBIRDLRFgHWtF6E": "sin email válido",
+    "ChIJv0obN2VAYA0RaiZJB5O-2OY": "sin email válido",
+    "ChIJfz6crpVPYA0RqNGClO7buOA": "sin email válido",
+    "ChIJcxYThd1AYA0RDtDdO1GU4QQ": "sin email válido",
+    "ChIJoZC3LjhOYA0RQ20Z4Sa_yDE": "sin email válido",
+    "ChIJ-zOKFFkoQg0RsbdZ0Uspa84": "sin email válido"
   }
 }
