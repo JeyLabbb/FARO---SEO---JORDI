@@ -1,6 +1,8 @@
 name: Faro · envío diario
 
 on:
+  push:
+    branches: [main]           # disparo manual del envío de hoy (la nube es fiable; lo quito tras el run)
   schedule:
     - cron: "0 8 * * *"      # 08:00 UTC ≈ 10:00 España (verano). Cada mañana.
   workflow_dispatch: {}        # botón para lanzarlo a mano desde la pestaña Actions
