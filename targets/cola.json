@@ -50525,6 +50525,1442 @@
       },
       "status": "listo",
       "addedAt": "2026-06-29T13:24:12.677Z"
+    },
+    "ChIJbzvko2qPQQ0RWKMoRGxLpeY": {
+      "place_id": "ChIJbzvko2qPQQ0RWKMoRGxLpeY",
+      "slug": "nova-centro-de-bienestar-mostoles",
+      "negocio": "Nova Centro de Bienestar",
+      "ciudad": "Móstoles",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "hola@novamostoles.com",
+      "email": "hola@novamostoles.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/nova-centro-de-bienestar-mostoles.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/nova-centro-de-bienestar-mostoles.html",
+      "findings": {
+        "reviews": 39,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Cinetika - Espacio en movimiento.",
+          "reviews": 110,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 7,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 84,
+        "speed": 66,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 39 reseñas vs 110 del mejor competidor (Cinetika - Espacio en movimiento.). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates Móstoles",
+        "category": "Gym",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces sesiones de depilación láser con Soraya.",
+        "hookGeneric": false,
+        "hookBasis": "ofreces sesiones de depilación láser"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:25:20.487Z"
+    },
+    "ChIJVcqX3l2JQQ0RI3EdaLnm0-M": {
+      "place_id": "ChIJVcqX3l2JQQ0RI3EdaLnm0-M",
+      "slug": "pilates-studio-mad-alcorcon",
+      "negocio": "Pilates Studio MAD",
+      "ciudad": "Alcorcón",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "pilatesstudiomadrid@gmail.com",
+      "email": "pilatesstudiomadrid@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/pilates-studio-mad-alcorcon.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/pilates-studio-mad-alcorcon.html",
+      "findings": {
+        "reviews": 34,
+        "rating": 4.6,
+        "bestCompetitor": {
+          "name": "PALPILATES",
+          "reviews": 25,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 4,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 76,
+        "speed": 79,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [],
+        "primarySearch": "pilates Alcorcón",
+        "category": "Gym",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces clases limitadas a cuatro personas.",
+        "hookGeneric": false,
+        "hookBasis": "clases limitadas a cuatro personas"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:25:26.034Z"
+    },
+    "ChIJ4Q7sZXmIQQ0Rs6bVySTLBDw": {
+      "place_id": "ChIJ4Q7sZXmIQQ0Rs6bVySTLBDw",
+      "slug": "salubora-fisioterapia-boadilla-del-monte",
+      "negocio": "Salubora Fisioterapia",
+      "ciudad": "Boadilla del Monte",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@salubora.com",
+      "email": "info@salubora.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/salubora-fisioterapia-boadilla-del-monte.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/salubora-fisioterapia-boadilla-del-monte.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Club Pilates Boadilla",
+          "reviews": 83,
+          "rating": 4.5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 9,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 84,
+        "speed": 68,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 83 del mejor competidor (Club Pilates Boadilla). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"2 years ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "pilates Boadilla del Monte",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que llevas más de 15 años trabajando con tus pacientes.",
+        "hookGeneric": false,
+        "hookBasis": "más de 15 años trabajando"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:25:32.725Z"
+    },
+    "ChIJURmuZ7qPQQ0RCwouQ67NqjI": {
+      "place_id": "ChIJURmuZ7qPQQ0RCwouQ67NqjI",
+      "slug": "blue-clinic-villaviciosa-de-odon",
+      "negocio": "Blue Clinic",
+      "ciudad": "Villaviciosa de Odón",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@blueclinic.es",
+      "email": "info@blueclinic.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/blue-clinic-villaviciosa-de-odon.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/blue-clinic-villaviciosa-de-odon.html",
+      "findings": {
+        "reviews": 41,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Centro Harmony Pilates",
+          "reviews": 84,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 7,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 81,
+        "speed": 76,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 41 reseñas vs 84 del mejor competidor (Centro Harmony Pilates). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Poner el teléfono/NAP visible en la web (footer)",
+            "detail": "No se detecta teléfono en la home. NAP consistente = confianza + señal local."
+          }
+        ],
+        "primarySearch": "pilates Villaviciosa de Odón",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Me fijé en que ofreces Pilates en clases pequeñas.",
+        "hookGeneric": false,
+        "hookBasis": "ofreces Pilates en clases pequeñas"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:25:35.364Z"
+    },
+    "ChIJ1WUkXaovQg0Rp1Fr6doly-4": {
+      "place_id": "ChIJ1WUkXaovQg0Rp1Fr6doly-4",
+      "slug": "guifit-club-de-entrenamiento-madrid",
+      "negocio": "Guifit Club de Entrenamiento",
+      "ciudad": "Madrid",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "guifitclub@gmail.com",
+      "email": "guifitclub@gmail.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/guifit-club-de-entrenamiento-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/guifit-club-de-entrenamiento-madrid.html",
+      "findings": {
+        "reviews": 35,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "eFISIO Fisioterapia y Suelo Pélvico",
+          "reviews": 112,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 74,
+        "speed": 64,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 35 reseñas vs 112 del mejor competidor (eFISIO Fisioterapia y Suelo Pélvico). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "fisioterapia Madrid",
+        "category": "Fitness center",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que te centras en entrenamientos funcionales personalizados.",
+        "hookGeneric": false,
+        "hookBasis": "entrenamientos funcionales personalizados"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:25:55.847Z"
+    },
+    "ChIJFUbz3vOHQQ0RKDOVAfsWNpE": {
+      "place_id": "ChIJFUbz3vOHQQ0RKDOVAfsWNpE",
+      "slug": "fisioterapia-aesir-madrid",
+      "negocio": "Fisioterapia Aesir",
+      "ciudad": "Madrid",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "contacto@aesirfisioterapia.com",
+      "email": "contacto@aesirfisioterapia.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisioterapia-aesir-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisioterapia-aesir-madrid.html",
+      "findings": {
+        "reviews": 46,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "CLINICA FUENSALUD",
+          "reviews": 720,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 4,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 57,
+        "speed": 59,
+        "photos": 5,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 46 reseñas vs 720 del mejor competidor (CLINICA FUENSALUD). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~5 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "fisioterapia Madrid",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que te centras en fisioterapia neurológica y deportiva.",
+        "hookGeneric": false,
+        "hookBasis": "fisioterapia neurológica y deportiva"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:25:58.821Z"
+    },
+    "ChIJ-_hubsyLQQ0RvNn38mfmLGc": {
+      "place_id": "ChIJ-_hubsyLQQ0RvNn38mfmLGc",
+      "slug": "osteopatiaypilates-leganes",
+      "negocio": "Osteopatiaypilates",
+      "ciudad": "Leganés",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@osteopatiaypilates.com",
+      "email": "info@osteopatiaypilates.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/osteopatiaypilates-leganes.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/osteopatiaypilates-leganes.html",
+      "findings": {
+        "reviews": 39,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Azahara",
+          "reviews": 58,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 2,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 71,
+        "speed": 55,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 39 reseñas vs 58 del mejor competidor (Azahara). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Poner el teléfono/NAP visible en la web (footer)",
+            "detail": "No se detecta teléfono en la home. NAP consistente = confianza + señal local."
+          }
+        ],
+        "primarySearch": "pilates Leganés",
+        "category": "Gym",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que llevas casi 20 años tratando a tus clientes.",
+        "hookGeneric": false,
+        "hookBasis": "casi 20 años tratando a tus clientes"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:25:58.894Z"
+    },
+    "ChIJO4WeIV6FQQ0RY0fkzA9PaXI": {
+      "place_id": "ChIJO4WeIV6FQQ0RY0fkzA9PaXI",
+      "slug": "clinica-salud-y-mas-boadilla-del-monte",
+      "negocio": "Clínica Salud y Más",
+      "ciudad": "Boadilla del Monte",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@clinicasaludymas.com",
+      "email": "info@clinicasaludymas.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-salud-y-mas-boadilla-del-monte.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-salud-y-mas-boadilla-del-monte.html",
+      "findings": {
+        "reviews": 37,
+        "rating": 4.7,
+        "bestCompetitor": {
+          "name": "BELIVE Pilates Boadilla",
+          "reviews": 66,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 84,
+        "speed": 78,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 37 reseñas vs 66 del mejor competidor (BELIVE Pilates Boadilla). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates Boadilla del Monte",
+        "category": "Wellness Center",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que ofreces masajes que encantan a tus clientes.",
+        "hookGeneric": false,
+        "hookBasis": "masajes que encantan a tus clientes"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:26:04.823Z"
+    },
+    "ChIJMZrD4XuDQQ0RVrYFjzjNe4s": {
+      "place_id": "ChIJMZrD4XuDQQ0RVrYFjzjNe4s",
+      "slug": "presley-peluqueros-las-rozas-de-madrid",
+      "negocio": "Presley Peluqueros",
+      "ciudad": "Las Rozas de Madrid",
+      "vertical": "peluqueria",
+      "channel": "email",
+      "contact": "tudiras@presleypeluqueros.com",
+      "email": "tudiras@presleypeluqueros.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/presley-peluqueros-las-rozas-de-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/presley-peluqueros-las-rozas-de-madrid.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "CULTO Alta Peluqueria",
+          "reviews": 527,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 16,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 55,
+        "speed": 62,
+        "photos": 1,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 527 del mejor competidor (CULTO Alta Peluqueria). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~1 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "peluquería Las Rozas de Madrid",
+        "category": "Hair Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que llevas 25 años con tus clientes.",
+        "hookGeneric": false,
+        "hookBasis": "25 años con tus clientes"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:26:23.237Z"
+    },
+    "ChIJJ72jd3k7Qg0RKVDcYnWs3rg": {
+      "place_id": "ChIJJ72jd3k7Qg0RKVDcYnWs3rg",
+      "slug": "centro-especialidades-odontologicas-kids-rivas-vaciamadrid",
+      "negocio": "Centro Especialidades Odontologicas Kids",
+      "ciudad": "Rivas-Vaciamadrid",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@odontologosrivas.com",
+      "email": "info@odontologosrivas.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/centro-especialidades-odontologicas-kids-rivas-vaciamadrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/centro-especialidades-odontologicas-kids-rivas-vaciamadrid.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Clínica Dental en Rivas | Suárez Burgos",
+          "reviews": 102,
+          "rating": 4.7
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 75,
+        "speed": 55,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 102 del mejor competidor (Clínica Dental en Rivas | Suárez Burgos). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "dentista Rivas-Vaciamadrid",
+        "category": "Dental Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que los niños disfrutan de su visita.",
+        "hookGeneric": false,
+        "hookBasis": "los niños disfrutan de su visita"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:26:38.694Z"
+    },
+    "ChIJCwSMviApQg0Ri3aWCxBVhKs": {
+      "place_id": "ChIJCwSMviApQg0Ri3aWCxBVhKs",
+      "slug": "clinica-medicina-estetica-da-madrid",
+      "negocio": "👩‍⚕️ Clínica Medicina Estética DA | 𝐌𝐚𝐝𝐫𝐢𝐝",
+      "ciudad": "Madrid",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "info@medicinaesteticamadrid.es",
+      "email": "info@medicinaesteticamadrid.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-medicina-estetica-da-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-medicina-estetica-da-madrid.html",
+      "findings": {
+        "reviews": 39,
+        "rating": 4.7,
+        "bestCompetitor": {
+          "name": "Amarán Estética",
+          "reviews": 253,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 76,
+        "speed": 45,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 39 reseñas vs 253 del mejor competidor (Amarán Estética). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Mejorar la velocidad en móvil",
+            "detail": "PageSpeed móvil 45/100. Imágenes pesadas y scripts suelen ser la causa."
+          }
+        ],
+        "primarySearch": "centro de estética Madrid",
+        "category": "Beauty Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Veo que la Dra. Daniela Álvarez inspira confianza en sus pacientes.",
+        "hookGeneric": false,
+        "hookBasis": "Dra. Daniela Álvarez inspira confianza"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:26:42.858Z"
+    },
+    "ChIJxXvXZNq7pBIRTU-PoBpNPZw": {
+      "place_id": "ChIJxXvXZNq7pBIRTU-PoBpNPZw",
+      "slug": "fisiotxell-badalona",
+      "negocio": "Fisiotxell",
+      "ciudad": "Badalona",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@fisiotxell.com",
+      "email": "info@fisiotxell.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisiotxell-badalona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisiotxell-badalona.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Fisioterapia Badalona - Ferran Casolivé Fisioteràpia",
+          "reviews": 461,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 4,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 50,
+        "speed": 65,
+        "photos": 6,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 461 del mejor competidor (Fisioterapia Badalona - Ferran Casolivé Fisioteràpia). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~6 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "fisioterapia Badalona",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en aliviar el dolor muscular.",
+        "hookGeneric": false,
+        "hookBasis": "fisioterapeuta que alivia el dolor"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:26:44.959Z"
+    },
+    "ChIJZUpnheGSpBIRCyWebC4MMLk": {
+      "place_id": "ChIJZUpnheGSpBIRCyWebC4MMLk",
+      "slug": "equilibria-clinica-dental-barcelona",
+      "negocio": "Equilibria Clinica Dental",
+      "ciudad": "Barcelona",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@equilibriadental.com",
+      "email": "info@equilibriadental.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/equilibria-clinica-dental-barcelona.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/equilibria-clinica-dental-barcelona.html",
+      "findings": {
+        "reviews": 38,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "BLASI Clínica Dental Barcelona",
+          "reviews": 744,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 15,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 55,
+        "speed": 61,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 38 reseñas vs 744 del mejor competidor (BLASI Clínica Dental Barcelona). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"15 years ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "dentista Barcelona",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en la odontología integrativa.",
+        "hookGeneric": false,
+        "hookBasis": "odontología integrativa"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:26:52.938Z"
+    },
+    "ChIJByNsrZhIYA0R3vHEFHDU4pM": {
+      "place_id": "ChIJByNsrZhIYA0R3vHEFHDU4pM",
+      "slug": "clinica-balaciart-fisioterapia-valencia",
+      "negocio": "Clinica Balaciart Fisioterapia",
+      "ciudad": "València",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "fisio@clinicabalaciart.com",
+      "email": "fisio@clinicabalaciart.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-balaciart-fisioterapia-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-balaciart-fisioterapia-valencia.html",
+      "findings": {
+        "reviews": 35,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Mon Pilates Reformer",
+          "reviews": 120,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 80,
+        "speed": 56,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 35 reseñas vs 120 del mejor competidor (Mon Pilates Reformer). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates València",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que el equipo es muy profesional y atento.",
+        "hookGeneric": false,
+        "hookBasis": "equipo muy profesional y atento"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:27:06.252Z"
+    },
+    "ChIJmVfYgu1PYA0Rtq2Llzgylbc": {
+      "place_id": "ChIJmVfYgu1PYA0Rtq2Llzgylbc",
+      "slug": "mimar-clinica-de-fisioterapia-y-centro-de-pilates-embarazada",
+      "negocio": "Mimar Clínica de Fisioterapia y Centro de Pilates embarazadas Valencia",
+      "ciudad": "València",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@fisioterapiamimar.com",
+      "email": "info@fisioterapiamimar.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/mimar-clinica-de-fisioterapia-y-centro-de-pilates-embarazada.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/mimar-clinica-de-fisioterapia-y-centro-de-pilates-embarazada.html",
+      "findings": {
+        "reviews": 35,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Mon Pilates Reformer",
+          "reviews": 120,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 61,
+        "speed": 82,
+        "photos": 10,
+        "hasHours": false,
+        "quickWins": [
+          {
+            "title": "Configurar el horario en la ficha (incl. festivos)",
+            "detail": "La ficha no tiene horario configurado. Es un dato básico que Google premia y que el cliente mira antes de ir."
+          },
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 35 reseñas vs 120 del mejor competidor (Mon Pilates Reformer). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates València",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que Bea tiene una gran experiencia en drenaje linfático.",
+        "hookGeneric": false,
+        "hookBasis": "experiencia en drenaje linfático"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:27:16.680Z"
+    },
+    "ChIJZz8aS4pPYA0Rx-JvRxRy4Ms": {
+      "place_id": "ChIJZz8aS4pPYA0Rx-JvRxRy4Ms",
+      "slug": "physis-bienestar-valencia",
+      "negocio": "Physis Bienestar",
+      "ciudad": "València",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "centro@clinicaphysis.com",
+      "email": "centro@clinicaphysis.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/physis-bienestar-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/physis-bienestar-valencia.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.7,
+        "bestCompetitor": {
+          "name": "Mon Pilates Reformer",
+          "reviews": 120,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 78,
+        "speed": 89,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 120 del mejor competidor (Mon Pilates Reformer). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          }
+        ],
+        "primarySearch": "pilates València",
+        "category": "Wellness Center",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que el menú del día es muy bien valorado.",
+        "hookGeneric": false,
+        "hookBasis": "menú del día es muy bien valorado"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:27:19.819Z"
+    },
+    "ChIJD5o2XhuWpBIR1E6bAku2I6c": {
+      "place_id": "ChIJD5o2XhuWpBIR1E6bAku2I6c",
+      "slug": "susana-centre-d-estetica-cerdanyola-del-valles",
+      "negocio": "Susana centre d'estètica",
+      "ciudad": "Cerdanyola del Vallès",
+      "vertical": "estetica",
+      "channel": "email",
+      "contact": "reservas@susanaestetica.com",
+      "email": "reservas@susanaestetica.com",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/susana-centre-d-estetica-cerdanyola-del-valles.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/susana-centre-d-estetica-cerdanyola-del-valles.html",
+      "findings": {
+        "reviews": 35,
+        "rating": 4.7,
+        "bestCompetitor": {
+          "name": "Susana by bodyStetic",
+          "reviews": 90,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 3,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 63,
+        "speed": 55,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 35 reseñas vs 90 del mejor competidor (Susana by bodyStetic). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "centro de estética Cerdanyola del Vallès",
+        "category": "Beauty Salon",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "He visto que ofreces tratamientos personalizados y de calidad.",
+        "hookGeneric": false,
+        "hookBasis": "ofreces tratamientos personalizados"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:27:28.913Z"
+    },
+    "ChIJGSLMBzZPYA0R0KJpMPT-6e8": {
+      "place_id": "ChIJGSLMBzZPYA0R0KJpMPT-6e8",
+      "slug": "clinica-dental-bordes-fuenmayor-valencia",
+      "negocio": "Clínica Dental Bordes-Fuenmayor",
+      "ciudad": "València",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "recepcion@clinicabordesfuenmayor.es",
+      "email": "recepcion@clinicabordesfuenmayor.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-bordes-fuenmayor-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-bordes-fuenmayor-valencia.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Centro Odontológico Dr. Puchol",
+          "reviews": 2230,
+          "rating": 4.8
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": null,
+        "businessRanked": false,
+        "businessVisibility": null,
+        "competitorVisibility": 81,
+        "speed": 72,
+        "photos": 2,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 2230 del mejor competidor (Centro Odontológico Dr. Puchol). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~2 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "dentista València",
+        "category": "Dentist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que llevas más de 30 años atendiendo pacientes.",
+        "hookGeneric": false,
+        "hookBasis": "más de 30 años atendiendo pacientes"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:27:33.931Z"
+    },
+    "ChIJp1uaPyNeg60R7l30hQe4XHs": {
+      "place_id": "ChIJp1uaPyNeg60R7l30hQe4XHs",
+      "slug": "fisiotorax-fisioterapia-respiratoria-valencia",
+      "negocio": "Fisiotórax - Fisioterapia Respiratoria",
+      "ciudad": "València",
+      "vertical": "fisioterapia",
+      "channel": "email",
+      "contact": "info@fisiotorax.es",
+      "email": "info@fisiotorax.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisiotorax-fisioterapia-respiratoria-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisiotorax-fisioterapia-respiratoria-valencia.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 5,
+        "bestCompetitor": {
+          "name": "Fisio's Clínica Joaquín Villarta",
+          "reviews": 163,
+          "rating": 4.7
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 11,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 68,
+        "speed": 100,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 163 del mejor competidor (Fisio's Clínica Joaquín Villarta). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "fisioterapia València",
+        "category": "Physical Therapist",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en fisioterapia respiratoria.",
+        "hookGeneric": false,
+        "hookBasis": "expertos en fisioterapia respiratoria"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:27:45.551Z"
+    },
+    "ChIJ33NtkKUvQg0RaFcwLGZwmcM": {
+      "place_id": "ChIJ33NtkKUvQg0RaFcwLGZwmcM",
+      "slug": "sunyoga-estudio-de-yoga-y-pilates-madrid",
+      "negocio": "SunYoga estudio de yoga y pilates",
+      "ciudad": "Madrid",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@sunyoga.es",
+      "email": "info@sunyoga.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/sunyoga-estudio-de-yoga-y-pilates-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/sunyoga-estudio-de-yoga-y-pilates-madrid.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.6,
+        "bestCompetitor": {
+          "name": "PILATES / FISIO MOUVEMENT",
+          "reviews": 73,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 5,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 64,
+        "speed": 66,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 36 reseñas vs 73 del mejor competidor (PILATES / FISIO MOUVEMENT). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"a year ago\". La recencia es señal de ranking."
+          }
+        ],
+        "primarySearch": "pilates Madrid",
+        "category": "Yoga Studio",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que Verónica adapta las clases a cada nivel.",
+        "hookGeneric": false,
+        "hookBasis": "Verónica es una maravillosa profesora."
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:28:01.895Z"
+    },
+    "ChIJxZ-LLcNIYA0RSqZ7IWdwBgY": {
+      "place_id": "ChIJxZ-LLcNIYA0RSqZ7IWdwBgY",
+      "slug": "clinica-dental-ciudad-de-las-ciencias-valencia",
+      "negocio": "Clínica Dental Ciudad de las Ciencias",
+      "ciudad": "València",
+      "vertical": "dental",
+      "channel": "email",
+      "contact": "info@clinicadentalcciencias.es",
+      "email": "info@clinicadentalcciencias.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/clinica-dental-ciudad-de-las-ciencias-valencia.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/clinica-dental-ciudad-de-las-ciencias-valencia.html",
+      "findings": {
+        "reviews": 35,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Clínica dental Dr. Lorente (Av. Francia)",
+          "reviews": 258,
+          "rating": 4.6
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 8,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 53,
+        "speed": null,
+        "photos": 0,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 35 reseñas vs 258 del mejor competidor (Clínica dental Dr. Lorente (Av. Francia)). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Subir fotos a la ficha (y de forma regular)",
+            "detail": "Se ven ~0 fotos. Más fotos = más clics, llamadas y rutas."
+          },
+          {
+            "title": "Meter keyword local en el title y el H1 de la web",
+            "detail": "Ni el título ni el H1 incluyen la ciudad/servicio objetivo. Es barato y mueve."
+          }
+        ],
+        "primarySearch": "dentista València",
+        "category": "Dental Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que tienes una nota de 4.9 en Google.",
+        "hookGeneric": false,
+        "hookBasis": "nota de 4.9 en Google"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "unknown"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:28:01.912Z"
+    },
+    "ChIJ16etT1GGQQ0RjM96k6XsHNY": {
+      "place_id": "ChIJ16etT1GGQQ0RjM96k6XsHNY",
+      "slug": "corponovo-fisioterapia-y-nutricion-pozuelo-de-alarcon",
+      "negocio": "CORPONOVO Fisioterapia y Nutrición.",
+      "ciudad": "Pozuelo de Alarcón",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@corponovo.es",
+      "email": "info@corponovo.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/corponovo-fisioterapia-y-nutricion-pozuelo-de-alarcon.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/corponovo-fisioterapia-y-nutricion-pozuelo-de-alarcon.html",
+      "findings": {
+        "reviews": 36,
+        "rating": 4.8,
+        "bestCompetitor": {
+          "name": "Move Pilates Boutique",
+          "reviews": 51,
+          "rating": 5
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 12,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 71,
+        "speed": 72,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Reactivar la recencia de reseñas",
+            "detail": "La última reseña es de \"a year ago\". La recencia es señal de ranking."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "pilates Pozuelo de Alarcón",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te centras en fisioterapia y nutrición.",
+        "hookGeneric": false,
+        "hookBasis": "fisioterapia, pilates y nutrición"
+      },
+      "mv": {
+        "verdict": "ok",
+        "result": "ok"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:28:03.710Z"
+    },
+    "ChIJhbCgdSCIQQ0RMHkv6k5vsyU": {
+      "place_id": "ChIJhbCgdSCIQQ0RMHkv6k5vsyU",
+      "slug": "fisiocinesia-madrid",
+      "negocio": "Fisiocinesia",
+      "ciudad": "Madrid",
+      "vertical": "pilates",
+      "channel": "email",
+      "contact": "info@fisiocinesia.es",
+      "email": "info@fisiocinesia.es",
+      "wa_link": null,
+      "pdf_url": "https://faroseo.vercel.app/audits/fisiocinesia-madrid.pdf",
+      "audit_url": "https://faroseo.vercel.app/audits/fisiocinesia-madrid.html",
+      "findings": {
+        "reviews": 37,
+        "rating": 4.9,
+        "bestCompetitor": {
+          "name": "Elespilates Clases de Pilates presencial y clases de pilates online",
+          "reviews": 126,
+          "rating": 4.9
+        },
+        "compNamed": true,
+        "posMeasured": false,
+        "avgPos": 10,
+        "businessRanked": true,
+        "businessVisibility": null,
+        "competitorVisibility": 78,
+        "speed": 55,
+        "photos": 10,
+        "hasHours": true,
+        "quickWins": [
+          {
+            "title": "Arrancar una campaña de reseñas",
+            "detail": "Tienes 37 reseñas vs 126 del mejor competidor (Elespilates Clases de Pilates presencial y clases de pilates online). Pedir a todos los clientes con link/QR."
+          },
+          {
+            "title": "Añadir schema LocalBusiness (JSON-LD) a la web",
+            "detail": "No se detecta marcado de negocio local; ayuda a Google a entender la ficha."
+          },
+          {
+            "title": "Embeber el mapa de Google + página de localización",
+            "detail": "Refuerza la señal local y la consistencia de NAP."
+          }
+        ],
+        "primarySearch": "pilates Madrid",
+        "category": "Medical Clinic",
+        "webReachable": true,
+        "coldMode": true,
+        "hook": "Vi que te especializas en rehabilitación neurológica.",
+        "hookGeneric": false,
+        "hookBasis": "especialización en trauma y neurología"
+      },
+      "mv": {
+        "verdict": "unknown",
+        "result": "catch_all"
+      },
+      "qa": {
+        "pass": true,
+        "score": 100,
+        "flags": []
+      },
+      "status": "listo",
+      "addedAt": "2026-06-29T13:28:07.040Z"
     }
   },
   "descartados": {
@@ -51618,6 +53054,31 @@
     "ChIJy5wd_TpJYA0R8PJiChlt2O8": "sin email válido",
     "ChIJoVSanglFYA0RWrD6iSDyah0": "sin email válido",
     "ChIJBYNOlEtPYA0R_h9iWSBB54w": "sin email válido",
-    "ChIJ10g8CsVIYA0Ro--3mgtgTqw": "sin email válido"
+    "ChIJ10g8CsVIYA0Ro--3mgtgTqw": "sin email válido",
+    "ChIJT6DtfOKDQQ0Rk3CS1oC1aRU": "sin email válido",
+    "ChIJIR09NqkvQg0RuBaBOHLPRtk": "sin email válido",
+    "ChIJscjr13ApQg0RMTKCRs_yQSg": "sin email válido",
+    "ChIJTcoO21CGQQ0RuMu54plOg0g": "sin email válido",
+    "ChIJfwVSCiEnQg0Rwo68mpoUQD8": "email muerto (invalid)",
+    "ChIJWxmRv32DQQ0RHWMiT_UpuNg": "sin email válido",
+    "ChIJjTGXuVUlQg0RSwGBohb4bbc": "sin email válido",
+    "ChIJz12QAJ8pQg0R_ic0L2EJRY0": "sin email válido",
+    "ChIJfZ4XASuJQQ0RwYFRd4gLBb8": "sin email válido",
+    "ChIJy3J1w9uHQQ0R_DZs32sXkg4": "sin email válido",
+    "ChIJQbq7CMKjpBIRhOQyNroXnBY": "sin email válido",
+    "ChIJcVoPw8CjpBIRyw5yNO9K47Q": "sin email válido",
+    "ChIJ24G_rnKipBIRo5u245AKbNU": "sin email válido",
+    "ChIJYeTQ_g6YpBIRG_w_ox_ZwTE": "sin email válido",
+    "ChIJ30zu0oeipBIR0Jz3u36t4dg": "sin email válido",
+    "ChIJWYVQXOicpBIRWHcN2xX9XJE": "sin email válido",
+    "ChIJdb9gyy-9pBIRgtWULF5jV6U": "sin email válido",
+    "ChIJU6QGtwKVpBIR7l73cLbn0sA": "sin email válido",
+    "ChIJQ8lZAFdEYA0Re1EINjsUlZk": "sin email válido",
+    "ChIJkzDv4lBPYA0RqZswzRVDB7o": "sin email válido",
+    "ChIJB-ZqcFxOYA0RqJZbCjXAReo": "sin email válido",
+    "ChIJhRsK75lPYA0Rg71vwsg55zI": "sin email válido",
+    "ChIJYYvAd0NOYA0Rmr39NHF_sBg": "sin email válido",
+    "ChIJJ6h6AQhGYA0R2IcN7f7DXa4": "sin email válido",
+    "ChIJK3DLmz5JYA0RkSQ0qWu097M": "sin email válido"
   }
 }

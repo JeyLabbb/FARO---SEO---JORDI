@@ -2088,5 +2088,125 @@
     "verdict": "ok",
     "result": "ok",
     "credits": 9477
+  },
+  "hola@novamostoles.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "pilatesstudiomadrid@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "info@salubora.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9471
+  },
+  "info@blueclinic.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9471
+  },
+  "%20info.fisioterapiakairos@gmail.com": {
+    "verdict": "dead",
+    "result": "invalid",
+    "credits": 9471
+  },
+  "info@osteopatiaypilates.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "contacto@aesirfisioterapia.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9471
+  },
+  "guifitclub@gmail.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "info@clinicasaludymas.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "info@medicinaesteticamadrid.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "tudiras@presleypeluqueros.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9471
+  },
+  "info@odontologosrivas.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9471
+  },
+  "info@fisiotxell.com": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9471
+  },
+  "info@equilibriadental.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "fisio@clinicabalaciart.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "info@fisioterapiamimar.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "reservas@susanaestetica.com": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9461
+  },
+  "centro@clinicaphysis.com": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9471
+  },
+  "recepcion@clinicabordesfuenmayor.es": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9461
+  },
+  "info@fisiotorax.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9461
+  },
+  "info@clinicadentalcciencias.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9461
+  },
+  "info@sunyoga.es": {
+    "verdict": "unknown",
+    "result": "unknown",
+    "credits": 9461
+  },
+  "info@corponovo.es": {
+    "verdict": "ok",
+    "result": "ok",
+    "credits": 9461
+  },
+  "info@fisiocinesia.es": {
+    "verdict": "unknown",
+    "result": "catch_all",
+    "credits": 9461
   }
 }
