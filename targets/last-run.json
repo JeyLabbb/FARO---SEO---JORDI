@@ -1,29 +1,30 @@
 {
-  "at": "2026-06-30T10:55:32.933Z",
-  "sha": "bad086b",
-  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1654692/x64/chrome",
+  "at": "2026-07-01T11:21:55.466Z",
+  "sha": "1f5efc8",
+  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1655389/x64/chrome",
   "freno": false,
   "pasos": {
-    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-06-30.json",
-    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-06-30.json (9 leads)",
+    "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-07-01.json",
+    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-07-01.json (10 leads)",
     "cola_dia": "ok ·   Siguiente: pdf-web --today  →  send-followups + send-emails",
     "spam_check": "ok · → targets/spam-state.json",
     "seguimientos": "ok · Seguimientos enviados: 0",
     "emails": "ok · → Regenera el dashboard para ver los \"Enviado\": node src/build-ops.mjs",
-    "panel": "ok · Contactados 860 · Entregados 833 · Respuestas 9 · Interesados 1 · Almacén 972 (972 con PDF) · Capacidad 114/día · Freno off · ⚠️ yourbusinesstry@gmail.com ralen",
-    "parte": "ok · Parte enviado a yourbusinesstry@gmail.com: Faro · parte 2026-06-30 · 112 enviados · ⚠️ REVISAR",
+    "panel": "ok · Contactados 960 · Entregados 930 · Respuestas 10 · Interesados 2 · Almacén 972 (972 con PDF) · Capacidad 104/día · Freno off · ⚠️ pleiamusicstudio@gmail.com ral",
+    "parte": "ok · Parte enviado a yourbusinesstry@gmail.com: Faro · parte 2026-07-01 · 100 enviados · ⚠️ REVISAR",
     "deploy_panel": "ok"
   },
   "preflight": {
     "abort": false,
     "reasons": [],
     "warnings": [
+      "Cuenta pleiamusicstudio@gmail.com: throttled (rebote 6.7%, tope 4/día).",
       "Cuenta yourbusinesstry@gmail.com: throttled (rebote 13.3%, tope 2/día)."
     ],
-    "capacidadRestante": 114
+    "capacidadRestante": 102
   },
-  "elegidos": 114,
-  "pdfsListos": 114,
+  "elegidos": 102,
+  "pdfsListos": 102,
   "cuentas": 5,
   "capacidad": 128
 }

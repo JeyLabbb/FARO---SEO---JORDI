@@ -1,61 +1,67 @@
 {
-  "at": "2026-06-30T12:26:24.602Z",
-  "contactados": 860,
-  "entregados": 833,
-  "rebotes": 27,
+  "at": "2026-07-01T12:42:10.090Z",
+  "contactados": 960,
+  "entregados": 930,
+  "rebotes": 30,
   "rebotePct": "3.1%",
-  "respuestas": 9,
-  "interesados": 1,
+  "respuestas": 10,
+  "interesados": 2,
   "bajas": 3,
-  "enviadosHoy": 112,
+  "enviadosHoy": 100,
   "listos": 972,
-  "stockDesplegable": 315,
-  "bufferDias": 3,
-  "capDia": 114,
+  "stockDesplegable": 215,
+  "bufferDias": 2,
+  "capDia": 104,
   "cuentas": [
     {
       "account": "pleiamusicstudio@gmail.com",
-      "state": "ok",
-      "cap": 16,
-      "bounceRate": 0,
-      "sends": 192
+      "state": "throttled",
+      "cap": 4,
+      "bounceRate": 6.7,
+      "sends": 196
     },
     {
       "account": "borrutjordi548@gmail.com",
       "state": "ok",
       "cap": 16,
       "bounceRate": 0,
-      "sends": 133
+      "sends": 149
     },
     {
       "account": "yourbusinesstry@gmail.com",
       "state": "throttled",
-      "cap": 2,
-      "bounceRate": 13.3,
-      "sends": 105
+      "cap": 4,
+      "bounceRate": 10,
+      "sends": 107
     },
     {
       "account": "jordi@tryjeylabbb.com",
       "state": "ok",
       "cap": 40,
       "bounceRate": 0,
-      "sends": 184
+      "sends": 223
     },
     {
       "account": "jordi@getjeylabbb.com",
       "state": "ok",
       "cap": 40,
       "bounceRate": 0,
-      "sends": 246
+      "sends": 285
     }
   ],
   "cuentasTocadas": [
     {
+      "account": "pleiamusicstudio@gmail.com",
+      "state": "throttled",
+      "bounceRate": 6.7,
+      "cap": 4
+    },
+    {
       "account": "yourbusinesstry@gmail.com",
       "state": "throttled",
-      "bounceRate": 13.3,
-      "cap": 2
+      "bounceRate": 10,
+      "cap": 4
     }
   ],
-  "alerta": "⚠️ yourbusinesstry@gmail.com ralentizada 2/día"
+  "alerta": "⚠️ pleiamusicstudio@gmail.com ralentizada 4/día · yourbusinesstry@gmail.com ralentizada 4/día"
 }
