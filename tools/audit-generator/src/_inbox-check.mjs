@@ -60,6 +60,14 @@ for (const [pid, v] of Object.entries(sentLog)) { const e = (v.to || "").trim().
 
 const accounts = gmailAccounts();
 if (!accounts.length) { console.error("✗ Sin GMAIL_ACCOUNTS en ~/.faro/.env"); process.exit(1); }
+const OUR_ACCOUNTS = new Set(accounts.map((a) => a.user.toLowerCase()));
+// Ruido que convive en estas bandejas y NO son leads: warmup de Smartlead (dominios rotativos),
+// notificaciones de plataformas y nuestros propios emails internos (seeds del spam-check, partes).
+const WARMUP_NOISE = /@(maleoptimization\.com|truehealthdigest\.com|rekommendai\.com|xenonbridge\.help|unistudiosproject\.eu)$/i;
+// OJO: NO filtrar "info@" ni "contacto@" por local-part — es COMO RESPONDEN los negocios en España
+// (bug 02-07: se tragó a info@clinicasaludymas.com y 3 más). Solo no-reply/notificaciones + dominios de plataformas.
+const PLATFORM_NOISE = /^(no-?reply|noreply|notifications?|mailer|mailer-daemon)@|@(accounts\.google\.com|google\.com|googlemail\.com|x\.com|mail\.instagram\.com|priority\.instagram\.com|supabase\.com|uber\.com|glovoapp\.com|binance\.com|crypto\.com|netlify\.com|lottiefiles\.com|runpod\.io|resend\.(dev|com)|updates\.resend\.com|practicatest\.com|transactional\.life360\.com)$/i;
+const INTERNAL_SUBJECT = /FAROSEED|test colocacion|Faro · parte|Prueba Faro/i;
 
 const state = { generatedAt: new Date().toISOString(), bouncedEmails: [], bouncedPlaceIds: [], replies: [], byAccount: {} };
 
@@ -90,13 +98,21 @@ for (const acc of accounts) {
   }
   console.log(`  Rebotes: ${accSummary.bounces.length}${accSummary.bounces.length ? " → " + accSummary.bounces.slice(0, 12).join(", ") + (accSummary.bounces.length > 12 ? " …" : "") : ""}`);
 
-  // 2) Respuestas humanas — usamos la búsqueda nativa de Gmail (X-GM-RAW) y la
-  // categoría "Principal" para descartar newsletters/promos/Instagram y quedarnos
-  // con correspondencia real (= respuestas de negocios). Fallback si X-GM-RAW falla.
-  let sh = await conn.cmd('SEARCH X-GM-RAW "in:inbox category:primary -from:mailer-daemon"');
+  // 2) Respuestas humanas. DOS búsquedas que se suman (⚠️ bugs cazados por Jordi el 02-07:
+  // (a) "category:primary" no existe en Workspace → 0 respuestas visibles; (b) el warmup de
+  // Smartlead mete 30-40 emails/día → un tope de "últimos 80" expulsaba respuestas de hace 2+ días):
+  //   A. Barrido genérico reciente del INBOX (los que nos escriben están en sent-log → pid).
+  //   B. Dirigida: TODOS nuestros asuntos llevan "Google" → subject:google últimos 14 días, sin tope.
+  let sh = await conn.cmd('SEARCH X-GM-RAW "in:inbox newer_than:14d -from:mailer-daemon"');
   if (!sh.ok) sh = await conn.cmd('SEARCH NOT FROM "mailer-daemon" NOT FROM "google.com" NOT FROM "googlemail.com"');
   let humanIds = parseSearch(sh.text);
-  if (humanIds.length > 80) humanIds = humanIds.slice(-80);
+  if (humanIds.length > 300) humanIds = humanIds.slice(-300);
+  const st = await conn.cmd('SEARCH X-GM-RAW "in:inbox newer_than:14d subject:google"');
+  if (st.ok) humanIds = [...new Set([...humanIds, ...parseSearch(st.text)])];
+  // C. Intención de compra en el CUERPO (pilla respuestas SIN "Re:" tipo «Info Derma Calàbria»):
+  // palabras en castellano que el warmup (inglés) no usa jamás.
+  const si = await conn.cmd('SEARCH X-GM-RAW "in:inbox newer_than:14d (precio OR coste OR presupuesto OR cuanto OR interesa OR informacion OR llamame)"');
+  if (si.ok) humanIds = [...new Set([...humanIds, ...parseSearch(si.text)])];
   if (humanIds.length) {
     const fh = await conn.cmd(`FETCH ${humanIds.join(",")} (BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)])`);
     const blocks = fh.text.split(/\* \d+ FETCH/).slice(1);
@@ -105,13 +121,39 @@ for (const acc of accounts) {
       const subject = decodeMime(headerField(blk, "Subject"));
       const date = headerField(blk, "Date");
       const fromEmail = emailIn(from);
-      if (!fromEmail || fromEmail === acc.user) continue;
-      const isReplyToUs = /^re:/i.test(subject) || /cómo aparece|revisión rápida|análisis|faro/i.test(subject);
+      if (!fromEmail || OUR_ACCOUNTS.has(fromEmail)) continue;                 // nuestras cuentas (seeds, partes)
+      if (WARMUP_NOISE.test(fromEmail) || INTERNAL_SUBJECT.test(subject)) continue; // warmup Smartlead / internos
+      if (PLATFORM_NOISE.test(fromEmail)) continue;                            // notificaciones de plataformas
+      // Lead = nos escribió alguien a quien LE ENVIAMOS (está en sent-log) o el asunto es de
+      // NUESTRAS plantillas (tolerante a acentos rotos). Un "RE:" genérico NO basta: el warmup
+      // de Smartlead usa cientos de dominios rotativos con asuntos "RE: ..." en inglés.
+      const isReplyToUs = /revisi.n r.pida|c.mo aparece|te busqu.|sab.as que|10 minutos|sale.? antes|en google|faro/i.test(subject);
       const pid = emailToPlace.get(fromEmail) || null;
-      const rec = { account: acc.user, from, fromEmail, subject, date, placeId: pid, looksLikeLead: isReplyToUs || !!pid };
+      const rec = { account: acc.user, from, fromEmail, subject, date, placeId: pid, looksLikeLead: !!pid || isReplyToUs };
       accSummary.replies.push(rec);
-      state.replies.push(rec);
+      if (rec.looksLikeLead) state.replies.push(rec); // al estado solo leads reales (lo consumen classify + seguimientos)
     }
+  }
+  // 2c) Respuestas a NUESTROS asuntos que hayan caído en NUESTRO spam (pasa: remitentes raros).
+  const selSpam = await conn.cmd('SELECT "[Gmail]/Spam"');
+  if (selSpam.ok) {
+    const ss = await conn.cmd('SEARCH X-GM-RAW "newer_than:14d subject:google"');
+    const spamIds = parseSearch(ss.text);
+    if (spamIds.length) {
+      const fs2 = await conn.cmd(`FETCH ${spamIds.join(",")} (BODY.PEEK[HEADER.FIELDS (FROM SUBJECT DATE)])`);
+      for (const blk of fs2.text.split(/\* \d+ FETCH/).slice(1)) {
+        const from = decodeMime(headerField(blk, "From"));
+        const subject = decodeMime(headerField(blk, "Subject"));
+        const date = headerField(blk, "Date");
+        const fromEmail = emailIn(from);
+        if (!fromEmail || OUR_ACCOUNTS.has(fromEmail) || WARMUP_NOISE.test(fromEmail) || PLATFORM_NOISE.test(fromEmail) || INTERNAL_SUBJECT.test(subject)) continue;
+        const pid = emailToPlace.get(fromEmail) || null;
+        const rec = { account: acc.user, from, fromEmail, subject, date, placeId: pid, looksLikeLead: true, inSpam: true };
+        accSummary.replies.push(rec); state.replies.push(rec);
+        console.log(`  ⚠️ EN NUESTRO SPAM: ${fromEmail} «${subject.slice(0, 60)}» — sácalo de spam a mano`);
+      }
+    }
+    await conn.cmd("SELECT INBOX");
   }
   const leads = accSummary.replies.filter((r) => r.looksLikeLead);
   console.log(`  Mensajes humanos: ${accSummary.replies.length}  (posibles leads: ${leads.length})`);
