@@ -1,16 +1,16 @@
 {
-  "at": "2026-07-02T10:35:50.781Z",
-  "sha": "8ce8790",
-  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1655965/x64/chrome",
+  "at": "2026-07-02T18:22:18.744Z",
+  "sha": "fae4857",
+  "chrome": "/opt/hostedtoolcache/setup-chrome/chromium/1656158/x64/chrome",
   "freno": false,
   "pasos": {
     "bandeja": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/inbox-state-2026-07-02.json",
-    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-07-02.json (10 leads)",
+    "clasificar": "ok · → /home/runner/work/FARO---SEO---JORDI/FARO---SEO---JORDI/targets/leads-2026-07-02.json (12 leads)",
     "cola_dia": "ok ·   Siguiente: pdf-web --today  →  send-followups + send-emails",
     "spam_check": "ok · → targets/spam-state.json",
-    "seguimientos": "ok · Seguimientos enviados: 0",
-    "emails": "ok · → Regenera el dashboard para ver los \"Enviado\": node src/build-ops.mjs",
-    "panel": "ok · Contactados 1062 · Entregados 1030 · Respuestas 10 · Interesados 2 · Almacén 972 (972 con PDF) · Capacidad 104/día · Freno off · ⚠️ pleiamusicstudio@gmail.com r",
+    "seguimientos": "ok · Seguimientos enviados: 2",
+    "emails": "ok · Enviados: 0 · Saltados: 2",
+    "panel": "ok · Contactados 1062 · Entregados 1029 · Respuestas 12 · Interesados 1 · Almacén 972 (972 con PDF) · Capacidad 104/día · Freno off · ⚠️ pleiamusicstudio@gmail.com r",
     "parte": "ok · Parte enviado a yourbusinesstry@gmail.com: Faro · parte 2026-07-02 · 102 enviados · ⚠️ REVISAR",
     "deploy_panel": "ok"
   },
@@ -19,9 +19,9 @@
     "reasons": [],
     "warnings": [
       "Cuenta pleiamusicstudio@gmail.com: throttled (rebote 6.7%, tope 4/día).",
-      "Cuenta yourbusinesstry@gmail.com: throttled (rebote 10%, tope 4/día)."
+      "Cuenta yourbusinesstry@gmail.com: throttled (rebote 6.7%, tope 4/día)."
     ],
-    "capacidadRestante": 104
+    "capacidadRestante": 2
   },
   "elegidos": 104,
   "pdfsListos": 104,
